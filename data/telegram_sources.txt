@@ -3,8 +3,13 @@ xsfilternet
 V2RAY_SPATIAL
 FreakConfig
 configraygangroup
+oneclickvpnkeys
+mitivpn
+vpnbaz
 freackconfig
 tv2rayrr
+BegzarVPN
+V2RAY_SPATIAL
 one_click_vpn
 new_mtproxi2
 oneclickvpnkeys
