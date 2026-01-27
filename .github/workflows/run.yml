@@ -1,8 +1,8 @@
-name: Run V2Ray Server
+name: Run V2Ray  
 
 permissions:
-  contents: write 
-  
+  contents: write
+
 on:
   push:
     branches:
@@ -19,43 +19,47 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 
+          fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip' 
+          cache: 'pip'
+
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y unzip libcap2-bin
 
-      - name: Configure Python capabilities (for binding low ports if needed)
+      - name: Configure Python capabilities
         run: |
           PYTHON_PATH=$(which python3)
           echo "Python path: $PYTHON_PATH"
-          sudo setcap cap_net_bind_service=+ep $PYTHON_PATH || echo "setcap failed (may not be needed)"
+          sudo setcap cap_net_bind_service=+ep $PYTHON_PATH 2>/dev/null || echo "setcap skipped (not needed or failed)"
 
       - name: Install Python dependencies
         run: |
-          cd data || { echo "Directory 'data' not found!"; exit 1; }
           pip install --upgrade pip
-          pip install -r requirements.txt
+          if [ -f "data/requirements.txt" ]; then
+            pip install -r data/requirements.txt
+          else
+            echo "requirements.txt not found in data/"
+            exit 1
+          fi
 
       - name: Run tester
-        run: |
-          cd data
-          python ../app.py || python app.py  
+        run: python app.py
         env:
           PYTHONUNBUFFERED: 1
+        working-directory: '.' 
 
-      - name: Commit and push results (with timestamp)
-        uses: stefanzweifel/git-auto-commit-action@v5 
+      - name: Commit and push results
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: |
             Updated V2Ray test results 🚀
-            Scheduled run at $(date '+%Y-%m-%d %H:%M:%S UTC')
+            Run at $(date '+%Y-%m-%d %H:%M:%S UTC')
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "actions@github.com"
-          commit_author: "GitHub Actions <actions@github.com>"
-          file_pattern: "."  
+          file_pattern: "Servers/ logs/ data/"  
