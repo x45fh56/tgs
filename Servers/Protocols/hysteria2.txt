@@ -1,6 +1,3 @@
 hysteria2://dWIJXsoB1V@[2407:cdc0:d010:27bd::]:30455?security=tls&insecure=1&fastopen=0&downmbps=1000&upmbps=1000#dingyue_center
-hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35200?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#new_mtproxi2
 hysteria2://Telegram--%3E%40Ln2Ray@gavazn.lnmarketplace.net:45000?security=tls&obfs=salamander&obfs-password=Telegram--%3E%40Ln2Ray&insecure=1&sni=gavazn.55994421.xyz#new_mtproxi2
-hysteria2://Yet-Another-Public-Config-1@206.71.158.37:36400?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#new_mtproxi2
-hysteria2://Yet-Another-Public-Config-1@206.71.158.37:36600?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#new_mtproxi2
-hysteria2://28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9@1ee38495-t6t0g0-t94bdb-mrtr.hk1.hyhuawei.com:443/?insecure=1&sni=1ee38495-t6t0g0-t94bdb-mrtr.hk1.hyhuawei.com#v2ray_extractor
+hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35200?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#new_mtproxi2
