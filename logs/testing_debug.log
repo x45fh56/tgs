@@ -415,3 +415,92 @@
 2026-01-28 12:39:16,792-INFO-MainThread- Categorizing Tested Servers...
 2026-01-28 12:39:16,792-INFO-MainThread- ✅ Final Categorization Complete.
 2026-01-28 12:39:16,792-INFO-MainThread- --- Script Finished ---
+2026-01-29 11:49:56,354-INFO-MainThread- --- Initializing Directory Structure ---
+2026-01-29 11:49:56,354-INFO-MainThread- Directory structure checked/created.
+2026-01-29 11:49:56,354-INFO-MainThread- --- Starting Part 1: Telegram Channel Scraping ---
+2026-01-29 11:49:56,354-INFO-MainThread- --- Cleaning previous extraction data for a fresh run ---
+2026-01-29 11:49:56,355-INFO-MainThread- ✅ Found 16 unique, normalized Telegram channels to process.
+2026-01-29 11:49:56,356-INFO-MainThread- --- Processing Channel 1/16: https://t.me/s/BegzarVPN ---
+2026-01-29 11:49:56,356-INFO-MainThread- Processing channel: BegzarVPN (https://t.me/s/BegzarVPN)
+2026-01-29 11:49:56,356-INFO-MainThread- Fetching configs from: https://t.me/s/BegzarVPN
+2026-01-29 11:49:56,977-INFO-MainThread- Found 0 potential configs in https://t.me/s/BegzarVPN
+2026-01-29 11:49:56,978-INFO-MainThread- --- Processing Channel 2/16: https://t.me/s/FreakConfig ---
+2026-01-29 11:49:56,978-INFO-MainThread- Processing channel: FreakConfig (https://t.me/s/FreakConfig)
+2026-01-29 11:49:56,979-INFO-MainThread- Fetching configs from: https://t.me/s/FreakConfig
+2026-01-29 11:49:57,561-INFO-MainThread- Found 19 potential configs in https://t.me/s/FreakConfig
+2026-01-29 11:49:57,562-INFO-MainThread- --- Processing Channel 3/16: https://t.me/s/V2RAY_SPATIAL ---
+2026-01-29 11:49:57,562-INFO-MainThread- Processing channel: V2RAY_SPATIAL (https://t.me/s/V2RAY_SPATIAL)
+2026-01-29 11:49:57,563-INFO-MainThread- Fetching configs from: https://t.me/s/V2RAY_SPATIAL
+2026-01-29 11:49:58,185-INFO-MainThread- Found 54 potential configs in https://t.me/s/V2RAY_SPATIAL
+2026-01-29 11:49:58,187-INFO-MainThread- --- Processing Channel 4/16: https://t.me/s/configraygan ---
+2026-01-29 11:49:58,187-INFO-MainThread- Processing channel: configraygan (https://t.me/s/configraygan)
+2026-01-29 11:49:58,187-INFO-MainThread- Fetching configs from: https://t.me/s/configraygan
+2026-01-29 11:49:58,674-INFO-MainThread- Found 23 potential configs in https://t.me/s/configraygan
+2026-01-29 11:49:58,676-INFO-MainThread- --- Processing Channel 5/16: https://t.me/s/configraygangroup ---
+2026-01-29 11:49:58,676-INFO-MainThread- Processing channel: configraygangroup (https://t.me/s/configraygangroup)
+2026-01-29 11:49:58,676-INFO-MainThread- Fetching configs from: https://t.me/s/configraygangroup
+2026-01-29 11:49:59,096-INFO-MainThread- Found 0 potential configs in https://t.me/s/configraygangroup
+2026-01-29 11:49:59,097-INFO-MainThread- --- Processing Channel 6/16: https://t.me/s/dingyue_center ---
+2026-01-29 11:49:59,097-INFO-MainThread- Processing channel: dingyue_center (https://t.me/s/dingyue_center)
+2026-01-29 11:49:59,098-INFO-MainThread- Fetching configs from: https://t.me/s/dingyue_center
+2026-01-29 11:49:59,742-INFO-MainThread- Found 28 potential configs in https://t.me/s/dingyue_center
+2026-01-29 11:49:59,743-INFO-MainThread- --- Processing Channel 7/16: https://t.me/s/freackconfig ---
+2026-01-29 11:49:59,743-INFO-MainThread- Processing channel: freackconfig (https://t.me/s/freackconfig)
+2026-01-29 11:49:59,744-INFO-MainThread- Fetching configs from: https://t.me/s/freackconfig
+2026-01-29 11:50:00,196-INFO-MainThread- Found 0 potential configs in https://t.me/s/freackconfig
+2026-01-29 11:50:00,197-INFO-MainThread- --- Processing Channel 8/16: https://t.me/s/mitivpn ---
+2026-01-29 11:50:00,197-INFO-MainThread- Processing channel: mitivpn (https://t.me/s/mitivpn)
+2026-01-29 11:50:00,197-INFO-MainThread- Fetching configs from: https://t.me/s/mitivpn
+2026-01-29 11:50:00,890-INFO-MainThread- Found 0 potential configs in https://t.me/s/mitivpn
+2026-01-29 11:50:00,892-INFO-MainThread- --- Processing Channel 9/16: https://t.me/s/new_mtproxi2 ---
+2026-01-29 11:50:00,892-INFO-MainThread- Processing channel: new_mtproxi2 (https://t.me/s/new_mtproxi2)
+2026-01-29 11:50:00,892-INFO-MainThread- Fetching configs from: https://t.me/s/new_mtproxi2
+2026-01-29 11:50:01,479-INFO-MainThread- Found 70 potential configs in https://t.me/s/new_mtproxi2
+2026-01-29 11:50:01,481-INFO-MainThread- --- Processing Channel 10/16: https://t.me/s/one_click_vpn ---
+2026-01-29 11:50:01,481-INFO-MainThread- Processing channel: one_click_vpn (https://t.me/s/one_click_vpn)
+2026-01-29 11:50:01,482-INFO-MainThread- Fetching configs from: https://t.me/s/one_click_vpn
+2026-01-29 11:50:01,862-INFO-MainThread- Found 0 potential configs in https://t.me/s/one_click_vpn
+2026-01-29 11:50:01,864-INFO-MainThread- --- Batch of 10 processed, sleeping for 1s ---
+2026-01-29 11:50:02,864-INFO-MainThread- --- Processing Channel 11/16: https://t.me/s/oneclickvpnkeys ---
+2026-01-29 11:50:02,864-INFO-MainThread- Processing channel: oneclickvpnkeys (https://t.me/s/oneclickvpnkeys)
+2026-01-29 11:50:02,865-INFO-MainThread- Fetching configs from: https://t.me/s/oneclickvpnkeys
+2026-01-29 11:50:03,527-INFO-MainThread- Found 74 potential configs in https://t.me/s/oneclickvpnkeys
+2026-01-29 11:50:03,528-INFO-MainThread- --- Processing Channel 12/16: https://t.me/s/tv2rayrr ---
+2026-01-29 11:50:03,528-INFO-MainThread- Processing channel: tv2rayrr (https://t.me/s/tv2rayrr)
+2026-01-29 11:50:03,529-INFO-MainThread- Fetching configs from: https://t.me/s/tv2rayrr
+2026-01-29 11:50:04,119-INFO-MainThread- Found 85 potential configs in https://t.me/s/tv2rayrr
+2026-01-29 11:50:04,120-INFO-MainThread- --- Processing Channel 13/16: https://t.me/s/v2ray_extractor ---
+2026-01-29 11:50:04,121-INFO-MainThread- Processing channel: v2ray_extractor (https://t.me/s/v2ray_extractor)
+2026-01-29 11:50:04,121-INFO-MainThread- Fetching configs from: https://t.me/s/v2ray_extractor
+2026-01-29 11:50:04,770-INFO-MainThread- Found 159 potential configs in https://t.me/s/v2ray_extractor
+2026-01-29 11:50:04,772-INFO-MainThread- --- Processing Channel 14/16: https://t.me/s/vpnbaz ---
+2026-01-29 11:50:04,772-INFO-MainThread- Processing channel: vpnbaz (https://t.me/s/vpnbaz)
+2026-01-29 11:50:04,773-INFO-MainThread- Fetching configs from: https://t.me/s/vpnbaz
+2026-01-29 11:50:05,396-INFO-MainThread- Found 33 potential configs in https://t.me/s/vpnbaz
+2026-01-29 11:50:05,398-INFO-MainThread- --- Processing Channel 15/16: https://t.me/s/wiki_tajrobe ---
+2026-01-29 11:50:05,398-INFO-MainThread- Processing channel: wiki_tajrobe (https://t.me/s/wiki_tajrobe)
+2026-01-29 11:50:05,398-INFO-MainThread- Fetching configs from: https://t.me/s/wiki_tajrobe
+2026-01-29 11:50:06,032-INFO-MainThread- Found 41 potential configs in https://t.me/s/wiki_tajrobe
+2026-01-29 11:50:06,033-INFO-MainThread- --- Processing Channel 16/16: https://t.me/s/xsfilternet ---
+2026-01-29 11:50:06,034-INFO-MainThread- Processing channel: xsfilternet (https://t.me/s/xsfilternet)
+2026-01-29 11:50:06,034-INFO-MainThread- Fetching configs from: https://t.me/s/xsfilternet
+2026-01-29 11:50:06,501-INFO-MainThread- Found 0 potential configs in https://t.me/s/xsfilternet
+2026-01-29 11:50:06,502-INFO-MainThread- --- Telegram Scraping Finished ---
+2026-01-29 11:50:06,502-INFO-MainThread- Successfully processed 16/16 channels.
+2026-01-29 11:50:06,502-INFO-MainThread- Added 572 new unique servers globally from scraping.
+2026-01-29 11:50:06,503-WARNING-MainThread- Skipping Part 2: GeoIP Analysis (ENABLE_GEO_LOOKUP is False).
+2026-01-29 11:50:06,503-WARNING-MainThread- Skipping Part 3: Generating Extraction Report (ENABLE_REPORTING is False).
+2026-01-29 11:50:06,503-WARNING-MainThread- Skipping Part 4: Server Testing (ENABLE_TESTING is False).
+2026-01-29 11:50:06,503-INFO-MainThread- 
+--- Starting Part 5: Sorting TESTED servers by Region ---
+2026-01-29 11:50:06,503-INFO-MainThread- --- Updating Country Codes in Remarks ---
+2026-01-29 11:50:06,503-INFO-MainThread- 
+--- Starting Part 6: Final Categorization ---
+2026-01-29 11:50:06,503-INFO-MainThread- Categorizing Scraped Servers...
+2026-01-29 11:50:06,515-INFO-MainThread- ✅ Saved Category 1_VLESS_REALITY_TCP: 150 servers
+2026-01-29 11:50:06,515-INFO-MainThread- ✅ Saved Category 2_Trojan_TCP: 19 servers
+2026-01-29 11:50:06,515-INFO-MainThread- ✅ Saved Category 3_VLESS_TLS_WS: 237 servers
+2026-01-29 11:50:06,516-INFO-MainThread- ✅ Saved Category 5_VMess: 39 servers
+2026-01-29 11:50:06,516-INFO-MainThread- Categorizing Tested Servers...
+2026-01-29 11:50:06,516-INFO-MainThread- ✅ Final Categorization Complete.
+2026-01-29 11:50:06,516-INFO-MainThread- --- Script Finished ---
