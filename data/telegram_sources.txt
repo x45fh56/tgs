@@ -16,3 +16,5 @@ oneclickvpnkeys
 v2ray_extractor
 dingyue_center
 wiki_tajrobe
+persianvpnhub
+fptn_bot
