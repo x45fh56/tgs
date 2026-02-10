@@ -1,7 +1,0 @@
-vless://926b8fc8-cb95-4f65-816b-1a736c547966@SPEEDTEST.NET:80?mode=auto&path=%2F&security=&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A1000000%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&host=tor2.global.ssl.fastly.net&type=xhttp#xsfilternet
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.103:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#xsfilternet
-vless://81425907-7721-4d6e-bd7e-4c2df08e9754@safest.silentbreath.ir:2083?security=none&encryption=none&headerType=none&type=tcp#xsfilternet
-ss://Y2hhY2hhMjAtcG9seTEzMDU6NmUzZTQzZjQtMTJiNy00MmYxLThiOTMtNDFhMTUyZDU2MTJk@78.38.246.150:8446#xsfilternet
-vless://ff8ed07c-f05e-4343-9307-6dbb644d2ce5@94.182.169.82:8085?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#xsfilternet
-vless://41c55d8d-44dd-4437-90ff-4c1eb869a67c@f1.springpaatogh8.store:8443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=digikala.sorza.ir&type=ws&sni=digikala.sorza.ir#xsfilternet
-vless://fef4a93d-eb4f-4657-b56b-32a0dc060045@104.21.40.34:443?path=%2F&security=tls&encryption=none&insecure=0&host=dev.twistsparrow.xyz&type=ws&allowInsecure=0&sni=dev.twistsparrow.xyz#xsfilternet
