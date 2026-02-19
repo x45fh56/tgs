@@ -1,5 +1,0 @@
-vless://896c2efd-252d-4837-b3b7-349faa02956d@199.232.193.10:80?security=none&encryption=none&host=easyhostmanger.global.ssl.fastly.net&type=ws#xsfilternet
-vless://9ecfba25-f382-41c2-ac80-429f8689da9a@185.126.7.182:12486?security=none&encryption=none&headerType=none&type=tcp#xsfilternet
-vless://f3db0ad5-ea47-41b6-be3d-d0d188c0de1b@193.151.139.212:8268?security=none&encryption=none&headerType=none&type=tcp#xsfilternet
-vless://c01836d6-afbd-432e-92f3-3075d80e97bd@95.38.38.233:42245?security=none&encryption=none&headerType=none&type=tcp#xsfilternet
-vless://64a3a23c-363a-4bee-9401-f5c42eea5a27@51.250.86.102:443?security=reality&encryption=none&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=e55fd8f9c9a9a0ca#xsfilternet
