@@ -1,0 +1,1 @@
+vless://12808e09-a11a-45b5-b299-191cda50f681@core.speedmizban.net:1517?security=none&encryption=none&host=testspeed-foreign.tci.ir&headerType=http&type=tcp#xsfilternet
