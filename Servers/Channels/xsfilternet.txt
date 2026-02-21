@@ -1,1 +1,4 @@
+vless://84fc33ee-774e-4fa5-b708-03301f1eda69@188.212.99.17:443?path=%2Fmedia&security=tls&encryption=none&insecure=1&host=sibapp.com&fp=chrome&type=xhttp&allowInsecure=1&sni=sibapp.com#xsfilternet
 vless://12808e09-a11a-45b5-b299-191cda50f681@core.speedmizban.net:1517?security=none&encryption=none&host=testspeed-foreign.tci.ir&headerType=http&type=tcp#xsfilternet
+vless://84fc33ee-774e-4fa5-b708-03301f1eda69@217.60.247.108:443?path=%2Fmedia&security=tls&encryption=none&insecure=1&host=www.picofile.com&fp=chrome&type=xhttp&allowInsecure=1&sni=www.picofile.com#xsfilternet
+vmess://eyJhZGQiOiIyLjE0NC4yMC40MSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwMzM0ZGYyYS1hMjFhLTRhMTItOWRhMC0zMTc5YTVjOTFmYmUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjgwODIiLCJwcyI6IvCfh7Pwn4exIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==#xsfilternet
