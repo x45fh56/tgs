@@ -1,7 +1,5 @@
-trojan://humanity@www.gossipglove.com:443?path=%2Fassignment%3FTELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN&security=tls=-@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann&fp=chrome&type=ws&sni=www.gossipglove.com#persianvpnhub
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyUkdycDZabmRwZUxuc2Nr@104.211.63.232:443?outline=1&prefix=POST%20x32d44fw#persianvpnhub
-vless://935573d9-db1a-4235-8454-ded612105be6@5.180.82.155:8080?security=reality&encryption=none&pbk=-y9ICGWwLbWYcKSXZNiBAaSvh9e1odOgYVKxiCIuhWw&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=abc6c826d165#persianvpnhub
-vless://3f9c8463-8610-3ed8-86c8-a26713067825@104.26.1.221:443?encryption=none&security=tls&sni=dabaius2.sylu.net&fp=chrome&insecure=1&type=ws&host=dabaius2.sylu.net&path=%2Fdb10240eb751d6ab#persianvpnhub
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@158.101.152.6:2919?encryption=none&security=tls&sni=sni.111000.indevs.in&fp=chrome&insecure=1&type=ws&host=sni.111000.indevs.in&path=%2F%3Fed%3D2560%26telegram%F0%9F%87%A8%F0%9F%87%B3%2B@wangcai2#persianvpnhub
-ss://YWVzLTEyOC1nY206bUJsMWZZaFg4OHhrM0szOUllUHJSbm1zUUR2YjFoNGY@51.159.103.137:18290#persianvpnhub
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFMkRucHhMVGo0SUVlTE1R@104.211.63.232:443?outline=1&prefix=POST%20j32d441G#persianvpnhub
+trojan://telegram-id-directvpn@13.39.41.207:22223?security=tls&alpn=http%2F1.1&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.39.41.207:22224?path=%2Ftelegram-channel-vlessconfig&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=trojan.burgerip.co.uk#persianvpnhub
+trojan://humanity@www.multiplydose.com:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.multiplydose.com#persianvpnhub
+trojan://telegram-id-privatevpns@13.39.41.207:22222?security=tls&alpn=http%2F1.1&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://538c4861-f10a-481f-95d3-d045cfc0ccbf@ir01.irantls.com:8080?security=none&encryption=none&headerType=none&type=tcp#persianvpnhub
