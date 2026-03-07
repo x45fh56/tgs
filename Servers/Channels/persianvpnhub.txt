@@ -1,5 +1,4 @@
-trojan://telegram-id-directvpn@13.39.41.207:22223?security=tls&alpn=http%2F1.1&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=trojan.burgerip.co.uk#persianvpnhub
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.39.41.207:22224?path=%2Ftelegram-channel-vlessconfig&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=trojan.burgerip.co.uk#persianvpnhub
-trojan://humanity@www.multiplydose.com:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.multiplydose.com#persianvpnhub
-trojan://telegram-id-privatevpns@13.39.41.207:22222?security=tls&alpn=http%2F1.1&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=trojan.burgerip.co.uk#persianvpnhub
-vless://538c4861-f10a-481f-95d3-d045cfc0ccbf@ir01.irantls.com:8080?security=none&encryption=none&headerType=none&type=tcp#persianvpnhub
+vmess://eyJhZGQiOiIzOC41NS4xOTMuMTkiLCJwb3J0IjoiNDQzIiwiaWQiOiI0NjJkOTY5NC02MmI1LTQ3ODEtYTI4Ny02MWE0MjJiOTIwZTgiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidiI6IjIiLCJwcyI6IkB2MnJheWNvbmZpZ2FtaXIgMjM3NSIsImhvc3QiOiJtbjFyYXkuamFnb2FudmlwLnh5eiIsInBhdGgiOiIvdnZpcCIsInRscyI6InRydWUiLCJzbmkiOiIiLCJ0eXBlIjoibm9uZSIsInNlcnZlclBvcnQiOjAsIm5hdGlvbiI6IiJ9#persianvpnhub
+vless://Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2@45.196.239.87:443?encryption=none&security=tls&sni=tn1rr.qzz.io&insecure=0&allowInsecure=0&type=ws&host=tn1rr.qzz.io&path=%2Fsg-lnd#persianvpnhub
+trojan://cda93db2-4dbc-4a1e-8dc1-ddc302eb3e22@green2.cdntencentmusic.com:35502?security=tls&sni=green2.cdntencentmusic.com&insecure=1&allowInsecure=1&type=tcp&headerType=none#persianvpnhub
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptemVNWUJKWXA0Qm83bkExcVlMdnY3UUc3M2lndEFBODVudDRwcjhBOW50eDJxaERmWWdSdGlKN2lIN1ZyY25lUUtObXR2cGJzdnZGS1BhVUFUWUVMaTE4aUg1NlR0cjQ@download.riferoser.icu:56594/?#persianvpnhub
