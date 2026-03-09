@@ -1,7 +1,0 @@
-vless://0792fda1-176a-4a57-80df-be5222180046@94.101.181.41:19817?security=none&encryption=none&headerType=none&type=tcp#configraygan
-vmess://eyJhZGQiOiJEMy5tb3ZpZWhvc3RpcmFuLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImE4ZWJmYjFkLTFlZWEtNGVjMS1iOTk0LTQxYTdiYzUwZjMxOCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiODAiLCJwcyI6IkBjb25maWdyYXlnYW4gfCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=#configraygan
-vless://c28188b7-3e78-4de9-bc7d-e651eb77ca8a@fin-tun.a1mshop2.xyz:12000?security=none&encryption=none&host=aparat.com&headerType=http&type=tcp#configraygan
-vmess://eyJhZGQiOiIxODguMjEyLjk3LjExNyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI2NzQxMjdhYi00NWZmLTRlNzItYjZhMC1jMDJmYzE2NDI2OTYiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ3ODU3IiwicHMiOiJAY29uZmlncmF5Z2FuIHwiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9#configraygan
-vless://6913f9c9-3210-d0dd-75fc-2328a11c836a@toystoreworld.ir:8585?security=none&encryption=none&host=myket.ir&headerType=http&type=tcp#configraygan
-vless://6a3ad064-be7c-40be-9a48-171885a359b7@mail.tomandjery.eu.zero_proxy1:1001?security=reality&encryption=none&pbk=xrZlXeuTYmAC97-RbRi-aM7U67TOBMGCHVu3DovZihw&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=6ba85179e30d4fc2#configraygan
-vless://70375c7e-1e29-4370-8100-22e37fd52845@185.143.234.200:443?path=%2F%3Fed%3D443&security=tls&encryption=none&host=alef.ir.oadeflantrogm.abrmahanair.com&fp=safari&type=ws&sni=alef.ir.oadeflantrogm.abrmahanair.com#configraygan
