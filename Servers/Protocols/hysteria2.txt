@@ -1,4 +1,5 @@
 hysteria2://0e1a66ab-5313-45b3-90e8-ab2a62ff1bdf@107.175.194.57:8882?sni=cn.bing.com&alpn=h3&insecure=1#dingyue_center
-hysteria2://dongtaiwang.com@62.210.124.146:22000/?insecure=1&sni=www.microsoft.com#oneclickvpnkeys
+hysteria2://hysteria2_fastlane_e4139zxuu%3Av98M16cL2SxCumFUxZ6gwTRuniuT54lC@144.31.63.58:1935/?insecure=1&sni=de4.h.fastlanehosting.ru#oneclickvpnkeys
 hysteria2://hysteria2_fastlane_qdx4o19um%3Ae6RGEpPpn2oiHxqlbReEFpJZr09OiVlb@150.241.79.106:1935/?insecure=1&sni=de2.h.fastlanehosting.ru#oneclickvpnkeys
+hysteria2://hysteria2_fastlane_81uqqeagr%3ALepBwrE84qJQqGYctplZF35Z8cSmFDn6@150.241.78.128:1935/?insecure=1&sni=de3.h.fastlanehosting.ru#oneclickvpnkeys
 hysteria2://dongtaiwang.com@62.210.124.146:22000/?insecure=1&sni=www.microsoft.com#v2ray_extractor
