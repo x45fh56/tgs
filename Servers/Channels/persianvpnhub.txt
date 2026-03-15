@@ -1,11 +1,5 @@
-vless://8e6bfe64-d4f8-4564-8f47-7423fb88156b@cdn.narvpn.com:2095?encryption=none&security=none&type=ws&host=cdn.narvpn.com&path=%2Fcf-tunnel#persianvpnhub
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.193.206.143:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#persianvpnhub
-trojan://telegram-id-privatevpns@18.193.206.143:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
-vless://85df0ad4-8818-4aa5-9799-4bb7232de9e0@ip1-fast.tyryqyserver.ir:80?path=%2F%3Fed%3D2052&security=none&encryption=none&host=tamamde1.global.ssl.fastly.net&type=ws#persianvpnhub
-vless://11e9d626-5330-4697-9d90-2e91efa3a36c@151.101.193.57:80?mode=auto&path=%2FTignaliSWithYou&security=none&encryption=none&host=tignaltofan.global.ssl.fastly.net&type=xhttp#persianvpnhub
-vless://cbd8b498-6685-4528-badf-ada3a4cfdc3b@146.75.121.57:80?encryption=none&security=none&type=xhttp&host=tignaltofan.global.ssl.fastly.net&path=%2FTignaliSWithYou&mode=auto#persianvpnhub
-vless://17cdeaa0-d9f0-443d-8f14-80cef1de5529@ma-1.vpnd.io:12574?type=tcp&security=reality&encryption=none&pbk=_rRqFVyD5EgBQt9YWutbSjidLJEjoLcxBejrytypBDU&fp=random&sni=amazon.com&sid=7fa5d084&spx=%2F&flow=xtls-rprx-vision#persianvpnhub
-trojan://telegram-id-privatevpns@13.36.148.207:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
-vless://85df0ad4-8818-4aa5-9799-4bb7232de9e0@ip3-fast.tyryqyserver.ir:80?path=%2F%3Fed%3D2052&security=none&encryption=none&host=tamamde1.global.ssl.fastly.net&type=ws#persianvpnhub
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@147.78.0.182:990#persianvpnhub
-vless://8e6bfe64-d4f8-4564-8f47-7423fb88156b@cdn.narvpn.com:2082?encryption=none&security=none&type=ws&host=cdn.narvpn.com&path=%2Fcf-tunnel#persianvpnhub
+vless://2dd1a15d-1426-413a-a3b8-a645788bc844@45.148.102.189:8443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=a20d3ed244c76426&sni=shve.speedload.online#persianvpnhub
+trojan://telegram-id-privatevpns@54.93.56.163:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://a68c90a4-a560-489a-ab4b-d918e78e9dee@91.192.102.43:8443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=github.com&fp=chrome&pbk=YH_QnUEGzMHf8RjEDh5bRXocz7gq_QdrZWysD2yF_i8#persianvpnhub
+vless://3075155b-439e-4f60-9041-e92ff75136fc@my.protag.ir:80?path=%2F&security=none&encryption=none&host=hubi.top-plus.ir&type=ws#persianvpnhub
+vless://5558156d-3a2c-4843-9eb9-06e69ac3a2bf@f2.hamrahconf.ir:8443?path=%2F&security=tls&encryption=none&insecure=0&host=app-core-02.secoxi.site&type=ws&allowInsecure=0&sni=uiuyoyw.secoxi.site#persianvpnhub
