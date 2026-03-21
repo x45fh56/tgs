@@ -1,2 +1,3 @@
 hysteria2://0e1a66ab-5313-45b3-90e8-ab2a62ff1bdf@107.175.194.57:8882?sni=cn.bing.com&alpn=h3&insecure=1#dingyue_center
+hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000/?insecure=1&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&sni=api.kermanshahi.org#oneclickvpnkeys
 hysteria2://dongtaiwang.com@62.210.124.146:22000/?insecure=1&sni=www.microsoft.com#v2ray_extractor

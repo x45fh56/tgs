@@ -1,2 +1,6 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3Z2llUnNWRDZoWFhGWWQyenRwaXNE@216.105.168.18:443/?outline=1&prefix=%16%03%01%00%C2%A8%01%01#persianvpnhub
-trojan://telegram-id-privatevpns@18.194.226.217:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZNjZON2VETXFibjV1UFdFdTVWcHkx@195.93.253.240:14130#persianvpnhub
+vless://e942f04b-4aae-4155-93d0-61fe03f24ec4@185.143.234.200:443?path=%2F%3Fed%3D443&security=tls&encryption=none&insecure=0&host=alef.ir.oadeflantrogm.realirshop.com&fp=randomized&type=ws&allowInsecure=0&sni=alef.ir.oadeflantrogm.realirshop.com#persianvpnhub
+trojan://telegram-id-privatevpns@35.181.241.230:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+trojan://biS%28YrwB%2C3L%24@185.143.235.5:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=mydigipay.com#persianvpnhub
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKT1o1TWIzbkpDbW1vS2hkOENjOWFD@5.181.2.76:36608/?outline=1#persianvpnhub
+trojan://telegram-id-privatevpns@3.69.114.26:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
