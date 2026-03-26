@@ -1,0 +1,1 @@
+vless://68b053e1-2e92-4180-b3c9-9a5cb50642b7@146.185.211.242:7443?security=none&encryption=none&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru#BegzarVPN
