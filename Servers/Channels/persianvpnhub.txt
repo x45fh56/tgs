@@ -1,2 +1,4 @@
-vless://8fc836e4-f72f-40d7-8a55-8677324a2079@185.143.234.122:80?path=%2F&security=none&encryption=none&host=S4.koremusic.ir&type=ws#persianvpnhub
-trojan://telegram-id-privatevpns@18.156.97.29:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+trojan://telegram-id-privatevpns@3.121.164.51:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+trojan://telegram-id-privatevpns@13.36.197.1:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://cfc1d40c-6ef8-4b0a-98d6-8bc420d508fc@ww.iwantmoney.ir:8880?path=%2F&security=none&encryption=none&type=ws#persianvpnhub
+vless://02e59f34-2912-42a7-acb3-fe657e25d2a1@newsrv.isfahangaming.com:8080?path=%2Forders%2Fall&security=none&encryption=none&type=ws#persianvpnhub
