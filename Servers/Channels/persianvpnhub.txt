@@ -1,1 +1,3 @@
-vless://b2351deb-7ed8-42c3-94be-aaaeb7fc9fa4@snapp.ir:80?path=%2F&security=none&encryption=none&host=ir1fl2.lowping4.ir&type=ws#persianvpnhub
+vless://4419e53d-bfc6-4ff9-885f-9c93090c2734@Arvancloud.ir:2082?path=%2F&security=none&encryption=none&host=Cd.bede-baqbon-bilbezane.store&type=ws#persianvpnhub
+vless://f3dc769c-6fca-4103-8d4c-b81692340828@185.143.234.235:8080?path=%2F&security=none&encryption=none&host=vip.az99x.info&type=ws#persianvpnhub
+trojan://telegram-id-privatevpns@3.76.25.240:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
