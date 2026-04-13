@@ -1,0 +1,1 @@
+vless://709fb7cb-74da-4bbf-bba6-c906bd5aaee5@arvancloud.ir:80?path=%2F&security=&encryption=none&host=latency.xrevenant.ir&type=ws#v2to_nadi

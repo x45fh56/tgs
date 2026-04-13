@@ -1,5 +1,11 @@
-ss://bd2c7638-7f66-4fd0-8ca5-9c78cb4c3603@amvip.q2k.ir:80?path=%2F&security=&encryption=none&host=Amvip.yooring.ir&type=ws#persianvpnhub
-vless://838885d7-9451-478e-8365-cc2f054ec7a2@snapp.ir:2095?type=ws&encryption=none&path=%2F&host=str9.xfastvip.ir&security=none#persianvpnhub
-trojan://telegram-id-privatevpns@3.64.136.6:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
-trojan://PSMFD1nJgID-f4Z9yntv9rIwW_pdF_GE@aiowufhitest.kamalnet-new.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=aiowufhitest.kamalnet-new.com#persianvpnhub
-vless://a01daac7-1e65-4645-854d-b47d226f6b08@104.18.12.149:443?path=%2F&security=tls&encryption=none&host=y6-3cj.PAgES.DEV&type=ws&sni=y6-3cj.PAgES.DEV#persianvpnhub
+trojan://humanity@104.18.12.149:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#persianvpnhub
+vless://6d93e974-e225-4b56-8d06-340912f06ddf@openx00739.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none&host=byebye.22.avenflow.ir&type=ws#persianvpnhub
+vless://014dc545-69e8-41bb-bea7-c6a35bd3fd40@abr.superip.ir:2082?path=%2FAPI%2Fsuperip&security=none&encryption=none&host=brand.bi6x.ir&type=ws#persianvpnhub
+trojan://humanity@172.64.152.23:443?security=tls&sni=www.calmlunch.com&type=ws&host=www.calmlunch.com&path=%2Fassignment#persianvpnhub
+vless://e0c149a9-0ea3-4ae6-b6db-58c3bfc4accc@104.18.12.149:2083?path=%2Fer%3D2048&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&host=tala.sap-lotmarx.ir&fp=chrome&type=ws&allowInsecure=0&sni=tala.sap-lotmarx.ir#persianvpnhub
+vless://fcea5925-8782-48ca-9ed3-2728cff92c05@185.143.233.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#persianvpnhub
+vless://ab1bf57b-0644-4994-971b-ac585a851809@link2x06473.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none&host=byebye.22.avenflow.ir&type=ws#persianvpnhub
+vless://ebc4099f-ac3a-4c12-b634-c2fa0664c018@185.143.234.235:80?path=%2F%40ICV2RAY&security=none&encryption=none&host=cyrus-test.ruabr.com&type=ws#persianvpnhub
+trojan://telegram-id-privatevpns@52.47.89.66:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+trojan://telegram-id-privatevpns@3.75.152.175:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://2ea26c4e-34fe-48f4-beea-0f9c4bd046d0@abr.superip.ir:8080?path=%2FAPI%2Fsuperip&security=none&encryption=none&host=ne.landing-sours.ir&type=ws#persianvpnhub
