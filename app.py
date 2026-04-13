@@ -37,6 +37,7 @@ REGIONS_DIR = os.path.join("Servers", "Regions")
 REPORTS_DIR = os.path.join("logs")
 MERGED_DIR = os.path.join("Servers", "Merged")
 CHANNELS_DIR = os.path.join("Servers", "Channels")
+MERGED_DPI_FILE = os.path.join(MERGED_DIR, "merged_servers_dpi.txt")
 CHANNELS_FILE = "data/telegram_sources.txt"
 LOG_FILE = os.path.join(REPORTS_DIR, "extraction_report.log")
 GEOIP_DATABASE_PATH = Path("data/db/GeoLite2-Country.mmdb")
@@ -1203,22 +1204,77 @@ def clean_single_file(filepath):
 
 
 
+# def run_link_categorization(base_path):
+#     """
+#     دسته‌بندی نهایی در پوشه Categorized_Servers
+#     """
+#     source_dir = os.path.join(base_path, "Protocols")
+#     output_dir = os.path.join(source_dir, "Categorized_Servers")
+#     if not os.path.exists(source_dir): return
+#     os.makedirs(output_dir, exist_ok=True)
+
+#     # تعریف دسته‌ها بر اساس اولویت
+#     categories = {
+#         "1_VLESS_REALITY_TCP": [], # ⭐⭐⭐⭐⭐
+#         "2_Trojan_TCP": [],        # ⭐⭐⭐⭐☆
+#         "3_VLESS_TLS_WS": [],      # ⭐⭐⭐☆
+#         "4_WireGuard": [],         # ⭐⭐⭐
+#         "5_VMess": []              # ⭐⭐
+#     }
+
+#     for filename in os.listdir(source_dir):
+#         file_path = os.path.join(source_dir, filename)
+#         if not os.path.isfile(file_path) or not filename.endswith(".txt"): continue
+            
+#         with open(file_path, 'r', encoding='utf-8') as f:
+#             for line in f:
+#                 line = line.strip()
+#                 if not line: continue
+                
+#                 # تحلیل لینک فنی (قبل از علامت #)
+#                 tech_part = line.split('#')[0]
+#                 try:
+#                     parsed = urlparse(tech_part)
+#                     scheme = parsed.scheme.lower()
+#                     query = parse_qs(parsed.query)
+#                     sec = query.get('security', [''])[0].lower()
+#                     net = query.get('type', ['tcp'])[0].lower()
+
+#                     if scheme == 'vless' and sec == 'reality' and net == 'tcp':
+#                         categories["1_VLESS_REALITY_TCP"].append(line)
+#                     elif scheme == 'trojan' and net == 'tcp':
+#                         categories["2_Trojan_TCP"].append(line)
+#                     elif scheme == 'vless' and (sec == 'tls' or net == 'ws'):
+#                         categories["3_VLESS_TLS_WS"].append(line)
+#                     elif scheme in ['wireguard', 'wg']:
+#                         categories["4_WireGuard"].append(line)
+#                     elif scheme == 'vmess':
+#                         categories["5_VMess"].append(line)
+#                 except: continue
+
+#     # ذخیره فایل‌های دسته‌بندی شده
+#     for cat_name, links in categories.items():
+#         if links:
+#             unique_links = list(dict.fromkeys(links)) # حذف تکراری‌های احتمالی
+#             out_file = os.path.join(output_dir, f"{cat_name}.txt")
+#             with open(out_file, 'w', encoding='utf-8') as f:
+#                 f.write('\n'.join(unique_links) + '\n')
+#             logging.info(f"✅ Saved Category {cat_name}: {len(unique_links)} servers")
+
 def run_link_categorization(base_path):
-    """
-    دسته‌بندی نهایی در پوشه Categorized_Servers
-    """
+     
     source_dir = os.path.join(base_path, "Protocols")
     output_dir = os.path.join(source_dir, "Categorized_Servers")
     if not os.path.exists(source_dir): return
     os.makedirs(output_dir, exist_ok=True)
 
-    # تعریف دسته‌ها بر اساس اولویت
     categories = {
-        "1_VLESS_REALITY_TCP": [], # ⭐⭐⭐⭐⭐
-        "2_Trojan_TCP": [],        # ⭐⭐⭐⭐☆
-        "3_VLESS_TLS_WS": [],      # ⭐⭐⭐☆
-        "4_WireGuard": [],         # ⭐⭐⭐
-        "5_VMess": []              # ⭐⭐
+        "1_VLESS_REALITY_TCP": [], 
+        "2_Trojan_TCP": [],        
+        "3_VLESS_TLS_WS": [],      
+        "4_WireGuard": [],         
+        "5_VMess": [],
+        "VLESS_ENCRYPTION_NONE": []   
     }
 
     for filename in os.listdir(source_dir):
@@ -1230,17 +1286,20 @@ def run_link_categorization(base_path):
                 line = line.strip()
                 if not line: continue
                 
-                # تحلیل لینک فنی (قبل از علامت #)
                 tech_part = line.split('#')[0]
                 try:
                     parsed = urlparse(tech_part)
                     scheme = parsed.scheme.lower()
                     query = parse_qs(parsed.query)
+                    
                     sec = query.get('security', [''])[0].lower()
                     net = query.get('type', ['tcp'])[0].lower()
+                    encryption = query.get('encryption', [''])[0].lower()  
 
                     if scheme == 'vless' and sec == 'reality' and net == 'tcp':
                         categories["1_VLESS_REALITY_TCP"].append(line)
+                    elif scheme == 'vless' and encryption == 'none':      
+                        categories["VLESS_ENCRYPTION_NONE"].append(line)
                     elif scheme == 'trojan' and net == 'tcp':
                         categories["2_Trojan_TCP"].append(line)
                     elif scheme == 'vless' and (sec == 'tls' or net == 'ws'):
@@ -1251,36 +1310,28 @@ def run_link_categorization(base_path):
                         categories["5_VMess"].append(line)
                 except: continue
 
-    # ذخیره فایل‌های دسته‌بندی شده
     for cat_name, links in categories.items():
         if links:
-            unique_links = list(dict.fromkeys(links)) # حذف تکراری‌های احتمالی
+            unique_links = list(dict.fromkeys(links)) 
             out_file = os.path.join(output_dir, f"{cat_name}.txt")
             with open(out_file, 'w', encoding='utf-8') as f:
                 f.write('\n'.join(unique_links) + '\n')
             logging.info(f"✅ Saved Category {cat_name}: {len(unique_links)} servers")
-
 
  
 
 
 
 def format_server_link(link, country, latency, channel_name, s_info=None):
-    """
-    ساخت ری‌مارک استاندارد بدون تکرار لینک فنی
-    """
-    # ۱. جدا کردن لینک فنی (قبل از #) و اطمینان از تمیز بودن آن
+ 
     base_link = link.split('#')[0].strip()
     
-    # ۲. تمیز کردن نام کانال
     clean_ch = str(channel_name).replace(".txt", "").split('|')[0].strip()
     
-    # ۳. اطمینان از اینکه زمان پینگ (Latency) اشتباهاً کل لینک نباشد
     clean_latency = str(latency).strip()
     if "://" in clean_latency or len(clean_latency) > 15:
         clean_latency = "N/A"
 
-    # ۴. استخراج پورت
     port_val = "N/A"
     if s_info and s_info.get('port'):
         port_val = s_info.get('port')
@@ -1290,11 +1341,40 @@ def format_server_link(link, country, latency, channel_name, s_info=None):
             port_val = p_parsed.port if p_parsed.port else base_link.split(':')[-1].split('?')[0]
         except: port_val = "443"
 
-    # ۵. خروجی نهایی: لینک#کانال | کشور | پینگ | پورت
     return f"{base_link}#{clean_ch} | {country} | {clean_latency} | Port:{port_val}"
 
 
-
+def convert_to_dpi(link):
+    """آدرس سرور را به 127.0.0.1 و پورت را به 40443 تغییر می‌دهد."""
+    try:
+        if link.startswith('vmess://'):
+            # پردازش لینک‌های VMess که Base64 هستند
+            b64_part = link.replace('vmess://', '')
+            decoded = urlsafe_b64decode(b64_part + '=' * (-len(b64_part) % 4)).decode('utf-8')
+            data = json.loads(decoded)
+            data['add'] = '127.0.0.1'
+            data['port'] = '40443'
+            # انکود مجدد
+            new_b64 = urlsafe_b64encode(json.dumps(data).encode('utf-8')).decode('utf-8').rstrip('=')
+            return f"vmess://{new_b64}"
+        
+        else:
+            # پردازش vless, trojan, ss
+            parsed = urlparse(link)
+            # بازسازی ساختار user@host:port
+            if '@' in parsed.netloc:
+                user_info = parsed.netloc.split('@')[0]
+                new_netloc = f"{user_info}@127.0.0.1:40443"
+            else:
+                new_netloc = "127.0.0.1:40443"
+            
+            # ایجاد آبجکت جدید با تغییرات
+            new_parsed = parsed._replace(netloc=new_netloc)
+            return new_parsed.geturl()
+            
+    except Exception as e:
+        logging.debug(f"Error converting link to DPI: {e}")
+        return link
 def process_channel(url):
     channel_name = extract_channel_name(url)
     if not channel_name or channel_name == "unknown_channel":
@@ -1311,16 +1391,13 @@ def process_channel(url):
         Path(channel_file).touch(exist_ok=True)
         return 1 if configs is not None else 0, 0
 
-    # --- اصلاح اصلی: اضافه کردن نام کانال به محض دریافت (Extraction) ---
     raw_fetched_links = set(configs["all"])
     formatted_links_for_channel = set()
     
     for link in raw_fetched_links:
-        # حذف هرگونه ری‌مارک قدیمی و اضافه کردن نام کانال فعلی
         base_link = link.split('#')[0]
         formatted_links_for_channel.add(f"{base_link}#{channel_name}")
 
-    # ادامه فرآیند ذخیره‌سازی با لینک‌های نام‌گذاری شده
     existing_channel_cfgs = set()
     if os.path.exists(channel_file):
         with open(channel_file, 'r', encoding='utf-8') as f:
@@ -1332,7 +1409,6 @@ def process_channel(url):
         with open(channel_file, 'w', encoding='utf-8') as f:
             f.write('\n'.join(updated_ch_cfgs[:MAX_CHANNEL_SERVERS]) + '\n')
     
-    # آپدیت فایل‌های پروتکل و فایل Merged با لینک‌های نام‌دار
     new_global_total = 0
     for proto in PATTERNS:
         proto_links = {f"{l.split('#')[0]}#{channel_name}" for l in configs.get(proto, [])}
@@ -1344,13 +1420,19 @@ def process_channel(url):
             with open(proto_path, 'a', encoding='utf-8') as f:
                 f.write('\n'.join(new_global_proto) + '\n')
             
-            # آپدیت فایل Merged
+            # ذخیره در فایل Merged اصلی
             with open(MERGED_SERVERS_FILE, 'a', encoding='utf-8') as f:
                 f.write('\n'.join(new_global_proto) + '\n')
+            
+            # --- بخش جدید: تبدیل و ذخیره در فایل DPI ---
+            dpi_links = [convert_to_dpi(l) for l in new_global_proto]
+            with open(MERGED_DPI_FILE, 'a', encoding='utf-8') as f:
+                f.write('\n'.join(dpi_links) + '\n')
+            # ------------------------------------------
+
             new_global_total += len(new_global_proto)
 
     return 1, new_global_total
-
 def logger_thread(log_q):
     global channel_test_stats
     protocols_dir = os.path.join(TESTED_SERVERS_DIR, 'Protocols')
@@ -1369,11 +1451,11 @@ def logger_thread(log_q):
                 status, s_info, msg = record
                 if status == 'received': continue
 
-                # لینک خالص بدون ری‌مارک قدیمی
+                
                 base_link = s_info.get('original_link', 'N/A').split('#')[0]
                 proto = s_info.get('protocol', 'unknown').lower()
                 
-                # نام کانال بر اساس نام فایل منبع (Source of Truth)
+                
                 source_file = s_info.get('source_file', 'Unknown.txt')
                 channel_name = source_file.replace(".txt", "")
 
@@ -1478,7 +1560,8 @@ if __name__ == "__main__":
             os.makedirs(dir_to_clean, exist_ok=True)
         if os.path.exists(MERGED_SERVERS_FILE):
              os.remove(MERGED_SERVERS_FILE)
-
+        if os.path.exists(MERGED_DPI_FILE):
+             os.remove(MERGED_DPI_FILE)
         channels_file_path = CHANNELS_FILE
         try:
             if not os.path.exists(channels_file_path):
