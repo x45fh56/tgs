@@ -1,8 +1,6 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2053?security=tls&encryption=none&insecure=0&host=sni.111000.indevs.in&fp=chrome&type=ws&allowInsecure=0&sni=sni.111000.indevs.in#byiroh
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:8443?encryption=none&type=ws&host=sni.111000.v6.navy&security=tls&sni=sni.111000.v6.navy#byiroh
-vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.17.72.206:443?path=%2F222.167.202.31%3A7443&security=tls&encryption=none&host=2026.hhhhh.eu.org&type=ws&sni=2026.hhhhh.eu.org#byiroh
-vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.17.72.206:443?path=%2F222.167.202.31%3A7443&security=tls&encryption=none&insecure=1&host=2026.hhhhh.eu.org&type=ws&allowInsecure=1&sni=2026.hhhhh.eu.org#byiroh
-vless://cff6f361-828a-43c8-a8b5-8d10b32e57fb@188.114.98.0:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&host=zh.hollowspot.ir&type=ws&sni=zh.hollowspot.ir#byiroh
-vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.17.72.206:443?encryption=none&type=ws&host=2026.hhhhh.eu.org&path=/222.167.202.31:7443&security=tls&sni=2026.hhhhh.eu.org#byiroh
-vless://fff03d01-86a7-4695-80d9-95f9b16a5f5c@sourceforge.net:443?path=%2F&security=tls&encryption=none&insecure=0&host=edgetunn-cfm.pages.dev&type=ws&allowInsecure=0&sni=edgetunn-cfm.pages.dev#byiroh
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2053?security=tls&encryption=none&insecure=0&host=sni.111000.dynv6.net&type=ws&allowInsecure=0&sni=sni.111000.dynv6.net#byiroh
+vless://f2cbc497-7998-45e0-8d08-93d8c900dda2@37.32.27.85:80?encryption=none&type=ws&host=a1.supreme-xfast.ir&path=/&security=none#byiroh
+vless://b64248df-8f98-400c-9c7b-01081a3fa99f@172.64.152.23:443?encryption=none&type=ws&host=fbi1.amirkaj.com&path=/&security=tls&sni=fbi1.amirkaj.com#byiroh
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?encryption=none&security=none&type=ws&host=vip.yaml7.ggff.net&path=%2F%20%40#byiroh
+vless://b64248df-8f98-400c-9c7b-01081a3fa99f@172.64.152.23:443?path=%2F&security=tls&encryption=none&host=fbi1.amirkaj.com&type=ws&sni=fbi1.amirkaj.com#byiroh
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.149.54:2096?encryption=none&type=ws&host=sni.jpmj.dev&path=/?ed%3D2560&security=tls&sni=sni.jpmj.dev#byiroh
+vless://f07e31fb-7491-450a-921f-b99400d34796@snapp.ir:80?path=%2F%3Fed%3D2080&security=none&encryption=none&host=1.jojo.avenflow.ir&type=ws#byiroh

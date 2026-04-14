@@ -1,6 +1,1 @@
-vless://f645c00e-92ee-4028-8512-0d81fecc1ab5@185.209.42.213:36729?type=tcp&security=none#saministamm
-vless://03ab6794-0c03-4c6c-adc5-2767a5ac9dc5@plesk.iranwiki.mom:55002?path=%2F&security=none&encryption=none&host=igap.net&type=ws#saministamm
-vless://712b1f39-e5d8-4262-9433-331ba0ce10d6@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=cn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=cn.8lack.ir#saministamm
-vmess://eyJhZGQiOiJzbmFwcC5pciIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoidmlwMi5hcmlhdGFrcG95YW4uaXIiLCJpZCI6ImExMmViYjczLTU2ZGItNGM2NC04MWI0LWJhNDI5MWEyOTMwZSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii90YWsiLCJwb3J0IjoiMjA5NSIsInBzIjoiQHNhbWluaXN0YW1tIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9#saministamm
-vless://10d6fb66-4897-4687-9f57-0338045b5813@188.121.117.228:51464?security=none&encryption=none&headerType=http&type=tcp#saministamm
-vless://a5dcba0c-78ce-4108-b545-bca2092bbee3@62.60.197.67:4090?path=%2Fwss%3Fed%3D2048&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=c1.semnanse.sbs&fp=chrome&type=ws&allowInsecure=0&sni=c1.semnanse.sbs#saministamm
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?path=%2F%20%40ProxyVPN11&security=none&encryption=none&host=vip.yaml7.ggff.net&type=ws#saministamm
