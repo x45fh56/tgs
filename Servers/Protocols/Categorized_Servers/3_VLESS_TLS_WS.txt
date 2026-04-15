@@ -1,7 +1,7 @@
 vless://0efdcda2-2edc-470f-9628-4ac0fa864120@abr.superip.ir:2082?security=none&type=ws&headerType=&path=%2FAPI%2Fsuperip&host=brand.bi6x.ir#NetShot1
 vless://0efdcda2-2edc-470f-9628-4ac0fa864120@abr.superip.ir:8080?security=none&type=ws&headerType=&path=%2FAPI%2Fsuperip&host=ne.landing-sours.ir#NetShot1
-vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.17.72.206:443?type=ws&host=2026.hhhhh.eu.org&path=/222.167.202.31:7443&security=tls&sni=2026.hhhhh.eu.org#NetShot1
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@72.18.132.149:2053?&security=tls&fp=chrome&sni=sni.111000.indevs.in&type=ws&headerType=none&host=sni.111000.indevs.in&path=/?ed=2560&Telegram#v2ray_extractor
-vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@132.226.163.224:2053?&security=tls&fp=chrome&sni=3-deu.pages.dev&type=ws&headerType=none&host=3-deu.pages.dev&path=%2F#v2ray_extractor
 vless://7d7d00cb-53a3-4cb4-bef7-3b2d431b1107@chatgpt.com:443?security=tls&type=ws&host=telegram.proxie1-tel.workers.dev&path=/eyJqdW5rIjoiRlpGZjNZYno0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560&sni=tElEgRAm.proXIE1-tel.WORKers.deV&fp=chrome#v2ray_extractor
 vless://73a4456a-0442-4550-8b4f-c719871a4eeb@chatgpt.com:443?security=tls&type=ws&host=011.electrocellco-cf-011.workers.dev&path=/eyJqdW5rIjoibWRiMjNWaUwxNHVWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=?ed=2560&sni=011.electrOCELlCO-CF-011.WorKERS.dEV&fp=chrome#v2ray_extractor
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@72.18.132.149:2053?&security=tls&fp=chrome&sni=sni.111000.indevs.in&type=ws&headerType=none&host=sni.111000.indevs.in&path=/?ed=2560&Telegram#v2ray_extractor
+vless://d37a75db-76b6-4db8-b213-0d5b044d138d@hio-awx.pages.dev:443?type=ws&security=tls&host=hio-awx.pages.dev&path=%2F#v2ray_extractor
+vless://97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2@18.245.54.3:443?&security=tls&fp=chrome&sni=d2241b25w3zftf.cloudfront.net&type=ws&headerType=none&host=d2241b25w3zftf.cloudfront.net&path=%2F#v2ray_extractor

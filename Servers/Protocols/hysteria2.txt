@@ -1,5 +1,6 @@
 hysteria2://0e1a66ab-5313-45b3-90e8-ab2a62ff1bdf@107.175.194.57:8882?sni=cn.bing.com&alpn=h3&insecure=1#dingyue_center
-hysteria2://hysteria2_fastlane_qszb6rkh0%3A6Yk5GwoZmszsRaxmLJGqJGo2SIuXeNr5@144.31.134.98:1935/?insecure=1&sni=nl1.h.smartaisupport.ru#oneclickvpnkeys
-hysteria2://7151e6b8-0d8e-4548-a9f2-af52ccc2cdfe@89.23.107.251:4433/?insecure=1&sni=nl1.xiaoliyu.cyou#oneclickvpnkeys
-hysteria2://zhangyang@130.61.50.75:6443/?insecure=1&sni=dash.cloudflare.com#v2ray_extractor
+hysteria2://zhangyang@130.61.50.75:6443/?insecure=1&sni=dash.cloudflare.com#oneclickvpnkeys
+hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@83.243.86.103:12855/?insecure=1&sni=www.microsoft.com#oneclickvpnkeys
+hysteria2://4d092122-268a-4a1a-b23f-83931c5abc3a@37.114.49.38:2056/?insecure=1&sni=flkf.mangshe.xyz#oneclickvpnkeys
+hysteria2://4d092122-268a-4a1a-b23f-83931c5abc3a@37.114.49.38:2056/?insecure=1&sni=flkf.mangshe.xyz#v2ray_extractor
 hysteria2://dongtaiwang.com@62.210.124.146:22000/?insecure=1&sni=www.microsoft.com#v2ray_extractor

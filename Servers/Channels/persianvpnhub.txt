@@ -1,10 +1,5 @@
-vless://a01daac7-1e65-4645-854d-b47d226f6b08@auth.vercel.com:443?path=%2F&security=tls&encryption=none&insecure=0&host=y6-3cj.pages.dev&type=ws&allowInsecure=0&sni=y6-3cj.pages.dev#persianvpnhub
-vless://49f089cb-c226-487b-9a0c-89012d3559cf@104.18.16.56:443?path=%2Fardavpn&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=mirza2.ardafil.shop&fp=chrome&type=ws&allowInsecure=0&sni=mirza2.ardafil.shop#persianvpnhub
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2053?path=%2F&security=tls&encryption=none&host=sni.111000.dynv6.net&type=ws&sni=sni.111000.dynv6.net#persianvpnhub
-vless://58b4e540-02ec-44d6-b6bc-bb238581d1fd@104.18.4.130:80?path=%2Findex.html&security=none&encryption=none&host=cdnhtzner.yas-baaq.ir&type=ws#persianvpnhub
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:8443?path=%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2&security=tls&encryption=none&host=sni.111000.dynv6.net&type=ws&sni=sni.111000.dynv6.net#persianvpnhub
-vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.17.72.206:443?path=%2F222.167.202.31%3A7443&security=tls&encryption=none&host=2026.hhhhh.eu.org&type=ws&sni=2026.hhhhh.eu.org#persianvpnhub
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?path=%2F%20%40&security=none&encryption=none&host=vip.yaml7.ggff.net&type=ws#persianvpnhub
-vless://06ef598c-1555-4887-b3f9-08214a2f6792@172.64.149.54:443?path=%2F222.167.202.31%3A7443&security=tls&encryption=none&insecure=0&host=2026.hhhhh.eu.org&type=ws&allowInsecure=0&sni=2026.hhhhh.eu.org#persianvpnhub
-vless://58b4e540-02ec-44d6-b6bc-bb238581d1fd@172.64.149.54:80?path=%2Findex.html&security=none&encryption=none&host=cdnhtzner.yas-baaq.ir&type=ws#persianvpnhub
-vless://2247d5b9-570c-477a-9191-350f6025cb38@188.114.98.0:443?path=%2F&security=tls&encryption=none&alpn=h3,h2,http/1.1&fp=chrome&type=ws&sni=cloud.endlessteam.site#persianvpnhub
+vless://94dd9065-5542-44fb-8c28-10c55c9dbfe8@snapp.ir:2086?path=%2F&security=none&encryption=none&host=beraghsaontop.netcura.ir&type=ws#persianvpnhub
+vless://d5ac69a7-d886-4efd-85cc-39ec67363e94@luna.5on.ir:8880?path=%2F&security=none&encryption=none&host=luna.5on.ir&type=ws#persianvpnhub
+trojan://telegram-id-privatevpns@3.65.163.13:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://ecf56add-3b4a-4724-bb6c-9cc5721d09b0@185.143.233.5:443?path=%2F%3Fed%3D443&security=tls&encryption=none&insecure=0&host=alef.ir.oadeflantrogm.realirshop.com&fp=randomized&type=ws&allowInsecure=0&sni=alef.ir.oadeflantrogm.realirshop.com#persianvpnhub
+vless://bb01fc6c-de57-4b2e-8b22-8480736d20d1@185.143.234.235:80?security=&encryption=none&host=vixon.portab.org&type=ws#persianvpnhub

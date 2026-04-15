@@ -1,0 +1,1 @@
+wireguard://EHUyzObhfGL9dEYIHB%2FbiHLsBMSIYose8YKzxc1xJnM%3D@31.40.204.113:9091?address=10.10.21.144%2F32&reserved=0%2C0%2C0&publickey=Ef1py56TZzG1PU123AVNNrihiay%2B1Gj9HwdnkTLUJ3M%3D&mtu=1420#pro_exi

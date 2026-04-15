@@ -1,6 +1,2 @@
-vless://f2cbc497-7998-45e0-8d08-93d8c900dda2@37.32.27.85:80?encryption=none&type=ws&host=a1.supreme-xfast.ir&path=/&security=none#byiroh
-vless://b64248df-8f98-400c-9c7b-01081a3fa99f@172.64.152.23:443?encryption=none&type=ws&host=fbi1.amirkaj.com&path=/&security=tls&sni=fbi1.amirkaj.com#byiroh
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?encryption=none&security=none&type=ws&host=vip.yaml7.ggff.net&path=%2F%20%40#byiroh
-vless://b64248df-8f98-400c-9c7b-01081a3fa99f@172.64.152.23:443?path=%2F&security=tls&encryption=none&host=fbi1.amirkaj.com&type=ws&sni=fbi1.amirkaj.com#byiroh
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.149.54:2096?encryption=none&type=ws&host=sni.jpmj.dev&path=/?ed%3D2560&security=tls&sni=sni.jpmj.dev#byiroh
-vless://f07e31fb-7491-450a-921f-b99400d34796@snapp.ir:80?path=%2F%3Fed%3D2080&security=none&encryption=none&host=1.jojo.avenflow.ir&type=ws#byiroh
+vless://d8ad3de0-47ab-4043-b1bd-68f526c74099@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#byiroh
+vless://2ff05b5e-cdb2-4cfd-88a1-ebd12612e8eb@snapp.ir:80?path=%2F&security=none&encryption=none&host=Darxhinteam.bravo-six.ir&type=ws#byiroh
