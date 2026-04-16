@@ -1,3 +1,14 @@
-vless://ed52ad88-bd51-4ca8-bdbe-1e784f9f87c2@vatan.6lf.ir:44?security=none&encryption=none&headerType=none&type=tcp#BrilliantGift
-trojan://1234567890@103.228.171.5:8443/?type=ws&host=kfm-bn0.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=kfm-bn0.pages.dev&allowInsecure=1#BrilliantGift
-vless://050fa956-29ab-41c9-b257-6162e7b30c5e@37.152.189.74:4431?path=%2Fek%2Firinn%2Flive%2F1080p%2F&security=none&encryption=none&host=live-azd1102.telewebion.ir&type=ws#BrilliantGift
+vless://0b910d60-bfa7-44d6-90cc-c7e48d13634b@194.59.171.217:14774?type=tcp&security=none#BrilliantGift
+vless://164bd44f-d0be-465d-9875-e15a0bef3d29@194.59.171.217:14774?type=tcp&security=none#BrilliantGift
+vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.17.72.206:443?path=%2F222.167.202.31%3A7443&security=tls&encryption=none&insecure=0&host=2026.hhhhh.eu.org&fp=chrome&type=ws&allowInsecure=0&sni=2026.hhhhh.eu.org#BrilliantGift
+vless://f9d9a8e6-7df0-4c7b-bb2d-97d1c7e14f1f@45.82.136.188:443?path=%2F&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=webassets.cafebazaar.ir#BrilliantGift
+vless://a0f7fda1-82d7-4044-b288-79cc587eb707@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=an.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=an.8lack.ir#BrilliantGift
+vless://6d1574d2-3777-454b-a8cf-8ce9b97d56e4@193.162.129.219:7777?security=none&encryption=none&headerType=none&type=tcp#BrilliantGift
+vless://dff81e98-e184-4dec-8edc-4b796a75e079@194.59.171.217:14774?type=tcp&security=none#BrilliantGift
+vless://288c6693-95a3-4cc4-a280-07e78a419b88@194.59.171.217:14774?type=tcp&security=none#BrilliantGift
+vless://4b7ae2ae-0220-4c72-a4e7-fc252415108a@arvan2.un1ty.ir:80?path=%2F&security=none&encryption=none&type=ws#BrilliantGift
+vless://a2053fc4-7daf-4a78-a53e-394a483c13db@pish152.manikhan.ir:22470?security=&encryption=none&headerType=&type=tcp#BrilliantGift
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.16.56:2096?path=%2F&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#BrilliantGift
+vless://f9d9a8e6-7df0-4c7b-bb2d-97d1c7e14f1f@45.82.136.188:443?encryption=none&security=tls&sni=webassets.cafebazaar.ir&insecure=1&allowInsecure=1&type=ws&path=%2F#BrilliantGift
+vless://cff3c413-412a-410c-9303-d573da18d9c2@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=fn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=fn.8lack.ir#BrilliantGift
+vless://3b80a4b4-187a-49b0-a52c-5c455c41ba98@194.59.171.217:14774?type=tcp&security=none#BrilliantGift

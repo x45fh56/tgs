@@ -1,2 +1,8 @@
-vless://e27b7b53-6810-47ac-b5a5-eb89c4a22aed@snapp.ir:2082?path=%2F&security=none&encryption=none&host=rpsvpn3.xchitozx.org&type=ws#byiroh
-vless://e27b7b53-6810-47ac-b5a5-eb89c4a22aed@snapp.ir:2082?encryption=none&security=none&type=ws&host=rpsvpn3.xchitozx.org&path=%2F#byiroh
+vless://a91d6088-c444-47a1-a275-d8c43f10b64d@194.59.171.217:14774?type=tcp&security=none#byiroh
+vless://cb4d9bad-6b23-4b2d-94a4-e18fc6515702@194.59.171.217:14774?type=tcp&security=none#byiroh
+vless://f9d9a8e6-7df0-4c7b-bb2d-97d1c7e14f1f@45.82.136.188:443?encryption=none&type=ws&security=tls&path=%2F&sni=webassets.cafebazaar.ir&allowInsecure=1#byiroh
+vless://a0f7fda1-82d7-4044-b288-79cc587eb707@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=an.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=an.8lack.ir#byiroh
+vless://34d4e56c-8a56-4ce2-84d5-8a2525748046@194.59.171.217:14774?type=tcp&security=none#byiroh
+vless://78f420ff-f99d-4e79-a225-a64cecf661aa@194.59.171.217:14774?type=tcp&security=none#byiroh
+vless://a91d6088-c444-47a1-a275-d8c43f10b64d@194.59.171.217:14774?security=none&encryption=none&headerType=none&type=tcp#byiroh
+vless://651a858c-2975-4b96-96b7-82745b38714c@8.6.112.0:443?encryption=none&type=ws&security=tls&path=%2FWITH_CHACHA20_POLY1305_SHA256&host=api.frest.ir&sni=api.frest.ir&alpn=http%2F1.1&fp=chrome&allowInsecure=1#byiroh
