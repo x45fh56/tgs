@@ -1,2 +1,2 @@
-vless://d8ad3de0-47ab-4043-b1bd-68f526c74099@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#byiroh
-vless://2ff05b5e-cdb2-4cfd-88a1-ebd12612e8eb@snapp.ir:80?path=%2F&security=none&encryption=none&host=Darxhinteam.bravo-six.ir&type=ws#byiroh
+vless://e27b7b53-6810-47ac-b5a5-eb89c4a22aed@snapp.ir:2082?path=%2F&security=none&encryption=none&host=rpsvpn3.xchitozx.org&type=ws#byiroh
+vless://e27b7b53-6810-47ac-b5a5-eb89c4a22aed@snapp.ir:2082?encryption=none&security=none&type=ws&host=rpsvpn3.xchitozx.org&path=%2F#byiroh
