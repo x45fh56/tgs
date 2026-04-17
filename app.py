@@ -37,7 +37,7 @@ REGIONS_DIR = os.path.join("Servers", "Regions")
 REPORTS_DIR = os.path.join("logs")
 MERGED_DIR = os.path.join("Servers", "Merged")
 CHANNELS_DIR = os.path.join("Servers", "Channels")
-MERGED_DPI_FILE = os.path.join(MERGED_DIR, "merged_servers_dpi.txt")
+MERGED_SNI_FILE = os.path.join(MERGED_DIR, "merged_servers_sni.txt")
 CHANNELS_FILE = "data/telegram_sources.txt"
 LOG_FILE = os.path.join(REPORTS_DIR, "extraction_report.log")
 GEOIP_DATABASE_PATH = Path("data/db/GeoLite2-Country.mmdb")
@@ -47,7 +47,7 @@ MERGED_SERVERS_FILE = os.path.join(MERGED_DIR, "merged_servers.txt")
 # Set these to True or False to enable or disable parts of the script
 ENABLE_EXTRACTION = True  # Part 1: Scrape servers from Telegram sources
 ENABLE_GEO_LOOKUP = False  # Part 2: Classify scraped servers by country 
-ENABLE_REPORTING = False   # Part 3: Generate a report after extraction/GeoIP
+ENABLE_REPORTING = True   # Part 3: Generate a report after extraction/GeoIP
 ENABLE_TESTING = False # Part 4: Test the servers for connectivity
 ENABLE_V2RAY_SETUP = False     # Download/update V2Ray executable if testing is enabled
 ENABLE_TESTED_GEO_SORT = False  
@@ -134,51 +134,34 @@ PATTERNS = {
     'warp': r'(?<![a-zA-Z0-9_])warp://[^\s<>]+'
 }
 
-
 def normalize_telegram_url(url):
-    """Normalize various Telegram URL formats to https://t.me/s/ format.
 
-    Args:
-        url: Input URL string to normalize
-
-    Returns:
-        Normalized URL in https://t.me/s/ format or empty string for invalid URLs
-    """
     if not url:
         return ""
-
     url = url.strip()
-
-    # Handle bare username cases (e.g., "Free_HTTPCustom")
     if not any(url.startswith(prefix) for prefix in ["http://", "https://", "t.me/", "@"]):
-        if "/" not in url:  # Confirm it's just a channel name without paths
+        if "/" not in url:  
             return f"https://t.me/s/{url}"
 
-    # Convert t.me/ links to https://t.me/s/
+
     if url.startswith("t.me/"):
         url = f"https://{url}"
 
-    # Convert @username format to https://t.me/s/username
     if url.startswith("@"):
         return f"https://t.me/s/{url[1:]}"
 
-    # Process full https://t.me/ URLs
     if url.startswith("https://t.me/"):
         parts = url.split('/')
         if len(parts) >= 4:
             channel_candidate = parts[3]
             if channel_candidate == 's':
-                if len(parts) > 4 and parts[4]:  # Valid /s/ link
+                if len(parts) > 4 and parts[4]:  
                     return url
-                return ""  # Invalid /s/ link like https://t.me/s/
-            else:  # Convert to /s/ format
-                # Handle cases like https://t.me/channelname/123 by taking only channelname
+                return ""  
+            else:  
                 return f"https://t.me/s/{parts[3]}"
-        return ""  # Invalid URL structure
-
-    return url  # Return as-is if already in /s/ format or other valid format
-
-
+        return ""  
+    return url  
 def extract_channel_name(url):
     try:
         parsed_url = urlparse(url)
@@ -189,12 +172,9 @@ def extract_channel_name(url):
             return path_parts[0]
     except Exception:
         pass
-    # Fallback for simple names or if parsing fails badly
     name_candidate = url.split('/')[-1] if '/' in url else url
-    # Remove query parameters or fragments from the name if they got included
     name_candidate = name_candidate.split('?')[0].split('#')[0]
     return name_candidate if name_candidate else "unknown_channel"
-
 
 def count_servers_in_file(file_path):
     if not os.path.exists(file_path):
@@ -394,7 +374,7 @@ def process_geo_data():
         if not download_geoip_database():
             logging.error("❌ Cannot perform GeoIP: Database download failed.")
             return {}
-    geo_reader = None # Initialize to None
+    geo_reader = None 
     try:
         geo_reader = geoip2.database.Reader(str(GEOIP_DATABASE_PATH))
     except Exception as e:
@@ -434,7 +414,7 @@ def process_geo_data():
         try:
             parsed_link = urlparse(config_link)
             hostname = parsed_link.hostname
-            if not hostname: # Skip if no hostname
+            if not hostname: 
                 failed_lookups += 1
                 continue
 
@@ -442,43 +422,34 @@ def process_geo_data():
                 ip_address = hostname
             elif parsed_link.scheme == 'vmess':
                 try:
-                    # Ensure padding for base64 decoding
                     b64_payload = parsed_link.netloc + parsed_link.path
                     decoded_payload = urlsafe_b64decode(b64_payload + '=' * ((4 - len(b64_payload) % 4) % 4)).decode('utf-8')
                     vmess_data = json.loads(decoded_payload)
                     ip_address = vmess_data.get('add')
                 except (binascii.Error, UnicodeDecodeError, json.JSONDecodeError) as e:
                     logging.debug(f"VMess decoding error for GeoIP on {config_link[:30]}...: {e}")
-                    failed_lookups +=1 # Count as failed if we can't get IP
-                    continue # Skip to next config
+                    failed_lookups +=1 
+                    continue 
 
             if ip_address:
-                # Check if ip_address is actually an IP or still a domain
                 if not re.match(r"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$", ip_address):
-                    # If it's a domain, we can't directly use geoip2.database.Reader
-                    # This GeoIP library expects an IP address. Domain resolution is out of its scope.
-                    # For simplicity, we'll mark as Unknown or implement DNS resolution separately.
-                    # For now, marking as Unknown for non-IP hostnames.
-                    # logging.debug(f"Hostname '{ip_address}' is not an IP. Skipping GeoIP, marking as Unknown.")
-                    country_code = "Domain" # Or keep "Unknown", "Domain" indicates why
-                    # failed_lookups += 1 # Optionally count this
+                    country_code = "Domain" 
                 else:
                     try:
                         response = geo_reader.country(ip_address)
                         country_code = response.country.iso_code or response.country.name or "Unknown"
                     except geoip2.errors.AddressNotFoundError:
-                        # logging.debug(f"GeoIP: Address {ip_address} not found in database.")
-                        country_code = "Unknown" # IP not in DB
+                        country_code = "Unknown" 
                         failed_lookups +=1
                     except Exception as geo_e:
                         logging.warning(f"GeoIP lookup error for IP {ip_address}: {geo_e}")
-                        country_code = "Unknown" # Other GeoIP error
+                        country_code = "Unknown" 
                         failed_lookups +=1
-            else: # No IP could be extracted
+            else: 
                 failed_lookups += 1
                 country_code = "Unknown"
 
-        except Exception as e: # Catch errors from URL parsing or other logic
+        except Exception as e: 
             logging.warning(f"Error processing config for GeoIP '{config_link[:30]}...': {e}")
             failed_lookups += 1
             country_code = "Unknown"
@@ -492,10 +463,8 @@ def process_geo_data():
     for country_code, config_list in country_configs.items():
         final_country_counts[country_code] = len(config_list)
         try:
-            # Sanitize country_code for filename
             safe_country_name = "".join(c if c.isalnum() else "_" for c in country_code)
             with open(os.path.join(REGIONS_DIR, f"{safe_country_name}.txt"), 'w', encoding='utf-8') as f:
-                # Trim if necessary before writing
                 f.write('\n'.join(config_list[:MAX_REGION_SERVERS]) + '\n')
         except Exception as e:
             logging.error(f"Error writing region file for {country_code}: {e}")
@@ -514,8 +483,6 @@ class CleanFormatter(logging.Formatter):
                 return f"{record.levelname}: {record.msg}"
         return super().format(record)
 
-# --- Logging Setup ---
-# ایجاد پوشه لاگ بلافاصله قبل از استفاده (برای جلوگیری از خطا)
 os.makedirs(LOGS_DIR, exist_ok=True)
 
 if not logging.getLogger().hasHandlers():
@@ -526,20 +493,15 @@ if not logging.getLogger().hasHandlers():
     ch.addFilter(lambda r: setattr(r, 'clean_output', True) or True)
     ch.setFormatter(cf)
     logger.addHandler(ch)
-    
-    # حالا که پوشه ساخته شده، FileHandler بدون خطا اجرا می‌شود
     log_path = os.path.join(LOGS_DIR, 'testing_debug.log')
     fh = logging.FileHandler(log_path, encoding='utf-8')
     ff = logging.Formatter('%(asctime)s-%(levelname)s-%(threadName)s- %(message)s')
     fh.setFormatter(ff)
     logger.addHandler(fh)
-# --- FIX: Direct usage of urllib3 to disable warnings ---
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
 
 current_port = START_PORT
 port_lock = threading.Lock()
-
 
 def get_next_port():
     global current_port
@@ -596,60 +558,44 @@ def parse_vmess_link(link):
         data = json.loads(json_str)
     except Exception as e:
         raise ValueError(f"VMess JSON decode error for {link}: {e}")
-
-    # Prioritize 'host' over 'add' if 'add' looks invalid, then fall back.
-    # This handles cases where 'add' is obfuscated.
     address = data.get('add', '')
-    if not re.match(r"^[a-zA-Z0-9.-]+$", address): # Simple check for valid hostname chars
-        address = data.get('host', '') # Fallback to 'host' field
-        if not address: # If host is also empty/invalid, this link is unusable
+    if not re.match(r"^[a-zA-Z0-9.-]+$", address):
+        address = data.get('host', '') 
+        if not address:
             raise ValueError(f"VMess 'add' field is invalid and no fallback 'host' found: {data.get('add')}")
     
     port = int(data.get('port', 0))
     uuid = data.get('id')
     if not (address and port and uuid):
         raise ValueError(f"VMess missing address/port/id in {link}")
-
-    # --- FINAL FIX: Rebuild and Sanitize the VMess link completely ---
-    
-    # 1. Create a clean dictionary with only standard, necessary fields.
     clean_data = {
         "v": "2",
-        # 2. Sanitize the 'ps' field to avoid client import issues.
         "ps": f"vmess-{address}-{port}",
         "add": address,
-        "port": str(port), # Port must be a string in the JSON
+        "port": str(port), 
         "id": uuid,
         "aid": str(data.get("aid", 0)),
         "net": data.get("net", "tcp") or "tcp",
-        "type": data.get("type", "none") or "none", # Often "none" for tcp, "" for ws/grpc
+        "type": data.get("type", "none") or "none", 
         "host": data.get("host", ""),
         "path": data.get("path", ""),
-        "tls": data.get("tls", "") or "", # "tls" or ""
+        "tls": data.get("tls", "") or "", 
         "sni": data.get("sni", ""),
         "alpn": data.get("alpn", ""),
         "fp": data.get("fp", ""),
-        "scy": data.get("scy", "auto") or "auto" # Add security method
+        "scy": data.get("scy", "auto") or "auto" 
     }
-    
-    # Remove empty keys that are not essential, for a cleaner link
     keys_to_remove = [k for k, v in clean_data.items() if v == "" and k not in ["ps", "add", "port", "id", "net", "tls"]]
     for k in keys_to_remove:
         del clean_data[k]
-        
-    # 3. Re-encode the clean dictionary into a standard Base64 string.
     clean_json_str = json.dumps(clean_data, separators=(',', ':'), sort_keys=True)
     rebuilt_b64 = urlsafe_b64encode(clean_json_str.encode('utf-8')).decode('utf-8').rstrip("=")
     rebuilt_link = f"vmess://{rebuilt_b64}"
-    # --- END OF FIX ---
-
-    # Return the rebuilt_link as the 'original_link' to be used in all output files.
-    # The other fields are for the internal tester.
     return {
         'original_link': rebuilt_link, 
         'protocol': 'vmess', 
         'uuid': uuid, 
-        'host': address, # Use the validated address for testing
+        'host': address, 
         'port': port, 
         'network': clean_data["net"],
         'security': clean_data["tls"], 
@@ -659,7 +605,6 @@ def parse_vmess_link(link):
         'alter_id': int(clean_data["aid"]), 
         'encryption': clean_data.get("scy", "auto")
     }
-
 
 def parse_trojan_link(link):
     parsed = urlparse(link)
@@ -686,44 +631,26 @@ def parse_ss_link(link):
     port = parsed.port
     if not (parsed.scheme == 'ss' and host and port):
         raise ValueError(f"Invalid SS host/port in link: {link}")
-    name = unquote(parsed.fragment) if parsed.fragment else f"ss_{host}" # Decode fragment
+    name = unquote(parsed.fragment) if parsed.fragment else f"ss_{host}" 
     userinfo_raw = parsed.username
     method, password = None, None
-
-    # Standard SIP002: base64(method:password)@host:port#name
-    # If userinfo exists (part before @), it's likely base64 encoded method:password
     if userinfo_raw:
         try:
-            # Try decoding userinfo_raw as base64
             decoded_userinfo = urlsafe_b64decode(userinfo_raw + '=' * ((4 - len(userinfo_raw) % 4) % 4)).decode('utf-8')
             if ':' in decoded_userinfo:
                 method, password = decoded_userinfo.split(':', 1)
-            else: # If not base64 or no colon, it might be plain method:password (less common for userinfo)
+            else: 
                  raise ValueError("Decoded userinfo did not contain ':'")
         except (binascii.Error, UnicodeDecodeError, ValueError):
-             # Fallback: if userinfo_raw is not valid base64 or doesn't decode to "method:password",
-             # assume it's plain "method:password" if it contains a colon.
-             if ':' in userinfo_raw: # This assumes userinfo_raw was NOT b64 but plain text
+             if ':' in userinfo_raw: 
                   method, password = userinfo_raw.split(':',1)
              else:
                   raise ValueError(f"Could not parse method:password from userinfo '{userinfo_raw}' in {link}")
-
-    # Alternative format: ss://base64(method:password:host:port)#name (less common with netloc)
-    # Or ss://base64(method:password) where host:port is separate
-    # For now, we primarily rely on userinfo for method:password if @ is present.
-
-    # If userinfo was not present or parsing failed, there's an issue.
     if method is None or password is None:
-        # Check if the entire netloc (excluding port if specified by : after hostname) is base64(method:password)
-        # This handles ss://BASE64PART where BASE64PART is method:password, and host:port are separate in the URL.
-        # This logic is tricky because host and port are already parsed by urlparse.
-        # The original code had a complex fallback, let's simplify based on common patterns.
-        # Most common is base64(method:password) in username part.
         raise ValueError(f"Could not extract method/password for SS link: {link}. Userinfo: '{userinfo_raw}'")
 
     return {'original_link': link, 'protocol': 'shadowsocks', 'method': method, 'password': password,
             'host': host, 'port': int(port), 'network': 'tcp', 'name': name}
-
 
 def generate_config(s_info, l_port):
     cfg = {
@@ -737,7 +664,7 @@ def generate_config(s_info, l_port):
             "protocol": s_info['protocol'], "settings": {},
             "streamSettings": {
                 "network": s_info.get('network', 'tcp'),
-                "security": s_info.get('security', 'none') # Default to 'none' if not present
+                "security": s_info.get('security', 'none') 
             },
             "mux": {"enabled": True, "concurrency": 8}
         }]
@@ -755,12 +682,10 @@ def generate_config(s_info, l_port):
     elif s_info['protocol'] == 'trojan':
         out_s["servers"] = [{"address": s_info['host'],
                              "port": s_info['port'], "password": s_info['password']}]
-    elif s_info['protocol'] == 'shadowsocks': # V2Ray uses 'shadowsocks' not 'ss' in config
+    elif s_info['protocol'] == 'shadowsocks': 
         out_s["servers"] = [{"address": s_info['host'], "port": s_info['port'],
                              "method": s_info['method'], "password": s_info['password'], "ota": False}]
-
-    # Stream settings
-    current_security = stream_s.get('security', 'none') # Get current security setting
+    current_security = stream_s.get('security', 'none') 
 
     if current_security == 'tls':
         tls_settings = {"serverName": s_info.get('sni', s_info['host']), "allowInsecure": True}
@@ -774,10 +699,10 @@ def generate_config(s_info, l_port):
             raise ValueError("REALITY config missing 'pbk' (publicKey) or 'fp' (fingerprint)")
         stream_s['realitySettings'] = {
             "show": False, "fingerprint": s_info['fp'],
-            "serverName": s_info.get('sni', s_info['host']), # SNI is crucial for REALITY
+            "serverName": s_info.get('sni', s_info['host']), 
             "publicKey": s_info['pbk'],
             "shortId": s_info.get('sid', ''),
-            "spiderX": s_info.get('spx', '/') # spx is not standard VLESS, but some tools use it
+            "spiderX": s_info.get('spx', '/')
         }
 
     current_network = stream_s.get('network', 'tcp')
@@ -786,24 +711,17 @@ def generate_config(s_info, l_port):
             "path": s_info.get('ws_path', '/'),
             "headers": {"Host": s_info.get('ws_host', s_info.get('sni', s_info['host']))}
         }
-    # Add other network types like grpc if needed
-    # elif current_network == 'grpc':
-    #     stream_s['grpcSettings'] = {
-    #         "serviceName": s_info.get('serviceName', '') # Get from link if available
-    #     }
 
-    # Clean up streamSettings: remove security if none, remove specific settings if not applicable
     if stream_s.get('security') == 'none':
-        del stream_s['security'] # V2Ray doesn't need "security": "none" explicitly usually
-        # Remove tlsSettings or realitySettings if security was none
+        del stream_s['security'] 
+
         stream_s.pop('tlsSettings', None)
         stream_s.pop('realitySettings', None)
 
 
     cfg['outbounds'][0]['streamSettings'] = {
-        k: v for k, v in stream_s.items() if v is not None or k in ('network') # Keep network even if tcp
+        k: v for k, v in stream_s.items() if v is not None or k in ('network') 
     }
-    # If network is tcp (default) and no other stream settings, streamSettings can be minimal or omitted by V2Ray
     if stream_s.get('network', 'tcp') == 'tcp' and not stream_s.get('security') and not any(k.endswith('Settings') for k in stream_s):
          cfg['outbounds'][0].pop('streamSettings', None)
 
@@ -833,22 +751,18 @@ def test_server(s_info, cfg, l_port, log_q):
             cfg_path = f.name
 
         cmd = [v2_exec, 'run', '--config', cfg_path]
-        # Use Popen for non-blocking start, then manage its lifecycle
         proc = subprocess.Popen(cmd, cwd=V2RAY_DIR, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-                                encoding='utf-8', errors='ignore', # Ignore decoding errors from v2ray output
+                                encoding='utf-8', errors='ignore', 
                                 close_fds=(platform.system() != 'Windows'))
+        time.sleep(2) 
 
-        # Wait a short time for V2Ray to start or fail quickly
-        time.sleep(2) # Initial wait for V2Ray to bind port or exit
-
-        if proc.poll() is not None: # Check if process terminated
+        if proc.poll() is not None:
             stderr_output = ""
             if proc.stderr:
-                stderr_output = proc.stderr.read(500) # Read some stderr
+                stderr_output = proc.stderr.read(500) 
             raise RuntimeError(
                 f"V2Ray exited prematurely (code {proc.returncode}). Config: {json.dumps(cfg['outbounds'][0])}. Stderr: {stderr_output[:200]}...")
-
-        # If V2Ray seems to be running, proceed with the test
+            
         proxies = {'http': f'socks5h://127.0.0.1:{l_port}',
                    'https': f'socks5h://127.0.0.1:{l_port}'}
         start_t_req = time.monotonic()
@@ -862,44 +776,42 @@ def test_server(s_info, cfg, l_port, log_q):
             else:
                 err_msg = f"HTTP Status {resp.status_code}"
         except requests.exceptions.Timeout:
-            r_time = time.monotonic() - start_t_req # Record time even on timeout
+            r_time = time.monotonic() - start_t_req 
             err_msg = f"Request Timeout ({r_time:.1f}s > {REQUEST_TIMEOUT}s)"
         except requests.exceptions.ProxyError as pe:
             err_msg = f"Proxy Error: {str(pe)[:100]}"
-        except requests.exceptions.RequestException as e: # Catch other request errors
+        except requests.exceptions.RequestException as e: 
             err_msg = f"Request Exception: {str(e)[:100]}"
 
         log_level = logging.INFO if success else logging.WARNING
         log_symbol = "✅" if success else "⚠️"
-        # Shorten link for logging if too long
         display_link = s_info.get('original_link', 'N/A')
         if len(display_link) > 70 : display_link = display_link[:67] + "..."
 
         logging.log(log_level, f"{log_symbol} Test {'Success' if success else 'Failed'} ({r_time:.2f}s) - "
                     f"{s_info.get('protocol')} {s_info.get('host')}:{s_info.get('port')} | {err_msg} | Link: {display_link}")
 
-    except Exception as e: # Catch errors from V2Ray setup, Popen, etc.
+    except Exception as e: 
         err_msg = f"Test Setup/Runtime Error: {str(e)[:150]}"
         logging.error(f"❌ Error testing {s_info.get('host', 'N/A')} ({s_info.get('original_link', 'N/A')[:30]}...): {err_msg}",
-                      exc_info=logger.isEnabledFor(logging.DEBUG)) # Show full exc_info if DEBUG
+                      exc_info=logger.isEnabledFor(logging.DEBUG)) 
     finally:
-        if proc and proc.poll() is None: # If process is still running
+        if proc and proc.poll() is None: 
             try:
                 proc.terminate()
-                proc.wait(timeout=3) # Wait for terminate
+                proc.wait(timeout=3)
             except subprocess.TimeoutExpired:
-                proc.kill() # Force kill if terminate fails
-                proc.wait(timeout=2) # Wait for kill
-            except Exception: # Catch any other errors during termination
+                proc.kill()
+                proc.wait(timeout=2) 
+            except Exception: 
                 pass
         if cfg_path and os.path.exists(cfg_path):
             try:
                 os.remove(cfg_path)
-            except Exception: # Ignore errors removing temp config
+            except Exception:
                 pass
         log_q.put(('success' if success else 'failure', s_info,
                   f"{r_time:.2f}s" if success else err_msg))
-
 
 def check_v2ray_installed():
     v2ray_path = os.path.join(V2RAY_DIR, V2RAY_BIN)
@@ -931,7 +843,7 @@ def check_v2ray_installed():
 _latest_release_data_cache = None
 _cache_lock = threading.Lock()
 _cache_time = 0
-CACHE_DURATION = 300 # 5 minutes
+CACHE_DURATION = 300 
 
 def get_github_latest_release_data(force_refresh=False):
     global _latest_release_data_cache, _cache_time
@@ -943,7 +855,7 @@ def get_github_latest_release_data(force_refresh=False):
             logging.debug("Fetching latest V2Ray release data from GitHub API...")
             response = requests.get(
                 'https://api.github.com/repos/v2fly/v2ray-core/releases/latest',
-                timeout=15 # Increased timeout
+                timeout=15 
             )
             response.raise_for_status()
             _latest_release_data_cache = response.json()
@@ -952,12 +864,11 @@ def get_github_latest_release_data(force_refresh=False):
             return _latest_release_data_cache
         except requests.exceptions.RequestException as e:
             logging.error(f"Failed to fetch latest release data from GitHub: {e}")
-            # If cache exists but is stale, return stale data instead of None immediately
             if _latest_release_data_cache:
                 logging.warning("Returning stale GitHub cache due to fetch error.")
                 return _latest_release_data_cache
             return None
-        except Exception as e: # Catch other potential errors like JSONDecodeError
+        except Exception as e:
             logging.error(f"Unexpected error fetching/parsing GitHub release data: {e}")
             if _latest_release_data_cache:
                 logging.warning("Returning stale GitHub cache due to unexpected error.")
@@ -1003,21 +914,16 @@ def install_v2ray():
         elif os_type == 'windows':
             if '64' in machine: asset_name = 'v2ray-windows-64.zip'
             else: asset_name = 'v2ray-windows-32.zip'
-        # Add macOS if needed:
-        # elif os_type == 'darwin':
-        #     if 'arm64' in machine: asset_name = 'v2ray-macos-arm64.zip'
-        #     else: asset_name = 'v2ray-macos-64.zip'
 
         if not asset_name:
             logging.critical(f"Unsupported OS/Architecture: {os_type}/{machine}"); sys.exit(1)
 
         logging.info(f"Determined V2Ray asset: {asset_name}")
 
-        # Try to refresh cache if asset not found with current cache
         if not asset_name_exists(asset_name):
             logging.info(f"Asset {asset_name} not found, forcing GitHub cache refresh.")
-            get_github_latest_release_data(force_refresh=True) # Force refresh
-            if not asset_name_exists(asset_name): # Check again
+            get_github_latest_release_data(force_refresh=True) 
+            if not asset_name_exists(asset_name):
                 logging.critical(f"Asset {asset_name} still not found after cache refresh. Check V2Fly releases."); sys.exit(1)
 
 
@@ -1027,11 +933,10 @@ def install_v2ray():
 
         logging.info(f"Downloading V2Ray from: {download_url}")
         os.makedirs(V2RAY_DIR, exist_ok=True)
-        clean_directory(V2RAY_DIR) # Cleans V2RAY_DIR while preserving essential files
-        os.makedirs(V2RAY_DIR, exist_ok=True) # Recreate if clean_directory removed it (it shouldn't for V2Ray)
+        clean_directory(V2RAY_DIR) 
+        os.makedirs(V2RAY_DIR, exist_ok=True) 
 
-        # zipfile import removed from here and moved to top
-        zip_path = os.path.join(V2RAY_DIR, "v2ray_download.zip") # Use generic name
+        zip_path = os.path.join(V2RAY_DIR, "v2ray_download.zip")
 
         with requests.get(download_url, stream=True, timeout=300) as r:
             r.raise_for_status()
@@ -1041,25 +946,20 @@ def install_v2ray():
 
         logging.info(f"Extracting {zip_path} to {V2RAY_DIR}...")
         with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-            # Extract all, then find and ensure permissions, or selectively extract
-            # For simplicity, extract all then manage.
+
             zip_ref.extractall(V2RAY_DIR)
         logging.info("Extraction complete.")
         os.remove(zip_path); logging.debug(f"Removed V2Ray archive: {zip_path}")
 
-        # Ensure V2RAY_BIN is executable
         v2ray_executable_path = os.path.join(V2RAY_DIR, V2RAY_BIN)
         if not os.path.exists(v2ray_executable_path):
-            # Try to find it if it's in a subdirectory (common for some zip structures)
             found_exe = False
             for root, _, files in os.walk(V2RAY_DIR):
                 if V2RAY_BIN in files:
                     potential_exe_path = os.path.join(root, V2RAY_BIN)
-                    # Move essential files to V2RAY_DIR root if found in subdir
                     if os.path.abspath(root) != os.path.abspath(V2RAY_DIR):
                         logging.info(f"Moving V2Ray components from {root} to {V2RAY_DIR}")
                         shutil.move(potential_exe_path, v2ray_executable_path)
-                        # Move .dat files too, if they exist alongside the executable
                         for dat_file in ['geoip.dat', 'geosite.dat']:
                             src_dat = os.path.join(root, dat_file)
                             dst_dat = os.path.join(V2RAY_DIR, dat_file)
@@ -1091,16 +991,14 @@ def print_real_time_channel_stats_table(stats_data):
     logging.info("\n--- Real-time Channel Test Statistics ---")
     header = f"{'Channel File/URL':<45} | {'Total':<7} | {'Active':<7} | {'Failed':<7} | {'Skip':<5} | {'Tested':<10} | {'Success%':<8}"
     logging.info(header); logging.info("-" * len(header))
-    # Sort by channel filename for consistent display
     sorted_channels_list = sorted(stats_data.items(), key=lambda item: item[0])
 
     for channel_filename, stats in sorted_channels_list:
         base_channel_name = os.path.splitext(channel_filename)[0]
-        # Improved display name logic
         if base_channel_name.replace('_', '').isalnum() and not any(c in base_channel_name for c in ['/', '\\', '.']):
             display_name = f"https://t.me/s/{base_channel_name}"
         else:
-            display_name = channel_filename # Fallback if complex name
+            display_name = channel_filename
 
         total_prepared = stats['total_prepared']
         active = stats['active']
@@ -1128,7 +1026,7 @@ def sort_server_file_by_time(file_path):
         for line_content in lines:
             stripped_content = line_content.strip()
             if not stripped_content:
-                parsed_lines_data.append((float('inf'), line_content)) # Preserve empty lines at end
+                parsed_lines_data.append((float('inf'), line_content)) 
                 continue
 
             parts = stripped_content.rsplit('|', 1)
@@ -1197,69 +1095,6 @@ def clean_single_file(filepath):
     
     except Exception as e:
         print(f' error in {filepath}: {str(e)}')
- 
-
- 
- 
-
-
-
-# def run_link_categorization(base_path):
-#     """
-#     دسته‌بندی نهایی در پوشه Categorized_Servers
-#     """
-#     source_dir = os.path.join(base_path, "Protocols")
-#     output_dir = os.path.join(source_dir, "Categorized_Servers")
-#     if not os.path.exists(source_dir): return
-#     os.makedirs(output_dir, exist_ok=True)
-
-#     # تعریف دسته‌ها بر اساس اولویت
-#     categories = {
-#         "1_VLESS_REALITY_TCP": [], # ⭐⭐⭐⭐⭐
-#         "2_Trojan_TCP": [],        # ⭐⭐⭐⭐☆
-#         "3_VLESS_TLS_WS": [],      # ⭐⭐⭐☆
-#         "4_WireGuard": [],         # ⭐⭐⭐
-#         "5_VMess": []              # ⭐⭐
-#     }
-
-#     for filename in os.listdir(source_dir):
-#         file_path = os.path.join(source_dir, filename)
-#         if not os.path.isfile(file_path) or not filename.endswith(".txt"): continue
-            
-#         with open(file_path, 'r', encoding='utf-8') as f:
-#             for line in f:
-#                 line = line.strip()
-#                 if not line: continue
-                
-#                 # تحلیل لینک فنی (قبل از علامت #)
-#                 tech_part = line.split('#')[0]
-#                 try:
-#                     parsed = urlparse(tech_part)
-#                     scheme = parsed.scheme.lower()
-#                     query = parse_qs(parsed.query)
-#                     sec = query.get('security', [''])[0].lower()
-#                     net = query.get('type', ['tcp'])[0].lower()
-
-#                     if scheme == 'vless' and sec == 'reality' and net == 'tcp':
-#                         categories["1_VLESS_REALITY_TCP"].append(line)
-#                     elif scheme == 'trojan' and net == 'tcp':
-#                         categories["2_Trojan_TCP"].append(line)
-#                     elif scheme == 'vless' and (sec == 'tls' or net == 'ws'):
-#                         categories["3_VLESS_TLS_WS"].append(line)
-#                     elif scheme in ['wireguard', 'wg']:
-#                         categories["4_WireGuard"].append(line)
-#                     elif scheme == 'vmess':
-#                         categories["5_VMess"].append(line)
-#                 except: continue
-
-#     # ذخیره فایل‌های دسته‌بندی شده
-#     for cat_name, links in categories.items():
-#         if links:
-#             unique_links = list(dict.fromkeys(links)) # حذف تکراری‌های احتمالی
-#             out_file = os.path.join(output_dir, f"{cat_name}.txt")
-#             with open(out_file, 'w', encoding='utf-8') as f:
-#                 f.write('\n'.join(unique_links) + '\n')
-#             logging.info(f"✅ Saved Category {cat_name}: {len(unique_links)} servers")
 
 def run_link_categorization(base_path):
      
@@ -1344,36 +1179,30 @@ def format_server_link(link, country, latency, channel_name, s_info=None):
     return f"{base_link}#{clean_ch} | {country} | {clean_latency} | Port:{port_val}"
 
 
-def convert_to_dpi(link):
-    """آدرس سرور را به 127.0.0.1 و پورت را به 40443 تغییر می‌دهد."""
+def convert_to_sni(link):
     try:
         if link.startswith('vmess://'):
-            # پردازش لینک‌های VMess که Base64 هستند
             b64_part = link.replace('vmess://', '')
             decoded = urlsafe_b64decode(b64_part + '=' * (-len(b64_part) % 4)).decode('utf-8')
             data = json.loads(decoded)
             data['add'] = '127.0.0.1'
             data['port'] = '40443'
-            # انکود مجدد
             new_b64 = urlsafe_b64encode(json.dumps(data).encode('utf-8')).decode('utf-8').rstrip('=')
             return f"vmess://{new_b64}"
         
         else:
-            # پردازش vless, trojan, ss
             parsed = urlparse(link)
-            # بازسازی ساختار user@host:port
             if '@' in parsed.netloc:
                 user_info = parsed.netloc.split('@')[0]
                 new_netloc = f"{user_info}@127.0.0.1:40443"
             else:
                 new_netloc = "127.0.0.1:40443"
             
-            # ایجاد آبجکت جدید با تغییرات
             new_parsed = parsed._replace(netloc=new_netloc)
             return new_parsed.geturl()
             
     except Exception as e:
-        logging.debug(f"Error converting link to DPI: {e}")
+        logging.debug(f"Error converting link to SNI: {e}")
         return link
 def process_channel(url):
     channel_name = extract_channel_name(url)
@@ -1420,15 +1249,12 @@ def process_channel(url):
             with open(proto_path, 'a', encoding='utf-8') as f:
                 f.write('\n'.join(new_global_proto) + '\n')
             
-            # ذخیره در فایل Merged اصلی
             with open(MERGED_SERVERS_FILE, 'a', encoding='utf-8') as f:
                 f.write('\n'.join(new_global_proto) + '\n')
             
-            # --- بخش جدید: تبدیل و ذخیره در فایل DPI ---
-            dpi_links = [convert_to_dpi(l) for l in new_global_proto]
-            with open(MERGED_DPI_FILE, 'a', encoding='utf-8') as f:
-                f.write('\n'.join(dpi_links) + '\n')
-            # ------------------------------------------
+            sni_links = [convert_to_sni(l) for l in new_global_proto]
+            with open(MERGED_SNI_FILE, 'a', encoding='utf-8') as f:
+                f.write('\n'.join(sni_links) + '\n')
 
             new_global_total += len(new_global_proto)
 
@@ -1460,7 +1286,7 @@ def logger_thread(log_q):
                 channel_name = source_file.replace(".txt", "")
 
                 if status == 'success':
-                    # ساخت ری‌مارک: نام کانال | کشور (موقت) | پینگ | پورت
+                 
                     formatted = f"{base_link}#{channel_name} | Lookup... | {msg} | Port:{s_info.get('port', 'N/A')}"
                     
                     wf.write(f"{formatted}\n"); wf.flush()
@@ -1496,7 +1322,6 @@ def process_tested_servers_geo():
                 line = line.strip()
                 if not line or '#' not in line: continue
                 
-                # ۱. استخراج بخش فنی و ری‌مارک
                 parts = line.split('#')
                 base_link = parts[0]
                 remark_parts = parts[1].split('|')
@@ -1505,12 +1330,10 @@ def process_tested_servers_geo():
                 latency = "N/A"
                 port_info = "Port:N/A"
                 
-                # پیدا کردن پینگ و پورت در ری‌مارک فعلی
                 for p in remark_parts:
                     if 's' in p and any(c.isdigit() for c in p) and 'Port' not in p: latency = p.strip()
                     if 'Port:' in p: port_info = p.strip()
 
-                # ۲. تشخیص کشور
                 c_code = "Unknown"
                 try:
                     u = urlparse(base_link)
@@ -1524,7 +1347,6 @@ def process_tested_servers_geo():
                         c_code = res.country.iso_code or "Unknown"
                 except: pass
 
-                # ۳. بازسازی نهایی بدون تکرار
                 clean_line = f"{base_link}#{channel_name} | {c_code} | {latency} | {port_info}"
                 final_lines.append(clean_line)
 
@@ -1538,18 +1360,12 @@ def process_tested_servers_geo():
 
 if __name__ == "__main__":
     
-    # --- Local Flag to control the Tested Servers sorting ---
-    # این گزینه را True بگذارید تا حتی اگر تست انجام نشد، فایل‌های قبلی دسته‌بندی شوند
     ENABLE_TESTED_GEO_SORT = True  
-
-    # --- Initial Setup: Non-destructive directory creation ---
     logging.info("--- Initializing Directory Structure ---")
     for directory in [PROTOCOLS_DIR, REGIONS_DIR, REPORTS_DIR, MERGED_DIR, CHANNELS_DIR,
                       V2RAY_DIR, TESTED_SERVERS_DIR, LOGS_DIR]:
         os.makedirs(directory, exist_ok=True)
     logging.info("Directory structure checked/created.")
-
-    # --- Part 1: Telegram Channel Scraping ---
     if ENABLE_EXTRACTION:
         logging.info("--- Starting Part 1: Telegram Channel Scraping ---")
         
@@ -1560,8 +1376,8 @@ if __name__ == "__main__":
             os.makedirs(dir_to_clean, exist_ok=True)
         if os.path.exists(MERGED_SERVERS_FILE):
              os.remove(MERGED_SERVERS_FILE)
-        if os.path.exists(MERGED_DPI_FILE):
-             os.remove(MERGED_DPI_FILE)
+        if os.path.exists(MERGED_SNI_FILE):
+             os.remove(MERGED_SNI_FILE)
         channels_file_path = CHANNELS_FILE
         try:
             if not os.path.exists(channels_file_path):
@@ -1594,7 +1410,6 @@ if __name__ == "__main__":
     else:
         logging.warning("Skipping Part 1: Telegram Channel Scraping (ENABLE_EXTRACTION is False).")
 
-    # --- Part 2: GeoIP Analysis (For Untested/Scraped Servers) ---
     if ENABLE_GEO_LOOKUP:
         logging.info("\n--- Starting Part 2: GeoIP Analysis (Untested Servers) ---")
         country_data_map = process_geo_data()
@@ -1606,7 +1421,6 @@ if __name__ == "__main__":
         country_data_map = {}
         logging.warning("Skipping Part 2: GeoIP Analysis (ENABLE_GEO_LOOKUP is False).")
 
-    # --- Part 3: Generating Extraction Report ---
     if ENABLE_REPORTING:
         logging.info("\n--- Starting Part 3: Generating Extraction Report ---")
         try:
@@ -1618,13 +1432,10 @@ if __name__ == "__main__":
     else:
         logging.warning("Skipping Part 3: Generating Extraction Report (ENABLE_REPORTING is False).")
 
-    # --- Part 4: Server Testing ---
     if ENABLE_TESTING:
         logging.info("\n--- Starting Part 4: Server Testing ---")
-        
         logging.info(f"--- Cleaning previous test results in: {TESTED_SERVERS_DIR} ---")
         clean_directory(TESTED_SERVERS_DIR) 
-        # Recreate subdirs
         os.makedirs(os.path.join(TESTED_SERVERS_DIR, 'Protocols'), exist_ok=True)
         os.makedirs(os.path.join(TESTED_SERVERS_DIR, 'Channels'), exist_ok=True)
         os.makedirs(os.path.join(TESTED_SERVERS_DIR, 'Regions'), exist_ok=True)
@@ -1741,21 +1552,17 @@ if __name__ == "__main__":
     else:
         logging.warning("Skipping Part 4: Server Testing (ENABLE_TESTING is False).")
 
-    # --- Part 5: GeoIP Sorting for Tested Servers (Runs independently) ---
     if ENABLE_TESTED_GEO_SORT:
         logging.info("\n--- Starting Part 5: Sorting TESTED servers by Region ---")
         process_tested_servers_geo()
     else:
         logging.info("Skipping Part 5: Tested Server Sorting (ENABLE_TESTED_GEO_SORT is False).")
-    # --- Part 6: Final Categorization ---
     if ENABLE_CATEGORIZATION:
         logging.info("\n--- Starting Part 6: Final Categorization ---")
         
-        # دسته‌بندی برای سرورهای خام (Servers\Protocols)
         logging.info("Categorizing Scraped Servers...")
         run_link_categorization("Servers")
         
-        # دسته‌بندی برای سرورهای تست شده (Tested_Servers\Protocols)
         if ENABLE_TESTING or os.path.exists(TESTED_SERVERS_DIR):
             logging.info("Categorizing Tested Servers...")
             run_link_categorization(TESTED_SERVERS_DIR)
