@@ -1,3 +1,2 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@8.6.112.0:2096?path=%2F%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=sni.jpmj.dev&fp=chrome&type=ws&allowInsecure=0&sni=sni.jpmj.dev#pro_exi
-vless://c4ec1819-4b2c-4217-846f-b2a0cbb4db07@185.143.234.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#pro_exi
 vless://f6669102-7ce1-40ad-b924-b8635e7c4fd9@snapp.ir:80?path=%2Fthreeusnew&security=&encryption=none&host=simcn.alldoingthis.ir&type=ws#pro_exi
+vless://89d90963-e99a-4ed1-b5c5-f656e6ed5044@185.143.234.235:80?path=%2F&security=none&encryption=none&host=vixon.portab.org&type=ws#pro_exi
