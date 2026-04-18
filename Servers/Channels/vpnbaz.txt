@@ -1,2 +1,2 @@
-vless://84695bb3-58a4-4af6-b964-82d2c56fa23f@ips.cf.mobileemdad.top:443?mode=auto&path=%2Fcloudapi&security=tls&alpn=h2&encryption=none&insecure=0&host=dl.mobileemdad.top&fp=chrome&type=xhttp&allowInsecure=0&sni=dl.mobileemdad.top#vpnbaz
 trojan://humanity@8.6.112.6:443?path=%2Fassignment&security=tls&insecure=1&host=www.creationlong.org&type=ws&allowInsecure=1&sni=www.creationlong.org#vpnbaz
+vless://84695bb3-58a4-4af6-b964-82d2c56fa23f@ips.cf.mobileemdad.top:443?mode=auto&path=%2Fcloudapi&security=tls&alpn=h2&encryption=none&insecure=0&host=dl.mobileemdad.top&fp=chrome&type=xhttp&allowInsecure=0&sni=dl.mobileemdad.top#vpnbaz
