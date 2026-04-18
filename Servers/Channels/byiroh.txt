@@ -1,5 +1,3 @@
-vless://fb46581d-24df-401d-85c0-11c0cc051957@arvancloud.ir:80?type=ws&encryption=none&path=%40TunizoNET&host=dom.amirenzohost.ir&security=none#byiroh
 vless://6b6e30a9-da34-40c8-8436-fe9677ec6bb9@8.6.112.0:80?mode=auto&path=%2F&security=none&encryption=none&host=soonteam.imsoon.io.&type=xhttp#byiroh
-vless://caa1d433-425e-4fb6-86cf-d37f08fb0d2a@arvancloud.ir:80?type=ws&encryption=none&path=%40TunizoNET&host=dom.amirenzohost.ir&security=none#byiroh
-vless://ad0c319b-f92b-4afe-b016-283aff10c669@arvancloud.ir:80?type=ws&encryption=none&path=%40TunizoNET&host=dom.amirenzohost.ir&security=none#byiroh
-vless://23a91fff-e289-4036-b182-8f4c45ba5cb2@37.152.189.74:4431?path=%2Fek%2Firinn%2Flive%2F1080p%2F&security=none&encryption=none&host=live-azd1102.telewebion.ir&type=ws#byiroh
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@127.0.0.1:40443?encryption=none&security=none&type=ws&host=vip.yaml7.ggff.net&path=%2F%20%40irshum2#byiroh
+vless://5f29b80a-dcc9-4599-8a88-7db7d126815b@arvancloud.ir:80?type=ws&encryption=none&path=%40TunizoNET&host=dom.amirenzohost.ir&security=none#byiroh

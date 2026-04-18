@@ -1,3 +1,3 @@
-vless://f9d9a8e6-7df0-4c7b-bb2d-97d1c7e14f1f@45.82.136.188:443?path=%2F&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=webassets.cafebazaar.ir#pro_exi
 vless://89d90963-e99a-4ed1-b5c5-f656e6ed5044@185.143.234.235:80?path=%2F&security=none&encryption=none&host=vixon.portab.org&type=ws#pro_exi
+vless://f9d9a8e6-7df0-4c7b-bb2d-97d1c7e14f1f@45.82.136.188:443?path=%2F&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=webassets.cafebazaar.ir#pro_exi
 vless://f9d9a8e6-7df0-4c7b-bb2d…#pro_exi
