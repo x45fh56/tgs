@@ -9804,3 +9804,152 @@
 2026-04-18 11:07:34,878-INFO-MainThread- Categorizing Tested Servers...
 2026-04-18 11:07:34,878-INFO-MainThread- ✅ Final Categorization Complete.
 2026-04-18 11:07:34,879-INFO-MainThread- --- Script Finished ---
+2026-04-19 11:07:09,793-INFO-MainThread- --- Initializing Directory Structure ---
+2026-04-19 11:07:09,793-INFO-MainThread- Directory structure checked/created.
+2026-04-19 11:07:09,794-INFO-MainThread- --- Starting Part 1: Telegram Channel Scraping ---
+2026-04-19 11:07:09,794-INFO-MainThread- --- Cleaning previous extraction data for a fresh run ---
+2026-04-19 11:07:09,795-INFO-MainThread- ✅ Found 30 unique, normalized Telegram channels to process.
+2026-04-19 11:07:09,795-INFO-MainThread- --- Processing Channel 1/30: https://t.me/s/BegzarVPN ---
+2026-04-19 11:07:09,795-INFO-MainThread- Processing channel: BegzarVPN (https://t.me/s/BegzarVPN)
+2026-04-19 11:07:09,795-INFO-MainThread- Fetching configs from: https://t.me/s/BegzarVPN
+2026-04-19 11:07:10,282-INFO-MainThread- Found 0 potential configs in https://t.me/s/BegzarVPN
+2026-04-19 11:07:10,283-INFO-MainThread- --- Processing Channel 2/30: https://t.me/s/BrilliantGift ---
+2026-04-19 11:07:10,284-INFO-MainThread- Processing channel: BrilliantGift (https://t.me/s/BrilliantGift)
+2026-04-19 11:07:10,284-INFO-MainThread- Fetching configs from: https://t.me/s/BrilliantGift
+2026-04-19 11:07:10,703-INFO-MainThread- Found 11 potential configs in https://t.me/s/BrilliantGift
+2026-04-19 11:07:10,705-INFO-MainThread- --- Processing Channel 3/30: https://t.me/s/ConfigX2ray ---
+2026-04-19 11:07:10,705-INFO-MainThread- Processing channel: ConfigX2ray (https://t.me/s/ConfigX2ray)
+2026-04-19 11:07:10,705-INFO-MainThread- Fetching configs from: https://t.me/s/ConfigX2ray
+2026-04-19 11:07:11,106-INFO-MainThread- Found 0 potential configs in https://t.me/s/ConfigX2ray
+2026-04-19 11:07:11,107-INFO-MainThread- --- Processing Channel 4/30: https://t.me/s/Do1rcci ---
+2026-04-19 11:07:11,107-INFO-MainThread- Processing channel: Do1rcci (https://t.me/s/Do1rcci)
+2026-04-19 11:07:11,107-INFO-MainThread- Fetching configs from: https://t.me/s/Do1rcci
+2026-04-19 11:07:11,487-INFO-MainThread- Found 3 potential configs in https://t.me/s/Do1rcci
+2026-04-19 11:07:11,489-INFO-MainThread- --- Processing Channel 5/30: https://t.me/s/FreakConfig ---
+2026-04-19 11:07:11,489-INFO-MainThread- Processing channel: FreakConfig (https://t.me/s/FreakConfig)
+2026-04-19 11:07:11,489-INFO-MainThread- Fetching configs from: https://t.me/s/FreakConfig
+2026-04-19 11:07:12,022-INFO-MainThread- Found 68 potential configs in https://t.me/s/FreakConfig
+2026-04-19 11:07:12,025-INFO-MainThread- --- Processing Channel 6/30: https://t.me/s/NetShot1 ---
+2026-04-19 11:07:12,025-INFO-MainThread- Processing channel: NetShot1 (https://t.me/s/NetShot1)
+2026-04-19 11:07:12,025-INFO-MainThread- Fetching configs from: https://t.me/s/NetShot1
+2026-04-19 11:07:12,428-INFO-MainThread- Found 13 potential configs in https://t.me/s/NetShot1
+2026-04-19 11:07:12,430-INFO-MainThread- --- Processing Channel 7/30: https://t.me/s/SUT_Community ---
+2026-04-19 11:07:12,430-INFO-MainThread- Processing channel: SUT_Community (https://t.me/s/SUT_Community)
+2026-04-19 11:07:12,430-INFO-MainThread- Fetching configs from: https://t.me/s/SUT_Community
+2026-04-19 11:07:12,837-INFO-MainThread- Found 0 potential configs in https://t.me/s/SUT_Community
+2026-04-19 11:07:12,839-INFO-MainThread- --- Processing Channel 8/30: https://t.me/s/V2RAY_SPATIAL ---
+2026-04-19 11:07:12,839-INFO-MainThread- Processing channel: V2RAY_SPATIAL (https://t.me/s/V2RAY_SPATIAL)
+2026-04-19 11:07:12,839-INFO-MainThread- Fetching configs from: https://t.me/s/V2RAY_SPATIAL
+2026-04-19 11:07:13,236-INFO-MainThread- Found 0 potential configs in https://t.me/s/V2RAY_SPATIAL
+2026-04-19 11:07:13,237-INFO-MainThread- --- Processing Channel 9/30: https://t.me/s/amir_webstudio ---
+2026-04-19 11:07:13,238-INFO-MainThread- Processing channel: amir_webstudio (https://t.me/s/amir_webstudio)
+2026-04-19 11:07:13,238-INFO-MainThread- Fetching configs from: https://t.me/s/amir_webstudio
+2026-04-19 11:07:13,644-INFO-MainThread- Found 0 potential configs in https://t.me/s/amir_webstudio
+2026-04-19 11:07:13,645-INFO-MainThread- --- Processing Channel 10/30: https://t.me/s/be_esm_azadi ---
+2026-04-19 11:07:13,645-INFO-MainThread- Processing channel: be_esm_azadi (https://t.me/s/be_esm_azadi)
+2026-04-19 11:07:13,646-INFO-MainThread- Fetching configs from: https://t.me/s/be_esm_azadi
+2026-04-19 11:07:14,148-INFO-MainThread- Found 0 potential configs in https://t.me/s/be_esm_azadi
+2026-04-19 11:07:14,150-INFO-MainThread- --- Batch of 10 processed, sleeping for 1s ---
+2026-04-19 11:07:15,150-INFO-MainThread- --- Processing Channel 11/30: https://t.me/s/blackRay ---
+2026-04-19 11:07:15,150-INFO-MainThread- Processing channel: blackRay (https://t.me/s/blackRay)
+2026-04-19 11:07:15,151-INFO-MainThread- Fetching configs from: https://t.me/s/blackRay
+2026-04-19 11:07:15,575-INFO-MainThread- Found 0 potential configs in https://t.me/s/blackRay
+2026-04-19 11:07:15,576-INFO-MainThread- --- Processing Channel 12/30: https://t.me/s/byiroh ---
+2026-04-19 11:07:15,576-INFO-MainThread- Processing channel: byiroh (https://t.me/s/byiroh)
+2026-04-19 11:07:15,577-INFO-MainThread- Fetching configs from: https://t.me/s/byiroh
+2026-04-19 11:07:15,953-INFO-MainThread- Found 1 potential configs in https://t.me/s/byiroh
+2026-04-19 11:07:15,955-INFO-MainThread- --- Processing Channel 13/30: https://t.me/s/configraygan ---
+2026-04-19 11:07:15,955-INFO-MainThread- Processing channel: configraygan (https://t.me/s/configraygan)
+2026-04-19 11:07:15,955-INFO-MainThread- Fetching configs from: https://t.me/s/configraygan
+2026-04-19 11:07:16,396-INFO-MainThread- Found 14 potential configs in https://t.me/s/configraygan
+2026-04-19 11:07:16,398-INFO-MainThread- --- Processing Channel 14/30: https://t.me/s/configraygangroup ---
+2026-04-19 11:07:16,399-INFO-MainThread- Processing channel: configraygangroup (https://t.me/s/configraygangroup)
+2026-04-19 11:07:16,399-INFO-MainThread- Fetching configs from: https://t.me/s/configraygangroup
+2026-04-19 11:07:16,734-INFO-MainThread- Found 0 potential configs in https://t.me/s/configraygangroup
+2026-04-19 11:07:16,735-INFO-MainThread- --- Processing Channel 15/30: https://t.me/s/dingyue_center ---
+2026-04-19 11:07:16,736-INFO-MainThread- Processing channel: dingyue_center (https://t.me/s/dingyue_center)
+2026-04-19 11:07:16,736-INFO-MainThread- Fetching configs from: https://t.me/s/dingyue_center
+2026-04-19 11:07:17,225-INFO-MainThread- Found 7 potential configs in https://t.me/s/dingyue_center
+2026-04-19 11:07:17,227-INFO-MainThread- --- Processing Channel 16/30: https://t.me/s/fptn_bot ---
+2026-04-19 11:07:17,227-INFO-MainThread- Processing channel: fptn_bot (https://t.me/s/fptn_bot)
+2026-04-19 11:07:17,228-INFO-MainThread- Fetching configs from: https://t.me/s/fptn_bot
+2026-04-19 11:07:17,639-INFO-MainThread- Found 0 potential configs in https://t.me/s/fptn_bot
+2026-04-19 11:07:17,640-INFO-MainThread- --- Processing Channel 17/30: https://t.me/s/freackconfig ---
+2026-04-19 11:07:17,640-INFO-MainThread- Processing channel: freackconfig (https://t.me/s/freackconfig)
+2026-04-19 11:07:17,640-INFO-MainThread- Fetching configs from: https://t.me/s/freackconfig
+2026-04-19 11:07:18,042-INFO-MainThread- Found 0 potential configs in https://t.me/s/freackconfig
+2026-04-19 11:07:18,043-INFO-MainThread- --- Processing Channel 18/30: https://t.me/s/mitivpn ---
+2026-04-19 11:07:18,043-INFO-MainThread- Processing channel: mitivpn (https://t.me/s/mitivpn)
+2026-04-19 11:07:18,043-INFO-MainThread- Fetching configs from: https://t.me/s/mitivpn
+2026-04-19 11:07:18,511-INFO-MainThread- Found 0 potential configs in https://t.me/s/mitivpn
+2026-04-19 11:07:18,512-INFO-MainThread- --- Processing Channel 19/30: https://t.me/s/new_mtproxi2 ---
+2026-04-19 11:07:18,513-INFO-MainThread- Processing channel: new_mtproxi2 (https://t.me/s/new_mtproxi2)
+2026-04-19 11:07:18,513-INFO-MainThread- Fetching configs from: https://t.me/s/new_mtproxi2
+2026-04-19 11:07:18,980-INFO-MainThread- Found 45 potential configs in https://t.me/s/new_mtproxi2
+2026-04-19 11:07:18,983-INFO-MainThread- --- Processing Channel 20/30: https://t.me/s/one_click_vpn ---
+2026-04-19 11:07:18,983-INFO-MainThread- Processing channel: one_click_vpn (https://t.me/s/one_click_vpn)
+2026-04-19 11:07:18,983-INFO-MainThread- Fetching configs from: https://t.me/s/one_click_vpn
+2026-04-19 11:07:19,341-INFO-MainThread- Found 0 potential configs in https://t.me/s/one_click_vpn
+2026-04-19 11:07:19,343-INFO-MainThread- --- Batch of 10 processed, sleeping for 1s ---
+2026-04-19 11:07:20,343-INFO-MainThread- --- Processing Channel 21/30: https://t.me/s/oneclickvpnkeys ---
+2026-04-19 11:07:20,343-INFO-MainThread- Processing channel: oneclickvpnkeys (https://t.me/s/oneclickvpnkeys)
+2026-04-19 11:07:20,344-INFO-MainThread- Fetching configs from: https://t.me/s/oneclickvpnkeys
+2026-04-19 11:07:20,935-INFO-MainThread- Found 142 potential configs in https://t.me/s/oneclickvpnkeys
+2026-04-19 11:07:20,939-INFO-MainThread- --- Processing Channel 22/30: https://t.me/s/persianvpnhub ---
+2026-04-19 11:07:20,939-INFO-MainThread- Processing channel: persianvpnhub (https://t.me/s/persianvpnhub)
+2026-04-19 11:07:20,940-INFO-MainThread- Fetching configs from: https://t.me/s/persianvpnhub
+2026-04-19 11:07:21,360-INFO-MainThread- Found 6 potential configs in https://t.me/s/persianvpnhub
+2026-04-19 11:07:21,361-INFO-MainThread- --- Processing Channel 23/30: https://t.me/s/pro_exi ---
+2026-04-19 11:07:21,362-INFO-MainThread- Processing channel: pro_exi (https://t.me/s/pro_exi)
+2026-04-19 11:07:21,362-INFO-MainThread- Fetching configs from: https://t.me/s/pro_exi
+2026-04-19 11:07:21,781-INFO-MainThread- Found 8 potential configs in https://t.me/s/pro_exi
+2026-04-19 11:07:21,783-INFO-MainThread- --- Processing Channel 24/30: https://t.me/s/saministamm ---
+2026-04-19 11:07:21,783-INFO-MainThread- Processing channel: saministamm (https://t.me/s/saministamm)
+2026-04-19 11:07:21,783-INFO-MainThread- Fetching configs from: https://t.me/s/saministamm
+2026-04-19 11:07:22,172-INFO-MainThread- Found 7 potential configs in https://t.me/s/saministamm
+2026-04-19 11:07:22,174-INFO-MainThread- --- Processing Channel 25/30: https://t.me/s/tv2rayrr ---
+2026-04-19 11:07:22,174-INFO-MainThread- Processing channel: tv2rayrr (https://t.me/s/tv2rayrr)
+2026-04-19 11:07:22,174-INFO-MainThread- Fetching configs from: https://t.me/s/tv2rayrr
+2026-04-19 11:07:22,601-INFO-MainThread- Found 85 potential configs in https://t.me/s/tv2rayrr
+2026-04-19 11:07:22,604-INFO-MainThread- --- Processing Channel 26/30: https://t.me/s/v2ray_extractor ---
+2026-04-19 11:07:22,604-INFO-MainThread- Processing channel: v2ray_extractor (https://t.me/s/v2ray_extractor)
+2026-04-19 11:07:22,605-INFO-MainThread- Fetching configs from: https://t.me/s/v2ray_extractor
+2026-04-19 11:07:23,060-INFO-MainThread- Found 149 potential configs in https://t.me/s/v2ray_extractor
+2026-04-19 11:07:23,064-INFO-MainThread- --- Processing Channel 27/30: https://t.me/s/v2to_nadi ---
+2026-04-19 11:07:23,064-INFO-MainThread- Processing channel: v2to_nadi (https://t.me/s/v2to_nadi)
+2026-04-19 11:07:23,065-INFO-MainThread- Fetching configs from: https://t.me/s/v2to_nadi
+2026-04-19 11:07:23,514-INFO-MainThread- Found 3 potential configs in https://t.me/s/v2to_nadi
+2026-04-19 11:07:23,516-INFO-MainThread- --- Processing Channel 28/30: https://t.me/s/vpnbaz ---
+2026-04-19 11:07:23,516-INFO-MainThread- Processing channel: vpnbaz (https://t.me/s/vpnbaz)
+2026-04-19 11:07:23,517-INFO-MainThread- Fetching configs from: https://t.me/s/vpnbaz
+2026-04-19 11:07:23,985-INFO-MainThread- Found 0 potential configs in https://t.me/s/vpnbaz
+2026-04-19 11:07:23,986-INFO-MainThread- --- Processing Channel 29/30: https://t.me/s/wiki_tajrobe ---
+2026-04-19 11:07:23,987-INFO-MainThread- Processing channel: wiki_tajrobe (https://t.me/s/wiki_tajrobe)
+2026-04-19 11:07:23,987-INFO-MainThread- Fetching configs from: https://t.me/s/wiki_tajrobe
+2026-04-19 11:07:24,482-INFO-MainThread- Found 0 potential configs in https://t.me/s/wiki_tajrobe
+2026-04-19 11:07:24,483-INFO-MainThread- --- Processing Channel 30/30: https://t.me/s/xsfilternet ---
+2026-04-19 11:07:24,483-INFO-MainThread- Processing channel: xsfilternet (https://t.me/s/xsfilternet)
+2026-04-19 11:07:24,484-INFO-MainThread- Fetching configs from: https://t.me/s/xsfilternet
+2026-04-19 11:07:24,803-INFO-MainThread- Found 0 potential configs in https://t.me/s/xsfilternet
+2026-04-19 11:07:24,804-INFO-MainThread- --- Telegram Scraping Finished ---
+2026-04-19 11:07:24,805-INFO-MainThread- Successfully processed 30/30 channels.
+2026-04-19 11:07:24,805-INFO-MainThread- Added 555 new unique servers globally from scraping.
+2026-04-19 11:07:24,805-WARNING-MainThread- Skipping Part 2: GeoIP Analysis (ENABLE_GEO_LOOKUP is False).
+2026-04-19 11:07:24,805-INFO-MainThread- 
+--- Starting Part 3: Generating Extraction Report ---
+2026-04-19 11:07:24,807-INFO-MainThread- ✅ Extraction report generated.
+2026-04-19 11:07:24,807-WARNING-MainThread- Skipping Part 4: Server Testing (ENABLE_TESTING is False).
+2026-04-19 11:07:24,807-INFO-MainThread- 
+--- Starting Part 5: Sorting TESTED servers by Region ---
+2026-04-19 11:07:24,807-INFO-MainThread- --- Updating Country Codes in Remarks ---
+2026-04-19 11:07:24,807-INFO-MainThread- 
+--- Starting Part 6: Final Categorization ---
+2026-04-19 11:07:24,807-INFO-MainThread- Categorizing Scraped Servers...
+2026-04-19 11:07:24,817-INFO-MainThread- ✅ Saved Category 1_VLESS_REALITY_TCP: 88 servers
+2026-04-19 11:07:24,818-INFO-MainThread- ✅ Saved Category 2_Trojan_TCP: 18 servers
+2026-04-19 11:07:24,818-INFO-MainThread- ✅ Saved Category 3_VLESS_TLS_WS: 3 servers
+2026-04-19 11:07:24,818-INFO-MainThread- ✅ Saved Category 5_VMess: 22 servers
+2026-04-19 11:07:24,818-INFO-MainThread- ✅ Saved Category VLESS_ENCRYPTION_NONE: 342 servers
+2026-04-19 11:07:24,818-INFO-MainThread- Categorizing Tested Servers...
+2026-04-19 11:07:24,819-INFO-MainThread- ✅ Final Categorization Complete.
+2026-04-19 11:07:24,819-INFO-MainThread- --- Script Finished ---

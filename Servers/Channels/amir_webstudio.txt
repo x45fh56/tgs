@@ -1,7 +1,0 @@
-vless://2b8d9d73-0031-42f9-9914-c8c579e087cb@127.0.0.1:40443?encryption=none&security=tls&sni=fire.rezazzz.ir&type=ws&host=fire.rezazzz.ir&path=/movie&packetEncoding=xudp#amir_webstudio
-vless://651a858c-2975-4b96-96b7-82745b38714c@127.0.0.1:40443?encryption=none&security=tls&sni=api.frest.ir&alpn=http/1.1&type=ws&host=api.frest.ir&path=/WITH_CHACHA20_POLY1305_SHA256&packetEncoding=xudp#amir_webstudio
-trojan://humanity@127.0.0.1:40443?security=tls&sni=www.multiplydose.com&type=ws&host=www.multiplydose.com&path=/assignment#amir_webstudio
-trojan://humanity@127.0.0.1:40443?security=tls&sni=www.calmlunch.com&type=ws&host=www.calmlunch.com&path=/assignment#amir_webstudio
-trojan://humanity@127.0.0.1:40443?security=tls&sni=www.calmloud.com&allowInsecure=true&alpn=http/1.1&fp=chrome&type=ws&host=www.calmloud.com&path=/assignment#amir_webstudio
-trojan://humanity@127.0.0.1:40443?security=tls&sni=www.creationlong.org&allowInsecure=true&type=ws&host=www.creationlong.org&path=/assignment#amir_webstudio
-vless://6a719f2b-b629-462d-975a-9c0daa3edb75@127.0.0.1:40443?encryption=none&security=tls&sni=rAviDdD.paGEs.DEv&allowInsecure=true&type=ws&host=raviddd.pages.dev&path=/&packetEncoding=xudp#amir_webstudio
