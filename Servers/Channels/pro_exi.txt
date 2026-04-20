@@ -1,8 +1,5 @@
-vless://ce2054e4-7ad8-4477-a22f-bf1aebf60aed@arvancloud.ir:80?path=%2F&security=none&encryption=none&host=baz.amirenzohost.ir&type=ws#pro_exi
-vless://9ca95603-8ad9-41e7-8a90-279854abfc24@arvancloud.ir:80?path=%2F&security=none&encryption=none&host=baz.amirenzohost.ir&type=ws#pro_exi
+vless://89ce3a33-a6b7-42bb-b896-8b730689da84@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=bn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=bn.8lack.ir#pro_exi
 vless://62cba35f-df34-4c8a-b960-4f6c6c4fd9c3@for.exitping.store:57921?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecu…#pro_exi
-vless://fe963512-3a5b-4314-91cc-13cdf7bed3c7@arvancloud.ir:80?path=%2F&security=none&encryption=none&host=baz.amirenzohost.ir&type=ws#pro_exi
-vless://67f1e5c2-d192-451b-b850-11808ddf0327@arvancloud.ir:80?path=%40TunizoNET&security=none&encryption=none&host=dom.amirenzohost.ir&type=ws#pro_exi
-vless://9ca95603-8ad9-41e7-8a90-279854abfc24@arvancloud.ir:80?path=%2F&security=none&encryption=non…#pro_exi
-vless://20f03046-a22b-498c-b751-23d566fce6fc@arvancloud.ir:80?path=%40TunizoNET&security=none&encryption=none&host=dom.amirenzohost.ir&type=ws#pro_exi
+vless://549f65c5-9ac1-47dc-85f8-ea1d06eb2be6@185.143.233.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#pro_exi
 vless://62cba35f-df34-4c8a-b960-4f6c6c4fd9c3@for.exitping.store:57921?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=for.exitping.store#pro_exi
+vless://b395a831-e79f-190e-8f12-bd59033e17e3@tr.tehranionliine.ir:80?path=%2F&security=none&encryption=none&type=ws&sni=185.226.94.188#pro_exi
