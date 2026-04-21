@@ -1,3 +1,1 @@
-vless://c664b00e-7410-4963-a911-b029928d2401@ram.greenbookvip.online:22992?encryption=none&type=grpc&security=reality&sni=www.aparat.com&fp=chrome&pbk=_K7LTG-QOMMaAYYW6XtVX3BHPNblhdhfCUfYVm3DDjM&sid=473019&spx=%2F#ConfigX2ray
-vless://b3aa412f-0453-4242-b36f-ab491545aac1@188.121.117.19:53232?security=none&encryption=none&headerType=none&type=tcp#ConfigX2ray
-vless://af812bdd-7190-4c62-84a8-10a9cc96a50d@185.143.234.120:443?encryption=none&type=ws&security=tls&path=%2F%3Fed%3D443&host=alef.ir.oadeflantrogm.realirshop.com&sni=alef.ir.oadeflantrogm.realirshop.com&fp=randomized&allowInsecure=1#ConfigX2ray
+vless://5d5cff09-b646-46f0-8e2b-3e510f660e37@vpn.ulteracrypto.site:34303?type=tcp&encryption=none&security=none#ConfigX2ray

@@ -1,1 +1,0 @@
-vless://eb247f4b-3170-4d04-b2e8-af1ae8db2bb6@185.143.234.235:80?encryption=none&type=ws&path=%2F&host=vixon.portab.org#amir_webstudio
