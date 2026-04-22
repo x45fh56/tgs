@@ -1,4 +1,4 @@
-vless://5d5cff09-b646-46f0-8e2b-3e510f660e37@vpn.ulteracrypto.site:34303?type=tcp&encryption=none&security=none#Do1rcci
-vless://1d5d64ed-d27a-45ee-a8ae-8bdadf20c4a9@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=dn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=dn.8lack.ir#Do1rcci
-vless://711f58c9-6fcd-4314-82b9-029c4842e5fe@185.143.233.5:443?encryption=none&type=ws&security=tls&path=%2Fchat%3Fed%3D128&host=cn.8lack.ir&sni=cn.8lack.ir&alpn=h2%2Chttp%2F1.1&fp=firefox&allowInsecure=1#Do1rcci
-vless://df0ec095-3385-455f-b80a-01f4ea3f68aa@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=dn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=dn.8lack.ir#Do1rcci
+vless://c9fad6b5-c353-4dae-a753-5bf1b9da65e2@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=fn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=fn.8lack.ir#Do1rcci
+vless://034cef42-f8b7-4de1-9f33-ee470ee7d411@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=dn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=dn.8lack.ir#Do1rcci
+vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?security=&encryption=none&host=vixon.portab.org&type=w#Do1rcci
+vless://b09cbbe4-46b0-4fa7-8884-6d530adb3eda@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=en.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=en.8lack.ir#Do1rcci

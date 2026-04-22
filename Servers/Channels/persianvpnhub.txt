@@ -1,7 +1,10 @@
-trojan://telegram-id-privatevpns@18.194.103.215:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
-vless://9f1d913e-837f-45b3-bda3-cd4ebfffd3be@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=cn.8lack.ir&fp=firefox&type=ws&sni=cn.8lack.ir#persianvpnhub
-vless://1ba68295-bc56-4af3-929b-255426db2312@snapp.ir:80?path=%2Fgraphql%3Fed%3D2560&security=none&alpn=http%2F1.1&encryption=none&host=s2.limitless-cloud.ir&fp=chrome&type=ws&sni=s2.limitless-cloud.ir#persianvpnhub
-vless://64a7af8d-1e48-42d9-ae5b-73b012356c0d@snapp.ir:80?type=ws&encryption=none&security=none&sni=s3.limitless-cloud.ir&alpn=http%2F1.1&fp=chrome&path=%2Fgraphql%3Fed%3D2560&host=s3.limitless-cloud.ir#persianvpnhub
-vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@vpnpro.eshghiabolfazl2009.workers.dev:80?path=%F0%9F%94%92&security=none&encryption=none&host=vpnpro.eshghiabolfazl2009.workers.dev&type=ws#persianvpnhub
-trojan://8r%3C%5B9%27l6hAO%238ZQi@172.64.149.54:2096?path=%2Ftr&security=tls&host=Koma-YT.PAGeS.Dev&type=ws&sni=Koma-YT.PAGeS.Dev#persianvpnhub
-vless://68de97d5-db78-4d9d-a90a-01a5ee3c1b0d@n1.linkinfo.cloud:8080?path=%2F&security=none&encryption=none&type=ws#persianvpnhub
+vless://cac8642d-4e02-4d7c-9125-a8814e78a67b@snapp.ir:80?encryption=none&type=ws&path=%2F&host=sphrrzv.iranofilm.ir#persianvpnhub
+vless://8b157d0b-7fff-47bc-bff8-fa84ec3fc768@varzesh3.com:80?path=%2F&security=none&encryption=none&host=jd.knet-prime.ir&type=ws#persianvpnhub
+trojan://telegram-id-privatevpns@15.224.52.213:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://77534396-dead-4a6c-8761-03939cd4fdc8@172.64.149.54:443?path=%2F&security=tls&encryption=none&insecure=1&host=my.vulmart.ir&type=ws&allowInsecure=1&sni=my.vulmart.ir#persianvpnhub
+vless://c9fad6b5-c353-4dae-a753-5bf1b9da65e2@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=fn.8lack.ir&fp=firefox&type=ws&sni=fn.8lack.ir#persianvpnhub
+vless://4a86f341-72e3-4d3a-91c0-47d4385f6a0e@link-dl.mizbanertebatfarda.ir:2095?path=%2F&security=none&encryption=none&host=link-dl.mizbanertebatfarda.ir&type=ws#persianvpnhub
+vless://00000000-0000-4000-8000-000000000000@185.94.29.156:4001?path=%2F&security=tls&encryption=none&insecure=0&host=sub.mot.ip-ddns.com&fp=chrome&type=ws&allowInsecure=0&sni=sub.mot.ip-ddns.com#persianvpnhub
+vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?security=&encryption=none&host=vixon.portab.org&type=ws#persianvpnhub
+vless://802ed98e-39a1-41f5-a721-4c1aeec986a5@185.143.233.120:443?path=%2F%3Fed%3D443&security=tls&encryption=none&host=alef.ir.oadeflantrogm.iranaircdn.com&fp=randomized&type=ws&sni=alef.ir.oadeflantrogm.iranaircdn.com#persianvpnhub
+vless://802ed98e-39a1-41f5-a721-4c1aeec986a5@185.143.233.120:443?path=%2F%3Fed%3D443&security=tls&encryption=none&insecure=0&host=alef.ir.oadeflantrogm.iranaircdn.com&fp=randomized&type=ws&allowInsecure=0&sni=alef.ir.oadeflantrogm.iranaircdn.com#persianvpnhub

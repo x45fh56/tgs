@@ -1,5 +1,0 @@
-vless://1a8db7ab-bf07-48cb-a545-b47b0000e73e@snapp.ir:80?path=%2Fgraphql%3Fed%3D2560&security=none&alpn=http%2F1.1&encryption=none&host=s3.limitless-cloud.ir&fp=chrome&type=ws&sni=s3.limitless-cloud.ir#pro_exi
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@5.57.33.95:56509?path=%2F&security=tls&encryption=none&insecure=0&host=sni.111000.indevs.in&fp=chrome&type=ws&allowInsecure=0&sni=sni.111000.indevs.in#pro_exi
-vless://37967372-8968-4079-8c2a-3e404e0eea00@verso.nahidapp.com:443?security=tls&type=ws&headerType=&path=%2Fvl%2F&host=verso.nahidapp.com&sni=verso.nahidapp.com&fp=&alpn=http%2F1.1#pro_exi
-vless://056285d5-9dde-fdc4-106c-a89110082276@tr.tehranionliine.ir:80?path=%2F&security=none&encryption=none&type=ws&sni=185.226.94.188#pro_exi
-vless://cc965d34-04f3-4b02-88aa-e007344dd598@185.143.233.235:2052?path=%2Fee4dfd33-9e80-4c1b-bb6d-57f033bfc2d7%3Fed%3D2048&security=&encryption=none&host=shop.treydhub.com&type=ws#pro_exi
