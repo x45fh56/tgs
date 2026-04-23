@@ -1,0 +1,2 @@
+vless://44275012-0810-4a43-9dbd-64b4f09004d9@185.206.95.196:443?path=%2F&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=webassets.cafebazaar.ir#pro_exi
+vless://ea46b1d2-9e40-4c50-9eed-dd10629de862@snapp.ir:8880?path=%2Fv3%2Fapi%2FdownloadFile&security=none&encryption=none&host=vip.px-ir.ir&type=ws#pro_exi

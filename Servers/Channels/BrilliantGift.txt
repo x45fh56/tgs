@@ -1,7 +1,9 @@
-vless://236db43f-4919-4fc1-9a1a-ffbe46083628@2.144.15.93:443?path=%2FeyJqdW5rIjoidWlRZGV0OUMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbXX0%3D%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=mmedan4.pesabol729-d35.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=mMEdAn4.PESaboL729-d35.WoRkeRs.dev#BrilliantGift
-vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?security=&encryption=none&host=vixon.portab.org&type=ws#BrilliantGift
-vless://752e3187-78e9-4dd2-ab19-b54ecb3b3bee@91.92.190.38:443?mode=auto&path=%2F52412%2Fxhttpcf&security=tls&encryption=none&host=nl.z3df1lter.uk&fp=random&allowinsecure=1&type=xhttp&sni=nl.z3df1lter.uk#BrilliantGift
-vless://034cef42-f8b7-4de1-9f33-ee470ee7d411@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=dn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=dn.8lack.ir#BrilliantGift
-vless://9ba66255-31c1-4fa3-94bc-45993046a985@vitallife.gg:443?path=%2Fwp-content%2Fcachecache&security=tls&alpn=http%2F1.1&encryption=none&host=vitallife.gg&fp=chrome&type=ws&sni=vitallife.gg#BrilliantGift
-vless://93455e57-7599-4d63-baca-27f5e1762832@185.143.234.122:80?type=ws&encryption=none&host=c4.novin-devs.ir&security=none#BrilliantGift
-trojan://trojan@152.53.60.198:8444?path=%2F&security=tls&insecure=0&host=jflsjlaf.pages.dev&type=ws&allowInsecure=0&sni=jflsjlaf.pages.dev#BrilliantGift
+vmess://eyJhZGQiOiIxODUuMTEuODkuMzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYWVkZGJiYmQtYWQ5NS00OWU4LWVlMzEtN2NhY2M3ZWRlMTE3IiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMjgwOSIsInBzIjoiQEJyYXlpcmFuaSDigKLimJUgfCDYudi22Ygg2LTbjNivINmC2LfYuSDZhti024zYryIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0%3D#BrilliantGift
+vless://77534396-dead-4a6c-8761-03939cd4fdc8@172.64.149.54:443?path=%2F&security=tls&encryption=none&insecure=0&host=my.vulmart.ir&type=ws&allowInsecure=0&sni=my.vulmart.ir#BrilliantGift
+vless://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&security=none&encryption=none&host=ss.oppobot.ir&type=ws#BrilliantGift
+vmess://eyJhZGQiOiJzbmFwcC5pciIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZGFyeGhpbnRlYW0uYnJhdm8tc2l4LmlyIiwiaWQiOiI3MGIyZTVhNi02OGViLTRmMmEtYTVhYS1hZDgyNTQ4MzMyOGUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwIiwicHMiOiJAaWN2MnJheSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==#BrilliantGift
+vless://d025ab69-864f-4370-ae56-e5bcafd62199@185.143.234.235:80?path=%2F&security=&encryption=none&host=vixon.portab.org&type=ws#BrilliantGift
+vless://1fc09efe-da12-42d7-b863-777a56cdde8a@m.yamahas.ir:2086?encryption=none&type=ws&path=%2F#BrilliantGift
+vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#BrilliantGift
+vmess://eyJhZGQiOiJ2MTEubWFpbGlyYW4ubmV0IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjgyNTdiMzFlLTA4MDUtNGYyOC05MjA5LTI1MWI3MmI5YTU5MyIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTE5OTkiLCJwcyI6IkBDb25maWdYMnJheSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ%3D%3D#BrilliantGift
+vless://49522264-23cf-4e32-9e34-c5c8bb4eb509@185.143.234.235:80?security=&encryption=none&host=vixon.portab.org&type=ws#BrilliantGift
