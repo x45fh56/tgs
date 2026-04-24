@@ -1,3 +1,1 @@
-vless://3c852590-49d8-d3c3-abbf-a3c64ad89cd2@tr.tehranionliine.ir:80?type=ws&host=&security=none&sni=185.226.94.188&alpn=&path=/&headerType=http#Do1rcci
-vless://d1834a79-b441-fc56-1dff-61f1ce9a12eb@meli2.masterdadeh.ir:80?type=ws&host=&security=none&sni=185.226.94.205&alpn=&path=/&headerType=http#persianvpnhub
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@72.18.132.149:2053?&security=tls&fp=chrome&sni=sni.111000.indevs.in&type=ws&headerType=none&host=sni.111000.indevs.in&path=/?ed=2560&Telegram#v2ray_extractor
+vless://04fa65ad-5178-49c0-b679-a5442e3bfe78@185.143.234.235:80?type=ws&host=d.nsa03.com#persianvpnhub

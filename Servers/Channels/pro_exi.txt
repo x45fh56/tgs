@@ -1,2 +1,3 @@
 vless://44275012-0810-4a43-9dbd-64b4f09004d9@185.206.95.196:443?path=%2F&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=webassets.cafebazaar.ir#pro_exi
-vless://ea46b1d2-9e40-4c50-9eed-dd10629de862@snapp.ir:8880?path=%2Fv3%2Fapi%2FdownloadFile&security=none&encryption=none&host=vip.px-ir.ir&type=ws#pro_exi
+vless://b8799fac-622a-4142-aab2-2aa862ad35f2@185.143.234.235:80?path=%2F&security=none&encryption=none&host=vixon.portab.org&type=ws#pro_exi
+vless://2938601a-02f9-4502-ac4e-561929788d06@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=dn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=dn.8lack.ir#pro_exi

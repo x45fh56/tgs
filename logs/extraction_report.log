@@ -1,14 +1,14 @@
 === Country Statistics ===
-Total Servers (Merged): 576
+Total Servers (Merged): 600
 Successful Geo-IP Resolutions: 0
-Failed Geo-IP Resolutions: 576
+Failed Geo-IP Resolutions: 600
 
 === Server Type Summary ===
-VLESS                : 386
-SS                   : 73
-TROJAN               : 71
-VMESS                : 41
-HYSTERIA2            : 5
+VLESS                : 410
+TROJAN               : 77
+SS                   : 66
+VMESS                : 43
+HYSTERIA2            : 4
 HYSTERIA             : 0
 TUIC                 : 0
 WIREGUARD            : 0
@@ -20,28 +20,28 @@ oneclickvpnkeys               : 100
 tv2rayrr                      : 85
 FreakConfig                   : 67
 new_mtproxi2                  : 43
-configraygan                  : 28
-byiroh                        : 12
-NetShot1                      : 10
-Do1rcci                       : 10
-BrilliantGift                 : 9
+configraygan                  : 18
+saministamm                   : 15
+byiroh                        : 13
+BrilliantGift                 : 10
+Do1rcci                       : 8
 dingyue_center                : 7
-persianvpnhub                 : 5
-ConfigX2ray                   : 4
-saministamm                   : 3
-pro_exi                       : 2
+persianvpnhub                 : 7
+vpnbaz                        : 6
+NetShot1                      : 6
+ConfigX2ray                   : 5
+pro_exi                       : 3
 amir_webstudio                : 2
-be_esm_azadi                  : 0
-wiki_tajrobe                  : 0
-configraygangroup             : 0
-V2RAY_SPATIAL                 : 0
-SUT_Community                 : 0
-one_click_vpn                 : 0
-xsfilternet                   : 0
-mitivpn                       : 0
-v2to_nadi                     : 0
-fptn_bot                      : 0
-BegzarVPN                     : 0
-vpnbaz                        : 0
 freackconfig                  : 0
+SUT_Community                 : 0
+mitivpn                       : 0
+fptn_bot                      : 0
+wiki_tajrobe                  : 0
+v2to_nadi                     : 0
+one_click_vpn                 : 0
+V2RAY_SPATIAL                 : 0
+configraygangroup             : 0
+be_esm_azadi                  : 0
 blackRay                      : 0
+BegzarVPN                     : 0
+xsfilternet                   : 0
