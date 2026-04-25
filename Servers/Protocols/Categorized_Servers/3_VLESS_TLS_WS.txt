@@ -1,1 +1,0 @@
-vless://04fa65ad-5178-49c0-b679-a5442e3bfe78@185.143.234.235:80?type=ws&host=d.nsa03.com#persianvpnhub

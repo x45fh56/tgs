@@ -1,47 +1,47 @@
 === Country Statistics ===
-Total Servers (Merged): 600
+Total Servers (Merged): 100
 Successful Geo-IP Resolutions: 0
-Failed Geo-IP Resolutions: 600
+Failed Geo-IP Resolutions: 100
 
 === Server Type Summary ===
-VLESS                : 410
-TROJAN               : 77
-SS                   : 66
-VMESS                : 43
-HYSTERIA2            : 4
+VLESS                : 60
+VMESS                : 18
+TROJAN               : 11
+SS                   : 11
 HYSTERIA             : 0
+HYSTERIA2            : 0
 TUIC                 : 0
 WIREGUARD            : 0
 WARP                 : 0
 
 === Channel Statistics (Extraction) ===
-v2ray_extractor               : 100
-oneclickvpnkeys               : 100
-tv2rayrr                      : 85
 FreakConfig                   : 67
-new_mtproxi2                  : 43
-configraygan                  : 18
-saministamm                   : 15
-byiroh                        : 13
-BrilliantGift                 : 10
-Do1rcci                       : 8
-dingyue_center                : 7
-persianvpnhub                 : 7
+BrilliantGift                 : 12
 vpnbaz                        : 6
 NetShot1                      : 6
-ConfigX2ray                   : 5
-pro_exi                       : 3
-amir_webstudio                : 2
+ConfigX2ray                   : 4
+Do1rcci                       : 4
+amir_webstudio                : 1
 freackconfig                  : 0
+saministamm                   : 0
+dingyue_center                : 0
 SUT_Community                 : 0
 mitivpn                       : 0
+persianvpnhub                 : 0
 fptn_bot                      : 0
+tv2rayrr                      : 0
 wiki_tajrobe                  : 0
+configraygan                  : 0
 v2to_nadi                     : 0
+byiroh                        : 0
 one_click_vpn                 : 0
 V2RAY_SPATIAL                 : 0
 configraygangroup             : 0
 be_esm_azadi                  : 0
+new_mtproxi2                  : 0
+pro_exi                       : 0
 blackRay                      : 0
 BegzarVPN                     : 0
 xsfilternet                   : 0
+v2ray_extractor               : 0
+oneclickvpnkeys               : 0

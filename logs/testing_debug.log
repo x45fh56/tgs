@@ -10698,3 +10698,152 @@
 2026-04-24 11:40:00,873-INFO-MainThread- Categorizing Tested Servers...
 2026-04-24 11:40:00,873-INFO-MainThread- ✅ Final Categorization Complete.
 2026-04-24 11:40:00,873-INFO-MainThread- --- Script Finished ---
+2026-04-25 11:11:14,272-INFO-MainThread- --- Initializing Directory Structure ---
+2026-04-25 11:11:14,273-INFO-MainThread- Directory structure checked/created.
+2026-04-25 11:11:14,273-INFO-MainThread- --- Starting Part 1: Telegram Channel Scraping ---
+2026-04-25 11:11:14,273-INFO-MainThread- --- Cleaning previous extraction data for a fresh run ---
+2026-04-25 11:11:14,275-INFO-MainThread- ✅ Found 30 unique, normalized Telegram channels to process.
+2026-04-25 11:11:14,275-INFO-MainThread- --- Processing Channel 1/30: https://t.me/s/BegzarVPN ---
+2026-04-25 11:11:14,275-INFO-MainThread- Processing channel: BegzarVPN (https://t.me/s/BegzarVPN)
+2026-04-25 11:11:14,275-INFO-MainThread- Fetching configs from: https://t.me/s/BegzarVPN
+2026-04-25 11:11:14,886-INFO-MainThread- Found 0 potential configs in https://t.me/s/BegzarVPN
+2026-04-25 11:11:14,886-INFO-MainThread- --- Processing Channel 2/30: https://t.me/s/BrilliantGift ---
+2026-04-25 11:11:14,887-INFO-MainThread- Processing channel: BrilliantGift (https://t.me/s/BrilliantGift)
+2026-04-25 11:11:14,887-INFO-MainThread- Fetching configs from: https://t.me/s/BrilliantGift
+2026-04-25 11:11:15,456-INFO-MainThread- Found 12 potential configs in https://t.me/s/BrilliantGift
+2026-04-25 11:11:15,458-INFO-MainThread- --- Processing Channel 3/30: https://t.me/s/ConfigX2ray ---
+2026-04-25 11:11:15,458-INFO-MainThread- Processing channel: ConfigX2ray (https://t.me/s/ConfigX2ray)
+2026-04-25 11:11:15,458-INFO-MainThread- Fetching configs from: https://t.me/s/ConfigX2ray
+2026-04-25 11:11:15,999-INFO-MainThread- Found 4 potential configs in https://t.me/s/ConfigX2ray
+2026-04-25 11:11:16,000-INFO-MainThread- --- Processing Channel 4/30: https://t.me/s/Do1rcci ---
+2026-04-25 11:11:16,001-INFO-MainThread- Processing channel: Do1rcci (https://t.me/s/Do1rcci)
+2026-04-25 11:11:16,001-INFO-MainThread- Fetching configs from: https://t.me/s/Do1rcci
+2026-04-25 11:11:16,539-INFO-MainThread- Found 4 potential configs in https://t.me/s/Do1rcci
+2026-04-25 11:11:16,541-INFO-MainThread- --- Processing Channel 5/30: https://t.me/s/FreakConfig ---
+2026-04-25 11:11:16,541-INFO-MainThread- Processing channel: FreakConfig (https://t.me/s/FreakConfig)
+2026-04-25 11:11:16,541-INFO-MainThread- Fetching configs from: https://t.me/s/FreakConfig
+2026-04-25 11:11:17,209-INFO-MainThread- Found 68 potential configs in https://t.me/s/FreakConfig
+2026-04-25 11:11:17,212-INFO-MainThread- --- Processing Channel 6/30: https://t.me/s/NetShot1 ---
+2026-04-25 11:11:17,212-INFO-MainThread- Processing channel: NetShot1 (https://t.me/s/NetShot1)
+2026-04-25 11:11:17,212-INFO-MainThread- Fetching configs from: https://t.me/s/NetShot1
+2026-04-25 11:11:17,808-INFO-MainThread- Found 6 potential configs in https://t.me/s/NetShot1
+2026-04-25 11:11:17,809-INFO-MainThread- --- Processing Channel 7/30: https://t.me/s/SUT_Community ---
+2026-04-25 11:11:17,809-INFO-MainThread- Processing channel: SUT_Community (https://t.me/s/SUT_Community)
+2026-04-25 11:11:17,810-INFO-MainThread- Fetching configs from: https://t.me/s/SUT_Community
+2026-04-25 11:11:18,344-INFO-MainThread- Found 0 potential configs in https://t.me/s/SUT_Community
+2026-04-25 11:11:18,345-INFO-MainThread- --- Processing Channel 8/30: https://t.me/s/V2RAY_SPATIAL ---
+2026-04-25 11:11:18,345-INFO-MainThread- Processing channel: V2RAY_SPATIAL (https://t.me/s/V2RAY_SPATIAL)
+2026-04-25 11:11:18,346-INFO-MainThread- Fetching configs from: https://t.me/s/V2RAY_SPATIAL
+2026-04-25 11:11:19,012-INFO-MainThread- Found 0 potential configs in https://t.me/s/V2RAY_SPATIAL
+2026-04-25 11:11:19,013-INFO-MainThread- --- Processing Channel 9/30: https://t.me/s/amir_webstudio ---
+2026-04-25 11:11:19,013-INFO-MainThread- Processing channel: amir_webstudio (https://t.me/s/amir_webstudio)
+2026-04-25 11:11:19,014-INFO-MainThread- Fetching configs from: https://t.me/s/amir_webstudio
+2026-04-25 11:11:20,510-INFO-MainThread- Found 1 potential configs in https://t.me/s/amir_webstudio
+2026-04-25 11:11:20,511-INFO-MainThread- --- Processing Channel 10/30: https://t.me/s/be_esm_azadi ---
+2026-04-25 11:11:20,512-INFO-MainThread- Processing channel: be_esm_azadi (https://t.me/s/be_esm_azadi)
+2026-04-25 11:11:20,512-INFO-MainThread- Fetching configs from: https://t.me/s/be_esm_azadi
+2026-04-25 11:11:35,787-ERROR-MainThread- Timeout fetching https://t.me/s/be_esm_azadi
+2026-04-25 11:11:35,787-INFO-MainThread- --- Batch of 10 processed, sleeping for 1s ---
+2026-04-25 11:11:36,787-INFO-MainThread- --- Processing Channel 11/30: https://t.me/s/blackRay ---
+2026-04-25 11:11:36,787-INFO-MainThread- Processing channel: blackRay (https://t.me/s/blackRay)
+2026-04-25 11:11:36,788-INFO-MainThread- Fetching configs from: https://t.me/s/blackRay
+2026-04-25 11:11:38,182-INFO-MainThread- Found 0 potential configs in https://t.me/s/blackRay
+2026-04-25 11:11:38,183-INFO-MainThread- --- Processing Channel 12/30: https://t.me/s/byiroh ---
+2026-04-25 11:11:38,183-INFO-MainThread- Processing channel: byiroh (https://t.me/s/byiroh)
+2026-04-25 11:11:38,184-INFO-MainThread- Fetching configs from: https://t.me/s/byiroh
+2026-04-25 11:11:38,578-ERROR-MainThread- Connection error for https://t.me/s/byiroh: 502 Server Error: Bad Gateway for url: https://t.me/s/byiroh
+2026-04-25 11:11:38,579-INFO-MainThread- --- Processing Channel 13/30: https://t.me/s/configraygan ---
+2026-04-25 11:11:38,579-INFO-MainThread- Processing channel: configraygan (https://t.me/s/configraygan)
+2026-04-25 11:11:38,580-INFO-MainThread- Fetching configs from: https://t.me/s/configraygan
+2026-04-25 11:11:38,977-ERROR-MainThread- Connection error for https://t.me/s/configraygan: 502 Server Error: Bad Gateway for url: https://t.me/s/configraygan
+2026-04-25 11:11:38,978-INFO-MainThread- --- Processing Channel 14/30: https://t.me/s/configraygangroup ---
+2026-04-25 11:11:38,978-INFO-MainThread- Processing channel: configraygangroup (https://t.me/s/configraygangroup)
+2026-04-25 11:11:38,979-INFO-MainThread- Fetching configs from: https://t.me/s/configraygangroup
+2026-04-25 11:11:39,358-ERROR-MainThread- Connection error for https://t.me/s/configraygangroup: 502 Server Error: Bad Gateway for url: https://t.me/s/configraygangroup
+2026-04-25 11:11:39,359-INFO-MainThread- --- Processing Channel 15/30: https://t.me/s/dingyue_center ---
+2026-04-25 11:11:39,359-INFO-MainThread- Processing channel: dingyue_center (https://t.me/s/dingyue_center)
+2026-04-25 11:11:39,359-INFO-MainThread- Fetching configs from: https://t.me/s/dingyue_center
+2026-04-25 11:11:39,758-ERROR-MainThread- Connection error for https://t.me/s/dingyue_center: 502 Server Error: Bad Gateway for url: https://t.me/s/dingyue_center
+2026-04-25 11:11:39,759-INFO-MainThread- --- Processing Channel 16/30: https://t.me/s/fptn_bot ---
+2026-04-25 11:11:39,759-INFO-MainThread- Processing channel: fptn_bot (https://t.me/s/fptn_bot)
+2026-04-25 11:11:39,760-INFO-MainThread- Fetching configs from: https://t.me/s/fptn_bot
+2026-04-25 11:11:40,147-ERROR-MainThread- Connection error for https://t.me/s/fptn_bot: 502 Server Error: Bad Gateway for url: https://t.me/s/fptn_bot
+2026-04-25 11:11:40,148-INFO-MainThread- --- Processing Channel 17/30: https://t.me/s/freackconfig ---
+2026-04-25 11:11:40,148-INFO-MainThread- Processing channel: freackconfig (https://t.me/s/freackconfig)
+2026-04-25 11:11:40,148-INFO-MainThread- Fetching configs from: https://t.me/s/freackconfig
+2026-04-25 11:11:40,529-ERROR-MainThread- Connection error for https://t.me/s/freackconfig: 502 Server Error: Bad Gateway for url: https://t.me/s/freackconfig
+2026-04-25 11:11:40,529-INFO-MainThread- --- Processing Channel 18/30: https://t.me/s/mitivpn ---
+2026-04-25 11:11:40,530-INFO-MainThread- Processing channel: mitivpn (https://t.me/s/mitivpn)
+2026-04-25 11:11:40,530-INFO-MainThread- Fetching configs from: https://t.me/s/mitivpn
+2026-04-25 11:11:40,929-ERROR-MainThread- Connection error for https://t.me/s/mitivpn: 502 Server Error: Bad Gateway for url: https://t.me/s/mitivpn
+2026-04-25 11:11:40,930-INFO-MainThread- --- Processing Channel 19/30: https://t.me/s/new_mtproxi2 ---
+2026-04-25 11:11:40,930-INFO-MainThread- Processing channel: new_mtproxi2 (https://t.me/s/new_mtproxi2)
+2026-04-25 11:11:40,930-INFO-MainThread- Fetching configs from: https://t.me/s/new_mtproxi2
+2026-04-25 11:11:41,328-ERROR-MainThread- Connection error for https://t.me/s/new_mtproxi2: 502 Server Error: Bad Gateway for url: https://t.me/s/new_mtproxi2
+2026-04-25 11:11:41,329-INFO-MainThread- --- Processing Channel 20/30: https://t.me/s/one_click_vpn ---
+2026-04-25 11:11:41,329-INFO-MainThread- Processing channel: one_click_vpn (https://t.me/s/one_click_vpn)
+2026-04-25 11:11:41,330-INFO-MainThread- Fetching configs from: https://t.me/s/one_click_vpn
+2026-04-25 11:11:41,708-ERROR-MainThread- Connection error for https://t.me/s/one_click_vpn: 502 Server Error: Bad Gateway for url: https://t.me/s/one_click_vpn
+2026-04-25 11:11:41,709-INFO-MainThread- --- Batch of 10 processed, sleeping for 1s ---
+2026-04-25 11:11:42,709-INFO-MainThread- --- Processing Channel 21/30: https://t.me/s/oneclickvpnkeys ---
+2026-04-25 11:11:42,710-INFO-MainThread- Processing channel: oneclickvpnkeys (https://t.me/s/oneclickvpnkeys)
+2026-04-25 11:11:42,710-INFO-MainThread- Fetching configs from: https://t.me/s/oneclickvpnkeys
+2026-04-25 11:11:43,090-ERROR-MainThread- Connection error for https://t.me/s/oneclickvpnkeys: 502 Server Error: Bad Gateway for url: https://t.me/s/oneclickvpnkeys
+2026-04-25 11:11:43,091-INFO-MainThread- --- Processing Channel 22/30: https://t.me/s/persianvpnhub ---
+2026-04-25 11:11:43,091-INFO-MainThread- Processing channel: persianvpnhub (https://t.me/s/persianvpnhub)
+2026-04-25 11:11:43,091-INFO-MainThread- Fetching configs from: https://t.me/s/persianvpnhub
+2026-04-25 11:11:43,490-ERROR-MainThread- Connection error for https://t.me/s/persianvpnhub: 502 Server Error: Bad Gateway for url: https://t.me/s/persianvpnhub
+2026-04-25 11:11:43,491-INFO-MainThread- --- Processing Channel 23/30: https://t.me/s/pro_exi ---
+2026-04-25 11:11:43,491-INFO-MainThread- Processing channel: pro_exi (https://t.me/s/pro_exi)
+2026-04-25 11:11:43,492-INFO-MainThread- Fetching configs from: https://t.me/s/pro_exi
+2026-04-25 11:11:43,887-ERROR-MainThread- Connection error for https://t.me/s/pro_exi: 502 Server Error: Bad Gateway for url: https://t.me/s/pro_exi
+2026-04-25 11:11:43,888-INFO-MainThread- --- Processing Channel 24/30: https://t.me/s/saministamm ---
+2026-04-25 11:11:43,888-INFO-MainThread- Processing channel: saministamm (https://t.me/s/saministamm)
+2026-04-25 11:11:43,888-INFO-MainThread- Fetching configs from: https://t.me/s/saministamm
+2026-04-25 11:11:44,283-ERROR-MainThread- Connection error for https://t.me/s/saministamm: 502 Server Error: Bad Gateway for url: https://t.me/s/saministamm
+2026-04-25 11:11:44,284-INFO-MainThread- --- Processing Channel 25/30: https://t.me/s/tv2rayrr ---
+2026-04-25 11:11:44,285-INFO-MainThread- Processing channel: tv2rayrr (https://t.me/s/tv2rayrr)
+2026-04-25 11:11:44,285-INFO-MainThread- Fetching configs from: https://t.me/s/tv2rayrr
+2026-04-25 11:11:44,679-ERROR-MainThread- Connection error for https://t.me/s/tv2rayrr: 502 Server Error: Bad Gateway for url: https://t.me/s/tv2rayrr
+2026-04-25 11:11:44,680-INFO-MainThread- --- Processing Channel 26/30: https://t.me/s/v2ray_extractor ---
+2026-04-25 11:11:44,680-INFO-MainThread- Processing channel: v2ray_extractor (https://t.me/s/v2ray_extractor)
+2026-04-25 11:11:44,680-INFO-MainThread- Fetching configs from: https://t.me/s/v2ray_extractor
+2026-04-25 11:11:45,075-ERROR-MainThread- Connection error for https://t.me/s/v2ray_extractor: 502 Server Error: Bad Gateway for url: https://t.me/s/v2ray_extractor
+2026-04-25 11:11:45,076-INFO-MainThread- --- Processing Channel 27/30: https://t.me/s/v2to_nadi ---
+2026-04-25 11:11:45,076-INFO-MainThread- Processing channel: v2to_nadi (https://t.me/s/v2to_nadi)
+2026-04-25 11:11:45,076-INFO-MainThread- Fetching configs from: https://t.me/s/v2to_nadi
+2026-04-25 11:11:45,475-ERROR-MainThread- Connection error for https://t.me/s/v2to_nadi: 502 Server Error: Bad Gateway for url: https://t.me/s/v2to_nadi
+2026-04-25 11:11:45,476-INFO-MainThread- --- Processing Channel 28/30: https://t.me/s/vpnbaz ---
+2026-04-25 11:11:45,476-INFO-MainThread- Processing channel: vpnbaz (https://t.me/s/vpnbaz)
+2026-04-25 11:11:45,477-INFO-MainThread- Fetching configs from: https://t.me/s/vpnbaz
+2026-04-25 11:11:46,719-INFO-MainThread- Found 8 potential configs in https://t.me/s/vpnbaz
+2026-04-25 11:11:46,720-INFO-MainThread- --- Processing Channel 29/30: https://t.me/s/wiki_tajrobe ---
+2026-04-25 11:11:46,721-INFO-MainThread- Processing channel: wiki_tajrobe (https://t.me/s/wiki_tajrobe)
+2026-04-25 11:11:46,721-INFO-MainThread- Fetching configs from: https://t.me/s/wiki_tajrobe
+2026-04-25 11:11:47,119-ERROR-MainThread- Connection error for https://t.me/s/wiki_tajrobe: 502 Server Error: Bad Gateway for url: https://t.me/s/wiki_tajrobe
+2026-04-25 11:11:47,120-INFO-MainThread- --- Processing Channel 30/30: https://t.me/s/xsfilternet ---
+2026-04-25 11:11:47,120-INFO-MainThread- Processing channel: xsfilternet (https://t.me/s/xsfilternet)
+2026-04-25 11:11:47,120-INFO-MainThread- Fetching configs from: https://t.me/s/xsfilternet
+2026-04-25 11:11:47,507-ERROR-MainThread- Connection error for https://t.me/s/xsfilternet: 502 Server Error: Bad Gateway for url: https://t.me/s/xsfilternet
+2026-04-25 11:11:47,508-INFO-MainThread- --- Telegram Scraping Finished ---
+2026-04-25 11:11:47,508-INFO-MainThread- Successfully processed 11/30 channels.
+2026-04-25 11:11:47,508-WARNING-MainThread- 19 channels failed during fetch/processing.
+2026-04-25 11:11:47,508-INFO-MainThread- Added 100 new unique servers globally from scraping.
+2026-04-25 11:11:47,508-WARNING-MainThread- Skipping Part 2: GeoIP Analysis (ENABLE_GEO_LOOKUP is False).
+2026-04-25 11:11:47,509-INFO-MainThread- 
+--- Starting Part 3: Generating Extraction Report ---
+2026-04-25 11:11:47,510-INFO-MainThread- ✅ Extraction report generated.
+2026-04-25 11:11:47,510-WARNING-MainThread- Skipping Part 4: Server Testing (ENABLE_TESTING is False).
+2026-04-25 11:11:47,511-INFO-MainThread- 
+--- Starting Part 5: Sorting TESTED servers by Region ---
+2026-04-25 11:11:47,511-INFO-MainThread- --- Updating Country Codes in Remarks ---
+2026-04-25 11:11:47,511-INFO-MainThread- 
+--- Starting Part 6: Final Categorization ---
+2026-04-25 11:11:47,511-INFO-MainThread- Categorizing Scraped Servers...
+2026-04-25 11:11:47,513-INFO-MainThread- ✅ Saved Category 1_VLESS_REALITY_TCP: 23 servers
+2026-04-25 11:11:47,514-INFO-MainThread- ✅ Saved Category 2_Trojan_TCP: 4 servers
+2026-04-25 11:11:47,514-INFO-MainThread- ✅ Saved Category 5_VMess: 18 servers
+2026-04-25 11:11:47,514-INFO-MainThread- ✅ Saved Category VLESS_ENCRYPTION_NONE: 37 servers
+2026-04-25 11:11:47,514-INFO-MainThread- Categorizing Tested Servers...
+2026-04-25 11:11:47,514-INFO-MainThread- ✅ Final Categorization Complete.
+2026-04-25 11:11:47,514-INFO-MainThread- --- Script Finished ---
