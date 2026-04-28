@@ -1,1 +1,1 @@
-vless://36a69e01-9e30-47fd-982c-1111ed03fa7f@rfiksma.top:41051?encryption=none&type=tcp&headerType=none#amir_webstudio
+vless://de94f61f-6337-4807-be1c-56e62b2a1249@arvancloud.ir:80?path=%2Fws&security=&encryption=none&host=app.s7r.ir&type=ws#amir_webstudio
