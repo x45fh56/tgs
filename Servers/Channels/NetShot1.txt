@@ -1,5 +1,7 @@
-vless://65462646-6d80-4463-b47b-3529e531ab65@snapp.ir:80?path=%2F&security=none&encryption=none&host=iranfuture.musicritmic.ir&type=ws#NetShot1
-vless://7c9594ae-6bbf-4430-a39b-4def77db322a@46.34.163.235:43588?encryption=none&security=none&type=tcp&headerType=none#NetShot1
-vless://60de7f07-71b7-4b37-a04c-db5d769ec130@62.60.147.73:20020?security=none&encryption=none&headerType=none&type=tcp#NetShot1
 vless://de94f61f-6337-4807-be1c-56e62b2a1249@arvancloud.ir:80?path=%2Fws&security=&encryption=none&host=app.s7r.ir&type=ws#NetShot1
+vless://00f24ac9-7b34-411d-85b4-4e9501b39277@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=an.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=an.8lack.ir#NetShot1
+vless://7c9594ae-6bbf-4430-a39b-4def77db322a@46.34.163.235:43588?encryption=none&security=none&type=tcp&headerType=none#NetShot1
+vless://31c5b6e8-922d-46f4-a664-8e2b37b3e8a0@iliya.8ib.ir:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=chrome&type=xhttp#NetShot1
+vless://60de7f07-71b7-4b37-a04c-db5d769ec130@62.60.147.73:20020?security=none&encryption=none&headerType=none&type=tcp#NetShot1
 vless://0d7d4da8-e6cd-494e-9bc5-05f0a332a214@185.143.233.235:80?security=none&encryption=none&host=d.nsa03.com&type=ws#NetShot1
+vless://65462646-6d80-4463-b47b-3529e531ab65@snapp.ir:80?path=%2F&security=none&encryption=none&host=iranfuture.musicritmic.ir&type=ws#NetShot1
