@@ -1,2 +1,2 @@
-vless://2b907f5f-87ef-46bb-838c-9f18c1fd2c2f@arvancloud.ir:80?path=%2Fed%3D44&security=&encryption=none&host=blog.s7r.ir&type=ws#ConfigX2ray
-vless://04fa65ad-5178-49c0-b679-a5442e3bfe78@185.143.234.235:80?path=%2F&security=&encryption=none&host=d.nsa03.com&type=ws#ConfigX2ray
+vless://1f5358e8-f57c-44b8-9864-9c236672fbc8@185.143.233.235:80?path=%2F&security=none&encryption=none&host=d.nsa03.com&type=ws#ConfigX2ray
+vless://6a3d6242-3de6-4c6d-82b0-0ac53eb7bf86@151.233.52.67:46636?encryption=none&type=tcp&headerType=none#ConfigX2ray

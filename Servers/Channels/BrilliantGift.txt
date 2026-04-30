@@ -1,9 +1,4 @@
-vless://674ca7fe-204c-4d75-9710-a1a13b3b8bc5@arvancloud.ir:2095?path=%2Fstream&security=none&encryption=none&host=hosting.linuweb.ir&type=ws#BrilliantGift
-vless://fac92b37-e521-490e-9ce7-0657df05d25f@arvancloud.ir:2095?encryption=none&type=ws&path=%2Fstream&host=hosting.linuweb.ir#BrilliantGift
-vless://68fd6bf3-0df0-4d38-9240-5d4ec1c49454@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=cn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=cn.8lack.ir#BrilliantGift
-vless://01b04de5-99ef-6b90-a943-8adbaaa815cd@snapp.ir:80?path=%2F&security=none&encryption=none&host=new-game-server.supgame.ir&type=ws#BrilliantGift
-vless://9abd3240-0dd5-47de-a2be-7a8d4f22a283@snapp.ir:80?path=%2F&security=none&encryption=none&host=nig.vxhosting.ir&type=ws#BrilliantGift
-vless://2b907f5f-87ef-46bb-838c-9f18c1fd2c2f@arvancloud.ir:80?path=%2Fed%3D44&security=none&encryption=none&host=blog.s7r.ir&type=ws#BrilliantGift
-vless://2b907f5f-87ef-46bb-838c-9f18c1fd2c2f@arvancloud.ir:80?path=%2Fed%3D44&security=&encryption=none&host=blog.s7r.ir&type=ws#BrilliantGift
+vless://1f5358e8-f57c-44b8-9864-9c236672fbc8@185.143.233.235:80?path=%2F&security=none&encryption=none&host=d.nsa03.com&type=ws#BrilliantGift
 vless://9c36456c-689f-486b-80a4-fe92ccc2aa75@snapp.ir:8080?path=%2F&security=none&encryption=none&host=website-speedtest.ir&type=ws#BrilliantGift
-vless://62d66671-0ab5-43b4-8a2f-3d74857fa5b2@185.143.233.68:443?encryption=none&security=tls&type=ws&headerType=none&path=%2F&host=backend.parhamm2.ir&sni=backend.parhamm2.ir&fp=random#BrilliantGift
+vless://9abd3240-0dd5-47de-a2be-7a8d4f22a283@snapp.ir:80?path=%2F&security=none&encryption=none&host=nig.vxhosting.ir&type=ws#BrilliantGift
+vless://c69cc697-7587-4e9a-a066-b21ba3766d0d@@themecherie185.143.233.235:2052?path=%2F&security=none&encryption=none&host=dev.artarona.ir&type=ws#BrilliantGift
