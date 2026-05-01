@@ -1,6 +1,8 @@
-vless://c69cc697-7587-4e9a-a066-b21ba3766d0d@185.143.233.235:2052?path=%2F&security=none&encryption=none&host=dev.artarona.ir&type=ws#persianvpnhub
-vless://1e03ea78-9599-4578-8469-7ad0f7ba3c3e@snapp.ir:8880?mode=auto&path=%2Fwskachal.babaii.ir&security=none&encryption=none&host=wskachal.babaii.ir&type=xhttp#persianvpnhub
-trojan://telegram-id-privatevpns@35.158.91.156:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
-vless://b1ac23fb-b336-4d37-a3c0-64b29c4ef3a4@s2.tehranionliine.ir:80?path=%2F&security=none&encryption=none&type=ws#persianvpnhub
-trojan://humanity@172.67.180.92:443?security=tls&sni=www.multiplydose.com&type=ws&host=www.multiplydose.com&path=%2Fassignment#persianvpnhub
-vless://d4632a9f-8066-4bc8-ab8e-a63e90a84534@snapp.ir:80?path=%2F&security=none&encryption=none&host=api.morvaridvps.ir&type=ws#persianvpnhub
+vless://6fd1d1ff-5e9a-4b15-a8e4-ca4dd811ab5c@snapp.ir:2052?path=%2F%3Fed%3D2560&security=none&encryption=none&host=arvv.teamlifez.ir&type=ws#persianvpnhub
+vless://b3f248c6-a96a-409a-9e13-9db0a3e7df52@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=dn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=dn.8lack.ir#persianvpnhub
+vless://4d98d561-7c78-4d2c-b66a-8788fb03fd7f@arvancloud.ir:80?path=%2F%3Fed%3D2052&security=none&encryption=none&host=vipx7.paradoxone.ir&type=ws#persianvpnhub
+trojan://telegram-id-privatevpns@3.120.56.250:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://68eac0a8-199b-4b4b-a80f-f75111897a37@cursor.com:443?mode=auto&path=%2FVel0vpn&security=tls&encryption=none&host=vel0vpn-two.vercel.app&type=xhttp&sni=cursor.com#persianvpnhub
+vless://436b01eb-478d-49e1-9bb9-4550786a91c1@free.z1q1.cfd:80?path=%2F24fh6sv00&security=none&encryption=none&host=free.z1q1.cfd&type=ws#persianvpnhub
+vless://eb4a7de9-2395-4bf7-8c45-a3b8a0eae72a@abr.superip.ir:2052?path=%2FAPI%2Fsuperip&security=none&encryption=none&host=library.phill-up.ir&type=ws#persianvpnhub
+trojan://telegram-id-privatevpns@13.39.116.213:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
