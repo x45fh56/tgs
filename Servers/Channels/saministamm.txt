@@ -1,4 +1,4 @@
-vless://0c9353bd-2377-4124-86df-c1a51f777954@trex.nahidapp.com:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=trex.nahidapp.com&path=/vless-ws&sni=trex.nahidapp.com&fp=chrome#saministamm
-vless://bd239915-ebc8-4021-b07e-9a57a99d044e@snapp.ir:8880?path=%2F&security=none&encryption=none&host=xnx3.nexoratechcenter.ir&type=ws#saministamm
+vless://66f73678-34a5-4863-bd7b-cba151a2562e@185.143.233.5:2086?path=%2F&security=none&encryption=none&host=cdn.sesrsa.com&type=ws#saministamm
+vless://ecb703b3-8203-41e7-9ecf-e9cf4300edbf@Ikco.ir:8080?path=%2Fcdn&security=none&encryption=none&host=cp.movizdl.ir&type=ws#saministamm
 vless://eef82e78-5a10-ac23-747b-43569143c696@i-love-iran.amlakayuni.ir:2087?path=%2F%3Fed%3D2087&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=i-love-iran.amlakayuni.ir&fp=randomized&type=ws&allowInsecure=0&sni=i-love-iran.amlakayuni.ir#saministamm
-hysteria2://Fa3JN012u2@x.kishonline.online:443?security=tls&obfs=salamander&obfs-password=kish-data&insecure=0&sni=x.kishonline.online#saministamm
+vless://44d701d0-115b-432e-8c50-46966ecd3d61@s4.tehranionliine.ir:80?path=%2F&security=none&encryption=none&type=ws#saministamm

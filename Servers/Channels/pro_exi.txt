@@ -1,3 +1,1 @@
-vless://aeeeb024-5b30-473f-a5b0-d831fe3965c3@arvancloud.ir:2095?path=%2Fstream&security=none&encryption=none&host=hosting.linuweb.ir&type=ws#pro_exi
-vless://6c63c96d-e64b-481f-9961-4fad444ab3c2@185.143.234.235:80?path=%2F&security=none&encryption=none&host=prime.apicallminecrafegame.online&type=ws#pro_exi
-vless://cb05a23a-4cda-4407-e1c4-e0b421a2af8e@mmd.az99x.info:8880?path=%2F&security=none&encryption=none&type=ws#pro_exi
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206dndGWHR2Ky96SDJrYVFNVUxEWHRIZz09OjI5NUR2ak9OR3FTUXNFdHE1ODRIMXRkZXBQYkZKbDlR@vip.cafebaha.mom:5000?security=none&type=tcp#pro_exi

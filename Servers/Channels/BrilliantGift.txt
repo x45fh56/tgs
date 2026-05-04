@@ -1,9 +1,3 @@
-vless://d9902d78-9e1f-4f24-bb6f-01f482fe1897@185.143.233.5:443?encryption=none&type=ws&host=alaedin7.8lack.ir&path=/@alaedin?ed%3D128&security=tls&fp=firefox&sni=alaedin7.8lack.ir&alpn=h2,http/1.1#BrilliantGift
 vless://704445bf-10f5-43b0-b0c8-29b56b21544e@Ikco.ir:8080?path=%2Fcdn&security=&encryption=none&host=cp.movizdl.ir&type=ws#BrilliantGift
-vless://62547f84-56b6-490c-a5b8-403698c9fdf6@gr1.mizbanertebatfarda.ir:8080?path=%2F&security=none&encryption=none&host=gr1.mizbanertebatfarda.ir&type=ws#BrilliantGift
-vless://cb05a23a-4cda-4407-e1c4-e0b421a2af8e@mmd.az99x.info:8880?path=%2F&security=none&encryption=none&type=ws#BrilliantGift
-vless://eef82e78-5a10-ac23-747b-43569143c696@i-love-iran.amlakayuni.ir:2087?path=%2F%3Fed%3D2087&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=i-love-iran.amlakayuni.ir&fp=randomized&type=ws&allowInsecure=0&sni=i-love-iran.amlakayuni.ir#BrilliantGift
-vless://469b6631-f0ab-4ad7-93af-869dd32535e3@185.143.234.235:80?encryption=none&type=ws&path=%2F&host=al1.apicallminecrafegame.online#BrilliantGift
-vless://bdf0a5de-a9cb-4262-90f2-e2f2d56af8bf@snappfood.ir:80?path=%2Fws&security=none&encryption=none&host=cdnisfucka.drnimaamini.ir&type=ws#BrilliantGift
-vless://9e8d2012-bafc-4f43-8baf-94ac4de60784@abr.superip.ir:2082?path=%2FAPI%2Fsuperip&security=none&encryption=none&host=cd.phill-up.ir&type=ws#BrilliantGift
 vless://814527bf-daa5-40d5-b2a4-ef67dcdd1a38@185.143.233.43:8880?encryption=none&type=ws&path=%2F&host=motabarim3.service-panelbaz.ir#BrilliantGift
+vless://eef82e78-5a10-ac23-747b-43569143c696@i-love-iran.amlakayuni.ir:2087?path=%2F%3Fed%3D2087&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=i-love-iran.amlakayuni.ir&fp=randomized&type=ws&allowInsecure=0&sni=i-love-iran.amlakayuni.ir#BrilliantGift
