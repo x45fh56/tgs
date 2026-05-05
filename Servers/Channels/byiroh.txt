@@ -1,10 +1,6 @@
-vless://3197da6a-163a-4585-b5ce-4d7c586274e1@mom.uwuwiak.ir:2087?alpn=h2%2Chttp%2F1.1&encryption=none&fp=firefox&host=moosashopping.hajiirex.ir&path=%2F&security=tls&sni=moosashopping.hajiirex.ir&type=ws#byiroh
-vless://eef82e78-5a10-ac23-747b-43569143c696@i-love-iran.amlakayuni.ir:2087?path=%2F%3Fed%3D2087&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=i-love-iran.amlakayuni.ir&fp=randomized&type=ws&allowInsecure=0&sni=i-love-iran.amlakayuni.ir#byiroh
-vless://9821fef8-3740-4fcb-9e6b-32a5fca14551@185.143.235.200:80?path=%2F&security=none&encryption=none&host=static.ninja-online.shop&type=ws#byiroh
-vless://8d260e7a-a51d-4da3-82ad-570f5e8c4567@185.226.116.203:443?fp=chrome&pbk=RKl2FV4fP8rSGAOwdEJW3IEJtZxWF4k7ZzLDDJdpOwo&security=reality&sid=15108cd29b00d108&sni=www.aparat.com&spx=%2FKIEJE5drhB8tj1t&type=tcp#byiroh
-vless://66f73678-34a5-4863-bd7b-cba151a2562e@185.143.233.5:2086?path=%2F&security=none&encryption=none&host=cdn.sesrsa.com&type=ws#byiroh
-hysteria2://DBUklcvOyH@45.81.19.251:443?obfs&obfs-password&type=hysteria&mport&security=tls&sni=web.bale.ai&alpn=h3&fp=chrome&allowInsecure=1#byiroh
-vless://ecb703b3-8203-41e7-9ecf-e9cf4300edbf@Ikco.ir:8080?path=%2Fcdn&security=none&encryption=none&host=cp.movizdl.ir&type=ws#byiroh
-vless://eef82e78-5a10-ac23-747b-43569143c696@185.143.234.235:2087?path=%2F%3Fed%3D2087&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=i-love-iran.amlakayuni.ir&fp=randomized&type=ws&allowInsecure=0&sni=i-love-iran.amlakayuni.ir#byiroh
-vless://68220ee3-8a24-4b8c-be5b-540043005c36@snapp.ir:80?encryption=none&host=kia.pavps.ir&path=%2Fw&security=none&type=ws#byiroh
-vless://44203abd-18b1-4316-b972-a37e8bbce930@tik.var.hi-phonee.ir:50216?type=ws&encryption=none&path=%2F&host=&security=none#byiroh
+vless://3dd18d90-6bea-4c9a-ab37-63e89b7700ca@5.159.54.140:443?security=reality&encryption=none&pbk=A6_kAMUcoxeuilXwMvzPYFAP8ekULjxDu4KmQssG7Gc&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=aparat.com&sid=510b7f2f#byiroh
+vless://6589254d-47ee-4d78-9659-41304c755cce@45.15.129.192:7443?security=reality&encryption=none&pbk=rTp9PEn36FtQFu32jWAPO3r-e1W2px3RGSuhR-L1DVM&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=timeweb.cloud#byiroh
+vless://152d5d45-8902-4f9e-8c8c-d3d0c3aad0af@s2.vahshat.xyz:80?type=ws&security=none&path=%2Fws&host=v.greentab.ir#byiroh
+vless://25c6b196-a253-404c-be96-2a6934f38d23@org.parsajahdi.ir:80?encryption=none&security=none&type=ws&host=parsa.parsimas.ir&path=%2F#byiroh
+vless://3caeb5f9-9f60-4a7b-af84-ef9bd218a7f4@185.143.233.5:80?path=%2F&security=none&encryption=none&host=cd2.sesrsa.com&type=ws#byiroh
+vless://d6861b7e-6d38-4f7e-9489-94f9ca776f13@snapp.ir:80?path=%2FFIRELINKKVPN&security=none&encryption=none&host=firelinkk.arian-go-internet.ir&type=ws#byiroh
