@@ -1,3 +1,2 @@
-vless://44203abd-18b1-4316-b972-a37e8bbce930@tik.var.hi-phonee.ir:50216?path=%2F&security=none&encryption=none&type=ws#Do1rcci
-vless://eda0e0a4-63bf-4994-922c-fd4917c5a53b@arvancloud.ir:2095?path=%2Fstream&security=none&encryption=none&host=hosting.linuweb.ir&type=ws#Do1rcci
-vless://c829b9ff-e32a-467b-b740-421980a5bde2@arvancloud.ir:2095?path=%2Fstream&security=none&encryption=none&host=hosting.linuweb.ir&type=ws#Do1rcci
+vless://f2c20270-ead1-42a0-ac84-43a455af7f5c@185.143.233.5:80?encryption=none&type=ws&host=bot.vipiranian.de&path=/xray&security=none#Do1rcci
+vless://f2c20270-ead1-42a0-ac84-43a455af7f5c@185.143.233.5:80?path=%2Fxray&security=none&encryption=none&host=bot.vipiranian.de&type=ws#Do1rcci
