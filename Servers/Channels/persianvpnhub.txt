@@ -1,6 +1,6 @@
-vless://5907f111-80d7-43ab-acca-8df44b2beb15@snapp.ir:80?path=%2F&security=none&encryption=none&host=simorgh.darerio.ir&type=ws#persianvpnhub
-vless://20f81fa4-3fa0-4b28-833c-8385e70cc3d3@arvancloud.ir:80?path=upload%3Fed%3D256&security=none&encryption=none&host=website.vgpsl.ir&type=ws#persianvpnhub
-vless://87a09075-f5f0-4ff9-80df-3e81fcdfd10d@185.143.234.235:80?path=%2F&security=none&encryption=none&host=d.nsa03.com&type=ws#persianvpnhub
-trojan://telegram-id-privatevpns@63.182.185.223:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
-vless://255b8da7-01c7-4cf9-a8e2-3313f73d0b8a@sr.novatechsapr.ir:80?path=%2F&security=none&encryption=none&host=sr.novatechsapr.ir&type=ws#persianvpnhub
-vless://d2deedf3-788b-42b5-86af-5a02f407bda2@red.nahidapp.com:443?path=%2Fred%2F&security=tls&encryption=none&host=red.nahidapp.com&type=ws&sni=red.nahidapp.com#persianvpnhub
+vless://9f4c3a72-a88e-4ee3-bee8-40901085a352@Tapsi.ir:8080?path=%2Fcdn&security=none&encryption=none&host=Zp.movizdl.ir&type=ws#persianvpnhub
+vless://4e016302-be30-4aca-9d12-3759d697124b@a2.grizzlygitt.ir:80?path=%2F&security=none&encryption=none&type=ws#persianvpnhub
+trojan://telegram-id-privatevpns@52.47.129.227:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://a3d096e0-1ed1-318c-16d2-0667e91ce11f@hmt.masterdadeh.ir:80?path=%2F&security=none&encryption=none&type=ws&sni=185.226.94.242#persianvpnhub
+trojan://telegram-id-privatevpns@63.184.179.58:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://609f7aa8-d0c9-47fc-a026-7ec166074710@s4.tehranionliine.ir:80?path=%2F&security=&encryption=none&type=ws#persianvpnhub

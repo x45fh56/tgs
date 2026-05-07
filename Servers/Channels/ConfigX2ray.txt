@@ -1,3 +1,4 @@
-vless://255b8da7-01c7-4cf9-a8e2-3313f73d0b8a@sr.novatechsapr.ir:80?path=%2F&security=&encryption=none&host=sr.novatechsapr.ir&type=ws#ConfigX2ray
-vless://96930f31-8e68-4186-a101-5593f0b2b274@anten.ir:2052?type=ws&encryption=none&path=%2F&host=new.nanoline.ir&security=none#ConfigX2ray
-vless://e05ad0d3-5bf0-463d-9ba2-817680c6f895@snapp.ir:8080?path=%2F&security=none&encryption=none&host=simorgh.darerio.ir&type=ws#ConfigX2ray
+vmess://eyJhZGQiOiIxODUuMjM2LjM4LjQ0IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImM5ZTQyNTM3LTg2NTItNGE0Yy04NWQzLTBkMzZhYmYzOGY4OCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTk5NDYiLCJwcyI6IkBDb25maWdYMnJheSDwn5GI8J+PliDaqdin2YbYp9mEINiq2YTar9ix2KfZhduMINmF2KciLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9#ConfigX2ray
+vless://9692c29e-f714-44a5-abef-430d1169635a@45.90.75.168:2015?security=none&encryption=none&headerType=none&type=tcp#ConfigX2ray
+vless://4ea381a1-6af5-4d2f-af08-4ba432fd7210@79.143.85.9:4430?mode=auto&path=%2F&security=none&encryption=none&host=varzesh3.com&type=xhttp#ConfigX2ray
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsWE16VFlyUmw4TGU1Mnk2aDZmcU5pakJNdkhXQVR0NQ%3D%3D@vip3.myspacex.shop:80#ConfigX2ray

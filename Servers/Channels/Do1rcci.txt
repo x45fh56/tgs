@@ -1,2 +1,2 @@
-vless://f2c20270-ead1-42a0-ac84-43a455af7f5c@185.143.233.5:80?encryption=none&type=ws&host=bot.vipiranian.de&path=/xray&security=none#Do1rcci
-vless://f2c20270-ead1-42a0-ac84-43a455af7f5c@185.143.233.5:80?path=%2Fxray&security=none&encryption=none&host=bot.vipiranian.de&type=ws#Do1rcci
+vless://255b8da7-01c7-4cf9-a8e2-3313f73d0b8a@sr.novatechsapr.ir:80?path=%2F&security=none&encryption=none&host=sr.novatechsapr.ir&type=ws#Do1rcci
+vmess://eyJhZGQiOiI5NC4xMDEuMTkxLjE5NCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoicG9veWFuZ3J1MTIzLTBkN2NkYmYwMmQtbmdpbnguYXBwcy5pci1jZW50cmFsMS5hcnZhbmNhYXMuaXIiLCJpZCI6IjRjM2E1MzlkLTM5MjMtNDViNC1mZmI0LTc2MTgwN2RhNWI2YiIsImluc2VjdXJlIjoiMCIsIm5ldCI6Imh0dHB1cGdyYWRlIiwicGF0aCI6Ii9yYWlrYSIsInBvcnQiOiI4MDgxIiwicHMiOiJAc2FtaW5pc3RhbW0iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=#Do1rcci
