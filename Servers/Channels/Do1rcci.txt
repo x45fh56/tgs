@@ -1,2 +1,4 @@
-vless://255b8da7-01c7-4cf9-a8e2-3313f73d0b8a@sr.novatechsapr.ir:80?path=%2F&security=none&encryption=none&host=sr.novatechsapr.ir&type=ws#Do1rcci
-vmess://eyJhZGQiOiI5NC4xMDEuMTkxLjE5NCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoicG9veWFuZ3J1MTIzLTBkN2NkYmYwMmQtbmdpbnguYXBwcy5pci1jZW50cmFsMS5hcnZhbmNhYXMuaXIiLCJpZCI6IjRjM2E1MzlkLTM5MjMtNDViNC1mZmI0LTc2MTgwN2RhNWI2YiIsImluc2VjdXJlIjoiMCIsIm5ldCI6Imh0dHB1cGdyYWRlIiwicGF0aCI6Ii9yYWlrYSIsInBvcnQiOiI4MDgxIiwicHMiOiJAc2FtaW5pc3RhbW0iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=#Do1rcci
+vless://606252cc-1c04-4e09-b5b1-f537dbcf5f58@snapp.ir:80?security=none&allowInsecure=0&encryption=none&type=ws&host=firelinkk.arian-go-internet.ir&path=/#Do1rcci
+vless://19f186ea-47b4-4392-af52-88618ccd9ae8@vip7.freepath.ir:45807?security=tls&allowInsecure=0&encryption=none&type=xhttp&path=/&sni=vip7.freepath.ir&fp=chrome&mode=auto&alpn=h2,http/1.1&extra=%7B%0A%20%20%22xPaddingBytes%22%20:%20%22100-1000%22%0A%7D#Do1rcci
+vless://3d1576b0-2a73-47f9-b0d9-17307296f204@api3.ir-itachi-ir.xyz:50113?security=none&allowInsecure=0&encryption=none&type=ws&path=/api/server#Do1rcci
+vless://b22294b8-f05a-49f1-b13e-54977706781c@snapp.ir:2095?encryption=none&type=ws&host=network.broken.rest&path=/#Do1rcci

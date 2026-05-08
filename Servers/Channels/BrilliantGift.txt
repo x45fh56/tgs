@@ -1,3 +1,1 @@
-vmess://eyJhZGQiOiJsb2dpbi5yYWhhaG9zdGFnZW50cy5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMjg0OTNhOWMtOGEwYS00Njk0LTk4NDEtZDVlODcxZjM0OTVmIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0MTU5IiwicHMiOiJASGRkaWZ5IC0gMTBHQiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=#BrilliantGift
-vless://255b8da7-01c7-4cf9-a8e2-3313f73d0b8a@sr.novatechsapr.ir:80?encryption=none&type=ws&path=%2F&host=sr.novatechsapr.ir#BrilliantGift
-vless://0d84cdbd-c0fb-47c6-ab5d-a25587df2a4a@185.143.233.5:80?path=%2Fxray&security=none&encryption=none&host=bot.vipiranian.de&type=ws#BrilliantGift
+vless://c00457e9-b3c8-4d63-9c8d-89b6a0ab31f8@varzesh3.com:80?path=%2F&security=none&encryption=none&host=sajjad.panivo.ir&type=ws#BrilliantGift

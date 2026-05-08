@@ -1,3 +1,0 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvam9BUTBhQU4tOHRPamdURThVcWRR@45.63.5.74:8388#saministamm
-vless://34572e7a-c273-4bef-8a77-c6b2bf6de533@snapp.ir:2082?path=%2F&security=none&encryption=none&host=h.hshonar.ir&type=ws#saministamm
-vless://f937e9ea-ab6f-4a1b-8212-c469a42f7839@Tapsi.ir:8080?path=%2Fcdn&security=none&encryption=none&host=Zp.movizdl.ir&type=ws#saministamm
