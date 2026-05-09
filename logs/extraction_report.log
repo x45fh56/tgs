@@ -1,14 +1,14 @@
 === Country Statistics ===
-Total Servers (Merged): 612
+Total Servers (Merged): 598
 Successful Geo-IP Resolutions: 0
-Failed Geo-IP Resolutions: 612
+Failed Geo-IP Resolutions: 598
 
 === Server Type Summary ===
-VLESS                : 479
+VLESS                : 469
 SS                   : 64
-TROJAN               : 42
+TROJAN               : 40
 VMESS                : 23
-HYSTERIA2            : 4
+HYSTERIA2            : 2
 HYSTERIA             : 0
 TUIC                 : 0
 WIREGUARD            : 0
@@ -20,14 +20,14 @@ oneclickvpnkeys               : 100
 tv2rayrr                      : 85
 FreakConfig                   : 67
 new_mtproxi2                  : 43
-byiroh                        : 12
-NetShot1                      : 12
+NetShot1                      : 13
+persianvpnhub                 : 12
+byiroh                        : 10
+saministamm                   : 9
 vpnbaz                        : 9
 dingyue_center                : 7
-persianvpnhub                 : 7
-ConfigX2ray                   : 5
-pro_exi                       : 5
-Do1rcci                       : 4
-saministamm                   : 2
-BrilliantGift                 : 1
+BrilliantGift                 : 6
+pro_exi                       : 4
+Do1rcci                       : 2
+ConfigX2ray                   : 1
 v2to_nadi                     : 0

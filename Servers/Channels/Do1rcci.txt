@@ -1,4 +1,2 @@
-vless://255b8da7-01c7-4cf9-a8e2-3313f73d0b8a@sr.novatechsapr.ir:80?path=%2F&security=&encryption=none&host=sr.novatechsapr.ir&type=ws#Do1rcci
-vless://b22294b8-f05a-49f1-b13e-54977706781c@snapp.ir:2095?encryption=none&type=ws&host=network.broken.rest&path=/#Do1rcci
-vless://73ee5d1d-e2aa-409c-bace-757a7b774d76@javid.purples.ir:80?path=%2F&security=none&encryption=none&host=javid-2.toraniq.ir&type=ws#Do1rcci
-vless://606252cc-1c04-4e09-b5b1-f537dbcf5f58@snapp.ir:80?security=none&allowInsecure=0&encryption=none&type=ws&host=firelinkk.arian-go-internet.ir&path=/#Do1rcci
+vless://799f939b-964b-4416-84ac-18a6ace7fe70@camp.nahidapp.com:443?encryption=none&host=camp.nahidapp.com&path=%2FIF_VPN_Bot&security=tls&type=ws#Do1rcci
+vless://3c9b41c8-4c9d-43f0-8924-63d9d80da614@snapp.ir:2095?path=%2FABcD&security=none&encryption=none&host=clud.extra-tm.ir&type=ws#Do1rcci
