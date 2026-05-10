@@ -1,9 +1,6 @@
-vless://6934a482-7a42-44bc-aa37-943471060923@Tapsi.ir:2052?path=%2Fcdn&security=none&encryption=none&host=dl5.movizdl.ir&type=ws#saministamm
-vless://6934a482-7a42-44bc-aa37-943471060923@jobinja.ir:8080?path=%2Fcdn&security=none&encryption=none&host=dl4.movizdl.ir&type=ws#saministamm
-vless://87e624d8-d5e7-4f0b-aaf6-07d52ad581cf@snapp.ir:2086?path=%2F&security=none&encryption=none&host=sas.turbomail.ir&type=ws#saministamm
-vless://6934a482-7a42-44bc-aa37-943471060923@snappfood.ir:8880?path=%2Fcdn&security=none&encryption=none&host=dl4.movizdl.ir&type=ws#saministamm
-vless://9ce3e802-d077-4d4c-87ca-f53b1febfd74@food.hotelghooo.ir:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=do.hotelghooo.ir&fp=chrome&type=ws&allowInsecure=1#saministamm
-vmess://eyJhZGQiOiJiNTFkNjRjYi1jNWQ2LTQ3OTEtOGVjZi0wYTZkOGQ3MWM3MTcud3RmIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjlhYjBmODY2LWQzYWEtNDk4NS04MTY4LTcxMWYxNjY0MGFmOSIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjExMDMiLCJwcyI6IkBzYW1pbmlzdGFtbSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=#saministamm
-vless://799f939b-964b-4416-84ac-18a6ace7fe70@camp.nahidapp.com:443?encryption=none&host=camp.nahidapp.com&path=%2FIF_VPN_Bot&security=tls&type=ws#saministamm
-vless://6934a482-7a42-44bc-aa37-943471060923@Sid.ir:80?path=%2Fcdn&security=none&encryption=none&host=dl4.movizdl.ir&type=ws#saministamm
-vless://3c9b41c8-4c9d-43f0-8924-63d9d80da614@snapp.ir:2095?path=%2FABcD&security=none&encryption=none&host=clud.extra-tm.ir&type=ws#saministamm
+vless://72aba962-4f2d-459e-89a2-c8b2f89433d6@ads.restaurantplusy.ir:2052?path=%2F&security=none&encryption=none&host=ads.restaurantplusy.ir&type=ws#saministamm
+vless://4316c96a-83bc-4ada-b843-13bf218c9522@digipay.ir:80?path=%2F&security=none&encryption=none&host=asd.pixserver.ir&type=ws#saministamm
+vless://dba2b2fd-c445-400c-ad6d-52ce505b7db6@snapp.ir:8080?path=%2F&security=none&encryption=none&host=api.shomalnojm.ir&type=ws#saministamm
+vless://7cd11ffb-1ebe-4ec8-ae1d-08b36f17e87d@185.143.233.200:2086?path=%2F&security=none&encryption=none&host=nima.hayalco.ir&type=ws#saministamm
+vless://a29e0815-8d5e-4743-afeb-1d3c5d128c34@snapp.ir:8080?path=%2F&security=&encryption=none&host=api.shomalnojm.ir&type=ws#saministamm
+vless://a34bbc37-566c-4d31-8401-26fe0f9d6f7d@out2.tehranionliine.ir:80?path=%2F&security=none&encryption=none&type=ws#saministamm

@@ -1,6 +1,0 @@
-vless://9c498f72-c31a-4b95-a00e-af9da1b97864@blubank.sb24.ir:80?encryption=none&type=ws&path=%2F&host=static.aliyanserver.ir#BrilliantGift
-vless://8c4604ef-749c-4b56-adf1-7da405002a21@216.24.57.1:443?path=%2F&security=tls&encryption=none&insecure=0&host=qyi.fqjd663.ggff.net&type=ws&allowInsecure=0&sni=qyi.fqjd663.ggff.net#BrilliantGift
-vless://595a4451-2a56-406e-828f-de34d33b8aff@app.palmal.site:36517?security=none&encryption=none&headerType=none&type=tcp#BrilliantGift
-vless://0ed63d7f-ba30-4ec6-b539-d3fd9260f597@snapp.ir:8880?path=%2Fapi&security=none&encryption=none&host=ryzo.px-ir.ir&type=ws#BrilliantGift
-vless://255b8da7-01c7-4cf9-a8e2-3313f73d0b8a@sr.novatechsapr.ir:80?path=%2F&security=none&encryption=none&host=sr.novatechsapr.ir&type=ws#BrilliantGift
-vmess://eyJhZGQiOiJiNTFkNjRjYi1jNWQ2LTQ3OTEtOGVjZi0wYTZkOGQ3MWM3MTcud3RmIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjlhYjBmODY2LWQzYWEtNDk4NS04MTY4LTcxMWYxNjY0MGFmOSIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjExMDMiLCJwcyI6IkBzYW1pbmlzdGFtbSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=#BrilliantGift
