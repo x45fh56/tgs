@@ -1,2 +1,2 @@
-vless://afa40aec-0c64-43be-9dfb-05efad107874@5.56.132.22:8086?security=none&encryption=none&headerType=none&type=tcp#ConfigX2ray
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2eE53NWRpWllOM3NycTh1Q2ZtUVI5OHZZYzM5ZWN0NA@xiaomandapple4certificate.ikco.ir.soserverbot.shop:15152?type=tcp&headerType=none#ConfigX2ray
 vless://f3ef1255-1807-45d5-8872-324c6943175b@iman.neticoapp.ir:80/?type=ws&encryption=none&flow=&host=srv3.diamond-tech.online&path=%2F#ConfigX2ray
