@@ -1,7 +1,3 @@
-vless://1a8cfae7-c8ef-4c33-86f0-74c6f14f76e6@snapp.ir:80?type=ws&encryption=none&path=%2F&host=download.speedtell.ir&security=none#Do1rcci
-vless://3c505667-449e-4ec7-b1f4-617aa68c5454@digipay.ir:80?path=%2F&security=none&encryption=none&host=asd.pixserver.ir&type=ws#Do1rcci
-vless://276cc45c-545b-439d-aa76-e17b591d3ddb@api.net-box.ir:443?type=xhttp&security=tls&path=%2Fvideo%2Froom3&host=p-t9.darkube.ir&encryption=none&sni=api.net-box.ir#Do1rcci
-vless://e06a0295-10c3-4ef2-9e08-b0314260a636@api.net-box.ir:443?type=xhttp&security=tls&path=%2Fvideo%2Froom3&host=p-t9.darkube.ir&encryption=none&sni=api.net-box.ir#Do1rcci
-vless://40eebc4b-56a6-4468-9d29-86be78b9c1d5@api.net-box.ir:443?type=xhttp&security=tls&path=%2Fvideo%2Froom3&host=p-t9.darkube.ir&encryption=none&sni=api.net-box.ir#Do1rcci
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2eE53NWRpWllOM3NycTh1Q2ZtUVI5OHZZYzM5ZWN0NA@#Do1rcci
-vless://a864c0ea-a2ab-4328-b1f8-e094f6b1be29@37.202.246.113:443?security=&encryption=none&headerType=none&type=tcp#Do1rcci
+vless://9e4ae4b7-374d-4f6d-af68-d39c97432222@hi-trex.nahidapp.com:443?path=%2Fvless-ws&security=tls&encryption=none&insecure=0&host=trex.nahidapp.com&type=ws&allowInsecure=0&sni=trex.nahidapp.com#Do1rcci
+vless://d6ef4a50-ea08-4f35-ba27-b58a86487dd0@50.7.4.106:443?type=ws&security=tls&path=%2Fws&host=wro.u3er1.ir&sni=wro.u3er1.ir&fp=chrome&alpn=h2%2Chttp%2F1.1&encryption=none#Do1rcci
+vless://966712c2-4ad7-473d-b55c-23d4168069ad@blubank.sb24.ir:2086?path=%2F&security=none&encryption=none&host=srv2.khavarpress.ir&type=ws#Do1rcci
