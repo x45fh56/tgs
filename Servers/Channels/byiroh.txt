@@ -1,9 +1,6 @@
-vless://d1f35bb4-4537-4e53-9d36-db32c4483870@varzesh3.com:80?type=ws&encryption=none&path=%2Fws&host=nobody.fasterspeed.ir&security=none#byiroh
-vless://3728fc28-910c-4a9c-888c-c08c3e2f4a06@snapp.ir:2052?encryption=none&type=ws&path=%2Freq2&host=snapp1.gptpersian.ir#byiroh
-vless://a3087447-269f-43c5-a5f9-d5686f452612@185.143.233.5:2082?security=none&allowInsecure=0&encryption=none&type=ws&host=cdn.mizbanertebatfarda.ir&path=/#byiroh
-vless://5a08401e-72ff-49a3-9630-079f20193142@varzesh3.com:80?type=ws&encryption=none&path=%2Fws&host=nobody.fasterspeed.ir&security=none#byiroh
-vless://ade8bead-9754-48e6-817d-08a4459fe5d8@snapp.ir:80?path=%2F&security=&encryption=none&host=M1.snllshop.ir&type=ws#byiroh
-vless://b164a851-d37d-4511-a015-d781390eb606@varzesh3.com:80?type=ws&encryption=none&path=%2Fws&host=nobody.fasterspeed.ir&security=none#byiroh
-vless://0039672b-9015-4d04-9c1d-741cdd1c559a@snapp.ir:80?path=%2Fgraphql%3Fed%3D2560&security=none&encryption=none&host=ss8.limitless-cloud.ir&type=ws#byiroh
-vless://937dde02-4ce6-4f0d-a3be-27aef7d3ef46@s4.tehranionliine.ir:80?path=%2F&security=&encryption=none&type=ws#byiroh
-trojan://humanity@8.6.112.0:443?path=%2Fassignment&security=tls&host=www.multiplydose.com&type=ws&sni=www.multiplydose.com#byiroh
+vless://9c5d7390-7978-4df3-b266-a67dd2a92149@red.docos.tech:443?security=tls&type=ws&headerType=&path=%2Fred%2F&host=red.docos.tech&sni=red.docos.tech&fp=chrome#byiroh
+vless://c59834b1-ec3d-4682-8580-861a400235bd@185.143.234.235:80?security=none&encryption=none&host=d.nsa03.com&type=ws#byiroh
+vless://45cd71df-7b23-4568-8677-fdc4a0daa76e@protectnet.cloudinohost.com:443?security=tls&sni=protectnet.cloudinohost.com&alpn=h2,http/1.1&fp=chrome&type=ws&path=/&host=protectnet.cloudinohost.com&encryption=none#byiroh
+vless://da9ac9f3-ab17-407a-bfe6-5f63ef697287@snapp.ir:80?path=%2F&security=&encryption=none&host=M1.snllshop.ir&type=ws#byiroh
+vless://6a2405d9-61e2-4c74-a638-b2e2899e1995@snapp.ir:80?path=%2F&security=none&encryption=none&host=pa1.ghostantaniehh.ir&type=ws#byiroh
+vless://454a6e70-95e6-4cea-8cac-7b335669d154@185.143.235.21:8080?security=none&type=ws&headerType=&path=%2Fpath&host=tr-st4.ge9.ir#byiroh

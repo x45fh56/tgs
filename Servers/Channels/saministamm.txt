@@ -1,7 +1,2 @@
-vless://d6ef4a50-ea08-4f35-ba27-b58a86487dd0@50.7.4.106:443?type=ws&security=tls&path=%2Fws&host=wro.u3er1.ir&sni=wro.u3er1.ir&fp=chrome&alpn=h2%2Chttp%2F1.1&encryption=none#saministamm
-vless://12a781ed-3c49-469b-96a6-984c0115912e@miller.iransatellite.net:80?path=%2F&security=none&encryption=none&type=ws#saministamm
-vless://59bc19e5-9384-45ea-99c6-0fc412975eee@adler-1g.adelshoop.net:80/?type=ws&encryption=none&flow=&path=%2F#saministamm
-vless://937dde02-4ce6-4f0d-a3be-27aef7d3ef46@s4.tehranionliine.ir:80?type=ws&path=%2F&security=none#saministamm
-vless://f118f2ae-d298-46f6-b4cf-7f5032922c9d@out.pixserver.ir:17107?type=tcp&encryption=none&security=none#saministamm
-vless://937dde02-4ce6-4f0d-a3be-27aef7d3ef46@s4.tehranionliine.ir:80?path=%2F&security=&encryption=none&type=ws#saministamm
-vless://4b506123-3d41-4d5b-b5ae-00debe145d68@185.143.233.5:2083?encryption=none&fp=firefox&host=p1.sesrsa.com&path=%2F&security=tls&sni=sub.sesrsa.com&type=ws#saministamm
+vless://94ee6556-b081-4f64-a710-0cd07127fae2@sub.tahashopglry.ir:443?path=%2Fapi456&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=dl.tahashopglry.ir&fp=chrome&type=ws&sni=dl.tahashopglry.ir#saministamm
+vless://6a2405d9-61e2-4c74-a638-b2e2899e1995@snapp.ir:80?path=%2F&security=none&encryption=none&host=pa1.ghostantaniehh.ir&type=ws#saministamm
