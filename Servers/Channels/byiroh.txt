@@ -1,6 +1,2 @@
-vless://9c5d7390-7978-4df3-b266-a67dd2a92149@red.docos.tech:443?security=tls&type=ws&headerType=&path=%2Fred%2F&host=red.docos.tech&sni=red.docos.tech&fp=chrome#byiroh
-vless://c59834b1-ec3d-4682-8580-861a400235bd@185.143.234.235:80?security=none&encryption=none&host=d.nsa03.com&type=ws#byiroh
-vless://45cd71df-7b23-4568-8677-fdc4a0daa76e@protectnet.cloudinohost.com:443?security=tls&sni=protectnet.cloudinohost.com&alpn=h2,http/1.1&fp=chrome&type=ws&path=/&host=protectnet.cloudinohost.com&encryption=none#byiroh
-vless://da9ac9f3-ab17-407a-bfe6-5f63ef697287@snapp.ir:80?path=%2F&security=&encryption=none&host=M1.snllshop.ir&type=ws#byiroh
-vless://6a2405d9-61e2-4c74-a638-b2e2899e1995@snapp.ir:80?path=%2F&security=none&encryption=none&host=pa1.ghostantaniehh.ir&type=ws#byiroh
-vless://454a6e70-95e6-4cea-8cac-7b335669d154@185.143.235.21:8080?security=none&type=ws&headerType=&path=%2Fpath&host=tr-st4.ge9.ir#byiroh
+vless://9ea9e54b-d4da-4773-855a-e5371e4da946@snapp.ir:80?path=%2F&security=&encryption=none&host=hubfile.zpax.ir&type=ws#byiroh
+vless://5a08401e-72ff-49a3-9630-079f20193142@varzesh3.com:80?type=ws&encryption=none&path=%2Fws&host=nobody.fasterspeed.ir&security=none#byiroh
