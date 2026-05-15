@@ -1,2 +1,6 @@
-trojan://telegram-id-privatevpns@15.188.28.43:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
-trojan://humanity@8.6.112.0:443?path=%2Fassignment&security=tls&host=www.multiplydose.com&type=ws&sni=www.multiplydose.com#persianvpnhub
+trojan://telegram-id-privatevpns@51.44.198.68:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+trojan://telegram-id-privatevpns@52.28.27.2:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://2ce59d4f-9656-41ed-9265-99daae35a4ae@Snapp.ir:2087?type=ws&encryption=none&path=%2FvmMarketlabs&host=info.drevnelo.ir&security=tls&fp=chrome&alpn=&sni=info.drevnelo.ir#persianvpnhub
+vless://c6ceccbe-351b-444f-b7eb-2462fcdab45f@snapp.ir:80?path=%2F%3Fed%3D2080&security=none&encryption=none&host=ir3.cdnk1.cfd&type=ws#persianvpnhub
+vless://00da4e11-82e5-46ea-91e1-d43504b6303b@snapp.ir:8080?path=%2F&security=none&encryption=none&host=ups1.shahan2019.ir&type=ws#persianvpnhub
+vless://9055325d-078d-4540-8d53-ae8a41a60f6c@185.143.233.200:2086?type=ws&encryption=none&path=%2F&host=nima.hayalco.ir&security=none#persianvpnhub

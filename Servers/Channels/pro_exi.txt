@@ -1,5 +1,0 @@
-vless://cfc97c9c-6edc-4ce7-8f19-f86bc298a503@snapp.ir:80?path=%2F&security=&encryption=none&host=gr.dbrun-gorsap.ir&type=ws#pro_exi
-vless://6a2405d9-61e2-4c74-a638-b2e2899e1995@snapp.ir:80?path=%2F&security=none&encryption=none&host=pa1.ghostantaniehh.ir&type=ws#pro_exi
-vless://2cff7408-c06a-4e55-83de-57794fd87b69@alm-1.sabztarash.ir:8080/?type=ws&encryption=none&path=%2F&host=&security=none#pro_exi
-vless://14c584ac-f244-439a-b1dc-e5c0ff21bd9a@snapp.ir:2087?mode=auto&path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=v1.golsima.store&fp=chrome&type=xhttp&allowInsecure=0&sni=v1.golsima.store#pro_exi
-vless://fb1b6c8a-92ce-4824-9eb1-f718da16de35@185.143.235.20:8880?path=%2F&security=none&encryption=none&host=tr-st.ge9.ir&type=ws#pro_exi

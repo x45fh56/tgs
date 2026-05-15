@@ -1,6 +1,2 @@
-vless://9ea9e54b-d4da-4773-855a-e5371e4da946@snapp.ir:80?path=%2F&security=&encryption=none&host=hubfile.zpax.ir&type=ws#Do1rcci
-vless://cba48ff5-3e65-4028-a505-55067b663f2d@185.143.233.5:2083?path=%2F&security=tls&encryption=none&insecure=0&host=p1.sesrsa.com&fp=firefox&type=ws&allowInsecure=0&sni=sub.sesrsa.com#Do1rcci
-vless://ad48afc6-4003-4735-b6ad-d13e97cbb298@ngame.thegameuhb.ir:8800?security=none&encryption=none&headerType=none&type=tcp#Do1rcci
-vless://1c0d708e-6b8d-4ac2-8766-a4d40ad20244@arvancloud.ir:80?path=%2F&security=none&encryption=none&host=host.starservice.lol&type=ws#Do1rcci
-vless://aa1cf042-5b4e-4f47-8df3-be64f6c41f53@185.143.233.5:2083?path=%2F&security=tls&encryption=none&insecure=0&host=p1.sesrsa.com&fp=firefox&type=ws&allowInsecure=0&sni=sub.sesrsa.com#Do1rcci
-vless://3b71be10-6c10-45e9-95e6-e469f7a0ae63@aparatrat1.info:2083?encryption=none&type=tcp#Do1rcci
+vmess://eyJhZGQiOiJ3d3cuYXJ2YW5jbG91ZC5pciIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiamFudXJheS5oZWx4eC5pciIsImlkIjoiYTAxZjRjYzktYjI5MC00ZGNkLWI2ODctYWVmOGNiMTBjZTY1IiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL25ld3NlcnZlciIsInBvcnQiOiIyMDgyIiwicHMiOiJAR09MRF9WUE5fSVIiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=#Do1rcci
+vless://bbc68258-173b-4f0f-b126-f7aac6bb2db3@adler-1g.adelshoop.net:80?security=none&allowInsecure=0&encryption=none&type=ws&path=/#Do1rcci

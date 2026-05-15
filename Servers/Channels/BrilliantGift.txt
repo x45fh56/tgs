@@ -1,2 +1,2 @@
-vless://9ea9e54b-d4da-4773-855a-e5371e4da946@snapp.ir:80?path=%2F&security=none&encryption=none&host=hubfile.zpax.ir&type=ws#BrilliantGift
 vless://85a53fd1-80ad-4de9-a1fa-a13580c4f286@snapp.ir:8080?path=%2F&security=none&encryption=none&host=api.shomalnojm.ir&type=ws#BrilliantGift
+vless://9ea9e54b-d4da-4773-855a-e5371e4da946@snapp.ir:80?path=%2F&security=none&encryption=none&host=hubfile.zpax.ir&type=ws#BrilliantGift
