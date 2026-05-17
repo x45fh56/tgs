@@ -1,0 +1,7 @@
+vless://0a47ab98-b50b-4b92-baec-6e16af930dde@snapp.ir:8080?type=ws&encryption=none&path=%2FEmbestpro1&host=Cyrus.zomavo.ir&security=none#ConfigX2ray
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.129.166.138:2096?path=%2F&security=tls&encryption=none&insecure=0&host=sni.111000.indevs.in&type=ws&allowInsecure=0&sni=sni.111000.indevs.in#ConfigX2ray
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.32.47:2096?path=%2F%3Fed&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#ConfigX2ray
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@213.182.199.138:2096?security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#ConfigX2ray
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.147.223:443?security=tls&alpn=http%2F1.1&encryption=none&insecure=1&host=sni.111000.dynv6.net&fp=chrome&type=ws&allowInsecure=1&sni=sni.111000.dynv6.net#ConfigX2ray
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@31.185.108.138:2096?path=%2F&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#ConfigX2ray
+vmess://eyJhZGQiOiJhay5yZWF0YS5pciIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIzZDMyMmViYS1mN2I4LTRhODQtYmRlYi1mY2NlOTI4NjM1MWMiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjE2NDgyIiwicHMiOiJAQ29uZmlnWDJyYXnwn5Sx8J+UpfCfkosiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9#ConfigX2ray

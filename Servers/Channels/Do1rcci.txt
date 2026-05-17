@@ -1,2 +1,1 @@
-vless://9255b4d1-17e0-42d8-ae5d-36feda9beba0@mahan.babayagas.site:28461?alpn=h2%2Chttp%2F1.1&authority=&encryption=none&fp=chrome&security=tls&serviceName=aparat-stream&sni=mahan.babayagas.site&type=grpc#Do1rcci
-vless://cad7455b-7b55-403a-9289-c76f3bca807c@SNApp.ir:80?path=%2FHoseisecu&security=none&encryption=none&host=MMW.abanservers.ir&type=ws#Do1rcci
+vless://31b4d228-5d2d-47c5-826e-b6b307a8b1c3@snapp.ir:8080?type=ws&encryption=none&path=%2FEmbestpro1&host=Cyrus.zomavo.ir&security=none#Do1rcci
