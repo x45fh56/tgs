@@ -1,3 +1,2 @@
-vless://97cc1f58-1e07-4cac-8714-f98848201693@185.143.233.5:443?path=/chat?ed=128&security=tls&alpn=h2,http/1.1&encryption=none&host=gn.8lack.ir&fp=chrome&type=ws&sni=gn.8lack.ir#byiroh
-vless://43948622-52bf-4dba-8198-7816518b2e9a@185.143.232.5:2086?path=%2Fporsaaa&security=none&encryption=none&host=tron.segaltejarat.ir&type=ws#byiroh
-vless://f4b8c693-ea5f-4172-9b86-743a9116be03@185.143.233.5:2096?path=%2F&security=tls&encryption=none&insecure=0&host=p1.sesrsa.com&fp=firefox&type=ws&allowInsecure=0&sni=sub.sesrsa.com#byiroh
+vless://61c05fb8-3f71-43fb-b498-77826dede5b8@snapp.ir:80?path=%2F&security=none&encryption=none&host=doost.victoriya.ir&type=ws#byiroh
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206NFlOWFJZUHNSR0NyY2Z3ZXVrNy9IWUN4UnhnOEE2YU1wZG1YQU1ucnViaz06MDYrN0NmeUZZRnF0V3lucTdLWVRodXFyNmpOTXg1bFpqRk1ibjc4NWJMdz0@94.183.173.225:443#byiroh

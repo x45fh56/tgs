@@ -1,1 +1,8 @@
-vless://31b4d228-5d2d-47c5-826e-b6b307a8b1c3@snapp.ir:8080?type=ws&encryption=none&path=%2FEmbestpro1&host=Cyrus.zomavo.ir&security=none#Do1rcci
+vless://d0bdf825-ecf6-470f-a991-bd26d6a51312@62.3.41.49:1?security=&encryption=none&headerType=none&type=tcp#Do1rcci
+vless://ae547922-edca-95df-5a00-03fff1a3b2b4@varzesh3.com:8080?path=%2F&security=none&encryption=none&host=cdn-665e-o0g.fars-rehan.ir&type=ws#Do1rcci
+vless://59bb1fa4-8c04-44af-bffb-efff394b75c2@Snapp.ir:8080?path=%2F&security=none&encryption=none&host=ir2.kokomokiyoo.ir&type=ws#Do1rcci
+vless://0f021ee3-772e-4e24-e0d1-415a2e4a61e1@165.22.49.27:2567?security=none&encryption=none&headerType=none&type=tcp#Do1rcci
+vless://0cf94446-7c69-4e04-93a6-67aef05b121b@snapp.ir:80?path=%2F&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#Do1rcci
+vless://d0bdf825-ecf6-470f-a991-bd26d6a51312@mine.airplan10.ir:1?security=&encryption=none&headerType=none&type=tcp#Do1rcci
+vless://b350af31-8414-4025-8613-eeed6a92a533@emergency-service2.pavilof.ir:443?encryption=none&type=ws&security=tls&path=%2F&host=emergency-service2.pavilof.ir&sni=emergency-service2.pavilof.ir&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=0#Do1rcci
+vless://f84cadb07ef447bfafeeb88a4c88a12c@reserved.fastnodegate.com:8443?security=reality&alpn=h2%2Chttp%2F1.1&encryption=none&pbk=nJ6XfI-g6Opkwd3HTkcxJL38NmEAf_IorIYksckcZEM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fastnodegate.com&sid=70#Do1rcci
