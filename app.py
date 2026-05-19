@@ -1185,7 +1185,7 @@ def convert_to_sni(link):
             b64_part = link.replace('vmess://', '')
             decoded = urlsafe_b64decode(b64_part + '=' * (-len(b64_part) % 4)).decode('utf-8')
             data = json.loads(decoded)
-            data['add'] = '0.0.0.0'
+            data['add'] = '127.0.0.1'
             data['port'] = '40443'
             new_b64 = urlsafe_b64encode(json.dumps(data).encode('utf-8')).decode('utf-8').rstrip('=')
             return f"vmess://{new_b64}"
@@ -1194,9 +1194,9 @@ def convert_to_sni(link):
             parsed = urlparse(link)
             if '@' in parsed.netloc:
                 user_info = parsed.netloc.split('@')[0]
-                new_netloc = f"{user_info}@0.0.0.0:40443"
+                new_netloc = f"{user_info}@127.0.0.1:40443"
             else:
-                new_netloc = "0.0.0.0:40443"
+                new_netloc = "127.0.0.1:40443"
             
             new_parsed = parsed._replace(netloc=new_netloc)
             return new_parsed.geturl()
