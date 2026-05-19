@@ -1,4 +1,5 @@
-trojan://telegram-id-privatevpns@13.38.225.194:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
-vless://%40IR_NETLIFY@104.198.14.52:443?encryption=none&security=tls&sni=104.198.14.52&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=1&allowInsecure=1&type=xhttp&host=youtubemp3.to&path=%2FIR-NETLIFY&mode=auto&extra=%7B%22xPaddingBytes%22%3A%221-1%22%2C%22xPaddingObfsMode%22%3Atrue%2C%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingKey%22%3A%22iran%22%2C%22xPaddingHeader%22%3A%22iran%22%2C%22headers%22%3A%7B%22x-host%22%3A%22216.106.187.222%3A444%22%7D%7D#persianvpnhub
-trojan://telegram-id-privatevpns@63.184.236.74:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
-vless://10923d83-0770-445f-ab44-077ae2d8c9e7@snapp.ir:80?encryption=none&type=ws&path=%2F&host=amg2.toll-ip.ir#persianvpnhub
+vless://4888fea3-24f9-416d-acec-1b63613bb6ee@snapp.ir:80?type=ws&encryption=mlkem768x25519plus.native.0rtt.VnC8i7IdSEuFAvYGW1KGSjti_NKtygg9GT25m-Mgl1Y&path=%2FPahlaviTeam&host=amyrax.x2n2.ir&security=none#persianvpnhub
+trojan://telegram-id-privatevpns@15.237.38.184:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://9f5a8dee-efe9-4c5a-9f96-8d3e632586b6@www.varzesh3.com:2095?path=%2Fchat%3Fed%3D128&security=none&encryption=none&host=dl2.mizbanertebatfarda.ir&type=ws#persianvpnhub
+vless://98e2a7aa-2f22-4829-893a-7c8f7e8ba8ce@anten.ir:2052?path=%2Fcdn&security=none&encryption=none&host=i.asaasa.ir&type=ws#persianvpnhub
+trojan://telegram-id-privatevpns@3.122.111.21:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub

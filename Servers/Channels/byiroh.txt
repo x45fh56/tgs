@@ -1,2 +1,0 @@
-vless://61c05fb8-3f71-43fb-b498-77826dede5b8@snapp.ir:80?path=%2F&security=none&encryption=none&host=doost.victoriya.ir&type=ws#byiroh
-ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206NFlOWFJZUHNSR0NyY2Z3ZXVrNy9IWUN4UnhnOEE2YU1wZG1YQU1ucnViaz06MDYrN0NmeUZZRnF0V3lucTdLWVRodXFyNmpOTXg1bFpqRk1ibjc4NWJMdz0@94.183.173.225:443#byiroh
