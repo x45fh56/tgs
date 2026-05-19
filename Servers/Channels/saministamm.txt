@@ -1,2 +1,1 @@
-vless://4888fea3-24f9-416d-acec-1b63613bb6ee@snapp.ir:80?path=%2FPahlaviTeam&security=none&encryption=mlkem768x25519plus.native.0rtt.VnC8i7IdSEuFAvYGW1KGSjti_NKtygg9GT25m-Mgl1Y&host=amyrax.x2n2.ir&type=ws#saministamm
 vless://413f4a86-cb33-4cf6-b3d4-cfc06fac6a68@varzesh3.com:8880?path=%2Faban&security=none&encryption=none&host=tlite.abanservers.ir&type=ws#saministamm
