@@ -1,0 +1,1 @@
+vless://f66af3ef-b303-4c22-a0fe-ab3310a265c2@snapp.ir:8080?path=%2FEmbestpro1&security=none&encryption=none&host=Cyrus.zomavo.ir&type=ws#pro_exi
