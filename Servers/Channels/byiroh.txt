@@ -1,0 +1,6 @@
+vless://08e9546b-2232-4fc9-8975-6281961d9cb1@rfral.aghanami.ir:80?type=ws&encryption=none&path=%2F&host=&security=nonehttps://t.me/byiroh#byiroh
+vless://2641d904-84cb-4bc5-97ff-674ccf46a449@Snapp.ir:2086?type=ws&encryption=none&path=%2F&host=f.mroza.ir&security=none#byiroh
+vless://a93126de-65fa-47ed-917f-30b262bee77d@185.143.234.115:443?path=%2F&security=tls&encryption=none&insecure=0&host=rest.parhamm2.ir&fp=random&type=ws&allowInsecure=0&sni=rest.parhamm2.ir#byiroh
+vless://e3d486fb-d9bf-47b6-817d-e67211f30d00@185.143.234.115:443?encryption=none&security=tls&type=ws&sni=rest.parhamm2.ir&host=rest.parhamm2.irhttps://t.me/byiroh#byiroh
+vless://32bef899-6c34-4a8d-8eab-550a3443df5a@varzesh3.com:8443?encryption=none&fp=firefox&host=p1.sesrsa.com&path=%2F&security=tls&sni=sub.sesrsa.com&type=wshttps://t.me/byiroh#byiroh
+vless://f9aeba2c-4c68-11f1-8d30-2ddfba49052f@185.143.234.235:8880?path=%2F%3Fed%3D2560&security=none&encryption=none&host=sv-1.jservices.ir&type=ws#byiroh

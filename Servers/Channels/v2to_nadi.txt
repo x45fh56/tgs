@@ -1,4 +1,3 @@
-vless://cb4989f0-487c-4512-bbec-91514b9bd466@plusred0shop8.lol:2052?type=ws&encryption=none&path=%2FYP&host=Plusred0shop8.lol&security=none#v2to_nadi
-vless://deb9a630-1ad0-492d-b227-50b446a35286@iliya.8ib.ir:443?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=%2F&security=tls&sni=&type=xhttp&x_padding_bytes=100-1000#v2to_nadi
 trojan://humanity@85.198.20.177:40443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#v2to_nadi
+vless://deb9a630-1ad0-492d-b227-50b446a35286@iliya.8ib.ir:443?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=%2F&security=tls&sni=&type=xhttp&x_padding_bytes=100-1000#v2to_nadi
 vless://fad285da-cfa5-4263-816f-8de67d649fca@snapp.ir:80?type=ws&security=none&path=%2F&host=derakhshan.molvliafor.ir#v2to_nadi
