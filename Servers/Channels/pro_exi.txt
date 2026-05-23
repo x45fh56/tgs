@@ -1,2 +1,5 @@
-vless://f66af3ef-b303-4c22-a0fe-ab3310a265c2@snapp.ir:8080?path=%2FEmbestpro1&security=none&encryption=none&host=Cyrus.zomavo.ir&type=ws#pro_exi
-vless://3e40c799-dc8f-4155-a1bc-6a515f7cd0c2@185.143.233.68:443?path=%2F&security=tls&encryption=none&insecure=1&host=backend.parhamm2.ir&fp=random&type=ws&allowInsecure=1&sni=backend.parhamm2.ir#pro_exi
+vless://9e21b3dc-0305-4c2a-ab75-7066309c227e@185.143.233.5:2052?path=%2F&security=none&encryption=none&host=media.aliyanserver.ir&type=ws#pro_exi
+vless://18afb685-65d8-4214-8638-c2011e804439@snapp.ir:8880?path=%2Fphilip&security=none&encryption=none&host=sepi.philip2039.sbs&type=httpupgrade#pro_exi
+vless://97fdc613-af07-40ef-bfde-7052d1c90c61@snapp.ir:80?path=%2F&security=none&encryption=none&host=fr.it-net.top&type=ws#pro_exi
+vless://97fdc613-af07-40ef-bfde-7052d1c90c61@fr.it-net.top:80?path=%2F&security=none&encryption=none&host=fr.it-net.top&type=ws#pro_exi
+vless://97fdc613-af07-40ef-bfde-7052d1c90c61@varzesh3.com:80?path=%2F&security=none&encryption=none&host=fr.it-net.top&type=ws#pro_exi
