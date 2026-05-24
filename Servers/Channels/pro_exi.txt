@@ -1,5 +1,5 @@
-vless://9e21b3dc-0305-4c2a-ab75-7066309c227e@185.143.233.5:2052?path=%2F&security=none&encryption=none&host=media.aliyanserver.ir&type=ws#pro_exi
-vless://18afb685-65d8-4214-8638-c2011e804439@snapp.ir:8880?path=%2Fphilip&security=none&encryption=none&host=sepi.philip2039.sbs&type=httpupgrade#pro_exi
+vless://616f1200-0ecd-4a42-b3ac-6eae363e86c9@snapp.ir:8080?path=%2F&security=none&encryption=none&host=penhoon-ref.morvaridvps.ir&type=ws#pro_exi
 vless://97fdc613-af07-40ef-bfde-7052d1c90c61@snapp.ir:80?path=%2F&security=none&encryption=none&host=fr.it-net.top&type=ws#pro_exi
-vless://97fdc613-af07-40ef-bfde-7052d1c90c61@fr.it-net.top:80?path=%2F&security=none&encryption=none&host=fr.it-net.top&type=ws#pro_exi
-vless://97fdc613-af07-40ef-bfde-7052d1c90c61@varzesh3.com:80?path=%2F&security=none&encryption=none&host=fr.it-net.top&type=ws#pro_exi
+vless://9e21b3dc-0305-4c2a-ab75-7066309c227e@185.143.233.5:2052?path=%2F&security=none&encryption=none&host=media.aliyanserver.ir&type=ws#pro_exi
+vless://70a1790b-a635-46f1-b473-e2ed1b4b491f@185.143.233.5:8880?path=%2F&security=none&encryption=none&host=p1.sesrsa.com&type=ws#pro_exi
+vless://5bc4971a-e0b6-4723-985c-801b1c80f23a@snapp.ir:2095?path=%2Fwskhan&security=none&encryption=none&host=mdproxyi.ir&type=ws#pro_exi

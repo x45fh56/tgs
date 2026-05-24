@@ -1,1 +1,1 @@
-vless://9c9e5eba-e54f-435a-be70-9c94feaf6d1b@plusred0shop8.lol:2052?type=ws&encryption=none&path=%2FYP&host=Plusred0shop8.lol&security=none#v2to_nadi
+vless://9b080237-5aa8-4b0e-900f-fc997a366f32@plusred0shop8.lol:2052?type=ws&encryption=none&path=%2FYP&host=Plusred0shop8.lol&security=none#v2to_nadi

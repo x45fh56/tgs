@@ -1,2 +1,2 @@
-vless://7eac8a88-fea3-40d2-8a6a-e0dd4e8ac6e6@varzesh3.com:8080?path=%2Fcdn&security=none&encryption=none&host=Za.movizdl.ir&type=ws#saministamm
-vless://482e8925-e7e5-46b8-9e9e-f759b872c2e6@snappfood.ir:2052?path=%2Fws&security=none&encryption=none&host=cdnisfucka.drnimaamini.ir&type=ws#saministamm
+vless://5ce600a8-9be9-4d10-9a6b-09c4569ebb2c@62.220.120.123:443?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=o21.netsecureteam10.ir#saministamm
+vless://5bc4971a-e0b6-4723-985c-801b1c80f23a@snapp.ir:2095?path=%2Fwskhan&security=none&encryption=none&host=mdproxyi.ir&type=ws#saministamm
