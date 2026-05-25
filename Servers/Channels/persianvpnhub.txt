@@ -1,1 +1,2 @@
-trojan://telegram-id-privatevpns@35.159.190.54:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://9de45eb1-188e-404b-bcac-2756afe53cd5@185.143.232.200:80?path=%2F&security=none&encryption=none&host=cdn.softnetconnect.ir&type=ws#persianvpnhub
+vless://c931f737-cafe-4e4f-998a-a65517941256@node-fi.dostup-est.info:8443?security=reality&encryption=none&pbk=Ubibgn_MlW_zHo9LwjNH_b6SLNWwTJFwq7wW2ggLtUs&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=cdnjs.com&sid=88ce6b586fcaf681#persianvpnhub
