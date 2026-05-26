@@ -1,4 +1,2 @@
-vless://9bfe26c2-353f-482d-bcd2-9838ce3dd286@r.nsa03.com:443?security=reality&encryption=none&pbk=MgXnTU65jgtolaOYxFcobLg8NzB_khSXYUeanGnK4XY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=divar.ir&sid=64e46fe01298cd69#pro_exi
-vless://8c6829c4-3584-4eec-9e67-d7091483fd8d@185.143.235.201:8080?path=%2F&security=none&encryption=none&host=api.morvaridvps.ir&type=ws#pro_exi
-vless://70a1790b-a635-46f1-b473-e2ed1b4b491f@185.143.233.5:8880?path=%2F&security=none&encryption=none&host=p1.sesrsa.com&type=ws#pro_exi
-vless://be4c79f7-642a-4e62-9d0f-78d805df1366@sabz8.sabztarash.ir:8080?path=%2F&security=none&encryption=none&type=ws#pro_exi
+trojan://8r%3C%5B9%27l6hAO%238ZQi@104.16.7.70:443?path=%2Ftr&security=tls&insecure=1&host=Koma-YT.PAGeS.Dev&type=ws&allowInsecure=1&sni=Koma-YT.PAGeS.Dev#pro_exi
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:2096?path=%2F%3Ftelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540wangcai2%3D&security=tls&encryption=none&insecure=0&host=sni.jpmj.dev&type=ws&allowInsecure=0&sni=sni.jpmj.dev#pro_exi

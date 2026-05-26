@@ -1,1 +1,3 @@
-trojan://humanity@www.calmloud.com:443?security=tls&sni=www.calmloud.com&fp=ios&allowInsecure=0&alpn=http/1.1&type=ws&path=/assignment#byiroh
+vless://d8b54a64-3e9a-4455-93c4-452202fbe440@45.130.125.160:443?mode=stream-one&path=%2Findex&security=tls&encryption=none&insecure=0&host=www.chinns.us.ci&type=xhttp&allowInsecure=0&sni=www.chinns.us.ci#byiroh
+trojan://humanity@172.66.47.69:443?path=%2Fassignment&security=tls&insecure=0&host=www.multiplydose.com&type=ws&allowInsecure=0&sni=www.multiplydose.com#byiroh
+vless://%40deamnet-%40deamnet-%40deamnet@104.18.139.67:443?encryption=none&type=ws&host=actually-road.bn-chanll.cf&path=/deamnet&security=tls&fp=chrome&sni=actually-road.bn-chanll.cf#byiroh

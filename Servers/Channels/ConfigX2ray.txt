@@ -1,3 +1,6 @@
-vless://be4c79f7-642a-4e62-9d0f-78d805df1366@sabz8.sabztarash.ir:8080?path=%2F&security=&encryption=none&type=ws#ConfigX2ray
-trojan://humanity@104.20.42.250:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=1&host=www.calmloud.com&type=ws&allowInsecure=1&sni=www.calmloud.com#ConfigX2ray
-vless://eee985e4-219f-4f53-8fc4-ae5837af0842@185.143.233.5:443?encryption=none&type=ws&security=tls&path=%2F%40alaedin%3Fed%3D128&host=alaedin4.8lack.ir&sni=alaedin4.8lack.ir&alpn=h2%2Chttp%2F1.1&fp=firefox&allowInsecure=0#ConfigX2ray
+vless://91d951eb-930e-46e2-bb3e-82ce23029804@104.16.7.70:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=Ky.ourbiti.xyz#ConfigX2ray
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:2096?path=%2F&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#ConfigX2ray
+vless://b01631fa-502b-497f-b8ed-2fda669667ad@wp14.virgool.best:55014?security=reality&encryption=none&pbk=vxdmULi_cO7dha2aQnsjSViARO15hvI9HWyo0pVPlkQ&headerType=none&fp=chrome&type=tcp&sni=www.digikala.com&sid=c385#ConfigX2ray
+vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.16.7.70:443?encryption=none&type=xhttp&security=tls&path=%2Fde&host=de.xn--q9jyb4c.online&mode=stream-one&sni=de.xn--q9jyb4c.online&fp=chrome&allowInsecure=0#ConfigX2ray
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:8443?path=%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40APPXA&security=tls&encryption=none&insecure=1&host=sni.111000.dynv6.net&type=ws&allowInsecure=1&sni=sni.111000.dynv6.net#ConfigX2ray
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@95.38.164.245:40443?path=%2F%3FTelegram%D9%8B%20%40ProxyVPN11&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#ConfigX2ray
