@@ -1,5 +1,5 @@
-vless://8a6b2cf8-b21a-402a-bc3f-7efee320052f@de2.endvn.org:443?security=reality&encryption=none&pbk=oSSLtvWKXcvUTIeHrxi1algmixXLWc_FB2v-lELMRn0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=de2.endvn.org#pro_exi
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUVEhTNk5LRkxvTWFEYUU5OERfdEdjdDhsZ09lWlk4Wg@#pro_exi
-vless://3c7f6664-15ca-4687-b938-be7e426085f5@185.143.235.200:2086?path=%2F&security=none&encryption=none&host=cdn8.movieda-farsi.ir&type=ws#pro_exi
 vless://a91f343c-6a3b-4fc9-8cf8-cc8d33ab9973@108.61.167.205:13218?security=none&encryption=none&headerType=none&type=tcp#pro_exi
+vless://3c7f6664-15ca-4687-b938-be7e426085f5@185.143.235.200:2086?path=%2F&security=none&encryption=none&host=cdn8.movieda-farsi.ir&type=ws#pro_exi
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUVEhTNk5LRkxvTWFEYUU5OERfdEdjdDhsZ09lWlk4Wg@#pro_exi
 vless://816b9c90-5296-4222-8f2d-e44e51130f36@104.16.19.7:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=polandmap.carbutik.ir#pro_exi
+vless://8a6b2cf8-b21a-402a-bc3f-7efee320052f@de2.endvn.org:443?security=reality&encryption=none&pbk=oSSLtvWKXcvUTIeHrxi1algmixXLWc_FB2v-lELMRn0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=de2.endvn.org#pro_exi
