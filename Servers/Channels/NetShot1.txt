@@ -1,4 +1,4 @@
-trojan://humanity@37.32.30.26:443?path=%2Fassignment&security=tls&host=www.creationlong.org&type=ws&sni=www.creationlong.org#NetShot1
-vless://3bbe4c53-f521-448e-b7db-f4ae960a0140@snappfood.ir:2052?type=ws&encryption=none&path=%2Fws&host=cdnisfucka.drnimaamini.ir&security=none#NetShot1
-vless://13b540ac-6ce2-4686-a110-e87f6dafd4ec@snappfood.ir:2052?type=ws&encryption=none&path=%2Fws&host=cdnisfucka.drnimaamini.ir&security=none#NetShot1
-vless://f8f690d0-24f0-4e2f-accb-98fdec3b5644@snappfood.ir:2052?type=ws&encryption=none&path=%2Fws&host=cdnisfucka.drnimaamini.ir&security=none#NetShot1
+vless://aeec50e6-f176-4f87-9f46-0610a0e76435@173.245.59.191:8443?path=%2FRoBeRt&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=interim.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=interim.adaspoloandco.com#NetShot1
+vless://2187354d-0ffe-428a-9977-13c43e8620ec@104.25.249.215:443?path=%2F%3Fed%3D2095&security=tls&encryption=none&insecure=0&host=s2fi.napsternetx.ir&fp=chrome&type=ws&allowInsecure=0&sni=s2fi.napsternetx.ir#NetShot1
+vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@162.159.38.183:2083?mode=stream-one&path=%2Fde&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=de.lezzatzone.ir#NetShot1
+vless://ae5d04a6-59ad-4bcd-b45c-9512f4df8c6a@47.82.177.57:24974?security=none&encryption=none&headerType=none&type=tcp#NetShot1

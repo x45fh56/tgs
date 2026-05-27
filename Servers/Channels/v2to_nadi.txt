@@ -1,4 +1,1 @@
-vless://f076792e-4623-44af-a852-0bfa56d71ca5@185.143.235.200:2052?security=none&allowInsecure=0&encryption=none&type=ws&host=Plusred0shop8.lol&path=/YP#v2to_nadi
-vless://4dfb0b5c-7c91-4c48-99e7-1ff95f7f657f@193.151.146.227:443?type=tcp&encryption=none&security=none#v2to_nadi
-vless://e3a4e980-ab08-42a3-a38a-97bdbb5c1f84@185.143.235.200:2052?security=none&allowInsecure=0&encryption=none&type=ws&host=Plusred0shop8.lol&path=/YP#v2to_nadi
-vless://d5d57b37-e37d-4406-b388-792bc6975932@snapp.ir:2082/?type=ws&encryption=none&path=%2Findex.html&host=hub.hoshos.info&security=none#v2to_nadi
+vless://05221160-997b-4612-b20b-04efed6b0d4f@185.143.233.5:2052?encryption=none&host=p1.sesrsa.com&path=%2F&security=none&type=ws#v2to_nadi
