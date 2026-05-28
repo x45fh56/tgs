@@ -1,1 +1,0 @@
-vless://df590a29-a64d-465c-99ce-c48c88275a21@104.16.6.70:443?alpn=h2%2Chttp%2F1.1&encryption=none&fp=chrome&host=misterj.xpersian.com&path=%2F104.16.6.70%3A443&security=tls&sni=misterj.xpersian.com&type=ws#FreakConfig

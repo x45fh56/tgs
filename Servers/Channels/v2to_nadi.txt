@@ -1,1 +1,2 @@
-vless://7291d6cf-82d2-40d3-9980-411090a99ec9@plusred0shop17.lol:2052?encryption=none&host=Plusred0shop17.lol&path=%2FYP&security=none&type=ws#v2to_nadi
+vless://a05f8278-d521-4652-bfb9-2b8dbe6b3102@a2.hamrahnode.ir:2053?security=tls&type=ws&headerType=&path=%2F&host=&sni=op2.x-upload.org&fp=chrome&allowInsecure=1#v2to_nadi
+vless://9f12186f-1866-4230-92b2-88638a3ac914@85.198.13.9:2052?encryption=none&host=Plusred0shop17.lol&path=%2FYP&security=none&type=ws#v2to_nadi

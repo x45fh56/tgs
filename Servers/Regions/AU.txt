@@ -1,2 +1,0 @@
-vless://3c7961e6-6ce7-4e55-8b8a-01a5d663efd4@3.106.214.88:31318?security=reality&type=tcp&sni=www.tesla.com&fp=firefox&flow=xtls-rprx-vision&sid=1b665f78655294&spx=%2F&pbk=uAhNpK_fDxgKKNtYtUs2uB79V28pjFv1-Mh7D4PTaW8&encryption=none#NetAccount
-vless://54a1eb5b-def1-45cf-b61c-9b8df05592d6@202.133.89.63:80?type=tcp&encryption=none&security=reality&pbk=wSotkhL1gTJ717T1DOEUmeO0-cn0l9FlG5E3wjotZUI&fp=chrome&sni=www.google.com&sid=8b&spx=%2F#pythash
