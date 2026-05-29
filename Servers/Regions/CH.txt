@@ -1,1 +1,5 @@
+vless://2ee26119-94e5-40b4-ba3a-16354021b600@185.18.250.127:2096?path=/graphql&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=69565ce3109804e7813f98ee.mmdbay.blog&fp=chrome&type=ws&allowInsecure=0&sni=69565ce3109804e7813f98ee.mmdbay.blog#NetAccount
+vless://2ee26119-94e5-40b4-ba3a-16354021b600@185.18.250.127:2096?security=tls&allowInsecure=0&encryption=none&type=ws&host=69565ce3109804e7813f98ee.mmdbay.blog&path=/graphql&sni=69565ce3109804e7813f98ee.mmdbay.blog&fp=chrome&alpn=h2,http/1.1#NetAccount
+vless://2ee26119-94e5-40b4-ba3a-16354021b600@185.18.250.127:2096?allow_insecure=1&allowInsecure=1&host=69565ce3109804e7813f98ee.mmdbay.blog&insecure=1&path=%2Fgraphql&security=tls&sni=69565ce3109804e7813f98ee.mmdbay.blog&type=ws#NetAccount
+vless://476caa1d-7c04-48ab-8de5-2c1af0d13a66@138.124.244.248:443?type=tcp&security=reality&fp=chrome&pbk=PYX0lu3m0L_h28eW4186s63gRFHXoTc3K9wKeFewDUQ&sid=e9a8&sni=yahoo.com&spx=/#NetAccount
 trojan://humanity@185.18.250.245:443?security=tls&sni=www.calmlunch.com&allowInsecure=1&type=ws&host=www.calmlunch.com&path=%2Fassignment#v2ray_extractor

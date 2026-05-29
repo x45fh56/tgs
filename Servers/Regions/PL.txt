@@ -1,2 +1,2 @@
-vless://37a0bd7c-8b9f-4693-8916-bd1e2da0a817@128.204.223.70:50401?encryption=none&path=%2F&security=none&type=ws#oneclickvpnkeys
+ss://YWVzLTI1Ni1jZmI6QmVqclF2dHU5c3FVZU51Wg@217.30.10.70:9024#oneclickvpnkeys
 vless://f9d8aa07-589f-4da0-9cb0-fd8f2f0e4fa8@144.31.4.166:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU&security=reality&sid=0123456789abcdef&sni=www.deepl.com&type=tcp#v2ray_extractor

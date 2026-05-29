@@ -1,7 +1,6 @@
-vless://4c3fe585-ac09-41df-b284-888818888188@79.141.171.133:443?security=reality&encryption=none&pbk=0rtpNciTfV9TsoEc7Y8lS5LzBUzLppMnRY8bQC_bH3M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=apple.com&sid=aabbccdd#byiroh
-vless://e5f8a9f6-f164-479b-b3b5-b90f213c7145@104.17.25.173:2053/?type=ws&encryption=none&flow=&host=ir1.airpanel.top&path=%2F&security=tls&sni=ir1.airpanel.top&allowInsecure=1#byiroh
-vless://01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f@nl-tx.sbrf-cdn342.ru:443?security=tls&alpn=http%2F1.1&encryption=none&insecure=0&headerType=none&fp=qq&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=sub.sbrf-cdn342.ru#byiroh
-vless://ccbbd3a3-db22-4f82-956e-d65178de2743@88.210.9.69:443?encryption=none&type=tcp&security=reality&headerType=none&sni=images.apple.com&fp=chrome&allowInsecure=1&pbk=aQdv6gDmsVZc5dO1WmmEQ6Q_puJhNUurND-TJJjtCSs&sid=8f2c0e7a15bd&flow=xtls-rprx-vision#byiroh
-vless://InternetAzadRobot@165.215.250.14:2087?encryption=none&type=xhttp&security=tls&path=%2Flogin&host=ws.kheybar.store&mode=auto&extra=%7B%22mode%22%3A%22auto%22%2C%22Accept-Encoding%22%3A%22gzip%2C+deflate%2C+br%22%2C%22Accept-Language%22%3A%22en-US%2Cen%3Bq%3D0.9%22%2C%22Cache-Control%22%3A%22no-cache%22%2C#byiroh
-vless://6a719f2b-b629-462d-975a-9c0daa3edb75@chatgpt.com:2083?path=%2F&security=tls&encryption=none&host=raviddd.pages.dev&type=ws&sni=rAviDdD.paGEs.DEv#byiroh
 vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.17.121.71:443?mode=stream-one&path=%2Fde&security=tls&encryption=none&insecure=0&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=de.lezzatzone.ir#byiroh
+vless://01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f@37.49.225.189:443?security=tls&alpn=http%2F1.1&encryption=none&insecure=0&headerType=none&fp=qq&type=tcp&allowInsecure=0&flow=xtls-rprx-vision-udp443&sni=sub.sbrf-cdn342.ru#byiroh
+vless://b53d533d-0647-4b86-8cdd-43638e81dfe3@46.249.98.109:8080?encryption=none&host=&path=%2Fws&security=none&type=ws#byiroh
+vless://8ea69b47-ba42-4a23-932a-8d7834f84e20@helixgaming.ir:80?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#byiroh
+vless://66a83901-6f32-416f-967b-c602fe47b49b@151.101.57.219:443?encryption=none&type=ws&security=tls&path=%2Fwp-admin.php%3Fed%3D2052&host=neSzjzFesHab.gLobAl.ssl.FasTly.neT.&sni=speedtest.net&allowInsecure=1#byiroh
+vless://a184bab0-4005-4807-b76e-58c37b9d16a5@185.143.235.200:2095?path=%2Firbert&security=none&encryption=none&host=irbert.skycmd.org&type=ws#byiroh

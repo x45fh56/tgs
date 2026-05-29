@@ -1,2 +1,4 @@
-vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@193.233.232.9:443?encryption=none&fp=chrome&host=3-2h8.pages.dev&security=tls&sni=3-2h8.pages.dev&type=ws#v2ray_extractor
+vless://f6431ff1-dec0-4a6c-be4a-ce917913b589@185.224.3.41:10443?security=reality&encryption=none&pbk=WeShDM0MdunM6N8btrY8tXlL0GT1Ah-0jcplNQf9FEo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com#NetAccount
+vless://f6431ff1-dec0-4a6c-be4a-ce917913b589@185.224.3.42:10443?security=reality&encryption=none&pbk=WeShDM0MdunM6N8btrY8tXlL0GT1Ah-0jcplNQf9FEo&host=www.cloudflare.com&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com#NetAccount
 vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@91.244.70.205:443?encryption=none&path=%2F&security=none&type=ws#v2ray_extractor
+vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@193.233.232.9:443?encryption=none&fp=chrome&host=3-2h8.pages.dev&security=tls&sni=3-2h8.pages.dev&type=ws#v2ray_extractor

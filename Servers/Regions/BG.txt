@@ -1,3 +1,1 @@
 vless://d262c258-e73a-47d2-944d-55cfc4bc8fd0@45.39.241.51:23837?encryption=none&type=ws&path=%2Fws&host=45.39.241.51#ConfigX2ray
-vless://d262c258-e73a-47d2-944d-55cfc4bc8fd0@45.39.241.51:23837?path=%2Fws&security=none&encryption=none&host=45.39.241.51&type=ws#ConfigX2ray
-vless://d262c258-e73a-47d2-944d-55cfc4bc8fd0@45.39.241.51:23837?encryption=none&security=none&type=ws&host=45.39.241.51&path=%2Fws#SparrK_VPN

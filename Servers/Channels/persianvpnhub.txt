@@ -1,3 +1,8 @@
-vless://%40xniceshop@tr.xniceping.ir:666?security=&encryption=none&headerType=&type=tcp#persianvpnhub
-vless://01f750a7-7e19-4b4a-9119-46a6d582a966@snapp.ir:80?path=%2F&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#persianvpnhub
-vless://8b0b29f3-f92e-4039-b618-5b8778ce48c8@akoma.fisifisi.com:1152?security=reality&encryption=none&pbk=1ZgC12Vtoy1hH64I0exQ0DEjiXlF28E703H5RZ-VCzE&headerType=none&fp=chrome&spx=%2FK3AfAPXX0RIiPzx&type=tcp&flow=xtls-rprx-vision&sni=aws.amazon.com&sid=d47f#persianvpnhub
+vless://27302727-9dfa-4975-990e-88c7a63747cd@45.130.125.76:443?path=%2F&security=tls&encryption=none&insecure=0&host=sni1.xmlvr.de5.net&type=ws&allowInsecure=0&sni=sni1.xmlvr.de5.net#persianvpnhub
+trojan://telegram-id-privatevpns@51.44.104.68:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#persianvpnhub
+vless://c7ccd788-1172-46f2-a749-c1a743da2ef2@104.17.121.71:443?mode=auto&path=%2FTelegram-Zedmodeon&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=faboo.tll-far.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=faboo.tll-far.ir#persianvpnhub
+vless://InternetAzadRobot@151.101.1.57:80?mode=auto&path=%2Flogin&security=none&encryption=none&host=tignalz.global.ssl.fastly.net&type=xhttp#persianvpnhub
+vless://1bcf159e-bacd-42d4-ad1d-55aab23a3952@104.17.121.71:443?mode=stream-one&path=%2Fde&security=tls&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=de.aananas.ir#persianvpnhub
+vless://3a40cae4-179e-43dc-8711-745ad5de95cc@45.130.125.76:2096?mode=gun&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=iranprimer.usip.org.mizanonline.com.fararu.com.financialtribune.com.jamejamonline.ir.iribnews.ir.iranprimer.usip.org&allowInsecure=0&sni=QuIck-foRESt967D0t4M6x.CArBoNBlaCkBMW.IR#persianvpnhub
+vless://381179b4-5fec-4457-97c2-869901e6c2ac@104.17.121.71:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=sabkdo.tll-far.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=sabkdo.tll-far.ir#persianvpnhub
+trojan://4Fi9DdXrBq@45.130.125.76:443?path=%2F%3Fed%3D2048&security=tls&alpn=http%2F1.1&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=de.aananas.ir#persianvpnhub
