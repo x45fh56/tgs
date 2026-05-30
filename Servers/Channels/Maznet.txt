@@ -1,7 +1,7 @@
-vless://662744d9-2fbe-4e5e-837c-3444f07ba573@95.182.97.249:443?path=%2F&security=none&encryption=none&type=ws#Maznet
-vless://ae0dd58e-e222-40bf-84ae-365a97532737@127.0.0.1:40443?encryption=none&security=tls&sni=pagescm.freen2.de5.net&insecure=0&allowInsecure=0&type=ws&host=pagescm.freen2.de5.net&path=%2Ftools#Maznet
-vless://Telegram-Parsashonam-2@127.0.0.1:40443?encryption=none&security=tls&sni=p4r34m.hendevaneh.sbs&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=1&allowInsecure=1&type=xhttp&host=p4r34m.hendevaneh.sbs&path=%2Fp4r34m&mode=auto#Maznet
-vless://ada4ea8a-41d8-41b2-bcf5-9bf961b7d676@45.130.125.69:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=cdn12.kaiserping.site&fp=chrome&type=ws&allowInsecure=0&sni=cdn12.kaiserping.site#Maznet
-vless://c575c0fd-4833-4cba-937d-2342fd32544b@127.0.0.1:40443?encryption=none&security=tls&sni=de.vpncustomize.cc.cd&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=xhttp&host=de.vpncustomize.cc.cd&path=%2Findex.html&mode=stream-one#Maznet
-vless://e258977b-e413-4718-a3af-02d75492c349@127.0.0.1:40443?encryption=none&security=tls&sni=jp.aniua.qzz.io&insecure=0&allowInsecure=0&type=ws&host=jp.aniua.qzz.io&path=%2F#Maznet
 vless://1f656a0a-b630-4ed7-8b10-4c0a8f43464e@127.0.0.1:40443?encryption=none&security=tls&sni=moonvpn0.rookari.com&fp=firefox&insecure=0&allowInsecure=0&type=ws&host=moonvpn0.rookari.com&path=%2Ffree#Maznet
+vless://662744d9-2fbe-4e5e-837c-3444f07ba573@95.182.97.249:443?path=%2F&security=none&encryption=none&type=ws#Maznet
+vless://ada4ea8a-41d8-41b2-bcf5-9bf961b7d676@45.130.125.69:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=cdn12.kaiserping.site&fp=chrome&type=ws&allowInsecure=0&sni=cdn12.kaiserping.site#Maznet
+vless://Telegram-Parsashonam-2@127.0.0.1:40443?encryption=none&security=tls&sni=p4r34m.hendevaneh.sbs&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=1&allowInsecure=1&type=xhttp&host=p4r34m.hendevaneh.sbs&path=%2Fp4r34m&mode=auto#Maznet
+vless://e258977b-e413-4718-a3af-02d75492c349@127.0.0.1:40443?encryption=none&security=tls&sni=jp.aniua.qzz.io&insecure=0&allowInsecure=0&type=ws&host=jp.aniua.qzz.io&path=%2F#Maznet
+vless://ae0dd58e-e222-40bf-84ae-365a97532737@127.0.0.1:40443?encryption=none&security=tls&sni=pagescm.freen2.de5.net&insecure=0&allowInsecure=0&type=ws&host=pagescm.freen2.de5.net&path=%2Ftools#Maznet
+vless://c575c0fd-4833-4cba-937d-2342fd32544b@127.0.0.1:40443?encryption=none&security=tls&sni=de.vpncustomize.cc.cd&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=xhttp&host=de.vpncustomize.cc.cd&path=%2Findex.html&mode=stream-one#Maznet

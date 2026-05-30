@@ -1,3 +1,0 @@
-vless://d6641b78-1556-4f9d-ab17-e3b31117fe4b@104.17.121.71:2096?mode=gun&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&fp=chrome&type=grpc&serviceName=en.mehrnews.com.isna.ir.entekhab.ir.khabaronline.ir.alef.ir.irandaily.ir.tehrantimes.com&allowInsecure=1&sni=AdVenTurOUs-cOnflIcT3W7nbZ9EQw.carboNblACKbmw.Ir#saministamm
-vless://56dbbf7c-ac36-45b9-9873-dff978ccb7b2@45.76.32.242:35541?security=&encryption=none&headerType=none&type=tcp#saministamm
-vless://01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f@nl-tx.sbrf-cdn342.ru:443?encryption=none&type=tcp&security=tls&headerType=none&sni=sub.sbrf-cdn342.ru&alpn=http%2F1.1&fp=qq&allowInsecure=0&flow=xtls-rprx-vision#saministamm

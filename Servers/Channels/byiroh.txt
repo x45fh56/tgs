@@ -1,6 +1,4 @@
-vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.17.121.71:443?mode=stream-one&path=%2Fde&security=tls&encryption=none&insecure=0&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=de.lezzatzone.ir#byiroh
-vless://01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f@37.49.225.189:443?security=tls&alpn=http%2F1.1&encryption=none&insecure=0&headerType=none&fp=qq&type=tcp&allowInsecure=0&flow=xtls-rprx-vision-udp443&sni=sub.sbrf-cdn342.ru#byiroh
-vless://b53d533d-0647-4b86-8cdd-43638e81dfe3@46.249.98.109:8080?encryption=none&host=&path=%2Fws&security=none&type=ws#byiroh
-vless://8ea69b47-ba42-4a23-932a-8d7834f84e20@helixgaming.ir:80?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#byiroh
-vless://66a83901-6f32-416f-967b-c602fe47b49b@151.101.57.219:443?encryption=none&type=ws&security=tls&path=%2Fwp-admin.php%3Fed%3D2052&host=neSzjzFesHab.gLobAl.ssl.FasTly.neT.&sni=speedtest.net&allowInsecure=1#byiroh
-vless://a184bab0-4005-4807-b76e-58c37b9d16a5@185.143.235.200:2095?path=%2Firbert&security=none&encryption=none&host=irbert.skycmd.org&type=ws#byiroh
+trojan://BxceQaOe@43.199.229.84:17801?security=tls&insecure=1&headerType=none&type=tcp&allowInsecure=1&sni=t.me%2Fripaojiedian#byiroh
+trojan://f6d3aa07a52dbcedcb4731029e2fb6ae@18.163.128.27:2663?security=tls&insecure=1&headerType=none&type=tcp&allowInsecure=1&sni=www.nintendogames.net#byiroh
+vless://03bd79a7-46dd-4256-9603-af3d1f799ccf@ia.subchar.ir:13927?type=tcp&encryption=none&path=%2F&host=google.com&headerType=http&security=none#byiroh
+trojan://Mitivpn@104.17.121.71:443?path=%2F%3Fed&security=tls&alpn=http%2F1.1&insecure=1&host=cdn.hitgram.ir&fp=chrome&type=ws&allowInsecure=1&sni=cdn.hitgram.ir#byiroh

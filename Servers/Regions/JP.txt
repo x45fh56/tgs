@@ -1,7 +1,5 @@
-vless://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@8.216.21.135:10026?type=tcp&security=none#NetAccount
 vless://a12b0d31-f599-498e-b76e-8558a14b766b@47.79.144.103:25242?path=/a12b0d31&security=none&encryption=none&type=ws#NetAccount
 trojan://IbezlLAYfrLRwFn9.mHn5FDwk1asLi599U@130.94.65.52:443?type=tcp&security=tls&headerType=none&sni=www.static-cast.click&fp=chrome&allowInsecure=1#NetAccount
-vless://86b414b6-966e-4f6d-ab16-32049ef732d3@47.245.38.111:443/?type=tcp&encryption=none&flow=&sni=www.autodesk.com&fp=chrome&security=reality&pbk=y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4&sid=860705e716cbe6ed#tv2rayrr
 vless://60e7e018-ee6a-48b1-9625-c4d4276935b3@178.239.125.31:39735/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.yahoo.co.jp&fp=chrome&security=reality&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&sid=#tv2rayrr
+vless://86b414b6-966e-4f6d-ab16-32049ef732d3@47.245.38.111:443/?type=tcp&encryption=none&flow=&sni=www.autodesk.com&fp=chrome&security=reality&pbk=y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4&sid=860705e716cbe6ed#tv2rayrr
 trojan://2274c52572e721086f8bd8f88984643c@153.121.51.29:127/?type=tcp&security=tls&sni=www.nintendogames.net#tv2rayrr
-vless://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@8.216.21.135:10026?type=tcp&security=none#v2ray_extractor

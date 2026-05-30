@@ -1,10 +1,9 @@
-vless://66a83901-6f32-416f-967b-c602fe47b49b@151.101.57.219:443?encryption=none&type=ws&security=tls&path=%2Fwp-admin.php%3Fed%3D2052&host=neSzjzFesHab.gLobAl.ssl.FasTly.neT.&sni=speedtest.net&allowInsecure=1#ConfiingPro
-vless://c575c0fd-4833-4cba-937d-2342fd32544b@45.130.125.69:443?mode=stream-one&path=%2Fdev%2Fapi&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=de.fbase.cc.cd&fp=chrome&type=xhttp&sni=de.fbase.cc.cd#ConfiingPro
-trojan://mitivpn@45.130.125.76:443?type=ws&security=tls&path=%2F%3Fed%3D2048&sni=www.app-cloud.ir&alpn=http%2F1.1&fp=chrome&allowInsecure=1#ConfiingPro
-vless://e258977b-e413-4718-a3af-02d75492c349@45.130.125.69:2096?path=%2FChannel----%40saministamm&security=tls&encryption=none&insecure=1&host=jp.aniua.qzz.io&type=ws&allowInsecure=1&sni=jp.aniua.qzz.io#ConfiingPro
-vless://01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f@nl-tx.sbrf-cdn342.ru:443?encryption=none&type=tcp&security=tls&headerType=none&sni=sub.sbrf-cdn342.ru&alpn=http%2F1.1&fp=qq&allowInsecure=0&flow=xtls-rprx-vision#ConfiingPro
 vless://01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f@37.49.225.189:443?security=tls&alpn=http%2F1.1&encryption=none&insecure=0&headerType=none&fp=qq&type=tcp&allowInsecure=0&flow=xtls-rprx-vision-udp443&sni=sub.sbrf-cdn342.ru#ConfiingPro
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMMW1kWEZRcTN1NjExWklC@20.87.107.99:443#ConfiingPro
 vless://a184bab0-4005-4807-b76e-58c37b9d16a5@185.143.235.200:2095?path=%2Firbert&security=none&encryption=none&host=irbert.skycmd.org&type=ws#ConfiingPro
-vless://e258977b-e413-4718-a3af-02d75492c349@45.130.125.69:2096?security=tls&allowInsecure=0&encryption=none&type=ws&host=jp.aniua.qzz.io&path=/Channel----@VPNCUSTOMIZE&sni=jp.aniua.qzz.io&fp=chrome#ConfiingPro
-vless://b51b79ef-de4e-4c88-924a-9b32ae7bfadd@108.61.198.98:80?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#ConfiingPro
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#ConfiingPro
+trojan://Mitivpn@104.17.121.71:443?path=%2F%3Fed&security=tls&alpn=http%2F1.1&insecure=1&host=cdn.hitgram.ir&fp=chrome&type=ws&allowInsecure=1&sni=cdn.hitgram.ir#ConfiingPro
+vless://01ef96b4-e7ec-4218-8ffe-a59e1cdfd836@downlod.musicribvar.com:45029?security=none&encryption=none&headerType=none&type=tcp#ConfiingPro
+vless://01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f@nl-tx.sbrf-cdn342.ru:443?encryption=none&type=tcp&security=tls&headerType=none&sni=sub.sbrf-cdn342.ru&alpn=http%2F1.1&fp=qq&allowInsecure=0&flow=xtls-rprx-vision#ConfiingPro
+vless://a9160eba-23cd-407d-8cb3-39a2bc43148c@45.130.125.69:2096?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&authority=&fp=chrome&allowinsecure=1&type=grpc&serviceName=sharghdaily.com.tasnimnews.com.yjc.ir.entekhab.ir.tasnimnews.com.isna.ir.entekhab.ir&sni=sHort-aCtIon40S8o1J3v9.SaMSUNgOVEnS.Ir#ConfiingPro
+vless://66a83901-6f32-416f-967b-c602fe47b49b@151.101.57.219:443?encryption=none&type=ws&security=tls&path=%2Fwp-admin.php%3Fed%3D2052&host=neSzjzFesHab.gLobAl.ssl.FasTly.neT.&sni=speedtest.net&allowInsecure=1#ConfiingPro
+vless://1f9d104e-ca0e-4202-ba4b-a0afb969c747@45.130.125.76:443?encryption=none&type=xhttp&security=tls&path=%2Fassignment&host=www.multiplydose.cc.cd&mode=stream-one&sni=www.multiplydose.cc.cd&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=0#ConfiingPro

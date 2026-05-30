@@ -1,5 +1,2 @@
-vless://91e120bc-159a-4390-b4e1-197b19602ea0@185.215.186.26:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=sub.sbrf-cdn342.ru&type=tcp#NetAccount
-vless://91e120bc-159a-4390-b4e1-197b19602ea0@185.215.184.95:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=sub.sbrf-cdn342.ru&type=tcp#oneclickvpnkeys
-vless://91e120bc-159a-4390-b4e1-197b19602ea0@185.215.186.26:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=sub.sbrf-cdn342.ru&type=tcp#oneclickvpnkeys
-vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@109.206.241.125:443?encryption=none&fp=chrome&host=1-gjo.pages.dev&path=%2F&security=tls&sni=1-gjo.pages.dev&type=ws#v2ray_extractor
-ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.180.216.114:7307#v2ray_extractor
+vless://a67e3045-626c-42c9-8cc0-a5afa6b18b05@95.85.228.146:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM&security=reality&sid=92d0c4089b6c1da3&sni=io.ozone.ru&type=tcp#NetAccount
+vless://a67e3045-626c-42c9-8cc0-a5afa6b18b05@95.85.228.146:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM&security=reality&sid=92d0c4089b6c1da3&sni=io.ozone.ru&type=tcp#oneclickvpnkeys

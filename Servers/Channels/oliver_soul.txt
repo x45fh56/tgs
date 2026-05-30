@@ -1,6 +1,3 @@
-vless://56dbbf7c-ac36-45b9-9873-dff978ccb7b2@45.76.32.242:35541?security=&encryption=none&headerType=none&type=tcp#oliver_soul
-vless://a184bab0-4005-4807-b76e-58c37b9d16a5@185.143.235.200:2095?path=%2Firbert&security=none&encryption=none&host=irbert.skycmd.org&type=ws#oliver_soul
-vless://01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f@37.49.225.189:443?security=tls&alpn=http%2F1.1&encryption=none&insecure=0&headerType=none&fp=qq&type=tcp&allowInsecure=0&flow=xtls-rprx-vision-udp443&sni=sub.sbrf-cdn342.ru#oliver_soul
-trojan://humanity@104.17.121.71:443?path=%2Fassignment&security=tls&host=www.multiplydose.com&allowinsecure=0&type=ws&sni=www.multiplydose.com#oliver_soul
-vless://01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f@nl-tx.sbrf-cdn342.ru:443?encryption=none&type=tcp&security=tls&headerType=none&sni=sub.sbrf-cdn342.ru&alpn=http%2F1.1&fp=qq&allowInsecure=0&flow=xtls-rprx-vision#oliver_soul
-vless://4e93e8e6-8cc1-4a5b-b577-3d5bcae6ada0@104.17.121.238:2096?mode=gun&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=irdiplomacy.ir.rajanews.com.parstoday.com.donya-e-eqtesad.com.alalamtv.net.yjc.ir.tehrantimes.com&allowInsecure=0&sni=FAiNT-beliEFst4dReAkTi.WINdler.Co.Uk#oliver_soul
+vless://1f9d104e-ca0e-4202-ba4b-a0afb969c747@45.130.125.76:443?encryption=none&type=xhttp&security=tls&path=%2Fassignment&host=www.multiplydose.cc.cd&mode=stream-one&sni=www.multiplydose.cc.cd&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=0#oliver_soul
+vless://d54cc968-08e7-476d-93b0-286d37c50707@germany1.kenargozar.com:59289?security=reality&encryption=none&pbk=G_IWLkPQKnsof8Wawqfjz2HB_bjAeO1P8D7bp8KYoXo&headerType=none&fp=chrome&spx=%2Fl3sonxN6mjaECea&type=tcp&sni=www.intel.com&sid=dcb1#oliver_soul
+trojan://humanity@www.calmlunch.com:443?security=tls&sni=www.calmlunch.com&fp=chrome&allowInsecure=0&type=ws&path=/assignment#oliver_soul
