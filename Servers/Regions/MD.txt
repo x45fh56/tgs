@@ -1,5 +1,4 @@
-vless://85f15b9d-74da-4ea0-9ffd-5fc0bb03e3d5@185.237.223.36:13295?encryption=none&flow=xtls-rprx-vision&fp=&pbk=Hq4RlJdGl8UN0KO3kNj03pjToLF7fnCHdZfQ1qmDLho&security=reality&sid=98&sni=yandex.ru&type=tcp#NetAccount
-vless://85f15b9d-74da-4ea0-9ffd-5fc0bb03e3d5@185.237.223.36:13295?encryption=none&flow=xtls-rprx-vision&fp=&pbk=Hq4RlJdGl8UN0KO3kNj03pjToLF7fnCHdZfQ1qmDLho&security=reality&sid=98&sni=yandex.ru&type=tcp#oneclickvpnkeys
+vless://46d74f41-89fb-41a9-801d-75945f388879@185.248.144.70:10549?encryption=none&fp=&pbk=tyNWG6Tu_so9cRgv6Le8G5nwa065RoZXiSEBfIsXbFk&security=reality&serviceName=grpc&sid=be&sni=xp.apple.com&type=grpc#oneclickvpnkeys
 vless://15d114ee-c814-47c7-bd12-fab0c7a0128e@94.232.247.117:8880/?type=grpc&encryption=none&flow=#tv2rayrr
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@103.35.189.107:8880/?type=grpc&encryption=none&flow=#tv2rayrr
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.153.197.5:989#tv2rayrr

@@ -1,1 +1,3 @@
-vless://37e45bbc-89f8-4f73-bcf7-7a3c677964e9@185.121.12.178:8443?security=reality&encryption=none&pbk=iiYXNFuSOyiZlFnu702mHg10w1QjczHtfNiIyuV44g4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=a1b2c3d4e5f6a7b8#NetAccount
+vless://69a2af58-d74a-44ca-864a-e09b493f4274@195.96.132.125:443?security=reality&type=tcp&sni=www.vk.ru&fp=chrome&flow=xtls-rprx-vision&sid=8237eb&pbk=WM-LMz6slGkGPD3zEM8Ntat27n6p6EfbxRsjYmTykV4&encryption=none#NetAccount
+vless://69a2af58-d74a-44ca-864a-e09b493f4274@195.96.132.125:443?type=tcp&headerType=none&security=reality&encryption=none&sni=www.vk.ru&fp=chrome&pbk=WM-LMz6slGkGPD3zEM8Ntat27n6p6EfbxRsjYmTykV4&sid=8237eb&flow=xtls-rprx-vision#NetAccount
+vless://69a2af58-d74a-44ca-864a-e09b493f4274@195.96.132.125:443?type=tcp&security=reality&sni=www.vk.ru&fp=chrome&flow=xtls-rprx-vision&pbk=WM-LMz6slGkGPD3zEM8Ntat27n6p6EfbxRsjYmTykV4&sid=8237eb#NetAccount

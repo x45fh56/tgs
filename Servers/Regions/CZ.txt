@@ -1,7 +1,2 @@
-vless://c1e32c6c-9a14-4edf-95c7-b1236a55aa07@95.182.80.130:16146?type=grpc&serviceName=&authority=&security=reality&pbk=lCkGLh6mypATTCMgrwjjqOxWBISCIB9fmdt_5Fff3Ug&fp=chrome&sni=www.samsung.com&sid=e7eac240&spx=/#NetAccount
-vless://c31000d2-0c0d-4e26-ac26-d168530ffe54@95.182.82.78:80?security=none&encryption=none&headerType=none&type=tcp#NetAccount
-vless://729d3d1e-ee1a-4c42-84bc-2ff331518221@2.26.160.79:443?security=reality&encryption=none&pbk=Aak3FEVpJGzxzVz4wWkNpFA9dANDnvQg15X4eYNr_hw&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.nvidia.com&sid=6ba8f65dee6e#NetAccount
-vless://729d3d1e-ee1a-4c42-84bc-2ff331518221@2.26.160.79:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=Aak3FEVpJGzxzVz4wWkNpFA9dANDnvQg15X4eYNr_hw&security=reality&sid=6ba8f65dee6e&sni=www.nvidia.com&type=tcp#NetAccount
-vless://c1e32c6c-9a14-4edf-95c7-b1236a55aa07@95.182.80.130:16146?mode=gun&security=reality&encryption=none&authority=/v2rayNplus-v2rayNplus-v2rayNplus&pbk=lCkGLh6mypATTCMgrwjjqOxWBISCIB9fmdt_5Fff3Ug&fp=chrome&spx=/&type=grpc&sni=www.samsung.com&sid=e7eac240#NetAccount
+vless://69a2af58-d74a-44ca-864a-e09b493f4274@95.85.234.126:443?type=tcp&security=reality&pbk=1kAsEwUWwatnjpeQ2qUwHSccFucFOKzXVICm9tC0eWA&fp=random&sni=www.google.com&sid=25425ff6fa&flow=xtls-rprx-vision#NetAccount
 vless://c5765da4-772f-4ff7-b96c-551ca7185529@95.85.233.234:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=eHgRhHYifD2njbtjzgMsNPGnvbpAK8SSXC5-wFuQnQ4&security=reality&sid=65b5280b52e0532c&sni=fastsync.xyz&type=tcp#oneclickvpnkeys
-vless://0d974d97-fc0f-4e31-9f86-d4972c37b565@185.149.135.102:2053?mode=auto&path=%2Fxn--q9jyb4c&security=tls&encryption=none&insecure=0&host=cdn.dns.xn--q9jyb4c&type=xhttp&allowInsecure=0&sni=cdn.dns.xn--q9jyb4c#v2ray_extractor

@@ -1,8 +1,7 @@
-vless://3dbf131b-dbf6-4660-b97b-003199b17686@cd4.baguvix.xyz:2053?security=tls&type=ws&headerType=&path=%2Fws%3Fed%3D2560&host=c7.app9.ir&sni=c7.app9.ir&fp=#v2to_nadi
-vless://3dbf131b-dbf6-4660-b97b-003199b17686@cd1.baguvix.xyz:2053?security=tls&type=ws&headerType=&path=%2Fws%3Fed%3D2560&host=c1.app9.ir&sni=c1.app9.ir&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1#v2to_nadi
-vless://3835259e-2689-4f34-aedd-f389e8a995da@104.17.121.71:443?encryption=none&security=tls&type=grpc&headerType=none&serviceName=vless&authority=ITMMD.xuispeedms.ir&mode=multi&sni=ITMMD.xuispeedms.ir#v2to_nadi
-vless://3835259e-2689-4f34-aedd-f389e8a995da@VARZESH3.COM:2087?encryption=none&security=tls&type=ws&headerType=none&path=%2F&host=lol4.artarona.ir&sni=lol4.artarona.ir&fp=chrome&alpn=h2%2Chttp%2F1.1#v2to_nadi
-vless://8dfd86f5-a345-4642-93d9-dfe856baea28@185.143.233.5:2083?encryption=none&fp=firefox&host=p1.sesrsa.com&path=%2F&security=tls&sni=p1.sesrsa.com&type=ws#v2to_nadi
-vless://3835259e-2689-4f34-aedd-f389e8a995da@VARZESH3.COM:2087?encryption=none&security=tls&type=ws&headerType=none&path=%2F&host=lol3.artarona.ir&sni=lol3.artarona.ir&fp=chrome&alpn=h2%2Chttp%2F1.1#v2to_nadi
-vless://3835259e-2689-4f34-aedd-f389e8a995da@104.17.121.71:443?encryption=none&security=tls&type=grpc&headerType=none&serviceName=vless&authority=DEMMD.xuispeedms.ir&mode=multi&sni=DEMMD.xuispeedms.ir&alpn=h2%2Chttp%2F1.1#v2to_nadi
-vless://6feec85d-b360-4b6b-96b4-28007b00e58c@157.230.96.148:36424?security=none&allowInsecure=0&encryption=none&type=tcp&host=www.google.com&path#v2to_nadi
+vless://c87524c6-bb7e-42c1-906f-efb6d892c077@151.101.109.223:443?encryption=none&security=tls&type=xhttp&headerType=none&path=%2F&host=secretturkk.global.ssl.fastly.net&mode=auto&sni=biography.com&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1&allowInsecure=1#v2to_nadi
+vless://f76e7cd5-7983-4137-9d57-63c197cb9182@185.143.233.122:443?type=ws&encryption=none&path=%2Fed%3D2080&host=cyrus.frtshop.ir&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=cyrus.frtshop.ir#v2to_nadi
+vless://4084d1a9-114b-4a82-a058-2ba5f9e34458@du.mobileemdad.top:42542?encryption=none&security=none&type=tcp&headerType=http&path=%2F&host=du.mobileemdad.top#v2to_nadi
+vless://c87524c6-bb7e-42c1-906f-efb6d892c077@104.17.121.71:2083?encryption=none&security=tls&type=xhttp&headerType=none&path=%2F&host=DeM.sodogodping.ir&mode=auto&sni=DeM.sodogodping.ir&fp=chrome&alpn=h2%2Chttp%2F1.1#v2to_nadi
+vless://c87524c6-bb7e-42c1-906f-efb6d892c077@104.17.121.71:2083?encryption=none&security=tls&type=xhttp&headerType=none&path=%2F&host=frir.sodogodping.ir&mode=auto&sni=frir.sodogodping.ir#v2to_nadi
+vless://4a2657fb-da52-494f-8af8-92005b423b6f@k11.fastspeeds.ir:443?security=tls&allowInsecure=0&encryption=none&type=ws&path=/&sni=f-watashi-r-jacket-o-people-jan.saft89.ir&fp=chrome#v2to_nadi
+vless://4084d1a9-114b-4a82-a058-2ba5f9e34458@nova.speedur.org:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=nova.speedur.org&path=/uploader.php&sni=nova.speedur.org&fp=chrome&alpn=http/1.1#v2to_nadi

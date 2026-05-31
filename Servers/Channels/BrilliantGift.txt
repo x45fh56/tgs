@@ -1,7 +1,5 @@
-vless://9748d871-3e41-4ef3-a683-c34d2c5fe572@farbood.drshoayb.top:443?encryption=none&security=tls&sni=google.com&fp=firefox&alpn=h2%2Chttp%2F1.1&insecure=1&allowInsecure=1&type=tcp&headerType=none#BrilliantGift
-vless://34fffc15-5f0d-4dd8-9474-a2e236982e2f@ia.subchar.ir:13927?type=tcp&encryption=none&path=%2F&host=google.com&headerType=http&security=none#BrilliantGift
-vless://cc752a3e-1537-4e86-bb50-1b897bf7b33c@202.37.33.80:443?path=%2Fsg-melbi&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=cyylr.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=cyylr.eu.cc#BrilliantGift
-vless://03bd79a7-46dd-4256-9603-af3d1f799ccf@ia.subchar.ir:13927?type=tcp&encryption=none&path=%2F&host=google.com&headerType=http&security=none#BrilliantGift
-vless://9748d871-3e41-4ef3-a683-c34d2c5fe572@85.234.73.39:443?encryption=none&security=tls&sni=google.com&fp=firefox&alpn=h2%2Chttp%2F1.1&insecure=1&allowInsecure=1&type=tcp&headerType=none#BrilliantGift
-vless://128f9f14-d92a-4ca7-8efe-04bd83189ae8@95.179.245.139:42723?security=none&encryption=none&headerType=none&type=tcp#BrilliantGift
-vless://9748d871-3e41-4ef3-a683-c34d2c5fe572@85.234.73.39:2088?encryption=none&security=tls&sni=google.com&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=1&allowInsecure=1&type=tcp&headerType=none#BrilliantGift
+vless://43a9c463-f332-43c0-82a1-70ea8d4926bd@ia.subchar.ir:13927?encryption=none&headerType=http&host=google.com&path=%2F&security=none&type=tcp#BrilliantGift
+vless://ca685cf0-3e19-42aa-b507-9417cd01b584@ia.subchar.ir:443?alpn=h2%2Chttp%2F1.1&encryption=none&fp=randomized&host=snapp.ir&path=%2F&security=tls&sni=ia.subchar.ir&type=ws#BrilliantGift
+vless://5a03dabe-cd6f-4d7a-9c08-28060eff86de@ia.subchar.ir:13927?type=tcp&encryption=none&path=%2F&host=google.com&headerType=http&security=none#BrilliantGift
+vless://b8d68a38-4164-4d4d-81b7-de21ae9b80ca@ia.subchar.ir:13927?type=tcp&encryption=none&path=%2F&host=google.com&headerType=http&security=none#BrilliantGift
+vless://4c3fe585-ac09-41df-b284-888818888188@79.141.171.133:443?security=reality&encryption=none&pbk=0rtpNciTfV9TsoEc7Y8lS5LzBUzLppMnRY8bQC_bH3M&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=apple.com&sid=aabbccdd#BrilliantGift

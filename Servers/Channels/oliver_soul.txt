@@ -1,3 +1,10 @@
+vless://1a1e38b5-752d-4c65-8dae-a28e5a106d7a@104.17.121.71:443?mode=auto&path=%2FTelegram-Zedmodeon&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=manok.tll-far.ir&fp=chrome&type=xhttp&sni=manok.tll-far.ir#oliver_soul
+vless://1f9d104e-ca0e-4202-ba4b-a0afb969c747@45.130.125.76:443?security=tls&allowInsecure=0&encryption=none&type=xhttp&path=/assignment&sni=www.multiplydose.cc.cd&fp=chrome&mode=stream-one&alpn=h2,http/1.1#oliver_soul
+vless://b95dd8e5-2758-408f-be99-9362eecee609@pl.fantoff.online:443?security=reality&encryption=none&pbk=BoWKSM1aSfcTRgKX_kZYPlauG0jLIqku3zPBAiHpUgs&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=5ea7e22e889dabc5#oliver_soul
+vless://41bc5a50-7c41-4078-9a2a-611ab1c6dddb@snapp.ir:2095?path=%2F&security=none&encryption=none&host=lizardf1.fastshop11.ir&type=ws#oliver_soul
+vless://dd929784-7045-4e06-a801-0b974e4ec0b8@172.67.130.241:80?path=%2FZiIXJAIry34Bj4i4vAY&security=none&encryption=none&host=hU.aNDisHeHpaRenTiNG.cOM&type=httpupgrade#oliver_soul
+vless://a08af6fb-21af-4c99-99d6-a3361e7a8456@fsxhh.fastshop1.com:443?mode=packet-up&path=%2Fmammadalifsx&security=tls&encryption=none&insecure=0&host=mmdaliakbarali.global.ssl.fastly.net&type=xhttp&allowInsecure=0&sni=ssl.fastly.com#oliver_soul
+ss://YWVzLTI1Ni1nY206TXpSbFl6QTBaR1kwTmpjMlpqUTJZVFJpTVRnMllUa3pOak00T0dJMQ@#oliver_soul
+vless://d697bc7a-9b53-48cf-b095-d62e137f9b8a@fsxhh.fastshop1.com:443?encryption=none&security=tls&sni=ssl.fastly.com&fp=firefox&insecure=0&allowInsecure=0&type=xhttp&host=lizzard.global.ssl.fastly.net&path=%2Flizzard&mode=packet-up#oliver_soul
+vless://301f9f35-73c7-4ae0-bbe9-7dd86da19f50@91.107.140.160:443?security=reality&encryption=none&pbk=Efid51phV7wQ6vF48DC97364AyVl7tQa22ILzIOLYgg&headerType=none&fp=chrome&spx=%2FXsnyR2MlsO4oUEr&type=tcp&flow=xtls-rprx-vision&sni=aws.amazon.com&sid=d04733f30a13#oliver_soul
 vless://1f9d104e-ca0e-4202-ba4b-a0afb969c747@45.130.125.76:443?encryption=none&type=xhttp&security=tls&path=%2Fassignment&host=www.multiplydose.cc.cd&mode=stream-one&sni=www.multiplydose.cc.cd&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=0#oliver_soul
-vless://d54cc968-08e7-476d-93b0-286d37c50707@germany1.kenargozar.com:59289?security=reality&encryption=none&pbk=G_IWLkPQKnsof8Wawqfjz2HB_bjAeO1P8D7bp8KYoXo&headerType=none&fp=chrome&spx=%2Fl3sonxN6mjaECea&type=tcp&sni=www.intel.com&sid=dcb1#oliver_soul
-trojan://humanity@www.calmlunch.com:443?security=tls&sni=www.calmlunch.com&fp=chrome&allowInsecure=0&type=ws&path=/assignment#oliver_soul

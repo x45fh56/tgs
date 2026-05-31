@@ -1,2 +1,1 @@
-vless://9c70d9c2-4d6a-4261-b52b-a886ba6cc9fb@panel.panel.pythash.tr:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=MbVEbNu2iMIDhD5ziJFLKVfV0lBY7tGGpklBrwqVCyg&sid=5d&spx=%2Ffm1uJ00KmBhEMKi&type=tcp&headerType=none#pythash
-trojan://humanity@45.130.125.69:443?security=tls&sni=www.calmloud.com&alpn=http%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=www.calmloud.com&path=%2Fassignment#pythash
+vless://68f91cc2-4ef2-46fd-932a-2d0350f682c8@panel.panel.pythash.tr:443?security=reality&encryption=none&pbk=MbVEbNu2iMIDhD5ziJFLKVfV0lBY7tGGpklBrwqVCyg&headerType=none&fp=chrome&spx=%2FFbXJdgEZFzfMMH9&type=tcp&flow=xtls-rprx-vision&sni=www.yahoo.com&sid…#pythash
