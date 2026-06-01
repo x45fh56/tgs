@@ -1,5 +1,2 @@
-vless://2ee26119-94e5-40b4-ba3a-16354021b600@185.18.250.127:2096?type=ws&headerType=none&security=tls&encryption=none&sni=69565ce3109804e7813f98ee.mmdbay.blog&fp=chrome&alpn=h2%2Chttp%2F1.1&path=%2Fgraphql&host=69565ce3109804e7813f98ee.mmdbay.blog&insecure=0#NetAccount
-vless://2ee26119-94e5-40b4-ba3a-16354021b600@185.18.250.127:2096?security=tls&type=ws&path=%2Fgraphql&host=69565ce3109804e7813f98ee.mmdbay.blog&alpn=h2%2Chttp%2F1.1&sni=69565ce3109804e7813f98ee.mmdbay.blog&fp=chrome&encryption=none#NetAccount
-vless://2ee26119-94e5-40b4-ba3a-16354021b600@185.18.250.127:2096?type=ws&headerType=none&security=tls&encryption=none&sni=69565ce3109804e7813f98ee.mmdbay.blog&path=%2Fgraphql&host=69565ce3109804e7813f98ee.mmdbay.blog&insecure=0#NetAccount
-vless://2ee26119-94e5-40b4-ba3a-16354021b600@185.18.250.127:2096?security=tls&allowInsecure=0&encryption=none&type=ws&host=69565ce3109804e7813f98ee.mmdbay.blog&path=/graphql&sni=69565ce3109804e7813f98ee.mmdbay.blog&fp=chrome&alpn=h2,http/1.1#NetAccount
+vless://a1ee1f7f-deb9-48e4-9a97-6f565949817d@83.228.226.72:443?security=none&encryption=none&host=uplod.ir&headerType=http&type=tcp#ConfiingPro
 trojan://humanity@185.18.250.252:443?allowInsecure=1&host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#v2ray_extractor

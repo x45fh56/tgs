@@ -1,7 +1,2 @@
-vless://7625adbb-52f7-4ff4-95f8-677471071a77@132.243.231.122:8443?flow=xtls-rprx-vision&fp=chrome&pbk=A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM&security=reality&sid=92d0c4089b6c1da3&sni=io.ozone.ru&type=tcp#NetAccount
-vless://7625adbb-52f7-4ff4-95f8-677471071a77@132.243.231.122:8443?flow=xtls-rprx-vision&fp=chrome&pbk=A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM&security=reality&sid=92d0c4089b6c1da3&sni=io.ozone.ru#NetAccount
-vless://7625adbb-52f7-4ff4-95f8-677471071a77@132.243.231.122:8443?security=reality&encryption=none&pbk=A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=io.ozone.ru&sid=92d0c4089b6c1da3#NetAccount
-vless://25561511-bd38-4f28-966d-37a5d5bf931a@5.180.46.88:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=14mbxpFBwnpp817ZLgT-6dVqsOmNPIaH7ygYcYScjGg&security=reality&sid=2b4790ccbac1edb2&sni=wikipedia.org&type=tcp#oneclickvpnkeys
-vless://01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f@5.253.31.13:443?allowInsecure=1&alpn=http%2F1.1&encryption=none&flow=xtls-rprx-vision&fp=random&security=tls&sni=sub.sbrf-cdn342.ru&type=tcp#oneclickvpnkeys
-vless://ea484535-0170-4ec8-bb3c-a9dbaa7412d7@45.12.136.81:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU&security=reality&sid=8ae24275272f&sni=cdp.x5.ru&type=tcp#oneclickvpnkeys
+vless://6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5@45.9.14.156:18543?encryption=none&flow=xtls-rprx-vision&fp=&pbk=N6QQQTEXQaXI9PRxOYdlnsdviaLwu4eP4sIq9ifz5VM&security=reality&sid=fb0839b3bc1d6e&sni=www.zvuk.com&type=tcp#oneclickvpnkeys
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpueGdzbUhrUDNKVTdoYlFrSmZ4Z3BYaDV0bHZYZTFlbg@45.83.142.237:443#tv2rayrr

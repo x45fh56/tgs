@@ -1,2 +1,1 @@
-vless://69a2af58-d74a-44ca-864a-e09b493f4274@95.85.234.126:443?type=tcp&security=reality&pbk=1kAsEwUWwatnjpeQ2qUwHSccFucFOKzXVICm9tC0eWA&fp=random&sni=www.google.com&sid=25425ff6fa&flow=xtls-rprx-vision#NetAccount
-vless://c5765da4-772f-4ff7-b96c-551ca7185529@95.85.233.234:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=eHgRhHYifD2njbtjzgMsNPGnvbpAK8SSXC5-wFuQnQ4&security=reality&sid=65b5280b52e0532c&sni=fastsync.xyz&type=tcp#oneclickvpnkeys
+vless://69439c87-cf97-41df-af37-580a1ad5fdb9@103.119.18.153:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=1RNN1WNZn5tNGW6IyPYvGWVPybifzXGkbZ_IbGDDb2w&security=reality&sid=06491bcf&sni=www.microsoft.com&type=tcp#oneclickvpnkeys
