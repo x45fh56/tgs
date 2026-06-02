@@ -1,4 +1,8 @@
-vless://0b6ccbcc-5dd6-4000-ab8f-8d584ae0b624@188.114.97.6:8443?mode=auto&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%2B1000000%2C%2B%22scMaxConcurrentPosts%22%3A%2B100%2C%2B%22scMinPostsIntervalMs%22%3A%2B30%2C%2B%22xPaddingBytes%22%3A%2B%22100-1000%22%2C%2B%22noGRPCHeader%22%3A%2Bfalse%7D&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=cp.nvclud.ir.#NetShot1
-vless://ea651176-c3b3-410f-b506-49f82325a319@188.114.97.6:443?path=%2Fae-bo&security=tls&encryption=none&insecure=0&host=ads.ruangguru.com.cyylr.eu.cc&type=ws&allowInsecure=0&sni=ads.ruangguru.com.cyylr.eu.cc#NetShot1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGSlZnc3pFS3d4UDFDaU85V2FLRGVH@89.185.84.226:443#NetShot1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqeFJHSUQwY2s1dVRYVVhmQmo0Tlk5Yy9zUjZxY2tvNWx4MjEwd2t3YlgwPQ@78.109.198.96:2103#NetShot1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyNjdGT2pnZ0wyMUZlKzc5dGxHblNvNGR3L2pMVWx6WlpCbHViYy9tUmZvPQ@78.109.198.96:2103#NetShot1
+vless://49e9da45-aecc-463b-abe7-abfed1d2086b@188.114.97.6:443?path=%2Fsg-orcl&security=tls&encryption=none&insecure=0&host=web.whatsapp.com.cyylr.eu.cc&type=ws&allowInsecure=0&sni=web.whatsapp.com.cyylr.eu.cc#NetShot1
+vless://31b07cd0-bb51-4036-9910-4c73aff1848d@185.143.233.122:443?encryption=none&type=ws&security=tls&path=%2Fav&sni=hvds2.piba82.ir&allowInsecure=0#NetShot1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGSlZnc3pFS3d4UDFDaU85V2FLRGVH@89.185.84.226:443#NetShot1
+vless://49e9da45-aecc-463b-abe7-abfed1d2086b@188.114.97.6:80?path=%2Fsg-orcl&security=none&encryption=none&host=web.whatsapp.com.cyylr.eu.cc&type=ws#NetShot1
+vless://ea651176-c3b3-410f-b506-49f82325a319@188.114.97.6:443?path=%2Fae-bo&security=tls&encryption=none&insecure=0&host=ads.ruangguru.com.cyylr.eu.cc&type=ws&allowInsecure=0&sni=ads.ruangguru.com.cyylr.eu.cc#NetShot1
+vless://70332c0f-907f-46cc-bd9b-8e459a571bee@45.130.125.160:443?encryption=none&type=ws&security=tls&path=%2F%3Fed%3D80&host=ssj.new-persian-song.ir&sni=ssj.new-persian-song.ir&fp=chrome&allowInsecure=0#NetShot1

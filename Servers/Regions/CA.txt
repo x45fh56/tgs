@@ -1,4 +1,4 @@
-vless://b6b2c827-4ac1-4e2c-af28-dfa7edbfeb81@35.182.252.92:51072?encryption=none&flow=xtls-rprx-vision&fp=&pbk=5KJ1tLErCUEfqxc3IsnY_49p_gWe0mPB8eXJ3MLucgU&security=reality&sid=0675732ab101&sni=www.sony.com&type=tcp#oneclickvpnkeys
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.95.183:443#oneclickvpnkeys
 vmess://eyJhZGQiOiIxNS4yMzUuNDEuMjAwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnb29nbGUuY29tIiwiaWQiOiI1OGZlMTU0Mi01MjkwLTQwYWQtODE1YS03NzcwN2E4MWFmZTUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvSU9lYmhMTWhsMUNUYkZIYkw5NW15ZlJYMiIsInBvcnQiOiI4MCIsInBzIjoi8J+Tnzc5QG9uZWNsaWNrdnBua2V5cyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==#tv2rayrr
 vless://cfe032e4-1bc3-454f-9d09-301b0aea08ff@40.233.83.110:26113/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.yahoo.com&fp=random&security=reality&pbk=GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng&sid=1fbd20fd#tv2rayrr
 vless://2676e126-8f83-44d0-8307-b06b63f8b007@81.19.140.245:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=mxaJHxKKZj-lSN_0W2HeVcqL-zebgk8b--rhUHmy-Hc&sid=19d1ff9e#tv2rayrr

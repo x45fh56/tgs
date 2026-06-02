@@ -1,4 +1,4 @@
 vless://3007b043-acdf-43a4-900e-c7c015406f89@193.233.23.196:26048?encryption=none&security=none&type=tcp#oneclickvpnkeys
 vless://Warpi-Free-Vpn-In-GooglePlay@95.217.233.18:443/?type=tcp&encryption=none&flow=#tv2rayrr
 vless://f5a25ee5-ff24-41b0-80e8-ccafdc866614@193.233.23.121:40611?security=&encryption=none&headerType=none&type=tcp#v2ray_extractor
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2MkxJZXdaek5Vc0lycU9EcjIyRlZj@195.133.2.2:34898#v2ray_extractor
+vless://3007b043-acdf-43a4-900e-c7c015406f89@193.233.23.196:26048?encryption=none&security=none&type=tcp#v2ray_extractor
