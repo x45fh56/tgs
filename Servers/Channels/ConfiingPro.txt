@@ -1,5 +1,6 @@
-vless://0dde72ee-2291-4947-adae-172db1acdcc9@165.245.174.62:8080?path=%2Fapi%2Fv3&security=none&encryption=none&type=ws#ConfiingPro
 vless://0dde72ee-2291-4947-adae-172db1acdcc9@91.244.71.168:8080?path=%2Fapi%2Fv3&security=none&encryption=none&type=ws#ConfiingPro
-vless://0dde72ee-2291-4947-adae-172db1acdcc9@195.135.253.240:8080?path=%2Fapi%2Fv3&security=none&encryption=none&type=ws#ConfiingPro
-vless://a1ee1f7f-deb9-48e4-9a97-6f565949817d@83.228.226.72:52717?security=reality&encryption=none&echfq=none&pbk=MQBlL0jqkNr2Hn0oZgD9AVqOidqwRRY6-BaIiOcpzw4&host=www.aparat.com&headerType=http&fp=chrome&spx=%2FBYNB8T3GsgkTHed&allowinsecure=0&type=tcp&sni=www.aparat.com&sid=e2b970e593#ConfiingPro
+vless://6a576059-2cd7-405d-8f3f-334d4a49f59c@185.143.233.122:443?type=ws&encryption=none&path=%2F&host=cyrus2.frtshop.ir&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=cyrus2.frtshop.ir#ConfiingPro
 vless://0dde72ee-2291-4947-adae-172db1acdcc9@91.244.70.205:8080?path=%2Fapi%2Fv3&security=none&encryption=none&type=ws#ConfiingPro
+vless://a1ee1f7f-deb9-48e4-9a97-6f565949817d@83.228.226.72:52717?security=reality&encryption=none&echfq=none&pbk=MQBlL0jqkNr2Hn0oZgD9AVqOidqwRRY6-BaIiOcpzw4&host=www.aparat.com&headerType=http&fp=chrome&spx=%2FBYNB8T3GsgkTHed&allowinsecure=0&type=tcp&sni=www.aparat.com&sid=e2b970e593#ConfiingPro
+vless://0dde72ee-2291-4947-adae-172db1acdcc9@165.245.174.62:8080?path=%2Fapi%2Fv3&security=none&encryption=none&type=ws#ConfiingPro
+vless://0dde72ee-2291-4947-adae-172db1acdcc9@195.135.253.240:8080?path=%2Fapi%2Fv3&security=none&encryption=none&type=ws#ConfiingPro
