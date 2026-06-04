@@ -1,5 +1,9 @@
-vless://dfc0cb9d-f005-41b0-848c-7703bd39d0de@31.76.113.112:443?flow=xtls-rprx-vision&security=reality&allowInsecure=0&encryption=none&type=tcp&sni=it.s3-cloud.xyz&sid=7a3f9e2b1c8d4f6a&fp=chrome&pbk=zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY&headerType=none#ParsiNetFree
-vless://ae5ba4be-7262-4199-bd62-210ed8999b9f@45.82.122.112:9443?flow=xtls-rprx-vision&security=tls&allowInsecure=0&encryption=none&type=tcp&sni=bero-1.bexum.fun&fp=chrome&headerType=none#ParsiNetFree
-vless://8ea09611-4e24-49f9-8b2a-25974d8ebf8c@mag3.portal-guard.com:8443?flow=xtls-rprx-vision&security=reality&allowInsecure=0&encryption=none&type=tcp&sni=mag3.portal-guard.com&sid=4326&fp=chrome&pbk=QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0&headerType=none#ParsiNetFree
-vless://765e0908-5ec4-41e9-8bd0-6482425e4247@152.53.139.226:443?flow=xtls-rprx-vision&security=reality&allowInsecure=0&encryption=none&type=tcp&sni=ads.x5.ru&sid=19ffa83bd83eb32d&fp=chrome&pbk=3TrzFrsFzfZAeYOclG39atVKrsJcN7Beoa4VhN5D-j4&headerType=none#ParsiNetFree
-vless://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@download.spectrum.vu:443?flow=xtls-rprx-vision&security=reality&allowInsecure=0&encryption=none&type=tcp&sni=download.spectrum.vu&sid=d1e9faa1b2c3&fp=chrome&pbk=sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8&headerType=none#ParsiNetFree
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4enc1ajloQDU0LjM2LjE3NC4xMzQ6NDQz#ParsiNetFree
+vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@r1.mizulina.top:22231?flow=xtls-rprx-vision-udp443&security=tls&allowInsecure=0&encryption=none&type=tcp&sni=r1.mizulina.top&fp=edge&headerType=none#ParsiNetFree
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJRQDgyLjM4LjMxLjE5MDo4MDgw#ParsiNetFree
+ss://Y2hhY2hhMjAtaWV0Z…#ParsiNetFree
+vless://9bab5218-ce9f-4991-9887-8b3605a27d5e@188.114.97.6:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=graph.instagram.com.cyylr.eu.cc&path=/sg-amz&sni=graph.instagram.com.cyylr.eu.cc&fp=chrome#ParsiNetFree
+trojan://humanity@:443?security=tls&sni=www.calmloud.com&fp=chrome&allowInsecure=0&alpn=http/1.1&type=ws&path=/assignment#ParsiNetFree
+vless://d3310d18-c198-4974-a3f1-f9fe7896d4dc@188.114.97.6:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=zaintest.vuclip.com.cyylr.eu.cc&path=/ae-bo&sni=zaintest.vuclip.com.cyylr.eu.cc&fp=chrome#ParsiNetFree
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHeVo1WG8waHQ0MXZZbVczSDRAMTQ5LjI4LjI1NS42OjgxNg==#ParsiNetFree
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWRAMTA4LjE4MS41OC4yMzk6ODM4OA==#ParsiNetFree
