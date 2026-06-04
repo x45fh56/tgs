@@ -1,9 +1,9 @@
 vless://6a576059-2cd7-405d-8f3f-334d4a49f59c@185.143.233.122:443?type=ws&encryption=none&path=%2F&host=cyrus2.frtshop.ir&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=cyrus2.frtshop.ir#ConfiingPro
 vless://d9569dcd-b246-ebec-50a9-bc9dc5c43041@89.42.139.167:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=iran.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=iran.ir#FreakConfig
-vless://d9569dcd-b246-ebec-50a9-bc9dc5c43041@185.2.15.126:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=iran.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=iran.ir#FreakConfig
 vless://69a2af58-d74a-44ca-864a-e09b493f4274@213.176.77.65:443?security=reality&encryption=none&pbk=1kAsEwUWwatnjpeQ2qUwHSccFucFOKzXVICm9tC0eWA&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=25425ff6fa#FreakConfig
+vless://d9569dcd-b246-ebec-50a9-bc9dc5c43041@185.2.15.126:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=iran.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=iran.ir#FreakConfig
 vless://70d47995-3b31-4da3-a76b-804df83c71ba@185.143.234.200:8080?path=%2F&security=none&encryption=none&host=cdn.namavax.ir&type=ws#NetShot1
-vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#new_mtproxi2
 vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#new_mtproxi2
+vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#new_mtproxi2
 ss://YWVzLTI1Ni1nY206TTJGbE5XVTJabUUyTnpWbU5UVmlOVEUyWW1VME5qVTFNelk1WlRJNA@188.121.119.246:10086#oneclickvpnkeys
 vless://661f5954-7f13-4c5f-add8-a7c0b250aabd@185.143.233.122:80?path=%2Fws&security=none&encryption=none&host=gre.greentab.ir&type=ws#v2ray_extractor
