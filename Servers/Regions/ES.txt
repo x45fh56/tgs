@@ -1,9 +1,1 @@
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HqvCfh7ggfCBAV2hpdGVETlMgfCBFUzF8NS43TUIvc3xHUFTigbotRVN8R00tRVN8Q0wtRVN8U1AtRVMiLCJhZGQiOiI4NS45MC4yMTcuNDIiLCJwb3J0IjoiMjIzMjQiLCJpZCI6IjA0NjIxYmFlLWFiMzYtMTFlYy1iOTA5LTAyNDJhYzEyMDAwMiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6IiIsInRscyI6IiJ9#pythash
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HqvCfh7ggfCBAV2hpdGVETlMgfCBFUzR8MTguMU1CL3N8R1BU4oG6LUVTfEdNLUVTfENMLUVTfFNQLUVTIiwiYWRkIjoiODUuOTAuMjE3LjQyIiwicG9ydCI6IjIyMzI0IiwiaWQiOiIwNDYyMWJhZS1hYjM2LTExZWMtYjkwOS0wMjQyYWMxMjAwMDIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InJhdyIsInR5cGUiOiIiLCJ0bHMiOiIifQ==#pythash
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HqvCfh7ggfCBAV2hpdGVETlMgfCBFUzd8MTQuN01CL3N8R1BU4oG6LUVTfEdNLUVTfENMLUVTfFNQLUVTIiwiYWRkIjoiODUuOTAuMjE3LjQyIiwicG9ydCI6IjIyMzI0IiwiaWQiOiIwNDYyMWJhZS1hYjM2LTExZWMtYjkwOS0wMjQyYWMxMjAwMDIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiIiLCJ0bHMiOiIifQ==#pythash
-vless://69a2af58-d74a-44ca-864a-e09b493f4274@195.96.132.125:443?security=reality&type=tcp&sni=www.vk.ru&fp=chrome&flow=xtls-rprx-vision&sid=8237eb&pbk=WM-LMz6slGkGPD3zEM8Ntat27n6p6EfbxRsjYmTykV4&encryption=none#pythash
-vless://69a2af58-d74a-44ca-864a-e09b493f4274@195.96.132.125:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=www.vk.ru&fp=chrome&flow=xtls-rprx-vision&sid=8237eb&pbk=WM-LMz6slGkGPD3zEM8Ntat27n6p6EfbxRsjYmTykV4#pythash
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@85.90.217.42:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=85.90.217.42#pythash
-trojan://2eutknankxtbgkwcajzt@193.148.19.210:52794?sni=www.vk.com&allowInsecure=1&type=tcp&fp=chrome#pythash
-trojan://2eutknankxtbgkwcajzt@193.148.19.210:52794?sni=193.148.19.210&allowInsecure=1&type=tcp&fp=chrome#pythash
 ss://YWVzLTI1Ni1jZmI6WFB0ekE5c0N1ZzNTUFI0Yw==@5.188.181.201:9025#pythash

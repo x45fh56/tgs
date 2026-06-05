@@ -1,3 +1,0 @@
-trojan://T5mQb1DCbOaJsr5UACQTe0elQ3BBH9Bf_g@185.126.238.78:443?sni=www.archiveselector.click&type=raw&fp=chrome#pythash
-trojan://T5mQb1DCbOaJsr5UACQTe0elQ3BBH9Bf_g@185.126.238.78:443?sni=www.archiveselector.click&allowInsecure=1&type=tcp#pythash
-trojan://T5mQb1DCbOaJsr5UACQTe0elQ3BBH9Bf_g@185.126.238.78:443?sni=www.archiveselector.click&allowInsecure=1&type=tcp&fp=chrome#pythash

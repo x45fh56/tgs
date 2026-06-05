@@ -1,3 +1,3 @@
-vless://9f99a0c3-94c5-4ff6-bc62-0d5dd93126f2@strong.zdshop.ir:2053?security=tls&type=ws&headerType=&path=&host=1ea394df1b9aa9ce.kiWiJuiCe.IR.&sni=68e1511bbd16ffad.kiWiJuiCe.IR.&fp=#v2to_nadi
 vless://9ce7ac33-5004-40ea-8236-15bc2d25a37c@104.19.149.10:2083?security=tls&allowInsecure=0&encryption=none&type=ws&host=restless-field-ffef.nijinbbmfjk.workers.dev&path=/v2ngfast---v2ngfast---v2ngfast---v2ngfast---v2ngfast&sni=restless-field-ffef.nijinbbmfjk.workers.dev&fp=chrome#v2to_nadi
+vless://9f99a0c3-94c5-4ff6-bc62-0d5dd93126f2@strong.zdshop.ir:2053?security=tls&type=ws&headerType=&path=&host=1ea394df1b9aa9ce.kiWiJuiCe.IR.&sni=68e1511bbd16ffad.kiWiJuiCe.IR.&fp=#v2to_nadi
 vless://9ce7ac33-5004-40ea-8236-15bc2d25a37c@104.19.50.74:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=sweet-brook-0e29.richardpoijh.workers.dev&path=/v2ngfast---v2ngfast---v2ngfast---v2ngfast---v2ngfast&sni=sweet-brook-0e29.richardpoijh.workers.dev&fp=chrome#v2to_nadi
