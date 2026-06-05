@@ -1,0 +1,2 @@
+trojan://s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV@130.94.107.171:443?sni=www.logger-guard.click&type=raw&fp=chrome#pythash
+trojan://s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV@130.94.107.171:443?sni=www.logger-guard.click&type=tcp&fp=chrome#pythash

@@ -1,7 +1,10 @@
 trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?allowInsecure=1&sni=ads.x5.ru#oneclickvpnkeys
-trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?sni=%F0%9F%94%92&allowInsecure=1&type=tcp&fp=chrome#pythash
-trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?sni=78.159.131.12&allowInsecure=1&type=tcp&fp=chrome#pythash
-trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?sni=%25F0%259F%2594%2592&allowInsecure=1&type=tcp&alpn=http%2F1.1&fp=chrome#pythash
-trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?sni=%F0%9F%94%92&allowInsecure=1&type=tcp&alpn=http%2F1.1&fp=chrome#pythash
-trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?sni=%2525F0%25259F%252594%252592&allowInsecure=1&type=tcp&alpn=http%252F1.1&fp=chrome#pythash
+vless://ae852d97-85f5-45cf-82a4-254eba345480@144.31.131.33:443?security=reality&type=raw&sni=cdn.cdnjst.org&fp=chrome&flow=xtls-rprx-vision&sid=a120&pbk=djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc&encryption=none#pythash
+vless://ae852d97-85f5-45cf-82a4-254eba345480@144.31.131.33:443?security=reality&type=tcp&sni=cdn.cdnjst.org&fp=chrome&flow=xtls-rprx-vision&sid=a120&pbk=djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc&encryption=none#pythash
 trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?sni=ads.x5.ru&allowInsecure=1&type=tcp&fp=chrome#pythash
+trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?sni=%2525F0%25259F%252594%252592&allowInsecure=1&type=tcp&alpn=http%252F1.1&fp=chrome#pythash
+trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?sni=%252525F0%2525259F%25252594%25252592&allowInsecure=1&type=tcp&alpn=http%25252F1.1&fp=chrome#pythash
+trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?sni=%F0%9F%94%92&allowInsecure=1&type=tcp&alpn=http%2F1.1&fp=chrome#pythash
+trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?sni=%F0%9F%94%92&allowInsecure=1&type=tcp&fp=chrome#pythash
+trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?sni=%25F0%259F%2594%2592&allowInsecure=1&type=tcp&alpn=http%2F1.1&fp=chrome#pythash
+trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?sni=78.159.131.12&allowInsecure=1&type=tcp&fp=chrome#pythash
