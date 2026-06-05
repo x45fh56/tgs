@@ -36,6 +36,7 @@ REPORTS_DIR = os.path.join("logs")
 MERGED_DIR = os.path.join("Servers", "Merged")
 CHANNELS_DIR = os.path.join("Servers", "Channels")
 MERGED_SNI_FILE = os.path.join(MERGED_DIR, "merged_servers_sni.txt")
+SNI_CHANNELS = {"SNI_SPOOFINGconfig"}  # فقط این کانال‌ها به merged_servers_sni.txt نوشته می‌شن
 EXTRACTED_IPS_FILE = os.path.join(MERGED_DIR, "extracted_cdn_ips.txt")
 CHANNELS_FILE = "data/telegram_sources.txt"
 LOG_FILE = os.path.join(REPORTS_DIR, "extraction_report.log")
@@ -1104,9 +1105,10 @@ def process_channel(url):
                 f.write('\n'.join(new_global_proto) + '\n')
             with open(MERGED_SERVERS_FILE, 'a', encoding='utf-8') as f:
                 f.write('\n'.join(new_global_proto) + '\n')
-            sni_links = [convert_to_sni(l) for l in new_global_proto]
-            with open(MERGED_SNI_FILE, 'a', encoding='utf-8') as f:
-                f.write('\n'.join(sni_links) + '\n')
+            if channel_name in SNI_CHANNELS:
+                sni_links = [convert_to_sni(l) for l in new_global_proto]
+                with open(MERGED_SNI_FILE, 'a', encoding='utf-8') as f:
+                    f.write('\n'.join(sni_links) + '\n')
             new_global_total += len(new_global_proto)
     return 1, new_global_total
 
