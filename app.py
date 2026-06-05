@@ -1100,15 +1100,17 @@ def process_channel(url):
         if not proto_links: continue
         new_global_proto = proto_links - existing_configs.get(proto, set())
         if new_global_proto:
-            proto_path = os.path.join(PROTOCOLS_DIR, f"{proto}.txt")
-            with open(proto_path, 'a', encoding='utf-8') as f:
-                f.write('\n'.join(new_global_proto) + '\n')
-            with open(MERGED_SERVERS_FILE, 'a', encoding='utf-8') as f:
-                f.write('\n'.join(new_global_proto) + '\n')
-            if channel_name in SNI_CHANNELS:
-                sni_links = [convert_to_sni(l) for l in new_global_proto]
-                with open(MERGED_SNI_FILE, 'a', encoding='utf-8') as f:
-                    f.write('\n'.join(sni_links) + '\n')
+            # کانال SNI فقط به merged_servers_sni.txt می‌ره، نه پروتکل‌ها و merged اصلی
+            if channel_name not in SNI_CHANNELS:
+                proto_path = os.path.join(PROTOCOLS_DIR, f"{proto}.txt")
+                with open(proto_path, 'a', encoding='utf-8') as f:
+                    f.write('\n'.join(new_global_proto) + '\n')
+                with open(MERGED_SERVERS_FILE, 'a', encoding='utf-8') as f:
+                    f.write('\n'.join(new_global_proto) + '\n')
+            # همه کانال‌ها (از جمله SNI) با IP تبدیل‌شده به merged_servers_sni.txt می‌رن
+            sni_links = [convert_to_sni(l) for l in new_global_proto]
+            with open(MERGED_SNI_FILE, 'a', encoding='utf-8') as f:
+                f.write('\n'.join(sni_links) + '\n')
             new_global_total += len(new_global_proto)
     return 1, new_global_total
 
