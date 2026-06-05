@@ -11,6 +11,10 @@ on:
     - cron: '30 10 * * *'  
   workflow_dispatch:
 
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -62,4 +66,4 @@ jobs:
             Run at $(date '+%Y-%m-%d %H:%M:%S UTC')
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "actions@github.com"
-          file_pattern: "Servers/ logs/ data/"  
+          file_pattern: "Servers/ logs/ data/"
