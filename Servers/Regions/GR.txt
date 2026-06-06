@@ -1,2 +1,0 @@
-vless://0c8a9f50-51b3-43b5-b1fb-09fc3131a800@91.186.199.129:443?security=tls&type=tcp&alpn=h2%2Chttp%2F1.1&sni=gwapp-ru01.freenets.store&fp=chrome&flow=xtls-rprx-vision-udp443#pythash
-trojan://T5mQb1DCbOaJsr5UACQTe0elQ3BBH9Bf_g@185.126.238.78:443?sni=www.archiveselector.click&allowInsecure=1&type=tcp&fp=chrome#pythash

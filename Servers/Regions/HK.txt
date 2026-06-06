@@ -1,15 +1,4 @@
 vless://ab69adf9-4d3a-4625-aef6-eb6a034a5dd3@216.250.96.164:26000?encryption=none&security=reality&sni=apps.apple.com&fp=chrome&pbk=YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc&sid=2f8400e348eb&spx=%2F&type=tcp&headerType=none#dingyue_center
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@89.223.95.63:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=89.223.95.63&fp=chrome#pythash
-vless://394086c4-d8a4-4298-9b62-f70fa711082d@47.86.55.200:19321?security=none&type=tcp&encryption=none#pythash
-vless://a4caef32-090f-4f17-b7fa-2808f205620d@64.49.46.225:57502?security=reality&type=tcp&sni=www.tesla.com&fp=firefox&flow=xtls-rprx-vision&sid=ebfeeffb94d5bd5d&pbk=IOAu39FSiRk_VX4sfzCVZorWhUY0ikftPdHqcmNoY1c&encryption=none#pythash
-vless://394086c4-d8a4-4298-9b62-f70fa711082d@47.86.55.200:19321?security=none&type=tcp&packetEncoding=none#pythash
-vless://394f6981-a782-4779-9a85-e6cf22935d93@84.17.37.19:8443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=hkg1.fromblancwithlove.com#pythash
-vless://a4caef32-090f-4f17-b7fa-2808f205620d@64.49.46.225:57502?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=www.tesla.com&fp=firefox&flow=xtls-rprx-vision&sid=ebfeeffb94d5bd5d&pbk=IOAu39FSiRk_VX4sfzCVZorWhUY0ikftPdHqcmNoY1c#pythash
-vless://394f6981-a782-4779-9a85-e6cf22935d93@84.17.37.19:8443?security=tls&type=tcp&sni=hkg1.fromblancwithlove.com&fp=chrome#pythash
-vless://394086c4-d8a4-4298-9b62-f70fa711082d@47.86.55.200:19321?security=none&type=raw&encryption=none#pythash
-trojan://BxceQaOe@95.40.4.37:2520?sni=t.me%252Fripaojiedian&allowInsecure=1&type=tcp&fp=chrome#pythash
-trojan://BxceQaOe@95.40.4.37:2520?sni=95.40.4.37&allowInsecure=1&type=tcp&fp=chrome#pythash
-trojan://BxceQaOe@95.40.4.37:2520?sni=t.me%252Fripaojiedian&allowInsecure=1&type=tcp#pythash
-hysteria2://IG9Sundefinedvx6RJ@47.76.94.197:58771?insecure=1&sni=go.microsoft.com#pythash
+vmess://eyJhZGQiOiAiMTU0LjkyLjkuODAiLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogImRkNDFiNWNiLWI3MmUtNGE4Yy1jNzVhLTNlY2M5MjhkNmViMyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvYmx1ZSIsICJwb3J0IjogODAsICJwcyI6ICJASG9wZV9OZXQtam9pbi11cy1vbi1UZWxlZ3JhbSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9#persianvpnhub
 vless://1555ff9a-837c-4d7f-9b5d-0794c9c31e71@154.12.179.154:2501/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=amazon.com&fp=random&security=reality&pbk=N6DfpkpFe0ykYu9ofqjB5jXIMFfsf9T2Ry0L2-WcfAw&sid=b793cdadb1c785#tv2rayrr
 trojan://BxceQaOe@116.49.237.130:2673/?type=tcp&security=tls&sni=t.me%2Fripaojiedian#tv2rayrr

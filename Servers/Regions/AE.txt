@@ -1,8 +1,1 @@
-vless://6d088fbd-528d-4f2a-be26-317dcda3c6ee@31.207.5.73:443?security=reality&type=raw&sni=www.amd.com&fp=chrome&sid=232cd9a21e42&pbk=HlxgAXuwwby0lujjT2LKBPF0udWK4SVjtMPyKtiNdEw&encryption=none#pythash
-vless://14a59796-6db6-4c48-b4d5-2c7b875074c1@217.60.5.233:8443?security=reality&type=tcp&sni=vk.ru&fp=firefox&flow=xtls-rprx-vision&pbk=rFb2hsGZE0KGim0_MMIfeKMnYTjKH2llqtN4uDUaTj0&encryption=none#pythash
-vless://b67ed271-5a34-4d07-9970-f8ba27ca2c8a@78.17.147.65:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=www.microsoft.com&fp=firefox&flow=xtls-rprx-vision&sid=fcd9787f&pbk=gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE#pythash
-vless://d248c9d7-6469-4a17-b269-d64805cfd3ae@31.56.188.25:443?security=reality&type=xhttp&path=%2Fapi%2Fv1%2Fbe463283&host=vk.com&sni=sberbank.ru&fp=chrome&sid=7d951e7eba51ed0e&pbk=HVhOxkUi3RhGJc-nc5gdM82XRymOnG5L_TOJ4eHL7jY&mode=auto&encryption=none#pythash
-vless://14a59796-6db6-4c48-b4d5-2c7b875074c1@217.60.5.233:8443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=vk.ru&fp=firefox&flow=xtls-rprx-vision&pbk=rFb2hsGZE0KGim0_MMIfeKMnYTjKH2llqtN4uDUaTj0#pythash
-vless://6d088fbd-528d-4f2a-be26-317dcda3c6ee@31.207.5.73:443?security=reality&type=tcp&sni=www.amd.com&fp=chrome&sid=232cd9a21e42&pbk=HlxgAXuwwby0lujjT2LKBPF0udWK4SVjtMPyKtiNdEw&encryption=none#pythash
-vless://b67ed271-5a34-4d07-9970-f8ba27ca2c8a@78.17.147.65:443?security=reality&type=tcp&sni=www.microsoft.com&fp=firefox&flow=xtls-rprx-vision&sid=fcd9787f&pbk=gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE&encryption=none#pythash
-trojan://duaR-NjjdGGLeZ+W6j=3NY46vZW+zyMD1z@89.125.95.152:11300?sni=www.toughapp.click&type=tcp&fp=chrome#pythash
+vless://7a788fdd-7513-499f-8a99-7389ece44c18@94.140.0.0:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=nlox.nextigo.app&path=/?ed%3D2048&sni=nlox.nextigo.app&fp=chrome#v2to_nadi
