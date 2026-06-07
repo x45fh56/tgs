@@ -1,2 +1,1 @@
-vless://71310f0a-1c4f-492d-8dec-fd755639d08a@185.181.211.81:37141?encryption=none&security=none&type=tcp#oneclickvpnkeys
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0SmxFV2gyUHpETWV3OHFvOVlrUEVB@38.180.105.12:443#tv2rayrr

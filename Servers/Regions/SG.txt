@@ -1,4 +1,3 @@
-vless://228639b0-48de-4162-a818-d5651ee297b3@27.50.48.49:443?encryption=none&type=ws&security=tls&path=%2Fin-do&host=investors.spotify.com.cyylr.eu.cc&sni=investors.spotify.com.cyylr.eu.cc&allowInsecure=0#ConfigX2ray
 vless://a19fd311-c343-4b54-9ca3-fe6dcd84c0fc@38.47.176.134:59967/?type=tcp&encryption=none&flow=#tv2rayrr
-trojan://aWgKDJmn2q.hv%3D51@139.180.143.191:10293/?type=tcp&security=tls&sni=zmbvgixwdqusy.advudjng.click#tv2rayrr
 trojan://BxceQaOe@38.180.191.251:443/?type=tcp&security=tls&sni=t.me%252Fripaojiedian#tv2rayrr
+trojan://aWgKDJmn2q.hv%3D51@139.180.143.191:10293/?type=tcp&security=tls&sni=zmbvgixwdqusy.advudjng.click#tv2rayrr

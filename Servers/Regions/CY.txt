@@ -1,3 +1,2 @@
-vless://7625adbb-52f7-4ff4-95f8-677471071a77@132.243.231.122:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM&security=reality&sid=92d0c4089b6c1da3&sni=io.ozone.ru&type=tcp#oneclickvpnkeys
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpueGdzbUhrUDNKVTdoYlFrSmZ4Z3BYaDV0bHZYZTFlbg@45.83.142.237:443#tv2rayrr
 vless://5b6046bc-82fc-4b92-99c4-eda0f4df13f3@45.15.152.73:40268?encryption=none&security=none&type=tcp#v2ray_extractor
