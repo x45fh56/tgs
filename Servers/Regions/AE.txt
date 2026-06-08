@@ -1,2 +1,1 @@
-vless://b67ed271-5a34-4d07-9970-f8ba27ca2c8a@78.17.147.65:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE&security=reality&sid=fcd9787f&sni=www.microsoft.com&type=tcp#oneclickvpnkeys
-vless://7a788fdd-7513-499f-8a99-7389ece44c18@94.140.0.0:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=nlox.nextigo.app&path=/?ed%3D2048&sni=nlox.nextigo.app&fp=chrome#v2to_nadi
+hysteria2://p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR@130.49.161.70:443/?insecure=1&obfs=salamander&obfs-password=rG07s3COMIEvdnQipRyWzx_H_2xygNC3&sni=hy2.aspidnet.xyz#oneclickvpnkeys

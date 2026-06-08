@@ -1,1 +1,13 @@
-vless://82515637-99c5-4216-b0e9-fc30bedd3230@www.iranapplecenter.com:443?encryption=none&security=none&type=tcp&headerType=http&path=%2F&host=cdn-apple.com#ConfiingPro
+trojan://humanity@188.114.97.6:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=1&host=www.calmloud.com&type=ws&allowInsecure=1&sni=www.calmloud.com#ConfiingPro
+vless://5d8fcd24-9634-4dd7-845c-3dc2d6291942@de.pink-perfect.ru:443?security=reality&encryption=none&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=86b80f1e713a33ad#ConfiingPro
+trojan://humanity@185.18.250.252:443?type=ws&security=tls&path=%2Fassignment&sni=www.multiplydose.com&allowInsecure=0#ConfiingPro
+vless://5d8fcd24-9634-4dd7-845c-3dc2d6291942@nid2.pink-perfect.ru:443?security=reality&encryption=none&pbk=DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=nid2.pink-perfect.ru&sid=8ffa160e608bf539#ConfiingPro
+vless://5176c140-be46-459b-b5b6-8a87478034f5@104.19.250.28:2086?mode=packet-up&path=%2F&security=none&encryption=none&host=xvh.andishehparenting.com&type=xhttp#ConfiingPro
+vless://5d8fcd24-9634-4dd7-845c-3dc2d6291942@#ConfiingPro
+vless://5d8fcd24-9634-4dd7-845c-3dc2d6291942@72.56.8.81:443?security=reality&encryption=none&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=86b80f1e713a33ad#ConfiingPro
+vless://5d8fcd24-9634-4dd7-845c-3dc2d6291942@77.110.115.192:443?security=reality&encryption=none&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=86b80f1e713a33ad#ConfiingPro
+vless://5d8fcd24-9634-4dd7-845c-3dc2d6291942@38.107.233.130:443?security=reality&encryption=none&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=86b80f1e713a33ad#ConfiingPro
+vless://5d8fcd24-9634-4dd7-845c-3dc2d6291942@as.pink-perfect.ru:443?security=reality&encryption=none&pbk=DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=as.pink-perfect.ru&sid=8ffa160e608bf539#ConfiingPro
+trojan://Masir_Sefid@84.234.31.111:2083?security=reality&pbk=03be_-tMiVFxrLwXO7TMr4HTN4o68ai5Vd5Y2HeIgBQ&headerType=none&fp=chrome&spx=%2FhneyujFQP0tu4bn&type=tcp&sni=store.steampowered.com&sid=d67d2e36#ConfiingPro
+vless://5d8fcd24-9634-4dd7-845c-3dc2d6291942@nid.pink-perfect.ru:443?security=reality&encryption=none&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=86b80f1e713a33ad#ConfiingPro
+vless://5d8fcd24-9634-4dd7-845c-3dc2d6291942@fr.pink-perfect.ru:443?security=reality&encryption=none&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=86b80f1e713a33ad#ConfiingPro

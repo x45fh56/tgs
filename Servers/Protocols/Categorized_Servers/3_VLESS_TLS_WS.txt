@@ -1,9 +1,4 @@
 vless://f22d86da-1ca2-400f-a0ed-cedb4ff0a1aa@www.speedtest.net:2053?mode=auto&path=%2Fapi%2Fus&security=tls&encryption=mlkem768x25519plus.native.0rtt.ANj9qcmp4i572-eJpuHyH8e92uSFS1cjoM0H4r9U8Rg&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=Us.UpZxS.xYz&fp=chrome&type=xhttp&allowInsecure=0&sni=Us.UpZxS.xYz#NetShot1
-vless://aa9e4f20-f7f3-46cc-96f3-897116755cf3@104.18.1.84:443?security=tls&sni=worker-jolly-block-2e78.gamal32324.workers.Dev&type=ws&host=worker-jolly-block-2e78.gamal32324.workers.Dev&path=%2FTELEGRAM-MARAMBASHI-MARAMBASHI%2F%3Fed%3D2048#persianvpnhub
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@198.62.62.52:443?security=tls&sni=yr.ylks.us.kg&type=ws&path=%2F%3Fed#persianvpnhub
-vless://1d399c5a-1c32-4fff-a4d0-d78fd3328a4c@162.159.152.224:443?security=tls&sni=pages.teasalo.cloudns.org&type=ws&host=pages.teasalo.cloudns.org&path=%2F%3Fed%3D2560&fp=random&alpn=h3#persianvpnhub
-vless://2375d7bb-64ff-4168-aaf2-851a3223fad1@172.64.155.209:2083?security=tls&sni=cdn.gzwuyxq.WoRkerS.DEv&type=ws&host=cdn.gzwuyxq.WoRkerS.DEv&path=%2Fvless-ws%2F%3Fed%3D2048&fp=randomized&alpn=h2%2Chttp%2F1.1#persianvpnhub
-vless://1e8e2283-4c2d-11ef-ad7f-00505605a82d@104.26.10.137:443?security=tls&sni=cdn-fr.brocdn.com&type=ws&host=cdn-fr.brocdn.com&path=%2Fwebsocket#persianvpnhub
-vless://962a733d-2614-0b9b-7ffe-9ac92ffea8eb@104.16.60.8:2087?security=tls&sni=vless-sub.n7p8ri7j.workers.dev&type=ws&host=vless-sub.n7p8ri7j.workers.dev&path=%2Fahmedquran19.xyz%2Fcurrent_time&fp=chrome&alpn=http%2F1.1#persianvpnhub
-vless://5f0b2bda-0457-5e95-ba0e-9a425356f4cb@188.114.96.216:80?security=none&type=ws&host=wwww.speedtest.net.xn--Join.ELiV2RY.io.ie1.vless.Sitespeedtest.net.&path=/-@ELiV2RY-@ELiV2RY#persianvpnhub
 vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@cdn7-09.vk-cdnvideo.com:8443?allowInsecure=0&sni=cdn7-09.vk-cdnvideo.com&fp=chrome&security=tls#v2ray_extractor
+vless://30d4bd4b-bfe4-4ebc-a55b-4e01ca03f5d7@fastly-ip80.visionow.ir:80?security=none&type=ws&headerType=&path=&host=cloudy.ir#v2to_nadi
+vless://30d4bd4b-bfe4-4ebc-a55b-4e01ca03f5d7@fastly-ip80.visionow.ir:80?security=none&type=ws&headerType=&path=&host=weather.ir#v2to_nadi

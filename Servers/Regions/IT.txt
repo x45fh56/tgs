@@ -1,4 +1,4 @@
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.129:8880?encryption=none&type=grpc#ConfigX2ray
-vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?encryption=none&type=tcp&headerType=none#ConfigX2ray
-vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?encryption=none&security=none&type=tcp#oneclickvpnkeys
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.174:8880?encryption=none&security=none&type=grpc#oneclickvpnkeys
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.233:8880?encryption=none&security=none&type=grpc#oneclickvpnkeys
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.36:8880?encryption=none&security=none&type=grpc#oneclickvpnkeys
 vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?encryption=none&security=none&type=tcp#v2ray_extractor

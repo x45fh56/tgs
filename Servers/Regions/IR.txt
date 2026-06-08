@@ -1,7 +1,2 @@
-vless://d9569dcd-b246-ebec-50a9-bc9dc5c43041@185.2.15.126:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=iran.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=iran.ir#FreakConfig
-vless://69a2af58-d74a-44ca-864a-e09b493f4274@213.176.77.65:443?security=reality&encryption=none&pbk=1kAsEwUWwatnjpeQ2qUwHSccFucFOKzXVICm9tC0eWA&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=25425ff6fa#FreakConfig
-vless://d9569dcd-b246-ebec-50a9-bc9dc5c43041@89.42.139.167:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=iran.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=iran.ir#FreakConfig
 vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#new_mtproxi2
 vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#new_mtproxi2
-vless://8624a1ce-94f9-4844-9188-7b7799d73753@185.143.233.5:2086?path=%2F&security=&encryption=none&host=p1.sesrsa.com&type=ws#pro_exi
-vless://69a2af58-d74a-44ca-864a-e09b493f4274@213.176.77.65:443?security=reality&encryption=none&pbk=1kAsEwUWwatnjpeQ2qUwHSccFucFOKzXVICm9tC0eWA&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=25425ff6fa#vpnbaz

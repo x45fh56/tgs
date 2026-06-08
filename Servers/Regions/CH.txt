@@ -1,7 +1,15 @@
+trojan://Masir_Sefid@84.234.29.189:443?security=reality&pbk=03be_-tMiVFxrLwXO7TMr4HTN4o68ai5Vd5Y2HeIgBQ&headerType=none&fp=chrome&spx=%2FQAOaxSnbH2vawds&type=tcp&sni=store.steampowered.com&sid=84e87fdcdf2ea9e8#BrilliantGift
+trojan://Masir_Sefid@84.234.31.111:2083?security=reality&pbk=03be_-tMiVFxrLwXO7TMr4HTN4o68ai5Vd5Y2HeIgBQ&headerType=none&fp=chrome&spx=%2FhneyujFQP0tu4bn&type=tcp&sni=store.steampowered.com&sid=d67d2e36#ConfiingPro
+trojan://humanity@185.18.250.252:443?type=ws&security=tls&path=%2Fassignment&sni=www.multiplydose.com&allowInsecure=0#ConfiingPro
+trojan://Masir_Sefid@195.15.253.91:2053?security=reality&pbk=w0XepGv1Hk0gBh1Apiw-nvn8SfzjWcDuxdxN1mpaF3g&headerType=none&fp=chrome&spx=%2FW8svbYrFok2DfFx&type=tcp&sni=store.steampowered.com&sid=20b301df70#FreakConfig
 trojan://Masir_Sefid@195.15.253.91:2083?security=reality&pbk=w0XepGv1Hk0gBh1Apiw-nvn8SfzjWcDuxdxN1mpaF3g&headerType=none&fp=chrome&spx=%2FChZzHJgLH1mdM6A&type=tcp&sni=store.steampowered.com&sid=84e87fdcdf2ea9e8#FreakConfig
+trojan://Masir_Sefid@195.15.253.91:1040?security=reality&pbk=w0XepGv1Hk0gBh1Apiw-nvn8SfzjWcDuxdxN1mpaF3g&headerType=none&fp=chrome&spx=%2FaRBYGa427aKKE16&type=tcp&sni=store.steampowered.com&sid=84e87fdcdf2ea9e8#FreakConfig
 trojan://Masir_Sefid@195.15.253.91:443?security=reality&pbk=w0XepGv1Hk0gBh1Apiw-nvn8SfzjWcDuxdxN1mpaF3g&headerType=none&fp=chrome&spx=%2FzyKRb3NaP9Ee0j4&type=tcp&sni=store.steampowered.com&sid=6ced01fc4aa417#FreakConfig
 trojan://humanity@185.18.250.252:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.multiplydose.com#FreakConfig
-trojan://Masir_Sefid@195.15.253.91:2053?security=reality&pbk=w0XepGv1Hk0gBh1Apiw-nvn8SfzjWcDuxdxN1mpaF3g&headerType=none&fp=chrome&spx=%2FW8svbYrFok2DfFx&type=tcp&sni=store.steampowered.com&sid=20b301df70#FreakConfig
-trojan://Masir_Sefid@195.15.253.91:1040?security=reality&pbk=w0XepGv1Hk0gBh1Apiw-nvn8SfzjWcDuxdxN1mpaF3g&headerType=none&fp=chrome&spx=%2FaRBYGa427aKKE16&type=tcp&sni=store.steampowered.com&sid=84e87fdcdf2ea9e8#FreakConfig
+vless://f77299ea-e13d-417d-8cdc-ce5566dfc94b@185.18.250.245:443?encryption=none&fp=chrome&host=edu.ruangguru.com.r3xxe.eu.cc&path=%2Fnl-tw&security=tls&sni=edu.ruangguru.com.r3xxe.eu.cc&type=ws#oneclickvpnkeys
+vless://0a963275-4865-452b-8d65-ac67344f913a@2.26.135.131:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=_M0MBe7f2r36dqtjltSRSOOBlclR2q7uY3Rje5r_mgY&security=reality&sid=73&sni=lada.mycdn-me.ru&type=tcp#oneclickvpnkeys
+vless://f77299ea-e13d-417d-8cdc-ce5566dfc94b@185.18.250.252:443?encryption=none&fp=chrome&host=edu.ruangguru.com.r3xxe.eu.cc&path=%2Fnl-tw&security=tls&sni=edu.ruangguru.com.r3xxe.eu.cc&type=ws#oneclickvpnkeys
+vless://fc965ad9-bdd7-4815-ad71-b39ec5972dc1@185.18.250.252:443?encryption=none&fp=chrome&host=octopusss4.com&path=%2Ftsghdws&security=tls&sni=octopusss4.com&type=ws#oneclickvpnkeys
+trojan://74480619-b6a8-4ab8-94e1-1132fc18b2fa@185.18.250.252:443?host=unnes.ac.id.r3xxe.eu.cc&path=%2Fau-mt&sni=unnes.ac.id.r3xxe.eu.cc&type=ws#oneclickvpnkeys
 vless://fc965ad9-bdd7-4815-ad71-b39ec5972dc1@185.18.250.245:443?encryption=none&fp=chrome&host=octopusss4.com&path=%2Ftsghdws&security=tls&sni=octopusss4.com&type=ws#v2ray_extractor
 vless://fc965ad9-bdd7-4815-ad71-b39ec5972dc1@185.18.250.252:443?allowInsecure=1&encryption=none&host=octopusss4.com&path=%2Ftsghdws&security=tls&sni=octopusss4.com&type=ws#v2ray_extractor
