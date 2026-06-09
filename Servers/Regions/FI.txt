@@ -1,3 +1,2 @@
-vless://3007b043-acdf-43a4-900e-c7c015406f89@193.233.23.196:26048?security=none&allowInsecure=0&encryption=none&type=tcp&headerType=none#ParsiNetFree
 vless://Warpi-Free-Vpn-In-GooglePlay@95.217.233.18:443/?type=tcp&encryption=none&flow=#tv2rayrr
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkTS11WWJUUzg0QXpCS2ZvU1N0WDBVNV9xNllKWHFIMw@85.192.49.149:51523#v2ray_extractor

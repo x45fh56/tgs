@@ -1,1 +1,0 @@
-vless://5d8fcd24-9634-4dd7-845c-3dc2d6291942@fr.pink-perfect.ru:443?flow=xtls-rprx-vision&security=reality&allowInsecure=0&encryption=none&type=tcp&sni=www.google.com&sid=86b80f1e713a33ad&fp=qq&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&headerType=none#oliver_soul

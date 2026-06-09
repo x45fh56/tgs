@@ -1,1 +1,1 @@
-vless://1014818b-5c5c-46b1-98fe-eaf8d5eba642@89.187.191.231:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE&security=reality&sid=e90360ec7cc61b20&sni=m.vk.com&type=tcp#oneclickvpnkeys
+trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@46.8.113.142:443?security=tls&sni=ch-2.bexum.fun&fp=chrome&headerType=none&allowInsecure=0&type=tcp#ParsiNetFree

@@ -1,4 +1,0 @@
-ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@103.106.228.175:8009#byiroh
-vless://5e0212f0-297f-4f68-a256-013466bab0d2@188.114.97.6:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&insecure=0&host=t5.tzteam.online&fp=firefox&type=ws&allowInsecure=0&sni=t5.tzteam.online#byiroh
-vless://f2afa642-76c6-419f-af1c-45674d8284e7@37.221.64.170:13278?mode=gun&security=reality&encryption=none&authority=yahoo.com&pbk=lZhnPs3mM0yaBLd2jWaQoX3DVaXz4l-t9SdKr0vUy1U&fp=chrome&spx=%2F&type=grpc&serviceName=xyz&sid=fb8e0edb66000f28#byiroh
-vless://d9307ab3-1ed0-4b6d-bfd0-e104c7ccc25a@sv2.azparadox.ir:8880?path=%2F&security=none&encryption=none&host=azsv2.ir5ive.ir&type=ws#byiroh

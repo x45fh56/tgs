@@ -1,2 +1,1 @@
-vless://394f6981-a782-4779-9a85-e6cf22935d93@84.17.55.241:8443?encryption=none&security=tls&sni=pl1.fromblancwithlove.com&type=tcp#oneclickvpnkeys
-trojan://iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf@64.176.65.85:443?fp=chrome#oneclickvpnkeys
+trojan://iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf@64.176.65.85:443?alpn=http%2F1.1#oneclickvpnkeys
