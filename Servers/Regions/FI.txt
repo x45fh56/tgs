@@ -1,2 +1,3 @@
+vless://a7fb0a23-bbe0-45d2-8da0-be706c30210b@157.180.27.154:40411?security=reality&encryption=none&pbk=oAlnjxFWIiMSVcOIsyBriEAdx2WGa3Qigmr0WkHSo2M&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=play.google.com&sid=50fe9253a0158fd0#NetShot1
+vless://b7e79518-fb32-446b-a74a-755cfbe77da0@91.103.140.69:443?encryption=none&fp=&pbk=5IT58-ACuEH1tApWMC0uHfNVG9eu64vKgDIM5IKLyjc&security=reality&sid=35697a&sni=azure.microsoft.com&type=tcp#oneclickvpnkeys
 vless://Warpi-Free-Vpn-In-GooglePlay@95.217.233.18:443/?type=tcp&encryption=none&flow=#tv2rayrr
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkTS11WWJUUzg0QXpCS2ZvU1N0WDBVNV9xNllKWHFIMw@85.192.49.149:51523#v2ray_extractor

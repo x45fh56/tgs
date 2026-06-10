@@ -1,5 +1,6 @@
 vless://f032fd94-715d-4d37-835f-13959a63df14@18.183.94.154:39611?security=reality&encryption=none&pbk=bffq0wpw2vUOczXypqTqoXzYEzwXAZQzhOut1fvFyWQ&headerType=none&fp=firefox&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.icloud.com&sid=d7627055cafc62#FreakConfig
-vless://aa24026d-9542-4357-8625-3f04653fc4bd@57.181.38.2:59826?flow=xtls-rprx-vision&security=reality&allowInsecure=0&encryption=none&type=tcp&sni=www.nvidia.com&sid=2c35f2ac05bf15a0&fp=chrome&pbk=H-Ule2FFFI4MFSowspFPAC5SYb_gW9IE0isIZY8Ix3w&spx=/&headerType=none#ParsiNetFree
+vless://9cb72288-da5a-40a4-b856-4557f9849016@3.112.19.64:26902?security=reality&encryption=none&pbk=5CqD0ZEtt5W_xA9adU4CxjH4xAV-BdCwhDuthBBnpFM&headerType=none&fp=firefox&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.icloud.com&sid=450d60a09ffb65#FreakConfig
 vless://60e7e018-ee6a-48b1-9625-c4d4276935b3@178.239.125.31:39735/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.yahoo.co.jp&fp=chrome&security=reality&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&sid=#tv2rayrr
 vless://86b414b6-966e-4f6d-ab16-32049ef732d3@47.245.38.111:443/?type=tcp&encryption=none&flow=&sni=www.autodesk.com&fp=chrome&security=reality&pbk=y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4&sid=860705e716cbe6ed#tv2rayrr
 trojan://2274c52572e721086f8bd8f88984643c@153.121.51.29:127/?type=tcp&security=tls&sni=www.nintendogames.net#tv2rayrr
+vless://eb8613e3-8393-4cff-a3ad-6501fd4adc63@152.69.195.67:47878?allowInsecure=0&sni=152.69.195.67#v2ray_extractor

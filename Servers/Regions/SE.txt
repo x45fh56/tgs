@@ -1,3 +1,2 @@
-vless://de3104b0-0c51-49df-8350-da4bbe654820@89.22.230.82:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=-RAcfPpW-nLcYpGpGUhTaS2UqddjRVuvxmwjvaafMhY&security=reality&sid=830f1634ecfd57b8&sni=ya.ru&type=tcp#oneclickvpnkeys
-vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617?encryption=none&security=none&type=tcp#oneclickvpnkeys
+vless://9c04338e-99e4-4d7a-b829-bcbd94bd68c0@89.125.37.151:443?flow=xtls-rprx-vision&security=reality&allowInsecure=0&encryption=none&type=tcp&sni=se-cdn.ru&sid=2d6d073dc88f22a8&fp=chrome&pbk=nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q&spx=/&headerType=none#ParsiNetFree
 vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617/?type=tcp&encryption=none&flow=#tv2rayrr
