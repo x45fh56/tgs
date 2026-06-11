@@ -1,0 +1,1 @@
+vless://2a125d79-3ec9-41cb-a721-76a5f5acf486@172.66.40.229:2096?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=panel.trackydev.site&fp=chrome&type=ws&allowInsecure=1&sni=panel.trackydev.site#pro_exi

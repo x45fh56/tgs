@@ -1,1 +1,0 @@
-trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@46.8.113.142:443?security=tls&sni=ch-2.bexum.fun&fp=chrome&headerType=none&allowInsecure=0&type=tcp#ParsiNetFree
