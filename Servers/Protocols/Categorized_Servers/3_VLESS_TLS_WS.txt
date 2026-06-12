@@ -1,8 +1,3 @@
-vless://36af4874-d6a3-4f7c-82a7-1cb724961b52@64.176.4.154:8443?fp=chrome&host=linek.perry.us.kg&path=%2Fgames&security=tls&sni=linek.perry.us.kg&type=ws#persianvpnhub
-vless://36af4874-d6a3-4f7c-82a7-1cb724961b52@64.176.15.110:2053?fp=chrome&host=linek.perry.us.kg&path=%2Fstore%2Ffavorite%2Fads&security=tls&sni=linek.perry.us.kg&type=ws#persianvpnhub
-vless://36af4874-d6a3-4f7c-82a7-1cb724961b52@64.176.10.195:443?fp=chrome&host=linek.perry.us.kg&path=%2Fdocuments%2Fstream%2Fphotos&security=tls&sni=linek.perry.us.kg&type=ws#persianvpnhub
-vless://781a8eb4-c4f7-4f99-9dee-e80369dbf1ec@104.18.64.209:80?type=ws&host=us3.rtacg.com&path=%2F#persianvpnhub
-vless://781a8eb4-c4f7-4f99-9dee-e80369dbf1ec@104.18.31.56:80?type=ws&host=us3.rtacg.com&path=%2F#persianvpnhub
-vless://53a58a9f-204a-4351-b093-16b9ada44071@185.143.234.120:2053?security=tls&sni=num.2d2d.ir&type=ws&path=%2F&fp=chrome&allowInsecure=1#persianvpnhub
-vless://91a3f712-c4e0-42a0-9475-bdd551a06e73@185.242.19.250:443?type=xhttp&security=tls&sni=top4182166920.mwscdn.ru&path=/xhttppath&mode=auto#pythash
+vless://d4b622b8-f004-4148-ba73-047e85ebccf3@anten.ir:80?path=%2F&security=none&encryption=mlkem768x25519plus.native.0rtt.-U735OnbTdjZCBje5RuC-pnraoZEL7pO_AxqzddX-Us&host=alternative.mhjcdn.ir&type=ws#FreakConfig
+vless://a13df940-020c-465f-bc89-ee5279b5cd6a@69.84.182.26:443?security=tls&sni=jg.ylks01.eu.org&type=ws&path=%2Fblue#persianvpnhub
 vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@cdn7-09.vk-cdnvideo.com:8443?allowInsecure=0&sni=cdn7-09.vk-cdnvideo.com&fp=chrome&security=tls#v2ray_extractor
