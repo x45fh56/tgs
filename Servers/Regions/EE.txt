@@ -1,1 +1,1 @@
-vless://9bc4a008-bc91-4ec2-aa3d-589584511965@95.85.228.80:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=PfG1V1-ODHD8CegoTVg8m4G4mw5S1QiA751yWKCkhBc&security=reality&sid=054602d818379876&sni=nid1.hatvpn.org&type=tcp#oneclickvpnkeys
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.180.216.114:7307#v2ray_extractor
