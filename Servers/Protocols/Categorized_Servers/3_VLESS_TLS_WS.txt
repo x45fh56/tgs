@@ -1,3 +1,3 @@
 vless://d4b622b8-f004-4148-ba73-047e85ebccf3@anten.ir:80?path=%2F&security=none&encryption=mlkem768x25519plus.native.0rtt.-U735OnbTdjZCBje5RuC-pnraoZEL7pO_AxqzddX-Us&host=alternative.mhjcdn.ir&type=ws#FreakConfig
+vless://d7c27e1d-5595-4c0d-ad66-860e6c66672a@151.101.66.219:443?security=tls&sni=speedtest.net&type=ws&host=digistore.com&path=%2F%3Fed%3D1024&fp=firefox&alpn=h2,http/1.1#persianvpnhub
 vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@cdn7-09.vk-cdnvideo.com:8443?allowInsecure=0&sni=cdn7-09.vk-cdnvideo.com&fp=chrome&security=tls#v2ray_extractor
-vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@r1.mizulina.top:22231?allowInsecure=0&sni=r1.mizulina.top&flow=xtls-rprx-vision-udp443&fp=edge&security=tls#v2ray_extractor
