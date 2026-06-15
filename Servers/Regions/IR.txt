@@ -1,12 +1,7 @@
-vless://673a10ba-99dd-4074-93bf-e78a06ad3c85@188.213.198.238:4050?security=none&encryption=none&headerType=none&type=tcp#BrilliantGift
-vless://3206dd20-1e47-459c-8777-e1f93c57634a@193.93.169.121:80?mode=auto&path=%2F&security=none&encryption=none&extra=%7B%0A%20%20%22xPaddingBytes%22%20%3A%20%22100-1000%22%2C%0A%20%20%22scMaxEachPostBytes%22%20%3A%20%221000000%22%0A%7D&type=xhttp#FreakConfig
-vless://eb666ac5-ff96-4e55-9d64-a75c480ef218@81.12.92.252:8080?security=none&encryption=none&headerType=none&type=tcp#FreakConfig
+vless://48e3ec8d-44ce-4542-aa4d-a48573e0d423@94.184.24.235:56001?security=none&encryption=none&headerType=none&type=tcp#FreakConfig
 vless://2f1863a4-32fa-4d7c-807c-e960e3668975@37.152.186.192:2082?path=%2F&security=none&encryption=none&type=ws#NetShot1
 vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#new_mtproxi2
 vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#new_mtproxi2
-vless://8ef31ff1-3f03-4712-9dd5-fd3ba221dd76@185.143.233.5:80?path=%2F&security=none&encryption=none&host=nn-6ea6a54a41-programtest.apps.ir-central1.arvancaas.ir&type=ws#persianvpnhub
-vless://673a10ba-99dd-4074-93bf-e78a06ad3c85@188.213.198.238:4050?security=none&encryption=none&headerType=none&type=tcp#persianvpnhub
-ss://YWVzLTI1Ni1nY206TVRJMVlUWXdNMkpsWkdNMU5EZGxNekUxTmpRM00yTXpaV1l5TXpGaA@95.38.177.1:10132#persianvpnhub
 trojan://humanity@185.231.112.217:40443?host=www.creationlong.org&path=%2Fassignment&sni=www.creationlong.org&type=ws#v2ray_extractor
-vless://c88507c7-d57c-4baf-bc71-e118a6ee4ea2@62.220.122.147:441?security=none&encryption=none&headerType=none&type=tcp#vpnbaz
 vless://a93df7ad-7ebf-4271-8183-31efc390cfe3@62.220.122.178:442?security=none&encryption=none&headerType=none&type=tcp#vpnbaz
+vless://c88507c7-d57c-4baf-bc71-e118a6ee4ea2@62.220.122.147:441?security=none&encryption=none&headerType=none&type=tcp#vpnbaz

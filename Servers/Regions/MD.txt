@@ -1,4 +1,3 @@
-vless://039a1658-e86e-475f-a3a4-67cc249acada@185.242.87.36:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=U-pXTk6CWSWf1EParYP_drrus_87u-XwOiCmB-MnAGE&security=reality&sid=2eaa0970f2fb0c4b&sni=fr1.panel11.ru&type=tcp#oneclickvpnkeys
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@103.35.189.107:8880/?type=grpc&encryption=none&flow=#tv2rayrr
 vless://15d114ee-c814-47c7-bd12-fab0c7a0128e@94.232.247.117:8880/?type=grpc&encryption=none&flow=#tv2rayrr
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@103.35.189.107:8880/?type=grpc&encryption=none&flow=#tv2rayrr
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.153.197.5:989#tv2rayrr
