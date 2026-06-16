@@ -1,0 +1,2 @@
+vless://65d6e2ed-f6f5-4100-9324-d000f6f39bb8@134.199.159.242:443?security=none&encryption=none&headerType=http&type=tcp#NetShot1
+vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@103.169.142.121:443?path=%2Ftg%40zdyz2securityfp&security=tls&encryption=none&type=ws&sni=cfed.tgzdyz2.top#persianvpnhub

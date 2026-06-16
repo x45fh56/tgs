@@ -1,4 +1,2 @@
-vless://7c3f08c8-7b3b-4028-91d8-378a18c2b62a@185.227.149.123:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=mycatcollection.com&sid=6ba85179e30d4fc2#FreakConfig
-vless://d98c856e-4aec-4d6c-ac66-fca0e474991d@179.237.64.122:2053?encryption=none&flow=xtls-rprx-vision&fp=&pbk=RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go&security=reality&sid=c0d1d1776fed0f6d&sni=ch-t.vinnypuxtomoon.today&type=tcp#oneclickvpnkeys
-vless://fc965ad9-bdd7-4815-ad71-b39ec5972dc1@185.18.250.245:443?encryption=none&fp=chrome&host=octopusss4.com&path=%2Ftsghdws&security=tls&sni=octopusss4.com&type=ws#v2ray_extractor
-vless://fc965ad9-bdd7-4815-ad71-b39ec5972dc1@185.18.250.252:443?allowInsecure=1&encryption=none&host=octopusss4.com&path=%2Ftsghdws&security=tls&sni=octopusss4.com&type=ws#v2ray_extractor
+vless://e6f9ad6e-4166-4b98-85c8-53d75ec3832f@83.228.225.29:11236?security=reality&encryption=none&pbk=Kl47z4IqBFKSTb5fI3j3UQxj7iXbsof-5CE9_v1LIWQ&headerType=http&fp=chrome&spx=%2F8f1q1en2nWegxJn&type=tcp&sni=yahoo.com&sid=71f8775bbab6c1f2#vpnbaz
+vless://e6f9ad6e-4166-4b98-85c8-53d75ec3832f@83.228.225.29:30781?security=reality&encryption=none&pbk=FVbLgN2sj_1WrbMhsh_vltW1NOX84WNC6x8Ed_DQSB0&headerType=none&fp=chrome&spx=%2FoEGgDrGwGC5HR0H&type=tcp&sni=www.yahoo.com&sid=94d8#vpnbaz

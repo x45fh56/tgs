@@ -1,0 +1,2 @@
+vless://2aee0a96-1e2e-4901-a480-d592bd90ef9d@104.16.6.70:443?encryption=none&type=ws&security=tls&path=%2F&host=cd2.rfiksma.top&sni=sub2.rfiksma.top&fp=firefox#pro_exi
+vless://2aee0a96-1e2e-4901-a480-d592bd90ef9d@104.16.6.70:443?encryption=none&fp=firefox&host=cd2.rfiksma.top&path=%2F&security=tls&sni=cd2.rfiksma.top&type=ws#pro_exi
