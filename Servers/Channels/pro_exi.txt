@@ -1,2 +1,3 @@
 vless://2aee0a96-1e2e-4901-a480-d592bd90ef9d@104.16.6.70:443?encryption=none&type=ws&security=tls&path=%2F&host=cd2.rfiksma.top&sni=sub2.rfiksma.top&fp=firefox#pro_exi
-vless://2aee0a96-1e2e-4901-a480-d592bd90ef9d@104.16.6.70:443?encryption=none&fp=firefox&host=cd2.rfiksma.top&path=%2F&security=tls&sni=cd2.rfiksma.top&type=ws#pro_exi
+vless://69d38faa-21a1-4d18-82cb-796a942c181b@104.18.237.216:80?path=%2F&security=none&encryption=none&host=sfsl.ardomains1.dpdns.org&type=ws#pro_exi
+vless://2aee0a96-1e2e-4901-a480-d592bd90ef9d@104.18.13.149:443?encryption=none&fp=chrome&host=cd2.rfiksma.top&path=%2F&security=tls&sni=cd2.rfiksma.top&type=ws#pro_exi

@@ -1,4 +1,7 @@
+vless://24181358-60ac-483f-bc48-8b8b1170d721@37.27.200.55:24094?security=none&encryption=none&headerType=none&type=tcp#FreakConfig
 vless://1970926e-e41b-44e2-8f1e-e2eacb985f57@65.109.248.144:5742?mode=multi&security=reality&encryption=none&pbk=awJWCmY2Ba9kY_dZj7nSylvtzAP1I5unwa_xp6qrvGA&fp=firefox&spx=%2FjVErh2En06eEq0Q&type=grpc&sni=play.google.com&sid=1d9b1242d5#FreakConfig
-vless://64c03b7a-f3f3-4d78-bc82-a233ced89cea@65.109.199.141:25000?mode=gun&security=reality&encryption=none&pbk=D9EktvCfJb5l8mBkJHx3U31BIUwIBHJKV85OzyNnDlU&type=grpc&serviceName=shakhle&sni=www.yahoo.com&sid=6ba85179e30d4fc3#NetShot1
+vless://3007b043-acdf-43a4-900e-c7c015406f89@193.233.23.196:26048?security=&encryption=none&headerType=none&type=tcp#NetShot1
+vless://fe52cfb4-8261-4c85-8278-e4bf4057bde1@46.8.230.9:50785?encryption=none&security=none&type=tcp#oneclickvpnkeys
+vless://3007b043-acdf-43a4-900e-c7c015406f89@193.233.23.196:26048?encryption=none&security=none&type=tcp#oneclickvpnkeys
+vless://2cc64cad-1a77-4a40-8d98-3834a95d0a44@65.109.189.154:2052?encryption=none&security=none&type=tcp#oneclickvpnkeys
 vless://Warpi-Free-Vpn-In-GooglePlay@95.217.233.18:443/?type=tcp&encryption=none&flow=#tv2rayrr
-vless://3007b043-acdf-43a4-900e-c7c015406f89@193.233.23.196:26048?encryption=none&security=none&type=tcp#v2ray_extractor
