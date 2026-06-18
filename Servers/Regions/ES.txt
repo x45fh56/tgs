@@ -1,2 +1,1 @@
 vless://69a2af58-d74a-44ca-864a-e09b493f4274@195.96.132.125:443?security=reality&encryption=none&pbk=WM-LMz6slGkGPD3zEM8Ntat27n6p6EfbxRsjYmTykV4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.vk.ru&sid=8237eb#FreakConfig
-vless://394f6981-a782-4779-9a85-e6cf22935d93@212.102.48.217:8443?encryption=none&security=tls&sni=mad-es.fromblancwithlove.com&type=tcp#v2ray_extractor

@@ -1,3 +1,4 @@
-vless://48e3ec8d-44ce-4542-aa4d-a48573e0d423@94.184.24.235:56001?security=none&encryption=none&headerType=none&type=tcp#FreakConfig
-vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#new_mtproxi2
+vless://305efa16-8240-4727-bafd-bfb361a9023b@217.26.222.30:8444?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&pbk=1EPU1FtapRbV8ZR9e7AU0nahyWYM8L0zuYHD8F1GJAc&sid=491c54cd0cf5e22d#NetShot1
 vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#new_mtproxi2
+vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#new_mtproxi2
+vless://21784e1c-392e-4c5f-b50a-9f8a49f87e9a@2.144.5.90:8443?encryption=none&type=ws&host=bama.ir&path=%2FStream&security=none#v2ray_extractor

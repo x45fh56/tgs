@@ -1,2 +1,1 @@
 vless://247a22e1-0795-4852-9bdd-a65ac1078034@188.253.21.106:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yahoo.com&fp=firefox&security=reality&pbk=4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws&sid=73d3fec4#tv2rayrr
-vless://835989bc-f82c-4ae5-93d8-77bcb63105b3@31.56.117.211:443?path=%2Fws&security=none&encryption=none&host=31.56.117.211&type=ws#v2ray_extractor

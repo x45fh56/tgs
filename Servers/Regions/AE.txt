@@ -1,1 +1,3 @@
+vless://a8301ae5-8530-43c7-b21e-72678f83aec2@94.140.0.100:443?path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&host=DEY.iraniranshopdashnoard.ir&fp=chrome&type=ws&allowInsecure=0&sni=DEY.iraniranshopdashnoard.ir#FreakConfig
+vless://a8301ae5-8530-43c7-b21e-72678f83aec2@94.140.0.100:80?mode=auto&path=%2F&security=none&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&host=KUI.fastspeeds.ir&type=xhttp#FreakConfig
 hysteria2://p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR@130.49.161.70:443?security=tls&obfs=salamander&obfs-password=rG07s3COMIEvdnQipRyWzx_H_2xygNC3&insecure=1&sni=hy2.aspidnet.xyz#FreakConfig

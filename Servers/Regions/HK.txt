@@ -1,5 +1,4 @@
 vless://ab69adf9-4d3a-4625-aef6-eb6a034a5dd3@216.250.96.164:26000?encryption=none&security=reality&sni=apps.apple.com&fp=chrome&pbk=YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc&sid=2f8400e348eb&spx=%2F&type=tcp&headerType=none#dingyue_center
-vless://9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b@47.83.153.19:59750?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amd.com&fp=chrome&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&type=tcp&headerType=none#persianvpnhub
 vless://1555ff9a-837c-4d7f-9b5d-0794c9c31e71@154.12.179.154:2501/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=amazon.com&fp=random&security=reality&pbk=N6DfpkpFe0ykYu9ofqjB5jXIMFfsf9T2Ry0L2-WcfAw&sid=b793cdadb1c785#tv2rayrr
 trojan://BxceQaOe@116.49.237.130:2673/?type=tcp&security=tls&sni=t.me%2Fripaojiedian#tv2rayrr
-vless://394f6981-a782-4779-9a85-e6cf22935d93@84.17.37.19:8443?encryption=none&fp=chrome&security=tls&sni=hkg1.fromblancwithlove.com&type=tcp#v2ray_extractor
+vless://d26598cf-2cdf-4219-80d0-94646dff160d@207.174.133.169:10000?#v2ray_extractor
