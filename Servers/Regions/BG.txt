@@ -1,1 +1,0 @@
-trojan://c35wzj9svoyz7kku@81.161.229.170:2087?security=reality&pbk=Kfd5vDqWWTp7YZWh5eDr8Flv6HOZFCrzotQWLtBKjmk&headerType=none&fp=chrome&spx=%2FnKYXeeNkK96MtfO&type=tcp&sni=www.amazon.com&sid=06a4#NetShot1
