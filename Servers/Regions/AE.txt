@@ -1,2 +1,2 @@
-vless://a8301ae5-8530-43c7-b21e-72678f83aec2@94.140.0.100:80?mode=auto&path=%2F&security=none&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&host=KUI.fastspeeds.ir&type=xhttp#FreakConfig
-vless://a8301ae5-8530-43c7-b21e-72678f83aec2@94.140.0.100:443?path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&host=DEY.iraniranshopdashnoard.ir&fp=chrome&type=ws&allowInsecure=0&sni=DEY.iraniranshopdashnoard.ir#FreakConfig
+vless://a11692b0-ecc1-1e83-769c-c81bed2d7459@185.173.144.212:2086?security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#pythash
+vless://a11692b0-ecc1-1e83-769c-c81bed2d7459@185.173.144.209:2086?security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#pythash

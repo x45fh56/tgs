@@ -1,6 +1,3 @@
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@188.253.12.97:45553?allowInsecure=1&sni=ch.01.naiun.bilibili.com#oneclickvpnkeys
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@188.253.12.97:48697?allowInsecure=1&sni=gh.01.naiun.bilibili.com#oneclickvpnkeys
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@188.253.12.97:47909?allowInsecure=1&sni=is.01.naiun.bilibili.com#oneclickvpnkeys
 vless://a19fd311-c343-4b54-9ca3-fe6dcd84c0fc@38.47.176.134:59967/?type=tcp&encryption=none&flow=#tv2rayrr
-trojan://BxceQaOe@38.180.191.251:443/?type=tcp&security=tls&sni=t.me%252Fripaojiedian#tv2rayrr
 trojan://aWgKDJmn2q.hv%3D51@139.180.143.191:10293/?type=tcp&security=tls&sni=zmbvgixwdqusy.advudjng.click#tv2rayrr
+trojan://BxceQaOe@38.180.191.251:443/?type=tcp&security=tls&sni=t.me%252Fripaojiedian#tv2rayrr

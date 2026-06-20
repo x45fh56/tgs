@@ -1,2 +1,3 @@
-vless://ee443a49-47a0-445c-8e2a-c7efbc74f483@46.8.236.129:26140?security=reality&encryption=none&pbk=cEKeWhExRbsgjk8qAd0KvDNnWRK4Sm9NYHH62sdVUH0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=fa893256a458b8a0#TheVPNMethod
+vless://deb79775-35dc-4376-adf0-5b4fd26c691c@104.253.74.39:8080?security=reality&encryption=none&pbk=NJrlB9wz9ctlwMOIK8Jp7Ml25j77QlFOjpha1lEktkg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=4a9acf81b8773e1e#TheVPNMethod
 vless://ee443a49-47a0-445c-8e2a-c7efbc74f483@46.8.236.129:26140?security=reality&encryption=none&pbk=cEKeWhExRbsgjk8qAd0KvDNnWRK4Sm9NYHH62sdVUH0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.…#TheVPNMethod
+vless://ee443a49-47a0-445c-8e2a-c7efbc74f483@46.8.236.129:26140?security=reality&encryption=none&pbk=cEKeWhExRbsgjk8qAd0KvDNnWRK4Sm9NYHH62sdVUH0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=fa893256a458b8a0#TheVPNMethod
