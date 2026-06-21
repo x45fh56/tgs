@@ -1,3 +1,1 @@
-vless://2c0211bd-d8db-4794-9248-4dfdb201768f@37.156.43.207:15281?security=reality&encryption=none&pbk=7Tl6MxuH1PZpbKIETVPK1he_MjOLtUeMTFiEek9HQiM&headerType=none&fp=chrome&spx=%2F7lzxWZJnQ1JCESc&type=tcp&sni=yahoo.com&sid=cc9e62e80aedfb#NetShot1
-vless://2c0211bd-d8db-4794-9248-4dfdb201768f@37.156.43.207:443?security=reality&encryption=none&pbk=7Tl6MxuH1PZpbKIETVPK1he_MjOLtUeMTFiEek9HQiM&host=www.yahoo.com&headerType=http&fp=chrome&spx=%2FXsJhYhrwWPeb4qC&type=tcp&sni=yahoo.com&sid=2ef0f0b1#NetShot1
 vless://ff19693c-11f3-4df9-8713-79a85a5ca090@208.69.78.205:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=sellflow.org&type=tcp#v2ray_extractor

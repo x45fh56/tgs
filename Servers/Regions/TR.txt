@@ -1,6 +1,4 @@
 vless://5e0179a9-ffe3-40c8-947b-dc6eb053a103@185.226.93.243:8444?security=reality&encryption=none&pbk=1EPU1FtapRbV8ZR9e7AU0nahyWYM8L0zuYHD8F1GJAc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=491c54cd0cf5e22d#FreakConfig
-vless://7698de4e-2882-4fee-967b-8db030ced1dc@91.216.104.45:8443?security=reality&encryption=none&pbk=YYaCVY336aMluO0Q7kXOTzpMqZ5Yegb_kDBaXG_VNig&headerType=none&fp=edge&spx=%2FkIwDeLhLt4uDy3B&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=26e7#NetShot1
-vless://572f9a3a-b0d6-41b6-82b9-e196c5106cad@37.140.242.53:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=cAprase508p_Y7olUKMa-aqER9NcBqaCZ8xyvll4Xgk&sid=edd3256dc1&spx=%2F9ptYOL…#pythash
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0SmxFV2gyUHpETWV3OHFvOVlrUEVB@38.180.105.12:443#tv2rayrr
 vless://394f6981-a782-4779-9a85-e6cf22935d93@87.249.139.226:8443?sni=ams1.fromblancwithlove.com&fp=chrome&security=tls#v2ray_extractor
-vless://394f6981-a782-4779-9a85-e6cf22935d93@87.249.139.248:8443?sni=ams1.fromblancwithlove.com&fp=chrome&security=tls#v2ray_extractor
+vless://394f6981-a782-4779-9a85-e6cf22935d93@87.249.139.248:8443?security=tls&encryption=none&insecure=0&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#v2ray_extractor

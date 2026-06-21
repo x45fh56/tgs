@@ -1,2 +1,1 @@
-vless://69a2af58-d74a-44ca-864a-e09b493f4274@195.96.132.125:443?security=reality&encryption=none&pbk=WM-LMz6slGkGPD3zEM8Ntat27n6p6EfbxRsjYmTykV4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.vk.ru&sid=8237eb#FreakConfig
 trojan://2eutknankxtbgkwcajzt@193.148.19.210:52794?allowInsecure=1&sni=www.vk.com#oneclickvpnkeys
