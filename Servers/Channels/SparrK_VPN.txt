@@ -1,1 +1,1 @@
-vless://e56ab08d-4e35-448b-8825-2982a39ebe26@dfssfddsfdfdfffddfdfjdfjdjfdfd.parscon.ir:8880?encryption=none&security=none&type=tcp&headerType=http&host=play.google.com&path=%2F#SparrK_VPN
+vless://89049f79-320b-48a0-b1cf-110165cae30c@37.156.44.157:2083?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY&sid=4e590fdc&spx=%2F&type=tcp&headerType=none#SparrK_VPN
