@@ -1,3 +1,2 @@
-vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@78.40.193.172:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=Aiyev_-czR8WG7l15BQDsHL7VwJVQe3W7SEfxbRk0W4&security=reality&sid=b28896ec1669a951&sni=rezerv3.yunus.guru&type=tcp#oneclickvpnkeys
-vless://a11692b0-ecc1-1e83-769c-c81bed2d7459@185.173.144.212:2086?security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#pythash
 vless://a11692b0-ecc1-1e83-769c-c81bed2d7459@185.173.144.209:2086?security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#pythash
+vless://a11692b0-ecc1-1e83-769c-c81bed2d7459@185.173.144.212:2086?security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#pythash

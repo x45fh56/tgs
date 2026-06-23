@@ -1,2 +1,0 @@
-vless://546d7622-cdf6-4d39-af34-9060c5720f57@89.125.20.104:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&security=reality&sid=abcd&sni=auto.malina24.xyz&type=tcp#oneclickvpnkeys
-vless://8e13e299-1bbf-46da-a297-8ee19fe4c914@95.182.80.48:15370?encryption=none&fp=&pbk=oYCopzg1jDV54b-i8nR9_ULi7uivm_qfCM95LwRBfXU&security=reality&sid=61&sni=yahoo.com&type=tcp#oneclickvpnkeys

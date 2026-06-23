@@ -1,5 +1,7 @@
 trojan://Masir_Sefid@37.156.45.168:2083?security=reality&pbk=03be_-tMiVFxrLwXO7TMr4HTN4o68ai5Vd5Y2HeIgBQ&headerType=none&fp=chrome&spx=%2FzhH6xrLTx7oS2Yl&type=tcp&sni=store.steampowered.com&sid=d2f7#FreakConfig
 trojan://Masir_Sefid@37.156.45.168:443?security=reality&pbk=03be_-tMiVFxrLwXO7TMr4HTN4o68ai5Vd5Y2HeIgBQ&headerType=none&fp=chrome&spx=%2FFQDh1KA6NaPaGpV&type=tcp&sni=store.steampowered.com&sid=d67d2e36#FreakConfig
+vless://89049f79-320b-48a0-b1cf-110165cae30c@37.156.44.157:2083?security=reality&encryption=none&pbk=l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.yahoo.com&sid=4e590fdc#NetShot1
 vless://89049f79-320b-48a0-b1cf-110165cae30c@37.156.44.157:2083?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY&sid=4e590fdc&spx=%2F&type=tcp&headerType=none#SparrK_VPN
+vless://69a2af58-d74a-44ca-864a-e09b493f4274@194.87.178.131:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=gOEyW5XYfKV6t_3vCR0iCOcItof1desNG7CSiFnVpF4&security=reality&sid=804f5d&sni=www.intel.com&type=tcp#oneclickvpnkeys
 trojan://SoftNetConnect@37.156.45.237:42549?allowInsecure=1&sni=www.speedtest.net#oneclickvpnkeys
 vless://ff19693c-11f3-4df9-8713-79a85a5ca090@208.69.78.205:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=sellflow.org&type=tcp#v2ray_extractor
