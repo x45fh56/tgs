@@ -1,1 +1,0 @@
-vless://92e41c23-4b39-464a-bbff-63ef84f317da@156.146.40.201:443?security=reality&encryption=none&pbk=WMO-BNY1BX2nNlOOQgxLP4D3H-OnE2ypbXlbSMjLRVM&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&sid=e764f0ea#FreakConfig
