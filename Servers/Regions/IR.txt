@@ -1,3 +1,5 @@
+vless://621228c6-a42b-4170-bcab-4f4a091f5c46@193.176.242.135:37383?security=none&encryption=none&headerType=none&type=tcp#FreakConfig
 vless://4b05e8f7-4326-42a2-a141-a9bc3a935140@94.139.179.9:13766?security=none&encryption=none&headerType=none&type=tcp#NetShot1
 vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#new_mtproxi2
 vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#new_mtproxi2
+vless://b0911876-3d46-4d77-8c37-904f88ae3fdd@185.226.119.109:6323?security=none&encryption=none&headerType=none&type=tcp#persianvpnhub

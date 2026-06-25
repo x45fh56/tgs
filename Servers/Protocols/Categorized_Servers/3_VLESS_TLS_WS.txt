@@ -1,1 +1,0 @@
-vless://e4468d51-2528-4d40-a92d-5cf409d00dac@fry2.brocollisuper.click:443?allowInsecure=0&sni=fry2.brocollisuper.click&type=grpc&serviceName=grpc-api&security=tls#v2ray_extractor

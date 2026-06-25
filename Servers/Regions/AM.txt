@@ -1,3 +1,3 @@
-vless://21db6b31-6e8b-4307-9127-994c99606e15@85.90.207.152:23009?encryption=none&security=none&type=tcp#oneclickvpnkeys
+vless://31e7fb4e-5006-4ecd-abdc-b27f1be617d0@185.202.113.8:80?path=%2F&security=none&encryption=none&type=ws#NetShot1
 vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983/?type=tcp&encryption=none&flow=&sni=yahoo.com&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e#tv2rayrr
 vless://21db6b31-6e8b-4307-9127-994c99606e15@85.90.207.152:23009?encryption=none&security=none&type=tcp#v2ray_extractor
