@@ -1,3 +1,2 @@
 vless://eeb6823c-b926-4ea2-866a-5542edd26e59@47.80.60.254:443?path=%2F&security=tls&encryption=none&insecure=1&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=1&sni=t1s1.rittbo.kdns.fr#FreakConfig
-trojan://eeb6823c-b926-4ea2-866a-5542edd26e59@161.118.151.101:443?fp=chrome&host=hhcm.hhxaf.cc.cd&path=%2F&sni=hhcm.hhxaf.cc.cd&type=ws#oneclickvpnkeys
-trojan://t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak@38.60.220.65:443?fp=chrome#oneclickvpnkeys
+trojan://t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak@38.60.220.65:443?fp=chrome#v2ray_extractor

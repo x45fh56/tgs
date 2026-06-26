@@ -1,2 +1,2 @@
-vless://69a2af58-d74a-44ca-864a-e09b493f4274@45.144.48.119:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=hgQ3Wa09f9ectEos7QyC1LQ8bBq8lEAcAtGIDFTKin0&security=reality&sid=c0&sni=www.intel.com&type=tcp#oneclickvpnkeys
+vless://c8e4a7ee-07da-4d61-aed9-634b9714bb6e@57.128.240.247:35306?encryption=none&fp=&pbk=hff4DYvLOoFv2EstI0ssEra-S8ZIXwsZR9cqe7P1TH8&security=reality&sid=cac010b8710a&sni=play.google.com&type=tcp#oneclickvpnkeys
 vless://37a0bd7c-8b9f-4693-8916-bd1e2da0a817@128.204.223.94:9815?path=%2F&security=none&encryption=none&type=ws#v2ray_extractor
