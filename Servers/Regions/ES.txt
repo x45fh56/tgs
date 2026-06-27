@@ -1,2 +1,2 @@
-vless://e89a8012-7794-4e54-9b6e-14b12b7e0802@5.180.173.171:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=vtbYKmQECfnd9IQN3SvhlCWlWHwEzHRA0rD_wT46TnA&security=reality&sid=cd8971da5a669139&sni=yahoo.com&type=tcp#oneclickvpnkeys
+vless://626b07bd-81c4-4212-be7a-27442a579620@5.180.173.222:448?encryption=none&flow=xtls-rprx-vision&fp=&pbk=y4_NnPQc2X8Bj97LpUL9r9xuK-R2pLwjd5cZbBw2HSo&security=reality&sid=15052edc8120b63d&sni=www.googletagmanager.com&type=tcp#oneclickvpnkeys
 trojan://2eutknankxtbgkwcajzt@193.148.19.210:52794?allowInsecure=1&sni=www.vk.com#oneclickvpnkeys

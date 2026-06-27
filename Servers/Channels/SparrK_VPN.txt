@@ -1,1 +1,0 @@
-vless://a3585167-b919-4067-c770-972d53aedc5e@45.130.125.107:443?encryption=none&security=tls&sni=vip.sirsis2.my.id&fp=random&alpn=h3%2Ch2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&host=vip.sirsis2.my.id&path=%2F#SparrK_VPN
