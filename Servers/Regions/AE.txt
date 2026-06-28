@@ -1,2 +1,0 @@
-vless://a11692b0-ecc1-1e83-769c-c81bed2d7459@185.173.144.209:2086?security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#pythash
-vless://a11692b0-ecc1-1e83-769c-c81bed2d7459@185.173.144.212:2086?security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#pythash

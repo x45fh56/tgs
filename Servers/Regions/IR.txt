@@ -1,6 +1,4 @@
-vless://290a1fba-93a3-4004-bd56-0565a956a209@185.143.235.200:80?path=%2Farvancloud.ir&security=none&encryption=none&host=taraneh.pointspeed.ir&type=ws#FreakConfig
-vless://a1667f69-6ef0-4f4c-a4e6-3fe555d6da71@37.152.190.242:49194?path=%2F&security=none&encryption=none&type=ws#FreakConfig
-vless://4b05e8f7-4326-42a2-a141-a9bc3a935140@94.139.179.9:13766?security=none&encryption=none&headerType=none&type=tcp#NetShot1
-vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#new_mtproxi2
+vmess://eyJhZGQiOiI4NS4xMzMuMjIxLjEzOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJhNzBlNTdkMC02NDMxLTQxZmQtYmEwMS0yZjM0ZDBkNjAyMDgiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjE0MzMiLCJwcyI6IvCfh6nwn4eqIEBGcmVha0NvbmZpZyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==#FreakConfig
+vless://621228c6-a42b-4170-bcab-4f4a091f5c46@193.176.242.135:37383?security=none&encryption=none&headerType=none&type=tcp#FreakConfig
 vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#new_mtproxi2
-vless://1f4c983e-382c-d2fa-b2dc-7981f02b34de@62.60.155.0:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=YD3G553bQP0uWuyYDY9ZvhLCmfF9tmKUo8MRuALEFUw&security=reality&sid=deee73&sni=telegraph.co.uk&type=tcp#oneclickvpnkeys
+vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#new_mtproxi2

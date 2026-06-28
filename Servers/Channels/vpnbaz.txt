@@ -1,9 +1,9 @@
-vless://f7a656e5-e37d-442b-9693-29d293dba6bb@web.matcloud.ir:22187?security=reality&encryption=none&pbk=paBOT7GydCbq4n4ANTEKrsmenc1xD1TBwV5LgGf6EE0&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=www.yahoo.com&sid=39aa597373aa1e5a#vpnbaz
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.215:8080#vpnbaz
-vless://8ca5cbd3-ec16-4728-bedc-2bc0d82f0922@217.217.247.248:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=enterprisekitten.com&sid=6ba85179e30d4fc2#vpnbaz
-vmess://eyJhZGQiOiJzaXRlLmhvb3JhY29mZmVlLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJzaXRlLmhvb3JhY29mZmVlLmlyIiwiaWQiOiJlZDk1NGRiYS01YWQ1LTQ2ODgtODE3NC0yNDc5NDQzNjFjMzgiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3d3IiwicGNzIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoiQHZwbmJheiDimILvuI8iLCJzY3kiOiJhdXRvIiwic25pIjoic2l0ZS5ob29yYWNvZmZlZS5pciIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiIsInZjbiI6IiJ9#vpnbaz
-trojan://humanity@45.130.125.32:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#vpnbaz
-vless://f7a656e5-e37d-442b-9693-29d293dba6bb@blog.matcloud.ir:22186?security=reality&encryption=none&pbk=a9j2B879xBNVXjzvGqsPb_aikYqo5VbTtsIJ8jss5Ug&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=www.yahoo.com&sid=39aa597373aa1e5a#vpnbaz
-vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=%2Fca-cl&security=tls&encryption=none&insecure=0&host=unnes.ac.id.yxls.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=unnes.ac.id.yxls.eu.cc#vpnbaz
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.36:8880?mode=gun&security=none&encryption=none&type=grpc#vpnbaz
 vless://f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93@45.130.125.114:8443?path=%2F&security=tls&encryption=none&insecure=0&host=srv75.perfectbulk.info&fp=chrome&type=ws&allowInsecure=0&sni=srv75.perfectbulk.info#vpnbaz
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.68:8880?mode=gun&security=none&encryption=none&type=grpc#vpnbaz
+trojan://humanity@45.130.125.32:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#vpnbaz
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.206:8080#vpnbaz
+trojan://6c862415-30d2-4813-8e49-42e99a0bd415@104.16.72.70:443?path=%2Fus-gllc&security=tls&insecure=0&host=space.byu.id.yxls.eu.cc&type=ws&allowInsecure=0&sni=space.byu.id.yxls.eu.cc#vpnbaz
+vless://8ca5cbd3-ec16-4728-bedc-2bc0d82f0922@217.217.247.248:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=enterprisekitten.com&sid=6ba85179e30d4fc2#vpnbaz
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.120:8880?mode=gun&security=none&encryption=none&type=grpc#vpnbaz
+vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=%2Fca-cl&security=tls&encryption=none&insecure=0&host=unnes.ac.id.yxls.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=unnes.ac.id.yxls.eu.cc#vpnbaz

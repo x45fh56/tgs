@@ -1,2 +1,2 @@
-vless://c8e4a7ee-07da-4d61-aed9-634b9714bb6e@57.128.240.247:35306?encryption=none&fp=&pbk=hff4DYvLOoFv2EstI0ssEra-S8ZIXwsZR9cqe7P1TH8&security=reality&sid=cac010b8710a&sni=play.google.com&type=tcp#oneclickvpnkeys
+vless://e3e90161-fe65-443a-a3a4-e0e3a73704ca@95.85.227.25:443?flow=xtls-rprx-vision&pbk=PL-jIhHOxLpCUmnDvMEsB3YY3n8o7smiAT0P_SV6RCM&sid=19d6296d2621d9fa&sni=pol1.hatvpn.org&fp=chrome&security=reality&type=tcp&headerType=none&encryption=none#ParsiNetFree
 vless://37a0bd7c-8b9f-4693-8916-bd1e2da0a817@128.204.223.94:9815?path=%2F&security=none&encryption=none&type=ws#v2ray_extractor

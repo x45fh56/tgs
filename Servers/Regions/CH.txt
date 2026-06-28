@@ -1,4 +1,4 @@
-trojan://Masir_Sefid@37.156.45.168:2083?security=reality&pbk=03be_-tMiVFxrLwXO7TMr4HTN4o68ai5Vd5Y2HeIgBQ&headerType=none&fp=chrome&spx=%2FzhH6xrLTx7oS2Yl&type=tcp&sni=store.steampowered.com&sid=d2f7#FreakConfig
 trojan://Masir_Sefid@37.156.45.168:443?security=reality&pbk=03be_-tMiVFxrLwXO7TMr4HTN4o68ai5Vd5Y2HeIgBQ&headerType=none&fp=chrome&spx=%2FFQDh1KA6NaPaGpV&type=tcp&sni=store.steampowered.com&sid=d67d2e36#FreakConfig
+trojan://Masir_Sefid@37.156.45.168:2083?security=reality&pbk=03be_-tMiVFxrLwXO7TMr4HTN4o68ai5Vd5Y2HeIgBQ&headerType=none&fp=chrome&spx=%2FzhH6xrLTx7oS2Yl&type=tcp&sni=store.steampowered.com&sid=d2f7#FreakConfig
 vless://89049f79-320b-48a0-b1cf-110165cae30c@83.228.226.164:2083?security=reality&encryption=none&pbk=l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.yahoo.com&sid=4e590fdc#NetShot1
-vless://6f8c3743-43ed-54a5-87eb-93e2261269b1@83.228.251.6:80?encryption=none&fp=&pbk=LbWJ7q-zydbHSkGYrMvGzfb0TSyaAQjW5YLqfbX0rGg&security=reality&sid=34f4b3&sni=www.yahoo.com&type=tcp#oneclickvpnkeys
+vless://89049f79-320b-48a0-b1cf-110165cae30c@83.228.251.47:2083?encryption=none&flow=xtls-rprx-vision&fp=&pbk=l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY&security=reality&sid=4e590fdc&sni=www.yahoo.com&type=tcp#oneclickvpnkeys
