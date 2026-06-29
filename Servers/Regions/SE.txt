@@ -1,6 +1,6 @@
-vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?path=%2FLiL%3Fed%3D2560&security=tls&alpn=h3&encryption=none&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=kingcloud.biack.ir#BrilliantGift
-vless://00000000-0000-4000-8000-000000000000@89.22.238.213:46209?path=%2F%40Marisa_kristi&security=tls&encryption=none&insecure=0&host=g1ixej-urdn-dlqnu1ol.gespz5p7nm04ej96ia7qc9tvsktgtx.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=g1ixej-urdn-dlqnu1ol.gespz5p7nm04ej96ia7qc9tvsktgtx.workers.dev#FreakConfig
-vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617?encryption=none&security=none&type=tcp#oneclickvpnkeys
+vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=kingcloud.biack.ir&security=tls&path=%2FLiL%3Fed&encryption=none&alpn=h3#NetShot1
+vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?path=%2FLiL%3Fed%3D2560&insecure=0&sni=kingcloud.biack.ir&allowInsecure=0&encryption=none&fp=firefox&alpn=h3&type=ws&security=tls#NetShot1
+vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?alpn=h3&encryption=none&sni=kingcloud.biack.ir&fp=firefox&insecure=0&security=tls&type=ws&path=%2FLiL%3Fed%3D2560&allowInsecure=0#ParsiNetFree
+vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?encryption=none&security=tls&sni=kingcloud.biack.ir&fp=chrome&alpn=h3&insecure=0&allowInsecure=0&type=ws&host=kingcloud.biack.ir&path=%2FLiL%3Fed#persianvpnhub
 vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?encryption=none&security=tls&sni=kingcloud.biack.ir&alpn=h3&fp=firefox&type=ws&path=%2FLiL%3Fed%3D2560#pythash
 vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617/?type=tcp&encryption=none&flow=#tv2rayrr
-vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617?encryption=none&security=none&type=tcp#v2ray_extractor

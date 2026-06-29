@@ -1,0 +1,2 @@
+vless://cf038a28-8f85-41fc-9e86-ba99a3fdd0d9@89.125.119.48:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=EtkZdJxEpbkpER7tXmp2DnuozvILY4xIQymfBrsMJwo&security=reality&sni=mamakoko.morrisis.net&type=tcp#oneclickvpnkeys
+trojan://MITIVPN@94.140.0.100:443?alpn=http%2F1.1&fp=chrome&host=95r.ir&path=%2FMiTiVPN%3DUsa&sni=95r.ir&type=ws#oneclickvpnkeys
