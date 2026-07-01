@@ -1,4 +1,5 @@
-vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#new_mtproxi2
+vless://a8609a02-b76d-4cc8-a8d5-496088b20ff1@185.143.233.235:8443?path=%2Fassignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=sinavm.sinavm.sinavm.ir&fp=chrome&type=ws&allowInsecure=1&sni=sinavm.sinavm.sinavm.ir#FreakConfig
 vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#new_mtproxi2
-vless://1f6531a1-a6eb-4274-9f51-4a0899456fcf@195.254.165.243:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=zSjG6wndmLAzE8ykCBXpAm2eh0viWVSy3gt2juXF4EE&security=reality&sid=eaa8&sni=play.google.com&type=tcp#oneclickvpnkeys
+vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#new_mtproxi2
+vless://1f4c983e-382c-d2fa-b2dc-7981f02b34de@62.60.155.0:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=YD3G553bQP0uWuyYDY9ZvhLCmfF9tmKUo8MRuALEFUw&security=reality&sid=deee73&sni=telegraph.co.uk&type=tcp#oneclickvpnkeys
 trojan://humanity@2.144.21.112:40443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#v2ray_extractor
