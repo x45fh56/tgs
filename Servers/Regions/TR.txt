@@ -1,6 +1,5 @@
 vless://70ba37a0-3c16-53cf-c936-2f4251cfb9f6@176.223.66.54:5054?mode=packet-up&security=reality&encryption=none&pbk=vmlmn1BcyEMh7vnmqjaxlvJy_bS-4ZWPN4EZAmnMFmY&fp=firefox&spx=%2F&type=xhttp&sni=icloud.com&sid=8afe1688#FreakConfig
 vless://afcb9101-feb7-4062-ab3f-27b5852f1ef3@185.226.93.216:5678?security=none&encryption=none&headerType=none&type=tcp#FreakConfig
-vmess://eyJhZGQiOiIxODUuMjI2LjkzLjY2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjMxZTdmYjRlLTUwMDYtNGVjZC1hYmRjLWIyN2YxYmU2MTdkMCIsImluc2VjdXJlIjoiMSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTI4MCIsInBzIjoiQE5ldHNob3QxICAgINqp2KfZhtin2YQg2YXYpyAxIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==#NetShot1
 vless://a942a3a4-6a71-47aa-810c-132dff0cac76@5.175.136.41:8443?security=reality&encryption=none&authority=ads.x5.ru&pbk=BXzaZbj_eWHlUxDjUXNzC0Oi_Y-rY-OC_ZoWv4jKggU&fp=qq&type=grpc&serviceName=%2Fapi%2Fv1%2Fsync&sni=ads.x5.ru&sid=a2b223d4#NetShot1
 vless://c2591fc2-d8e5-48c8-b264-3c0d6cf86603@194.116.236.222:2082?encryption=none&security=none&type=ws&host=194.116.236.222&path=%2F#pythash
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0SmxFV2gyUHpETWV3OHFvOVlrUEVB@38.180.105.12:443#tv2rayrr
