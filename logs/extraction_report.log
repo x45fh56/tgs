@@ -1,80 +1,79 @@
 === Country Statistics ===
-Total Servers (Merged): 710
-Successful Geo-IP Resolutions: 707
-Failed Geo-IP Resolutions: 3
-Unknown              : 204
-Domain               : 177
-US                   : 62
-DE                   : 56
-NL                   : 38
-GB                   : 28
-SE                   : 16
-FI                   : 15
-SC                   : 13
-FR                   : 12
-IT                   : 10
-RU                   : 8
-IR                   : 6
-TR                   : 5
+Total Servers (Merged): 774
+Successful Geo-IP Resolutions: 770
+Failed Geo-IP Resolutions: 4
+Unknown              : 223
+Domain               : 189
+US                   : 55
+DE                   : 47
+NL                   : 46
+GB                   : 34
+FR                   : 20
+SC                   : 20
+SE                   : 18
+FI                   : 14
+RU                   : 13
+IR                   : 8
+TR                   : 8
+IT                   : 7
+PL                   : 5
+IN                   : 5
 CA                   : 5
 HK                   : 4
 JP                   : 4
+CH                   : 4
 ZA                   : 4
 MD                   : 3
-PL                   : 3
 SG                   : 3
+IE                   : 3
 AU                   : 3
+RO                   : 3
+AE                   : 3
 CN                   : 2
-IN                   : 2
-IE                   : 2
-EE                   : 2
-AT                   : 2
+KZ                   : 2
 LV                   : 2
 LT                   : 2
 IQ                   : 1
-KZ                   : 1
 RS                   : 1
+EE                   : 1
 AM                   : 1
+AT                   : 1
 IL                   : 1
-RO                   : 1
-CH                   : 1
+BY                   : 1
 IM                   : 1
 AL                   : 1
-BE                   : 1
-AE                   : 1
 QA                   : 1
-LU                   : 1
 CY                   : 1
 
 === Server Type Summary ===
-VLESS                : 555
-CDN                  : 463
-TROJAN               : 88
-SS                   : 41
-VMESS                : 16
-HYSTERIA2            : 10
+VLESS                : 590
+CDN                  : 456
+TROJAN               : 99
+SS                   : 49
+VMESS                : 19
+HYSTERIA2            : 17
 HYSTERIA             : 0
 TUIC                 : 0
 WIREGUARD            : 0
 WARP                 : 0
 
 === Channel Statistics (Extraction) ===
-v2ray_extractor               : 206
-oneclickvpnkeys               : 151
+v2ray_extractor               : 223
+oneclickvpnkeys               : 175
+FreakConfig                   : 95
 tv2rayrr                      : 85
-FreakConfig                   : 69
-NetShot1                      : 45
+NetShot1                      : 47
 new_mtproxi2                  : 43
 SNI_SPOOFINGconfig            : 35
-persianvpnhub                 : 19
 ParsiNetFree                  : 17
 Maznet                        : 17
+persianvpnhub                 : 16
 NetAccount                    : 12
 vpnbaz                        : 11
-pythash                       : 11
 ConfigX2ray                   : 10
+BrilliantGift                 : 8
+pythash                       : 8
 dingyue_center                : 7
-BrilliantGift                 : 7
 xixv2ray                      : 0
 Do1rcci                       : 0
 SparrK_VPN                    : 0

@@ -1,7 +1,8 @@
-vless://6513d545-10e9-436a-a0b8-e94dbc1e4019@95.216.171.143:18284?encryption=none&security=reality&sni=www.yahoo.com&fp=chrome&pbk=N945v1oLWgtgnLx5o_h5vKpmHEaE-8sRjShr-68TJgs&sid=92104199ad86&spx=%2FxF5FYvMWSEtq8ji&type=grpc#BrilliantGift
-vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?encryption=none&security=tls&sni=kingcloud.biack.ir&fp=firefox&alpn=h3&insecure=0&allowInsecure=0&type=ws&path=%2FLiL%3Fed%3D2560#BrilliantGift
-vless://a5c05c1e-aa68-443f-8598-09800244bd4b@192.71.82.2:443?encryption=none&security=tls&sni=kingcloud.biack.ir&fp=chrome&alpn=h3&insecure=0&allowInsecure=0&type=ws&path=%2FLiL%3Fed#BrilliantGift
-vless://EarnMoneyarz-ZoRo@155.103.69.33:42841?encryption=none&security=reality&sni=www.yahoo.com&fp=chrome&pbk=dzQmB-5PshfbZ228GO154TnSIcKV1HvG8sAhzlLn_zo&sid=a00ad308&spx=%2F50S8MSimAOoof6r&type=tcp&headerType=none#BrilliantGift
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?encryption=none&security=none&type=tcp&headerType=http#BrilliantGift
-vless://EarnMoneyarz-ZoRo@speedtest-chekhost-fastly.amuseftdomainroyal.com:42841?encryption=none&security=reality&sni=www.yahoo.com&fp=chrome&pbk=dzQmB-5PshfbZ228GO154TnSIcKV1HvG8sAhzlLn_zo&sid=20ba44b6e3&spx=%2F&type=tcp&headerType=none#BrilliantGift
+trojan://humanity@104.18.152.246:443?security=tls&sni=www.calmloud.com&alpn=http%2F1.1&fp=chrome&allowinsecure=0&type=ws&host=www.calmloud.com&path=%2Fassignment#BrilliantGift
+vless://c35050ce-01ab-45a9-91b8-54cec637d0a8@45.130.125.229:443?path=%2Fudfyfws&security=tls&encryption=none&host=octopusss5.info&allowinsecure=0&type=ws&sni=octopusss5.info#BrilliantGift
+vless://659a9075-d5ab-4fd2-bf34-b37043fae832@104.16.72.41:443?path=%2Fproxyip&security=tls&encryption=none&insecure=0&host=nbhhh.mrcool.kdns.fr&type=ws&allowInsecure=0&sni=nbhhh.mrcool.kdns.fr#BrilliantGift
+vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.101:443?path=%2Frdfgtws&security=tls&encryption=none&host=vangoghhh.info&allowinsecure=0&type=ws&sni=vangoghhh.info#BrilliantGift
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?path=%2Fpoiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#BrilliantGift
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.47:8080#BrilliantGift
 vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.101:443?path=%2Frdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#BrilliantGift
+vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@104.16.72.41:443?path=%2Frsedgws&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#BrilliantGift
