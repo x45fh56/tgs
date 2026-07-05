@@ -1,2 +1,0 @@
-vless://296a5736-bc8c-45dd-9971-8bf44b28ed4e@all32.allenshop100.ir:443?encryption=none&security=reality&sni=play.google.com&fp=firefox&pbk=YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M&sid=98fa0b00d09419f7&type=tcp&headerType=none#pythash
-vless://c2591fc2-d8e5-48c8-b264-3c0d6cf86603@194.116.236.222:2082?encryption=none&security=none&type=ws&host=194.116.236.222&path=%2F#pythash

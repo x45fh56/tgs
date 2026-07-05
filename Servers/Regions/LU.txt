@@ -1,0 +1,1 @@
+vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@188.42.89.157:443?encryption=none&type=ws&security=tls&path=%2F&host=vpn47.cc.cd&sni=vpn47.cc.cd&fp=chrome&insecure=0&allowInsecure=0#ConfigX2ray
