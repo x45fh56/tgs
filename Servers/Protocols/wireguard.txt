@@ -1,1 +1,0 @@
-wireguard://QEjpVaVpiJMK4hlGZd7FN6YP0LwEgrL0UzZbCVi6qFE%3D@bot.shopver.ir:995?address=10.9.210.86%2F32%2Cfddd%3A2c4%3A2c4%3A2c4%3A0%3A0%3A7%3Ad04a%2F128&presharedkey=HbQ7nMX%2FbjrbPqIhVYNZNKkDSpOvfeUg1ki6vt6FECk%3D&reserved=0%2C0%2C0&publickey=4qTpT9jTcZOdKSOrP9vgNXuULE%2FeYiwjlD3Thzo3k3E%3D&mtu=1300#BrilliantGift

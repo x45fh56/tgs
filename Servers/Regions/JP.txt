@@ -1,4 +1,4 @@
 vless://7bcb31de-f8f1-4e93-a792-0144c05c6cfa@116.206.92.49:443?security=reality&encryption=none&pbk=gRKqowCAdlhBh9gKYv1S3kQERkqtpWmCFS-NqLBKw3s&headerType=none&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=9fc3dfda8bca19c2#FreakConfig
-vless://86b414b6-966e-4f6d-ab16-32049ef732d3@47.245.38.111:443/?type=tcp&encryption=none&flow=&sni=www.autodesk.com&fp=chrome&security=reality&pbk=y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4&sid=860705e716cbe6ed#tv2rayrr
 vless://60e7e018-ee6a-48b1-9625-c4d4276935b3@178.239.125.31:39735/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.yahoo.co.jp&fp=chrome&security=reality&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&sid=#tv2rayrr
+vless://86b414b6-966e-4f6d-ab16-32049ef732d3@47.245.38.111:443/?type=tcp&encryption=none&flow=&sni=www.autodesk.com&fp=chrome&security=reality&pbk=y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4&sid=860705e716cbe6ed#tv2rayrr
 trojan://2274c52572e721086f8bd8f88984643c@153.121.51.29:127/?type=tcp&security=tls&sni=www.nintendogames.net#tv2rayrr

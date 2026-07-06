@@ -1,0 +1,2 @@
+vless://50668c7e-1325-7314-1626-685d580c48fc@188.253.6.80:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=W215rLzeq2f2CVCVmhEbw715wrMYHK7oPg2F0iotbRA&security=reality&sid=20180cfd&sni=www.asus.com&type=tcp#oneclickvpnkeys
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@61.231.25.172:50099#oneclickvpnkeys

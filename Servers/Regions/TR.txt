@@ -1,2 +1,4 @@
-vless://a942a3a4-6a71-47aa-810c-132dff0cac76@5.175.136.41:8443?security=reality&encryption=none&authority=ads.x5.ru&pbk=BXzaZbj_eWHlUxDjUXNzC0Oi_Y-rY-OC_ZoWv4jKggU&fp=qq&type=grpc&serviceName=%2Fapi%2Fv1%2Fsync&sni=ads.x5.ru&sid=a2b223d4#NetShot1
+vless://5aa708a4-0134-4f24-ba6f-d775651bd21e@77.83.245.253:59492?encryption=none&type=tcp&security=reality&headerType=none&sni=www.google.com%3A443&fp=chrome&insecure=1&allowInsecure=1&pbk=jPWzhxlyYrRZTKbUO-Wb_OjWgD_7RrG3CFkttX7mKVY&sid=0b1eccc239d0&spx=%2FMQkVkUG8SYXH6IZ#ConfigX2ray
+vless://a3ab68bd-e835-5129-b8c5-335a709e8b3f@188.132.234.156:443?security=reality&encryption=none&pbk=41qm1VGkyODbyc7LvIyXhcG4XUKmTaomF9jDAMEaW3c&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=api.samsungcloud.com&sid=03e223bc474c6f1d#FreakConfig
+vless://daff1228-8d1a-4812-a57a-09604faa5e0c@45.195.137.163:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY&security=reality&sid=cf9d145ad8f1ea55&sni=storage.yandex.net&type=tcp#oneclickvpnkeys
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0SmxFV2gyUHpETWV3OHFvOVlrUEVB@38.180.105.12:443#tv2rayrr

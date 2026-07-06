@@ -1,12 +1,4 @@
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?path=%2Fpoiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#BrilliantGift
-vless://b6c322b5-11a4-4f78-8e3a-2f8500000000@ez-72467d.zeus-bva38w.workers.dev:443?encryption=none&security=tls&sni=ez-72467d.zeus-bva38w.workers.dev&fp=chrome&type=ws&host=ez-72467d.zeus-bva38w.workers.dev&path=/sync&allowInsecure=0#BrilliantGift
-wireguard://QEjpVaVpiJMK4hlGZd7FN6YP0LwEgrL0UzZbCVi6qFE%3D@bot.shopver.ir:995?address=10.9.210.86%2F32%2Cfddd%3A2c4%3A2c4%3A2c4%3A0%3A0%3A7%3Ad04a%2F128&presharedkey=HbQ7nMX%2FbjrbPqIhVYNZNKkDSpOvfeUg1ki6vt6FECk%3D&reserved=0%2C0%2C0&publickey=4qTpT9jTcZOdKSOrP9vgNXuULE%2FeYiwjlD3Thzo3k3E%3D&mtu=1300#BrilliantGift
-vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@104.16.72.101:443?path=%2Frsedgws&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&fp=chrome&type=ws&allowInsecure=0&sni=shegeftihaaa.net#BrilliantGift
-vless://3f298aca-2412-49ac-9f20-235f0e448d31@unitedkingdomvluding.iranlast.com:7000?security=reality&encryption=none&pbk=f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8&headerType=none&fp=qq&type=tcp&sni=yahoo.com#BrilliantGift
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.101:443?path=%2Frdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#BrilliantGift
-vless://3f298aca-2412-49ac-9f20-235f0e448d31@germanclouding.iranlast.com:7000?security=reality&encryption=none&pbk=f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8&headerType=none&fp=qq&type=tcp&sni=yahoo.com#BrilliantGift
-vless://356ccb34-22cc-4446-a137-072bc60d65ca@bypass.fr-gt-01.com:8443?security=reality&encryption=none&pbk=1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=storage.yandex.net&sid=f34818a561dfd1fe#BrilliantGift
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.218:8080#BrilliantGift
-vless://3f298aca-2412-49ac-9f20-235f0e448d31@franceclouding.iranlast.com:7000?security=reality&encryption=none&pbk=f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8&headerType=none&fp=qq&type=tcp&sni=yahoo.com#BrilliantGift
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?path=%2Fpoiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&fp=chrome&type=ws&allowInsecure=0&sni=amoosamiii.net#BrilliantGift
-vless://3e7cede4-721a-4807-b0a2-5fe6586af907@lt-cherry-01.com:8443?security=reality&encryption=none&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=storage.yandex.net&sid=2cfb5a0ae8ab0cb0#BrilliantGift
+vless://fb5a524d-514a-4c57-bb39-b2f5fa889160@ez-a215e5.ezaccess155e83c.workers.dev:2095?path=%2F&security=none&encryption=none&host=ez-a215e5.ezaccess155e83c.workers.dev&fp=android&type=ws&sni=ez-a215e5.ezaccess155e83c.workers.dev#BrilliantGift
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.213:8080#BrilliantGift
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.211:8080#BrilliantGift
+vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@104.16.72.41:443?path=%2Frsedgws&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#BrilliantGift
