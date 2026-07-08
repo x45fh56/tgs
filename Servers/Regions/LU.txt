@@ -1,0 +1,1 @@
+trojan://2d27R-gLqGIqmBf4lwv_h6-VHFz4DQfw@80.240.97.12:10001?security=none&type=tcp&headerType=none#NetShot1
