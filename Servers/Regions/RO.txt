@@ -1,3 +1,2 @@
-vless://eedcee2e-7517-4162-852d-b21b864b8e3f@195.74.93.254:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s&security=reality&sid=247fd6dab1a34a48&sni=web.max.ru&type=tcp#oneclickvpnkeys
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.12.30.248:443?encryption=none&host=vangoghhh.info&path=%2Frdfgtws&security=tls&sni=vangoghhh.info&type=ws#oneclickvpnkeys
+vless://146eb6cf-a99c-4022-85ca-022cf81502dc@93.114.194.131:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s&security=reality&sid=247fd6dab1a34a48&sni=web.max.ru&type=tcp#oneclickvpnkeys
 vless://c8451b58-6337-4294-ba28-1a33731331a1@31.6.1.187:25607/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=store.steampowered.com&fp=chrome&security=reality&pbk=j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE&sid=84#tv2rayrr

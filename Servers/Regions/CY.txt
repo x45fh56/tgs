@@ -1,2 +1,3 @@
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@195.85.59.187:2095?encryption=none&host=cnmfangbinxingnmsl.cnm--fangbinxing.workers.dev&path=%2F&security=none&type=ws#oneclickvpnkeys
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpueGdzbUhrUDNKVTdoYlFrSmZ4Z3BYaDV0bHZYZTFlbg@45.83.142.237:443#tv2rayrr
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@195.85.59.187:2095?encryption=none&host=cnmfangbinxingnmsl.cnm--fangbinxing.workers.dev&path=%2F&security=none&type=ws#v2ray_extractor
