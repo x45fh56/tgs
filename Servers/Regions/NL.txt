@@ -1,11 +1,11 @@
 vless://59d08a71-f206-4ca3-9a42-8c56d3bfdc3c@46.8.229.199:443?security=reality&encryption=none&pbk=4o2G9iT8IN7YWwiDLgjMrpPmvwU5IQT6C6nE5Rh-wSQ&headerType=none&fp=chrome&spx=%2Fzr8bwtC4DLf7P62&type=tcp&flow=xtls-rprx-vision&sni=intel.com&sid=da#FreakConfig
-vless://d2c63087-efa0-4c7a-a35f-9ffdb47caae7@145.63.128.60:443?encryption=none&security=reality&type=grpc&headerType=none&mode=gun&sni=icloud.com&fp=chrome&pbk=wruzma_P-wwX8ZR8EesxL5_SwDCUYtgMaA5BhVLDRAU&sid=2d71bb6ba33bb73f#NetShot1
+vless://d2c63087-efa0-4c7a-a35f-9ffdb47caae7@145.63.132.87:443?encryption=none&security=reality&type=grpc&headerType=none&mode=gun&sni=icloud.com&fp=chrome&pbk=wruzma_P-wwX8ZR8EesxL5_SwDCUYtgMaA5BhVLDRAU&sid=2d71bb6ba33bb73f#NetShot1
+vless://4550993c-2191-493a-a612-aaba4a4ec083@89.105.202.117:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&security=reality&sid=6d6f13013d3e1d0c&sni=g2.steptofsvo.com&type=tcp#oneclickvpnkeys
 vless://612c872d-1370-4109-8644-f0755f97e33f@89.23.107.137:443?encryption=none&fp=&pbk=GzOdZG9TCQSrZV7ivcmOq9tKWUf37QnoTxSHf32OfAs&security=reality&sid=16&sni=www.samsung.com&type=tcp#oneclickvpnkeys
-vless://512790ac-e687-41f4-b655-e948181d4eb8@134.122.55.72:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=Y3ZOCiewH7hdmI_0g648mSF1fEIHsotbeUN7bStCqGg&security=reality&sid=a8a0aaad375dd0b0&sni=ai.android&type=tcp#oneclickvpnkeys
+vless://cb784d00-d34a-4389-b938-8717f7b28353@2.26.254.83:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=AnxTrBjoS2NYl9efpns6l_e4JrN7jws-KnXcu6DCDCc&security=reality&sid=42f27f4d688d79d4&sni=www.twitch.tv&type=tcp#oneclickvpnkeys
 vless://Warpi-Free-Vpn-In-GooglePlay@144.124.243.180:443/?type=ws&encryption=none&flow=&path=%2F#tv2rayrr
 vless://3a505568-fd7b-4bd8-8a57-ee26e6953b6f@143.20.79.11:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=MAs2iGqDMBmRgr30oJsSooKFXbFB5kGA6PpjelWsZxw&sid=491db313#tv2rayrr
 vless://d7fbe279896e40118c23d15fe537dddd@213.176.16.74:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=apple.com&fp=chrome&security=reality&pbk=XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc&sid=aabbccdd#tv2rayrr
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5T0RMWFZMejJGV05URmVTU25nM0Zt@136.244.100.113:443#tv2rayrr
-vless://bd449f7a-95aa-4920-9af0-cd6b5d4cb5f1@176.222.54.252:26690?encryption=none&security=none&type=tcp#v2ray_extractor
 vless://af1e0692-6c91-4d61-bc6b-108f2e897c37@193.233.174.195:27331?encryption=none&security=none&type=tcp#v2ray_extractor
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWQ@108.181.58.239:8388#v2ray_extractor

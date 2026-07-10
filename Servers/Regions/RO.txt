@@ -1,2 +1,2 @@
-vless://146eb6cf-a99c-4022-85ca-022cf81502dc@93.114.194.131:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s&security=reality&sid=247fd6dab1a34a48&sni=web.max.ru&type=tcp#oneclickvpnkeys
+vless://f426626f-a13e-4707-920d-e8feab56d1cc@38.79.154.34:2020?security=reality&encryption=none&pbk=KWlccWTLW11wEojieRNfg6zezd3KMxPpAkwZ11VNhSM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aparat.com&sid=d67b45b38dcea6#FreakConfig
 vless://c8451b58-6337-4294-ba28-1a33731331a1@31.6.1.187:25607/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=store.steampowered.com&fp=chrome&security=reality&pbk=j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE&sid=84#tv2rayrr

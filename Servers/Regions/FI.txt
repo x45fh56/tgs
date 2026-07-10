@@ -1,9 +1,6 @@
 vless://701ea834-7c31-4544-95d6-f0a4dfe40b36@66.234.150.145:443?security=reality&encryption=none&pbk=KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=storage.yandex.net&sid=d020b987f84eb78a#FreakConfig
-vless://fa1494d1-d388-49fb-8977-3797f10082f2@65.109.186.115:8080?security=reality&encryption=none&pbk=IiXOtrr72OAumtdjHDdvqxwyiInUq8_5b2wG477U40k&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=cee5cf0cb56d9912#Maznet
-vless://9b68c32d-953c-423f-a2e8-6447cc77cbf8@46.8.236.129:26140?security=reality&encryption=none&pbk=Y8cdqmsCNqujpWKxRPfXQLB1CwJMhQRSKHaKOzBMFAY&host=yahoo.com&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c73dd5d128e6bd3d#Maznet
 vless://ee443a49-47a0-445c-8e2a-c7efbc74f483@46.8.236.129:26140?security=reality&encryption=none&pbk=cEKeWhExRbsgjk8qAd0KvDNnWRK4Sm9NYHH62sdVUH0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=fa893256a458b8a0#Maznet
+vless://9b68c32d-953c-423f-a2e8-6447cc77cbf8@46.8.236.129:26140?security=reality&encryption=none&pbk=Y8cdqmsCNqujpWKxRPfXQLB1CwJMhQRSKHaKOzBMFAY&host=yahoo.com&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c73dd5d128e6bd3d#Maznet
+vless://fa1494d1-d388-49fb-8977-3797f10082f2@65.109.186.115:8080?security=reality&encryption=none&pbk=IiXOtrr72OAumtdjHDdvqxwyiInUq8_5b2wG477U40k&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=cee5cf0cb56d9912#Maznet
 vless://c7c0e837-d9ac-4211-aee7-1e7691be3be1@78.17.3.113:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=X2H-SQTGBao3eTqP9D3M75dXjfydbhShHbkV9KC6vy4&security=reality&sid=433b9f&sni=www.cloudflare.com&type=tcp#oneclickvpnkeys
-hysteria2://03e7f55f-22f8-4564-880f-b86c8cdbf140@66.234.150.230:8449/?sni=sni.fi-m247-02.com#oneclickvpnkeys
-hysteria2://03e7f55f-22f8-4564-880f-b86c8cdbf140@66.234.150.246:8449/?sni=sni.fi-m247-02.com#oneclickvpnkeys
-hysteria2://03e7f55f-22f8-4564-880f-b86c8cdbf140@66.234.150.232:8449/?sni=sni.fi-m247-02.com#oneclickvpnkeys
 vless://Warpi-Free-Vpn-In-GooglePlay@95.217.233.18:443/?type=tcp&encryption=none&flow=#tv2rayrr
