@@ -1,2 +1,1 @@
-hysteria2://p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR@130.49.161.70:443/?insecure=1&obfs=salamander&obfs-password=rG07s3COMIEvdnQipRyWzx_H_2xygNC3&sni=hy2.aspidnet.xyz#oneclickvpnkeys
-vless://f8cae104-2eaa-4b16-b258-65be28281b70@185.253.116.149:8080?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#persianvpnhub
+vless://f8cae104-2eaa-4b16-b258-65be28281b70@185.253.116.149:8080?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#NetShot1

@@ -1,0 +1,1 @@
+vless://320f6cbe-d73e-477d-9ab5-aa6e3b28cfb7@64.49.15.87:443?security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&path=%2FTheVPNMethod&host=&sni=play.google.com&fp=ios&pbk=IiXOtrr72OAumtdjHDdvqxwyiInUq8_5b2wG477U40k&sid=74a6bf9721cd1c19#TheVPNMethod
