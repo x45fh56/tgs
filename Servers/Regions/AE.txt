@@ -1,2 +1,0 @@
-vless://b9808bb6-69bd-4370-ac79-97e1e535966e@94.183.207.211:443?security=none&encryption=none&host=www.icloud.com&headerType=http&type=tcp#NetShot1
-vless://f8cae104-2eaa-4b16-b258-65be28281b70@185.253.116.149:8080?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#NetShot1

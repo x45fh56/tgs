@@ -1,6 +1,0 @@
-vless://3ef170be-05d0-479c-9753-aa2f860964ea@147.45.39.93:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA&security=reality&sid=a1b2c3d4e5f6&sni=cloudflare.com&type=tcp#oneclickvpnkeys
-vless://935b4c83-6fab-469f-93ea-f7cae11d8a6e@5.129.243.64:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=UkWs8ZVCrm_MxuzW9a8wKJC3IPjwBJcaz7Rb5czATyA&security=reality&sid=da122c35&sni=haharu7.xixihaha.it.com&type=tcp#oneclickvpnkeys
-vless://b4fbe9de-88f4-4af7-bca0-631ff2883278@193.233.48.92:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=gFH0rutmQ8EQBMsUlWJ_eeQnkQkazATNPJvsTJnZZiY&sid=6dfeb23c#tv2rayrr
-vless://00f02ab2-6f2d-449f-a089-d182a2fac59a@81.161.98.228:1443/?type=ws&encryption=none&flow=&host=cdn.filterai.ru&path=%2Fwebsocketpl&security=tls&sni=vkvideo.cs7777.vk.ru#tv2rayrr
-vless://87d1f4b2-83e7-4125-8d62-5d376871fd41@45.134.12.47:31203/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=vt-1.ozone.ru&fp=random&security=reality&pbk=tN1ZYDEnM0t_V59FGQSpiq56sOpDo8JZ25Epgg-Z9kg&sid=ab12cd34#tv2rayrr
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.8.211.217:443?path=%2Frdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#v2ray_extractor

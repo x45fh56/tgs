@@ -1,85 +1,43 @@
 === Country Statistics ===
-Total Servers (Merged): 700
-Successful Geo-IP Resolutions: 699
-Failed Geo-IP Resolutions: 1
-Unknown              : 248
-Domain               : 177
-US                   : 52
-DE                   : 47
-GB                   : 26
-FR                   : 18
-NL                   : 16
-SG                   : 15
-SC                   : 12
-FI                   : 12
-TR                   : 7
-RU                   : 6
-IR                   : 5
-JP                   : 5
-CA                   : 5
-PL                   : 4
-IE                   : 4
-ZA                   : 4
-MD                   : 3
-HK                   : 3
-RO                   : 3
-CN                   : 2
-IT                   : 2
-CH                   : 2
-AE                   : 2
-HU                   : 2
-LT                   : 2
-IQ                   : 1
-AZ                   : 1
-IN                   : 1
-KZ                   : 1
-RS                   : 1
-EE                   : 1
-AM                   : 1
-AT                   : 1
-TW                   : 1
-SE                   : 1
-IM                   : 1
-KR                   : 1
-LV                   : 1
-QA                   : 1
-CY                   : 1
+Total Servers (Merged): 0
+Successful Geo-IP Resolutions: 0
+Failed Geo-IP Resolutions: 0
 
 === Server Type Summary ===
-VLESS                : 535
-CDN                  : 445
-TROJAN               : 78
-SS                   : 46
-HYSTERIA2            : 28
-VMESS                : 13
+VMESS                : 0
+VLESS                : 0
+TROJAN               : 0
 HYSTERIA             : 0
+HYSTERIA2            : 0
 TUIC                 : 0
+SS                   : 0
 WIREGUARD            : 0
 WARP                 : 0
+CDN                  : 0
 
 === Channel Statistics (Extraction) ===
-v2ray_extractor               : 209
-oneclickvpnkeys               : 165
-FreakConfig                   : 113
-tv2rayrr                      : 85
-new_mtproxi2                  : 43
-SNI_SPOOFINGconfig            : 33
-NetShot1                      : 21
-Maznet                        : 18
-persianvpnhub                 : 17
-vpnbaz                        : 9
-NetAccount                    : 8
-dingyue_center                : 7
-ParsiNetFree                  : 5
+NetAccount                    : 0
 xixv2ray                      : 0
 Do1rcci                       : 0
+NetShot1                      : 0
+dingyue_center                : 0
+oneclickvpnkeys               : 0
 SparrK_VPN                    : 0
+persianvpnhub                 : 0
 oliver_soul                   : 0
 BrilliantGift                 : 0
+new_mtproxi2                  : 0
+ParsiNetFree                  : 0
+vpnbaz                        : 0
+v2ray_extractor               : 0
 v2to_nadi                     : 0
 saministamm                   : 0
+FreakConfig                   : 0
 pro_exi                       : 0
+Maznet                        : 0
+SNI_SPOOFINGconfig            : 0
 byiroh                        : 0
+tv2rayrr                      : 0
 ConfiingPro                   : 0
 ConfigX2ray                   : 0
 pythash                       : 0

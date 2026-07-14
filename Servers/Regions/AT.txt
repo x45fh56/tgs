@@ -1,1 +1,0 @@
-vless://838de912-398a-4c0e-9228-0fd44b0d1f8b@157.173.27.152:443?security=reality&encryption=none&pbk=KP-P4zenuMuYe3UxPCjDEVmgqI4GiRZ95UbsAfmL71g&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=travel.yandex.ru&sid=970098f31b96a3e8#NetAccount
