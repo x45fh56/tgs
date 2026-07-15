@@ -1,0 +1,1 @@
+vless://5f39f871-2fae-446e-99ad-719fa8be687c@194.61.31.126:443/?type=grpc&encryption=none&flow=&serviceName=78e691d782c9b9b2cd3c5621&sni=www.microsoft.com&fp=safari&security=reality&pbk=L3UuY_lketYWBrW_naLct9-VFIAGwdtMplkubdHdEHQ&sid=ce874361e8dfcd4e#tv2rayrr

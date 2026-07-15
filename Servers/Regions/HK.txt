@@ -1,0 +1,5 @@
+vmess://eyJhZGQiOiIzMS43Ny4xNDkuMTMxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6Ijk1OGY1OTQwLWRlM2QtNDQ2Ni1iYjMwLWI2MDU5OTNkYjI3ZSIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTEwIiwicHMiOiLwn4et8J+HsEBGcmVha0NvbmZpZyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=#FreakConfig
+vless://ab69adf9-4d3a-4625-aef6-eb6a034a5dd3@216.250.96.164:26000?encryption=none&security=reality&sni=apps.apple.com&fp=chrome&pbk=YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc&sid=2f8400e348eb&spx=%2F&type=tcp&headerType=none#dingyue_center
+vless://78b4c08b-b191-4550-9406-15ab3ff87bd9@31.77.147.204:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=JfPS2DUo4zsn-fn1lI8om8uCXEUyyUDutxfpLryUIx0&security=reality&sid=03ff6d202621bc78&sni=dl.google.com&type=tcp#oneclickvpnkeys
+vless://1555ff9a-837c-4d7f-9b5d-0794c9c31e71@154.12.179.154:2501/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=amazon.com&fp=random&security=reality&pbk=N6DfpkpFe0ykYu9ofqjB5jXIMFfsf9T2Ry0L2-WcfAw&sid=b793cdadb1c785#tv2rayrr
+trojan://BxceQaOe@116.49.237.130:2673/?type=tcp&security=tls&sni=t.me%2Fripaojiedian#tv2rayrr

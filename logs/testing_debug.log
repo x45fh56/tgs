@@ -1,52 +1,52 @@
-2026-07-14 11:53:02,153-INFO-MainThread- Fetching configs from: https://t.me/s/BrilliantGift
-2026-07-14 11:53:02,168-ERROR-MainThread- Scraping error for https://t.me/s/BrilliantGift: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/BrilliantGift (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:02,168-INFO-MainThread- Fetching configs from: https://t.me/s/ConfigX2ray
-2026-07-14 11:53:02,175-ERROR-MainThread- Scraping error for https://t.me/s/ConfigX2ray: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/ConfigX2ray (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:02,175-INFO-MainThread- Fetching configs from: https://t.me/s/ConfiingPro
-2026-07-14 11:53:02,189-ERROR-MainThread- Scraping error for https://t.me/s/ConfiingPro: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/ConfiingPro (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:02,189-INFO-MainThread- Fetching configs from: https://t.me/s/Do1rcci
-2026-07-14 11:53:02,195-ERROR-MainThread- Scraping error for https://t.me/s/Do1rcci: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/Do1rcci (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:02,195-INFO-MainThread- Fetching configs from: https://t.me/s/FreakConfig
-2026-07-14 11:53:02,212-ERROR-MainThread- Scraping error for https://t.me/s/FreakConfig: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/FreakConfig (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:02,212-INFO-MainThread- Fetching configs from: https://t.me/s/Maznet
-2026-07-14 11:53:02,217-ERROR-MainThread- Scraping error for https://t.me/s/Maznet: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/Maznet (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:02,217-INFO-MainThread- Fetching configs from: https://t.me/s/NetAccount
-2026-07-14 11:53:02,221-ERROR-MainThread- Scraping error for https://t.me/s/NetAccount: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/NetAccount (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:02,221-INFO-MainThread- Fetching configs from: https://t.me/s/NetShot1
-2026-07-14 11:53:02,233-ERROR-MainThread- Scraping error for https://t.me/s/NetShot1: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/NetShot1 (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:02,234-INFO-MainThread- Fetching configs from: https://t.me/s/ParsiNetFree
-2026-07-14 11:53:02,238-ERROR-MainThread- Scraping error for https://t.me/s/ParsiNetFree: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/ParsiNetFree (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:02,238-INFO-MainThread- Fetching configs from: https://t.me/s/SNI_SPOOFINGconfig
-2026-07-14 11:53:02,243-ERROR-MainThread- Scraping error for https://t.me/s/SNI_SPOOFINGconfig: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/SNI_SPOOFINGconfig (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:03,244-INFO-MainThread- Fetching configs from: https://t.me/s/SparrK_VPN
-2026-07-14 11:53:03,250-ERROR-MainThread- Scraping error for https://t.me/s/SparrK_VPN: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/SparrK_VPN (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:03,250-INFO-MainThread- Fetching configs from: https://t.me/s/TheVPNMethod
-2026-07-14 11:53:03,255-ERROR-MainThread- Scraping error for https://t.me/s/TheVPNMethod: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/TheVPNMethod (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:03,255-INFO-MainThread- Fetching configs from: https://t.me/s/byiroh
-2026-07-14 11:53:03,275-ERROR-MainThread- Scraping error for https://t.me/s/byiroh: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/byiroh (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:03,275-INFO-MainThread- Fetching configs from: https://t.me/s/dingyue_center
-2026-07-14 11:53:03,281-ERROR-MainThread- Scraping error for https://t.me/s/dingyue_center: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/dingyue_center (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:03,281-INFO-MainThread- Fetching configs from: https://t.me/s/new_mtproxi2
-2026-07-14 11:53:03,295-ERROR-MainThread- Scraping error for https://t.me/s/new_mtproxi2: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/new_mtproxi2 (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:03,295-INFO-MainThread- Fetching configs from: https://t.me/s/oliver_soul
-2026-07-14 11:53:03,299-ERROR-MainThread- Scraping error for https://t.me/s/oliver_soul: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/oliver_soul (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:03,299-INFO-MainThread- Fetching configs from: https://t.me/s/oneclickvpnkeys
-2026-07-14 11:53:03,303-ERROR-MainThread- Scraping error for https://t.me/s/oneclickvpnkeys: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/oneclickvpnkeys (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:03,304-INFO-MainThread- Fetching configs from: https://t.me/s/persianvpnhub
-2026-07-14 11:53:03,307-ERROR-MainThread- Scraping error for https://t.me/s/persianvpnhub: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/persianvpnhub (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:03,308-INFO-MainThread- Fetching configs from: https://t.me/s/pro_exi
-2026-07-14 11:53:03,312-ERROR-MainThread- Scraping error for https://t.me/s/pro_exi: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/pro_exi (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:03,312-INFO-MainThread- Fetching configs from: https://t.me/s/pythash
-2026-07-14 11:53:03,316-ERROR-MainThread- Scraping error for https://t.me/s/pythash: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/pythash (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:04,316-INFO-MainThread- Fetching configs from: https://t.me/s/saministamm
-2026-07-14 11:53:04,322-ERROR-MainThread- Scraping error for https://t.me/s/saministamm: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/saministamm (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:04,322-INFO-MainThread- Fetching configs from: https://t.me/s/tv2rayrr
-2026-07-14 11:53:04,326-ERROR-MainThread- Scraping error for https://t.me/s/tv2rayrr: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/tv2rayrr (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:04,326-INFO-MainThread- Fetching configs from: https://t.me/s/v2ray_extractor
-2026-07-14 11:53:04,330-ERROR-MainThread- Scraping error for https://t.me/s/v2ray_extractor: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/v2ray_extractor (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:04,331-INFO-MainThread- Fetching configs from: https://t.me/s/v2to_nadi
-2026-07-14 11:53:04,334-ERROR-MainThread- Scraping error for https://t.me/s/v2to_nadi: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/v2to_nadi (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:04,334-INFO-MainThread- Fetching configs from: https://t.me/s/vpnbaz
-2026-07-14 11:53:04,344-ERROR-MainThread- Scraping error for https://t.me/s/vpnbaz: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/vpnbaz (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
-2026-07-14 11:53:04,344-INFO-MainThread- Fetching configs from: https://t.me/s/xixv2ray
-2026-07-14 11:53:04,349-ERROR-MainThread- Scraping error for https://t.me/s/xixv2ray: HTTPSConnectionPool(host='t.me', port=443): Max retries exceeded with url: /s/xixv2ray (Caused by NameResolutionError("HTTPSConnection(host='t.me', port=443): Failed to resolve 't.me' ([Errno -2] Name or service not known)"))
+2026-07-15 11:57:30,969-INFO-MainThread- Fetching configs from: https://t.me/s/BrilliantGift
+2026-07-15 11:57:31,552-INFO-MainThread- Found 13 potential configs in https://t.me/s/BrilliantGift
+2026-07-15 11:57:31,554-INFO-MainThread- Fetching configs from: https://t.me/s/ConfigX2ray
+2026-07-15 11:57:32,003-INFO-MainThread- Found 10 potential configs in https://t.me/s/ConfigX2ray
+2026-07-15 11:57:32,005-INFO-MainThread- Fetching configs from: https://t.me/s/ConfiingPro
+2026-07-15 11:57:32,391-INFO-MainThread- Found 0 potential configs in https://t.me/s/ConfiingPro
+2026-07-15 11:57:32,393-INFO-MainThread- Fetching configs from: https://t.me/s/Do1rcci
+2026-07-15 11:57:32,708-INFO-MainThread- Found 0 potential configs in https://t.me/s/Do1rcci
+2026-07-15 11:57:32,709-INFO-MainThread- Fetching configs from: https://t.me/s/FreakConfig
+2026-07-15 11:57:33,260-INFO-MainThread- Found 116 potential configs in https://t.me/s/FreakConfig
+2026-07-15 11:57:33,264-INFO-MainThread- Fetching configs from: https://t.me/s/Maznet
+2026-07-15 11:57:33,739-INFO-MainThread- Found 23 potential configs in https://t.me/s/Maznet
+2026-07-15 11:57:33,742-INFO-MainThread- Fetching configs from: https://t.me/s/NetAccount
+2026-07-15 11:57:34,215-INFO-MainThread- Found 0 potential configs in https://t.me/s/NetAccount
+2026-07-15 11:57:34,217-INFO-MainThread- Fetching configs from: https://t.me/s/NetShot1
+2026-07-15 11:57:34,669-INFO-MainThread- Found 19 potential configs in https://t.me/s/NetShot1
+2026-07-15 11:57:34,671-INFO-MainThread- Fetching configs from: https://t.me/s/ParsiNetFree
+2026-07-15 11:57:35,106-INFO-MainThread- Found 5 potential configs in https://t.me/s/ParsiNetFree
+2026-07-15 11:57:35,108-INFO-MainThread- Fetching configs from: https://t.me/s/SNI_SPOOFINGconfig
+2026-07-15 11:57:35,581-INFO-MainThread- Found 41 potential configs in https://t.me/s/SNI_SPOOFINGconfig
+2026-07-15 11:57:36,584-INFO-MainThread- Fetching configs from: https://t.me/s/SparrK_VPN
+2026-07-15 11:57:37,056-INFO-MainThread- Found 6 potential configs in https://t.me/s/SparrK_VPN
+2026-07-15 11:57:37,058-INFO-MainThread- Fetching configs from: https://t.me/s/TheVPNMethod
+2026-07-15 11:57:37,491-INFO-MainThread- Found 0 potential configs in https://t.me/s/TheVPNMethod
+2026-07-15 11:57:37,493-INFO-MainThread- Fetching configs from: https://t.me/s/byiroh
+2026-07-15 11:57:37,864-INFO-MainThread- Found 0 potential configs in https://t.me/s/byiroh
+2026-07-15 11:57:37,865-INFO-MainThread- Fetching configs from: https://t.me/s/dingyue_center
+2026-07-15 11:57:38,391-INFO-MainThread- Found 7 potential configs in https://t.me/s/dingyue_center
+2026-07-15 11:57:38,394-INFO-MainThread- Fetching configs from: https://t.me/s/new_mtproxi2
+2026-07-15 11:57:38,907-INFO-MainThread- Found 45 potential configs in https://t.me/s/new_mtproxi2
+2026-07-15 11:57:38,910-INFO-MainThread- Fetching configs from: https://t.me/s/oliver_soul
+2026-07-15 11:57:39,278-INFO-MainThread- Found 0 potential configs in https://t.me/s/oliver_soul
+2026-07-15 11:57:39,280-INFO-MainThread- Fetching configs from: https://t.me/s/oneclickvpnkeys
+2026-07-15 11:57:39,916-INFO-MainThread- Found 166 potential configs in https://t.me/s/oneclickvpnkeys
+2026-07-15 11:57:39,921-INFO-MainThread- Fetching configs from: https://t.me/s/persianvpnhub
+2026-07-15 11:57:40,333-INFO-MainThread- Found 18 potential configs in https://t.me/s/persianvpnhub
+2026-07-15 11:57:40,336-INFO-MainThread- Fetching configs from: https://t.me/s/pro_exi
+2026-07-15 11:57:40,773-INFO-MainThread- Found 0 potential configs in https://t.me/s/pro_exi
+2026-07-15 11:57:40,775-INFO-MainThread- Fetching configs from: https://t.me/s/pythash
+2026-07-15 11:57:41,242-INFO-MainThread- Found 0 potential configs in https://t.me/s/pythash
+2026-07-15 11:57:42,244-INFO-MainThread- Fetching configs from: https://t.me/s/saministamm
+2026-07-15 11:57:42,641-INFO-MainThread- Found 0 potential configs in https://t.me/s/saministamm
+2026-07-15 11:57:42,643-INFO-MainThread- Fetching configs from: https://t.me/s/tv2rayrr
+2026-07-15 11:57:43,105-INFO-MainThread- Found 85 potential configs in https://t.me/s/tv2rayrr
+2026-07-15 11:57:43,109-INFO-MainThread- Fetching configs from: https://t.me/s/v2ray_extractor
+2026-07-15 11:57:43,610-INFO-MainThread- Found 201 potential configs in https://t.me/s/v2ray_extractor
+2026-07-15 11:57:43,615-INFO-MainThread- Fetching configs from: https://t.me/s/v2to_nadi
+2026-07-15 11:57:43,998-INFO-MainThread- Found 0 potential configs in https://t.me/s/v2to_nadi
+2026-07-15 11:57:44,000-INFO-MainThread- Fetching configs from: https://t.me/s/vpnbaz
+2026-07-15 11:57:44,437-INFO-MainThread- Found 12 potential configs in https://t.me/s/vpnbaz
+2026-07-15 11:57:44,440-INFO-MainThread- Fetching configs from: https://t.me/s/xixv2ray
+2026-07-15 11:57:44,831-INFO-MainThread- Found 0 potential configs in https://t.me/s/xixv2ray

@@ -1,44 +1,91 @@
 === Country Statistics ===
-Total Servers (Merged): 0
-Successful Geo-IP Resolutions: 0
-Failed Geo-IP Resolutions: 0
+Total Servers (Merged): 717
+Successful Geo-IP Resolutions: 713
+Failed Geo-IP Resolutions: 4
+Unknown              : 225
+Domain               : 177
+DE                   : 58
+US                   : 48
+NL                   : 23
+GB                   : 22
+SC                   : 22
+FR                   : 19
+SG                   : 13
+RU                   : 13
+FI                   : 8
+PL                   : 6
+LT                   : 6
+HK                   : 5
+IR                   : 5
+JP                   : 5
+ZA                   : 5
+CA                   : 5
+IE                   : 4
+TR                   : 4
+AE                   : 4
+MD                   : 3
+EE                   : 3
+SE                   : 3
+CN                   : 2
+RO                   : 2
+LV                   : 2
+CY                   : 2
+MH                   : 1
+IQ                   : 1
+AZ                   : 1
+IN                   : 1
+GE                   : 1
+KZ                   : 1
+RS                   : 1
+AM                   : 1
+AT                   : 1
+CZ                   : 1
+IL                   : 1
+AU                   : 1
+NO                   : 1
+IM                   : 1
+KR                   : 1
+AL                   : 1
+QA                   : 1
+HU                   : 1
+ES                   : 1
 
 === Server Type Summary ===
-VMESS                : 0
-VLESS                : 0
-TROJAN               : 0
+VLESS                : 553
+CDN                  : 440
+TROJAN               : 92
+SS                   : 32
+VMESS                : 20
+HYSTERIA2            : 20
 HYSTERIA             : 0
-HYSTERIA2            : 0
 TUIC                 : 0
-SS                   : 0
 WIREGUARD            : 0
 WARP                 : 0
-CDN                  : 0
 
 === Channel Statistics (Extraction) ===
+v2ray_extractor               : 201
+oneclickvpnkeys               : 164
+FreakConfig                   : 116
+tv2rayrr                      : 85
+new_mtproxi2                  : 43
+SNI_SPOOFINGconfig            : 33
+NetShot1                      : 19
+Maznet                        : 19
+persianvpnhub                 : 18
+BrilliantGift                 : 13
+vpnbaz                        : 11
+ConfigX2ray                   : 10
+dingyue_center                : 7
+SparrK_VPN                    : 6
+ParsiNetFree                  : 5
 NetAccount                    : 0
 xixv2ray                      : 0
 Do1rcci                       : 0
-NetShot1                      : 0
-dingyue_center                : 0
-oneclickvpnkeys               : 0
-SparrK_VPN                    : 0
-persianvpnhub                 : 0
 oliver_soul                   : 0
-BrilliantGift                 : 0
-new_mtproxi2                  : 0
-ParsiNetFree                  : 0
-vpnbaz                        : 0
-v2ray_extractor               : 0
 v2to_nadi                     : 0
 saministamm                   : 0
-FreakConfig                   : 0
 pro_exi                       : 0
-Maznet                        : 0
-SNI_SPOOFINGconfig            : 0
 byiroh                        : 0
-tv2rayrr                      : 0
 ConfiingPro                   : 0
-ConfigX2ray                   : 0
 pythash                       : 0
 TheVPNMethod                  : 0
