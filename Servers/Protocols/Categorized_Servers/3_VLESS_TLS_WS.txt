@@ -1,9 +1,3 @@
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@45.80.110.207:2053?security=tls&sni=a.ssll.gay&type=ws&path=%2F#persianvpnhub
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@198.62.62.199:443?security=tls&sni=kd.ylks.xyz&type=ws&path=%2Ffreecodes#persianvpnhub
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@69.84.182.139:443?security=tls&sni=hd.kpcloud.eu.org&type=ws&path=%2Ffreecodes#persianvpnhub
-vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@91.193.58.98:2096?security=tls&sni=cfed.tgzdyz2.top&type=ws&path=TG%40ZDYZ2#persianvpnhub
-vless://7838d270-c49e-4a56-8d40-3c1b56a5c376@151.101.130.219:80?security=none&type=ws&host=barkatc2.ir&path=%2FTelegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray%3Fed%3D2048#persianvpnhub
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@69.84.182.216:443?security=tls&sni=hd.kpcloud.eu.org&type=ws&path=%2Ffreecodes#persianvpnhub
-vless://e0bced99-604f-41d1-8c0c-467e5838c33f@45.39.12.165:8442?type=ws&host=&path=/#v2ray_extractor
-vless://82a3c394-55b7-4780-93a0-5f45c0e89625@104.16.106.213:8880?&security=none&type=ws&headerType=&host=square-brook-e650.353-3ac.workers.dev&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net#v2ray_extractor
+vless://a3c234cf-36a0-46f1-b853-b065431c62ef@SpeedTest.net:80?security=none&type=ws&headerType=&path=&host=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v02.com#persianvpnhub
 vless://eeb6823c-b926-4ea2-866a-5542edd26e59@162.159.45.218:443?allowInsecure=0&sni=t1s1.rittbo.kdns.fr&type=ws&host=t1s1.rittbo.kdns.fr&path=/fp=chrome&security=tls#v2ray_extractor
+vless://82a3c394-55b7-4780-93a0-5f45c0e89625@104.16.106.213:8880?&security=none&type=ws&headerType=&host=square-brook-e650.353-3ac.workers.dev&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net#v2ray_extractor

@@ -1,0 +1,2 @@
+trojan://7f5rouvmiqm83905@188.213.131.90:59618?security=reality&pbk=lp1cRucvXUqOC1DpCMWnbs_MWGHIB41eiP6JUJuiGCo&host=v2rayNplus--v2rayNplus--v2rayNplus--&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=google.com&sid=e3916e0f2c8b438b#FreakConfig
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@146.70.26.156:1080#oneclickvpnkeys
