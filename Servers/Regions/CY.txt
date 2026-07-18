@@ -1,2 +1,1 @@
-vless://5aca6fb1-b21a-4f63-9cab-54986613f6aa@91.148.135.191:54217?security=none&encryption=none&headerType=none&type=tcp#FreakConfig
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpueGdzbUhrUDNKVTdoYlFrSmZ4Z3BYaDV0bHZYZTFlbg@45.83.142.237:443#tv2rayrr

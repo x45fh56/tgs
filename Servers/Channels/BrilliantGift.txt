@@ -1,2 +1,1 @@
-vless://e6fd708c-6d91-401a-94dc-d45d3e461a0c@zicid.de.service-panelbaz.ir:6200?security=reality&encryption=none&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&headerType=none&fp=qq&type=tcp&sni=play.google.com#BrilliantGift
-vless://d191771d-8cd0-45f1-933c-9f53056bea33@69.46.46.87:443?path=%2Fws%2Fd191771d-8cd0-45f1-933c-9f53056bea33&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=x4g-production-3b1a.up.railway.app&fp=chrome&type=ws&allowInsecure=0&sni=x4g-production-3b1a.up.railway.app#BrilliantGift
+vless://b72773ad-7160-4e37-b7c2-09d7f09987ad@tun.temas-bor.ir:2087?type=tcp&security=none&headerType=http&host=play.google.com&encryption=none#BrilliantGift
