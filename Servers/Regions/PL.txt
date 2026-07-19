@@ -1,0 +1,2 @@
+vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@144.31.0.100:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&security=reality&sid=d9662905&sni=vaultivo-hgooe.ru&type=tcp#oneclickvpnkeys
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@178.255.41.214:1080#oneclickvpnkeys
