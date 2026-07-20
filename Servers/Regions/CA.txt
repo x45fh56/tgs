@@ -1,5 +1,5 @@
 vmess://eyJhZGQiOiIxNS4yMzUuNDEuMjAwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnb29nbGUuY29tIiwiaWQiOiI1OGZlMTU0Mi01MjkwLTQwYWQtODE1YS03NzcwN2E4MWFmZTUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvSU9lYmhMTWhsMUNUYkZIYkw5NW15ZlJYMiIsInBvcnQiOiI4MCIsInBzIjoi8J+Tnzc5QG9uZWNsaWNrdnBua2V5cyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==#tv2rayrr
-vless://63d650dc-f6cd-48bc-9303-dec2f8af4cc6@51.79.102.243:443/?type=ws&encryption=none&flow=&host=51.79.102.243&path=%2Flinkws%3Fed%3D2560#tv2rayrr
 vless://ad6b2d75-1973-4c0d-8a5f-739f22628ffd@81.19.140.202:60552/?type=tcp&encryption=none&flow=&sni=yandex.ru&fp=chrome&security=reality&pbk=QLOalXjMmrryGjcV7-jMDyWD2E7I23r9A95nqaP0Pho&sid=e62fec30f1a0167e#tv2rayrr
-vless://2676e126-8f83-44d0-8307-b06b63f8b007@81.19.140.245:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=mxaJHxKKZj-lSN_0W2HeVcqL-zebgk8b--rhUHmy-Hc&sid=19d1ff9e#tv2rayrr
+vless://63d650dc-f6cd-48bc-9303-dec2f8af4cc6@51.79.102.243:443/?type=ws&encryption=none&flow=&host=51.79.102.243&path=%2Flinkws%3Fed%3D2560#tv2rayrr
 vless://cfe032e4-1bc3-454f-9d09-301b0aea08ff@40.233.83.110:26113/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.yahoo.com&fp=random&security=reality&pbk=GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng&sid=1fbd20fd#tv2rayrr
+vless://2676e126-8f83-44d0-8307-b06b63f8b007@81.19.140.245:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tunnel.vk-apps.com&fp=chrome&security=reality&pbk=mxaJHxKKZj-lSN_0W2HeVcqL-zebgk8b--rhUHmy-Hc&sid=19d1ff9e#tv2rayrr

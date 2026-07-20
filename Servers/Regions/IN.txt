@@ -1,3 +1,3 @@
 vless://e4c5ae87-763c-4df1-ba4f-28de5fd2201c@78.108.57.68:3884?encryption=none&headerType=http&host=Ghatreh.ir&path=%2F&security=none&type=tcp#oneclickvpnkeys
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@98.70.26.236:443?security=tls&sni=kb.ylks.xyz&type=ws&path=%2Fblue#persianvpnhub
 vless://5f39f871-2fae-446e-99ad-719fa8be687c@194.61.31.126:443/?type=grpc&encryption=none&flow=&serviceName=78e691d782c9b9b2cd3c5621&sni=www.microsoft.com&fp=safari&security=reality&pbk=L3UuY_lketYWBrW_naLct9-VFIAGwdtMplkubdHdEHQ&sid=ce874361e8dfcd4e#tv2rayrr
+vmess://eyJhZGQiOiIxNTIuNjcuOC4yMDUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiOWRiNGM3MDgtYWVmOC00MzU5LTgyMWItMzhlNDc5OTBiZTBkIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBjcyI6IiIsInBvcnQiOiI4MCIsInBzIjoiPj5AdjJyYXlOR19NYXRzdXJpOjpJTiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxNTIuNjcuOC4yMDUiLCJ0bHMiOiIiLCJ0eXBlIjoiYXV0byIsInYiOiIyIiwidmNuIjoiIn0#v2ray_extractor
