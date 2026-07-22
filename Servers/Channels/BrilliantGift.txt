@@ -1,7 +1,0 @@
-vless://384a72e6-8a10-4695-9ee5-c93728ef7e2a@tky.temas-fars.ir:38733?sni=play.google.com&pbk=CXOpQI3hwCqEp5ul2SKWfdAK-PBjjzUn-eRb7bAxDgU&sid=09e78c1d381f98ed&mode=gun&security=reality&type=grpc&encryption=none&fp=chrome#BrilliantGift
-vless://f040b49a-14d3-4b83-af82-1f84ec7317c2@147.45.136.213:40443?type=tcp&encryption=none&flow=xtls-rprx-vision&sid=80ba&pbk=1XGOxBopp223HFaTlswL3QE_1KW3WLgEbcHMA5cX9iM&sni=deepl.com&headerType=none&security=reality#BrilliantGift
-vless://384a72e6-8a10-4695-9ee5-c93728ef7e2a@uter.sorixset.ir:38733?sni=play.google.com&sid=09e78c1d381f98ed&pbk=CXOpQI3hwCqEp5ul2SKWfdAK-PBjjzUn-eRb7bAxDgU&mode=gun&security=reality&type=grpc&encryption=none&fp=chrome#BrilliantGift
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyMTdGZzl6cGdwVlM0REdF@20.166.58.64:443#BrilliantGift
-vless://384a72e6-8a10-4695-9ee5-c93728ef7e2a@tg.tempfast.ir:38733?type=grpc&mode=gun&fp=chrome&sni=play.google.com&encryption=none&sid=09e78c1d381f98ed&pbk=CXOpQI3hwCqEp5ul2SKWfdAK-PBjjzUn-eRb7bAxDgU&security=reality#BrilliantGift
-vless://384a72e6-8a10-4695-9ee5-c93728ef7e2a@sokot.tarfiq.ir:38733?type=grpc&mode=gun&fp=chrome&sni=play.google.com&encryption=none&sid=09e78c1d381f98ed&pbk=CXOpQI3hwCqEp5ul2SKWfdAK-PBjjzUn-eRb7bAxDgU&security=reality#BrilliantGift
-vless://384a72e6-8a10-4695-9ee5-c93728ef7e2a@Tank.tarfiq.ir:38733?type=grpc&mode=gun&fp=chrome&sni=play.google.com&encryption=none&sid=09e78c1d381f98ed&pbk=CXOpQI3hwCqEp5ul2SKWfdAK-PBjjzUn-eRb7bAxDgU&security=reality#BrilliantGift
