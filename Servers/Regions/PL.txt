@@ -1,2 +1,2 @@
-vless://7b81d175-d180-4ec8-bbc5-dfe80e8d3b68@144.31.0.100:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&security=reality&sid=5e3ab3ab228625&sni=vaultivo-hgooe.ru&type=tcp#oneclickvpnkeys
-vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@95.85.229.113:443?security=reality&encryption=none&pbk=HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.wikihow.com#vpnbaz
+trojan://KV63147582@62.112.222.46:443?fp=chrome&sni=legible-possum.rooster465.autos#oneclickvpnkeys
+trojan://NQ26071394@62.112.222.177:443?fp=chrome&sni=kind-unicorn.rooster465.autos#oneclickvpnkeys

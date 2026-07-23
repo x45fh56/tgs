@@ -1,10 +1,4 @@
-trojan://NQ26071394@3.255.155.50:443?fp=chrome&sni=tops-marlin.rooster465.autos#oneclickvpnkeys
-trojan://NQ26071394@3.255.100.31:443?fp=chrome&sni=thankful-piranha.rooster465.autos#oneclickvpnkeys
-trojan://t1k169n5zmvvwn96r9ft@146.70.90.195:57452?allowInsecure=1&fp=chrome&sni=api-yandex.maps.ru#oneclickvpnkeys
-trojan://NQ26071394@34.249.41.208:443?fp=chrome&sni=correct-starfish.rooster465.autos#oneclickvpnkeys
-trojan://NQ26071394@34.242.69.173:443?fp=chrome&sni=fun-labrador.rooster465.autos#oneclickvpnkeys
-trojan://t1k169n5zmvvwn96r9ft@146.70.90.198:57452?allowInsecure=1&fp=chrome&sni=www.vk.com#oneclickvpnkeys
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.252.208.74:443#tv2rayrr
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.247.223.103:443#tv2rayrr
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.252.208.74:443#tv2rayrr
 trojan://XG59623478@3.249.67.252:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=singular-lark.rooster465.autos#v2ray_extractor
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyMTdGZzl6cGdwVlM0REdF@20.166.58.64:443#vpnbaz

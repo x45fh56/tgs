@@ -1,3 +1,2 @@
-vless://31649657-6c78-4c2c-b25b-5cd574b082b5@83.228.210.39:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM&security=reality&sid=2e40144ddc07e8e1&sni=ch03.tunnely.ru&type=tcp#oneclickvpnkeys
-trojan://humanity@185.18.250.252:443?allowInsecure=1&host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#oneclickvpnkeys
+vless://ef340ab7-b1a5-a3de-cdcd-5e5d4f2cf9fd@83.228.251.208:3468?security=reality&encryption=none&pbk=SvSapHrt3EpoN_JcW195G48r5nJVuioGP7LNABKWxG4&headerType=none&fp=chrome&type=tcp&sni=www.telewebion.ir&sid=b6eae5ce#NetShot1
 trojan://humanity@185.18.250.252:443?path=%2Fassignment&security=tls&insecure=0&host=www.multiplydose.com&fp=chrome&type=ws&allowInsecure=0&sni=www.multiplydose.com#vpnbaz
