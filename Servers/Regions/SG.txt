@@ -2,7 +2,7 @@ vless://a19fd311-c343-4b54-9ca3-fe6dcd84c0fc@38.47.176.134:59967/?type=tcp&encry
 trojan://aWgKDJmn2q.hv%3D51@139.180.143.191:10293/?type=tcp&security=tls&sni=zmbvgixwdqusy.advudjng.click#tv2rayrr
 trojan://BxceQaOe@38.180.191.251:443/?type=tcp&security=tls&sni=t.me%252Fripaojiedian#tv2rayrr
 vless://eeb6823c-b926-4ea2-866a-5542edd26e59@161.118.195.117:8443?path=%2F&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#v2ray_extractor
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.255.220.11:443/?insecure=1&sni=vpn-sg-001.fastervpn.world#v2ray_extractor
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.229.110.73:443/?insecure=1&sni=vpn-sg-001.fastervpn.world#v2ray_extractor
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.229.106.122:443/?insecure=1&sni=vpn-sg-001.fastervpn.world#v2ray_extractor
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.229.110.73:443/?insecure=1&sni=vpn-sg-001.fastervpn.world#v2ray_extractor
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.255.220.11:443/?insecure=1&sni=vpn-sg-001.fastervpn.world#v2ray_extractor
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@47.129.9.33:443/?insecure=1&sni=vpn-sg-001.fastervpn.world#v2ray_extractor

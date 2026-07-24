@@ -1,2 +1,0 @@
-trojan://KV63147582@62.112.222.46:443?fp=chrome&sni=legible-possum.rooster465.autos#oneclickvpnkeys
-trojan://NQ26071394@62.112.222.177:443?fp=chrome&sni=kind-unicorn.rooster465.autos#oneclickvpnkeys
