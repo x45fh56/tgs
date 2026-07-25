@@ -1,2 +1,1 @@
-vless://da97d2d7-d255-4efd-8398-7101d698768e@195.133.18.161:30153?encryption=none&security=none&type=tcp#oneclickvpnkeys
 vless://96eb0aac-b747-4f3c-8c30-d2ff7ec7415c@38.180.17.232:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=google.com&fp=chrome&security=reality&pbk=h_qOyi3Y79o7yw9WaMZY1CxtDlu4f6F1bIxqYTH11R4&sid=3e#tv2rayrr

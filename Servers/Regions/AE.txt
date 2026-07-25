@@ -1,1 +1,1 @@
-vless://6baf0a4b-a4e7-4b34-a762-fd0c6ec3f72f@185.173.144.38:443?security=reality&encryption=none&pbk=PZeIaMJF01u_7wFj3E3NN1wW_8sV1NzC59CnLTTMvzM&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=cloudflare.com&sid=6ba85179e30d4fc2#FreakConfig
+vless://eda6b321-aa59-4b1e-b823-3616af020b4a@130.185.123.27:443?encryption=none&fp=&pbk=8Cho6K3KB6Aoty9x_TCAbY3yv7m-ToCHqaKkZTxR3jM&security=reality&sid=d6c3c9&sni=play.google.com&type=tcp#oneclickvpnkeys
