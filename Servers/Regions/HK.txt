@@ -1,7 +1,4 @@
+ss://YWVzLTI1Ni1nY206N2UxZGQ0YzU1YmY4NWRhNQ@212.192.13.214:30129#FreakConfig
 vless://ab69adf9-4d3a-4625-aef6-eb6a034a5dd3@216.250.96.164:26000?encryption=none&security=reality&sni=apps.apple.com&fp=chrome&pbk=YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc&sid=2f8400e348eb&spx=%2F&type=tcp&headerType=none#dingyue_center
-trojan://XG59623478@194.99.79.214:443?sni=growing-oyster.rooster465.autos#oneclickvpnkeys
-trojan://JA96378052@91.199.84.185:443?allowInsecure=1&sni=WangCai.rooster465.autos#oneclickvpnkeys
-trojan://IQ68037294@185.244.208.64:443?sni=desired-tahr.rooster465.autos#oneclickvpnkeys
 vless://1555ff9a-837c-4d7f-9b5d-0794c9c31e71@154.12.179.154:2501/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=amazon.com&fp=random&security=reality&pbk=N6DfpkpFe0ykYu9ofqjB5jXIMFfsf9T2Ry0L2-WcfAw&sid=b793cdadb1c785#tv2rayrr
 trojan://BxceQaOe@116.49.237.130:2673/?type=tcp&security=tls&sni=t.me%2Fripaojiedian#tv2rayrr
-vless://71cada65-d23e-418c-88e4-a06188d14689@31.77.154.248:443?security=reality&encryption=none&pbk=T7cxFOGNMLKqZiEustm2sOfwOovHyHnLcGDWfSmaU1c&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=it-one.quiet-rogue.site#v2ray_extractor

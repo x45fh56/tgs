@@ -1,7 +1,5 @@
-vless://37a0bd7c-8b9f-4693-8916-bd1e2da0a817@128.204.223.94:9815?encryption=none&path=%2F&security=none&type=ws#oneclickvpnkeys
-trojan://IQ68037294@62.112.222.236:443?fp=chrome&sni=eternal-swift.rooster465.autos#oneclickvpnkeys
-trojan://IQ68037294@62.112.222.145:443?fp=chrome&sni=patient-gannet.rooster465.autos#oneclickvpnkeys
-trojan://IQ68037294@62.112.222.27:443?fp=chrome&sni=optimal-urchin.rooster465.autos#oneclickvpnkeys
+vless://c01c2da7-6977-4b53-a493-cda17fa61b4f@144.31.3.105:443?encryption=none&fp=&pbk=CQqsE6wUHW22hHjE4L3o5IXEUhgtcQ_7uU5SFY-HMTc&security=reality&sid=331e2a59cead1a4d&sni=plone.rushtaxi.ru&type=grpc#oneclickvpnkeys
 trojan://CF68213490@62.112.222.151:443?sni=emerging-weevil.rooster465.autos#oneclickvpnkeys
-hysteria2://Apt1923_N9x234gn_Nal5Nx3j_s@92.118.205.239:8443/?sni=grape-power-pl.ddnsguru.com#oneclickvpnkeys
+trojan://OD90375861@62.112.222.69:443?sni=ideal-robin.rooster465.autos#oneclickvpnkeys
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@92.118.205.211:5600#oneclickvpnkeys
 hysteria2://Apt1923_N9x234gn_Nal5Nx3j_s@92.118.205.239:8443/?sni=grape-power-pl.ddnsguru.com#v2ray_extractor
