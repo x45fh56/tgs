@@ -1,0 +1,1 @@
+vless://1f29762d-3f23-4207-9e39-f774de5d49ba@95.85.228.161:8443?encryption=none&security=none&serviceName=grpc&type=grpc#oneclickvpnkeys

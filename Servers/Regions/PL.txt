@@ -1,5 +1,3 @@
-vless://c01c2da7-6977-4b53-a493-cda17fa61b4f@144.31.3.105:443?encryption=none&fp=&pbk=CQqsE6wUHW22hHjE4L3o5IXEUhgtcQ_7uU5SFY-HMTc&security=reality&sid=331e2a59cead1a4d&sni=plone.rushtaxi.ru&type=grpc#oneclickvpnkeys
-trojan://CF68213490@62.112.222.151:443?sni=emerging-weevil.rooster465.autos#oneclickvpnkeys
+vless://1f29762d-3f23-4207-9e39-f774de5d49ba@77.83.246.92:8443?encryption=none&security=none&serviceName=grpc&type=grpc#oneclickvpnkeys
 trojan://OD90375861@62.112.222.69:443?sni=ideal-robin.rooster465.autos#oneclickvpnkeys
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@92.118.205.211:5600#oneclickvpnkeys
-hysteria2://Apt1923_N9x234gn_Nal5Nx3j_s@92.118.205.239:8443/?sni=grape-power-pl.ddnsguru.com#v2ray_extractor

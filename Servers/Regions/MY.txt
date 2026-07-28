@@ -1,1 +1,0 @@
-vless://ae1c12b0-df98-5f76-9adc-bd3380a3dbbd@208.84.103.60:443?encryption=none&host=anten.ir&path=%2Ftelegram%40SoonTeam&security=none&type=ws#oneclickvpnkeys
