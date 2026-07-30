@@ -1,7 +1,9 @@
+vless://431fe973-a43a-4fac-bf83-2a772e0d0625@207.174.133.222:10000?encryption=none&type=tcp&headerType=none&security=none#BrilliantGift
 ss://YWVzLTI1Ni1nY206N2UxZGQ0YzU1YmY4NWRhNQ@212.192.13.214:30129#FreakConfig
 vless://ab69adf9-4d3a-4625-aef6-eb6a034a5dd3@216.250.96.164:26000?encryption=none&security=reality&sni=apps.apple.com&fp=chrome&pbk=YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc&sid=2f8400e348eb&spx=%2F&type=tcp&headerType=none#dingyue_center
-vless://5e3f974b-06fc-4555-907a-6681391b7c17@186.246.19.79:40443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=oc9uweln_cqyaJnlRMnhhhKrGNP7RrYOsuYtaIOIQDE&security=reality&sid=2bc0&sni=deepl.com&type=tcp#oneclickvpnkeys
 vless://431fe973-a43a-4fac-bf83-2a772e0d0625@207.174.133.222:10000?encryption=none&security=none&type=tcp#oneclickvpnkeys
 trojan://d1960ba9f0f6353353994fa844cf817b@18.163.180.201:6357?sni=www.nintendogames.net#oneclickvpnkeys
+tuic://ba58ca0c-0411-444e-80f7-e361ce49012d:ba58ca0c-0411-444e-80f7-e361ce49012d@85.113.71.85:25092?alpn=h3&congestion_control=bbr&congestion_controller=bbr&sni=www.bing.com&udp_relay_mode=native&version=5#oneclickvpnkeys
 vless://1555ff9a-837c-4d7f-9b5d-0794c9c31e71@154.12.179.154:2501/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=amazon.com&fp=random&security=reality&pbk=N6DfpkpFe0ykYu9ofqjB5jXIMFfsf9T2Ry0L2-WcfAw&sid=b793cdadb1c785#tv2rayrr
 trojan://BxceQaOe@116.49.237.130:2673/?type=tcp&security=tls&sni=t.me%2Fripaojiedian#tv2rayrr
+vless://431fe973-a43a-4fac-bf83-2a772e0d0625@207.174.133.222:10000?security=none&encryption=none&headerType=none&type=tcp#vpnbaz

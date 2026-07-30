@@ -1,8 +1,4 @@
-vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@104.18.43.254:80?security=none&type=ws&host=us3.rtacg.com&path=/#persianvpnhub
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@192.200.160.254:443?security=tls&sni=vi.ylks.xyz&type=ws&path=/?proxyip#persianvpnhub
-vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@104.18.14.65:80?security=none&type=ws&host=us1.rtacg.com&path=/#persianvpnhub
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@185.16.110.91:443?security=tls&sni=vi.ylks.xyz&type=ws&path=/?proxyip#persianvpnhub
+vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@104.16.196.67:80?security=none&type=ws&host=us3.rtacg.com&path=/#persianvpnhub
+vless://6d5f89f2-2f42-4288-fdca-08c1fa69a041@104.17.147.22:8080?security=none&type=ws&host=a.hwamidreza.iR.%3A80.V.V2.www.speedtest.net.&path=%2Ftelegram-AfV2ry%2Ctelegram-AfV2ry%2Ctelegram-AfV2ry%2Ctelegram-AfV2ry%2Ctelegram-AfV2ry%2Ctelegram-AfV2ry%2Ctelegram-AfV2ry%2Ctelegram-AfV2ry%2Ctelegram-AfV2ry%2Ctelegram-AfV2ry%2Ctelegram-AfV2ry%2Ctelegram-AfV2ry#persianvpnhub
 vless://82a3c394-55b7-4780-93a0-5f45c0e89625@104.16.106.213:8880?&security=none&type=ws&headerType=&host=square-brook-e650.353-3ac.workers.dev&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net#v2ray_extractor
-vless://e1bd5c86-721c-4a2d-bdf8-ba50e522ec57@104.21.55.229:443?security=tls&type=ws&path=/e1bd5c86-721c-4a2d-bdf8-ba50e522ec57-vless&host=uk.xfj123.top&packetEncoding=xudp&sni=uk.xfj123.top&fp=chrome#v2ray_extractor
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@172.64.146.153:2095?type=ws&host=fangbinxingnmsl.pusytroller.gq&path=/#v2ray_extractor
-vless://e34501b9-faa9-356f-8b30-8f2c986b764b@t1.hhaakk9922.com:46784?sni=t1.hhaakk9922.com&type=grpc&serviceName=ljfxz&fp=chrome&security=tls#v2ray_extractor

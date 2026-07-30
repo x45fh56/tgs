@@ -1,2 +1,0 @@
-vless://f165affe-ffb4-4f13-a081-f14434e51152@188.130.230.10:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=1FryqGmMpa7T_bHmy3Uy11C5GWe6F2uzcsCYa9QXJBw&security=reality&sid=ff993907a731979a&sni=pol1.panel11.ru&type=tcp#oneclickvpnkeys
-vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@46.8.113.190:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&security=reality&sid=00bca5982f82d083&sni=eu-central.cendora.ru&type=tcp#oneclickvpnkeys

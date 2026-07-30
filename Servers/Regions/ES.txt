@@ -1,4 +1,2 @@
 vless://7b81d175-d180-4ec8-bbc5-dfe80e8d3b68@2.27.26.51:443?mode=gun&security=reality&encryption=none&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&fp=qq&type=grpc&serviceName=nexusGrpc&sni=draftnest-rrew.ru&sid=d9662905#NetShot1
-vless://deb9c015-1ffe-4e41-9d21-310eb0422a4c@5.180.173.248:25198?encryption=none&host=5.180.173.248&path=%2Fxray&security=none&type=ws#oneclickvpnkeys
-vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@113.30.149.20:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0&security=reality&sid=dd3ff38418d29d22&sni=eu-west.cendora.ru&type=tcp#oneclickvpnkeys
 vless://5e243126-4a2a-84b6-782a-73b14797fb5f@170.168.97.3:8443?mode=gun&security=reality&encryption=none&pbk=D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs&fp=chrome&type=grpc&serviceName=TunService&sni=download.nvidia.com#v2ray_extractor
