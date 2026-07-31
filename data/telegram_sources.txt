@@ -1,3 +1,4 @@
+whitedns
 v2ray_extractor               
 oneclickvpnkeys              
 tv2rayrr                      
@@ -24,3 +25,5 @@ oliver_soul
 ParsiNetFree
 pythash
 NetAccount
+v2cnf
+
