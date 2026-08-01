@@ -1,4 +1,5 @@
-vless://b2424c2b-196c-4924-af15-747d27ef44a1@213.156.152.42:8089?security=reality&encryption=none&pbk=dx7cY0aeosAvz0hzRR9DrAtAiKAuMH44KRBSufYYMmk&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=992a171518f6f60e#Maznet
 vless://320f6cbe-d73e-477d-9ab5-aa6e3b28cfb7@64.49.15.87:443?security=reality&encryption=none&pbk=IiXOtrr72OAumtdjHDdvqxwyiInUq8_5b2wG477U40k&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=74a6bf9721cd1c19#Maznet
+vless://b2424c2b-196c-4924-af15-747d27ef44a1@213.156.152.42:8089?security=reality&encryption=none&pbk=dx7cY0aeosAvz0hzRR9DrAtAiKAuMH44KRBSufYYMmk&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=992a171518f6f60e#Maznet
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0SmxFV2gyUHpETWV3OHFvOVlrUEVB@38.180.105.12:443#tv2rayrr
 vless://98d8b8cb-19d0-4823-b13b-b47a2fe0a82b@93.114.98.216:443?encryption=none&security=none&type=tcp#v2cnf
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.180.113.194:8119#v2cnf
