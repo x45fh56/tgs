@@ -1,3 +1,1 @@
-vless://52d0b2d5-a003-4509-ab70-d1d720a14cd7@37.221.210.181:443?encryption=none&fp=&mode=auto&pbk=z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU&security=reality&sni=hu007.bearbeer.digital&type=xhttp#oneclickvpnkeys
-vless://b8e74de0-42c6-4b84-8889-bf348f32730c@152.233.41.31:16923?security=reality&sni=mail.yandex.ru&fp=edge&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&type=grpc&serviceName=neurex&packetEncoding=xudp&encryption=none#v2cnf
 vless://52d0b2d5-a003-4509-ab70-d1d720a14cd7@37.221.210.181:443?encryption=none&fp=&mode=auto&pbk=z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU&security=reality&sni=hu007.bearbeer.digital&type=xhttp#v2ray_extractor
