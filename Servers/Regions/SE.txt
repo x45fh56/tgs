@@ -3,5 +3,5 @@ vless://3ad1d277-5715-4ca1-84db-5baea72f822d@185.189.45.159:443?encryption=none&
 vless://c97b2158-64c9-1f55-8167-72970d347288@157.22.19.5:443?encryption=none&fp=&mode=auto&path=%2F&pbk=wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk&security=reality&sni=download.nvidia.com&type=xhttp#oneclickvpnkeys
 vless://5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4@87.120.196.68:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo&security=reality&sid=7bcfc0bc&sni=yahoo.com&type=tcp#oneclickvpnkeys
 vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617/?type=tcp&encryption=none&flow=#tv2rayrr
-vless://7810fc1e-44e6-4e3d-8494-908aa1a8427d@185.146.173.58:8080?type=ws&host=dcc9.servernet.fun.&path=%2Fservernet#v2cnf
 vless://c97b2158-64c9-1f55-8167-72970d347288@157.22.19.5:443?encryption=none&fp=&mode=auto&path=%2F&pbk=wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk&security=reality&sni=download.nvidia.com&type=xhttp#v2cnf
+vless://7810fc1e-44e6-4e3d-8494-908aa1a8427d@185.146.173.58:8080?type=ws&host=dcc9.servernet.fun.&path=%2Fservernet#v2cnf
