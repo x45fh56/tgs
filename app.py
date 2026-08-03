@@ -19,7 +19,7 @@ import urllib3
 import zipfile
 import geoip2.errors
 import ipaddress
-from urllib.parse import urlparse, parse_qs, unquote
+from urllib.parse import urlparse, parse_qs, unquote, urlencode, quote
 from base64 import urlsafe_b64decode, urlsafe_b64encode
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -42,6 +42,7 @@ CHANNELS_FILE = "data/telegram_sources.txt"
 LOG_FILE = os.path.join(REPORTS_DIR, "extraction_report.log")
 GEOIP_DATABASE_PATH = Path("data/db/GeoLite2-Country.mmdb")
 MERGED_SERVERS_FILE = os.path.join(MERGED_DIR, "merged_servers.txt")
+PATT_FILE = os.path.join(MERGED_DIR, "patt.txt")
 
 ENABLE_EXTRACTION = True
 ENABLE_GEO_LOOKUP = True
@@ -50,6 +51,12 @@ ENABLE_TESTING = False
 ENABLE_V2RAY_SETUP = False
 ENABLE_TESTED_GEO_SORT = False
 ENABLE_CATEGORIZATION = True
+ENABLE_PATT_EDITION = True
+
+PATT_ADDRESS = "188.114.97.6"
+PATT_FP = "unsafe"
+PATT_FINAL_MASK = '{"tcp": [{"type": "fragment", "settings": {"packets": "tlshello", "lengths": ["5","94", "1"], "delays": ["0"], "maxSplit": "0"}},{"type": "fragment", "settings": {"packets": "1-1", "lengths": ["109", "1"], "delays": ["1"], "maxSplit": "355"}}]}'
+PATT_CIPHER_SUITES = "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
 
 SLEEP_TIME = 1
 BATCH_SIZE = 10
@@ -486,6 +493,46 @@ def read_links_from_file(file_path):
             return [l.strip() for l in f if l.strip() and not l.strip().startswith('#')]
     except Exception:
         return []
+
+def build_patt_link(link):
+    parsed = urlparse(link)
+    if parsed.scheme != 'vless' or not parsed.username:
+        return None
+    query = parse_qs(parsed.query)
+    new_query = {k: v[0] for k, v in query.items() if v}
+    new_query['security'] = new_query.get('security') or 'tls'
+    new_query['encryption'] = new_query.get('encryption') or 'none'
+    new_query['cs'] = PATT_CIPHER_SUITES
+    new_query['fm'] = PATT_FINAL_MASK
+    new_query['fp'] = PATT_FP
+    port = parsed.port or (443 if new_query['security'] in ('tls', 'reality') else 80)
+    query_string = urlencode(new_query, quote_via=quote)
+    new_link = f"vless://{parsed.username}@{PATT_ADDRESS}:{port}?{query_string}"
+    if parsed.fragment:
+        new_link += f"#{parsed.fragment}"
+    return new_link
+
+def generate_patt_edition():
+    if not os.path.exists(MERGED_SERVERS_FILE):
+        logging.error(f"Merged servers file not found: {MERGED_SERVERS_FILE}")
+        return 0
+    links = read_links_from_file(MERGED_SERVERS_FILE)
+    patt_links = []
+    skipped = 0
+    for link in links:
+        try:
+            new_link = build_patt_link(link)
+            if new_link:
+                patt_links.append(new_link)
+            else:
+                skipped += 1
+        except Exception:
+            skipped += 1
+    os.makedirs(MERGED_DIR, exist_ok=True)
+    with open(PATT_FILE, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(patt_links) + ('\n' if patt_links else ''))
+    logging.info(f"Patt edition: {len(patt_links)} converted, {skipped} skipped -> {PATT_FILE}")
+    return len(patt_links)
 
 def parse_vless_link(link):
     parsed = urlparse(link)
@@ -1336,3 +1383,6 @@ if __name__ == "__main__":
         run_link_categorization("Servers")
         if ENABLE_TESTING or os.path.exists(TESTED_SERVERS_DIR):
             run_link_categorization(TESTED_SERVERS_DIR)
+
+    if ENABLE_PATT_EDITION:
+        generate_patt_edition()
