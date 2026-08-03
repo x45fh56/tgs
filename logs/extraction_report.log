@@ -3,21 +3,21 @@ Total Servers (Merged): 823
 Successful Geo-IP Resolutions: 816
 Failed Geo-IP Resolutions: 7
 Domain               : 261
-Unknown              : 153
-US                   : 78
-DE                   : 62
+Unknown              : 154
+US                   : 77
+DE                   : 61
 RU                   : 32
+NL                   : 28
 GB                   : 28
-NL                   : 27
-FI                   : 19
+FI                   : 20
 HK                   : 18
-FR                   : 15
+FR                   : 13
 SG                   : 10
 CA                   : 10
 SC                   : 9
 RO                   : 9
+SE                   : 8
 AE                   : 7
-SE                   : 7
 JP                   : 6
 CH                   : 5
 TR                   : 5
@@ -53,11 +53,11 @@ AZ                   : 1
 
 === Server Type Summary ===
 VLESS                : 667
-CDN                  : 461
+CDN                  : 463
 HYSTERIA2            : 53
 SS                   : 45
-TROJAN               : 33
-VMESS                : 25
+TROJAN               : 32
+VMESS                : 26
 HYSTERIA             : 0
 TUIC                 : 0
 WIREGUARD            : 0
