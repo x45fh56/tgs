@@ -53,7 +53,14 @@ ENABLE_TESTED_GEO_SORT = False
 ENABLE_CATEGORIZATION = True
 ENABLE_PATT_EDITION = True
 
-PATT_ADDRESS = "188.114.97.6"
+PATT_ADDRESSES = [
+    "188.114.97.6",
+    "162.159.140.220",
+    "172.66.206.55",
+    "172.66.204.236",
+    "172.66.130.229",
+    "172.66.170.101",
+]
 PATT_FP = "unsafe"
 PATT_FINAL_MASK = '{"tcp": [{"type": "fragment", "settings": {"packets": "tlshello", "lengths": ["5","94", "1"], "delays": ["0"], "maxSplit": "0"}},{"type": "fragment", "settings": {"packets": "1-1", "lengths": ["109", "1"], "delays": ["1"], "maxSplit": "355"}}]}'
 PATT_CIPHER_SUITES = "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
@@ -494,7 +501,7 @@ def read_links_from_file(file_path):
     except Exception:
         return []
 
-def build_patt_link_uri(link, scheme):
+def build_patt_link_uri(link, scheme, address):
     # برای پروتکل‌هایی که لینکشون به شکل URI با query string هست (vless, trojan)
     parsed = urlparse(link)
     if parsed.scheme != scheme or not parsed.username:
@@ -511,12 +518,12 @@ def build_patt_link_uri(link, scheme):
     # quote_via=quote مهمه: پیش‌فرض urlencode یعنی quote_plus، space رو '+' می‌کنه
     # که JSON داخل fm رو موقع دیکد استاندارد (unquote، نه unquote_plus) خراب می‌کنه.
     query_string = urlencode(new_query, quote_via=quote)
-    new_link = f"{scheme}://{parsed.username}@{PATT_ADDRESS}:{port}?{query_string}"
-    if parsed.fragment:
-        new_link += f"#{parsed.fragment}"
+    new_link = f"{scheme}://{parsed.username}@{address}:{port}?{query_string}"
+    tag = f"{parsed.fragment}-{address}" if parsed.fragment else address
+    new_link += f"#{tag}"
     return new_link
 
-def build_patt_link_vmess(link):
+def build_patt_link_vmess(link, address):
     if not link.startswith('vmess://'):
         return None
     b64_part = link[len('vmess://'):]
@@ -525,15 +532,17 @@ def build_patt_link_vmess(link):
         data = json.loads(decoded)
     except Exception:
         return None
-    data['add'] = PATT_ADDRESS
+    data['add'] = address
     data['fp'] = PATT_FP
     # این دو کلید استاندارد فرمت vmess نیستن؛ کلاینت‌هایی که پشتیبانی نکنن نادیده‌شون می‌گیرن
     data['cs'] = PATT_CIPHER_SUITES
     data['fm'] = PATT_FINAL_MASK
+    original_ps = data.get('ps', 'vmess')
+    data['ps'] = f"{original_ps}-{address}"
     new_b64 = urlsafe_b64encode(json.dumps(data, separators=(',', ':')).encode('utf-8')).decode('utf-8').rstrip('=')
     return f"vmess://{new_b64}"
 
-def build_patt_link_ss(link):
+def build_patt_link_ss(link, address):
     # ss فقط شکسپه/رمزنگاری AEAD داره، امنیت TLS نداره، پس cs/fm/fp روش معنی نداره؛
     # فقط آدرس رو عوض می‌کنیم و بقیه رو دست‌نخورده نگه می‌داریم
     parsed = urlparse(link)
@@ -541,14 +550,14 @@ def build_patt_link_ss(link):
         return None
     userinfo, host_port = parsed.netloc.rsplit('@', 1)
     port = host_port.split(':', 1)[1] if ':' in host_port else '8388'
-    new_link = f"ss://{userinfo}@{PATT_ADDRESS}:{port}"
+    new_link = f"ss://{userinfo}@{address}:{port}"
     if parsed.query:
         new_link += f"?{parsed.query}"
-    if parsed.fragment:
-        new_link += f"#{parsed.fragment}"
+    tag = f"{parsed.fragment}-{address}" if parsed.fragment else address
+    new_link += f"#{tag}"
     return new_link
 
-def build_patt_link_generic(link, scheme):
+def build_patt_link_generic(link, scheme, address):
     # پروتکل‌های ناشناخته/بدون پارسر اختصاصی (hysteria, hysteria2, tuic, wireguard, warp و...)
     # با فرض ساختار URI معمول user@host:port?query#name فقط آدرس رو عوض می‌کنیم
     parsed = urlparse(link)
@@ -556,26 +565,37 @@ def build_patt_link_generic(link, scheme):
         return None
     userinfo, host_port = parsed.netloc.rsplit('@', 1)
     port = host_port.rsplit(':', 1)[1]
-    new_link = f"{scheme}://{userinfo}@{PATT_ADDRESS}:{port}"
+    new_link = f"{scheme}://{userinfo}@{address}:{port}"
     if parsed.query:
         new_link += f"?{parsed.query}"
-    if parsed.fragment:
-        new_link += f"#{parsed.fragment}"
+    tag = f"{parsed.fragment}-{address}" if parsed.fragment else address
+    new_link += f"#{tag}"
     return new_link
 
-def build_patt_link(link):
+def build_patt_links(link):
+    # به‌جای یک آدرس، برای هر لینک ورودی، به‌ازای همه‌ی PATT_ADDRESSES یک نسخه می‌سازه
     scheme = urlparse(link).scheme
     if scheme == 'vless':
-        return build_patt_link_uri(link, 'vless')
-    if scheme == 'trojan':
-        return build_patt_link_uri(link, 'trojan')
-    if scheme == 'vmess':
-        return build_patt_link_vmess(link)
-    if scheme == 'ss':
-        return build_patt_link_ss(link)
-    if scheme:
-        return build_patt_link_generic(link, scheme)
-    return None
+        builder = lambda addr: build_patt_link_uri(link, 'vless', addr)
+    elif scheme == 'trojan':
+        builder = lambda addr: build_patt_link_uri(link, 'trojan', addr)
+    elif scheme == 'vmess':
+        builder = lambda addr: build_patt_link_vmess(link, addr)
+    elif scheme == 'ss':
+        builder = lambda addr: build_patt_link_ss(link, addr)
+    elif scheme:
+        builder = lambda addr: build_patt_link_generic(link, scheme, addr)
+    else:
+        return []
+    results = []
+    for address in PATT_ADDRESSES:
+        try:
+            new_link = builder(address)
+            if new_link:
+                results.append(new_link)
+        except Exception:
+            continue
+    return results
 
 def generate_patt_edition():
     if not os.path.exists(MERGED_SERVERS_FILE):
@@ -586,9 +606,9 @@ def generate_patt_edition():
     skipped = 0
     for link in links:
         try:
-            new_link = build_patt_link(link)
-            if new_link:
-                patt_links.append(new_link)
+            new_links = build_patt_links(link)
+            if new_links:
+                patt_links.extend(new_links)
             else:
                 skipped += 1
         except Exception:
@@ -596,7 +616,8 @@ def generate_patt_edition():
     os.makedirs(MERGED_DIR, exist_ok=True)
     with open(PATT_FILE, 'w', encoding='utf-8') as f:
         f.write('\n'.join(patt_links) + ('\n' if patt_links else ''))
-    logging.info(f"Patt edition: {len(patt_links)} converted, {skipped} skipped -> {PATT_FILE}")
+    logging.info(f"Patt edition: {len(patt_links)} links generated from {len(links) - skipped} servers "
+                 f"x {len(PATT_ADDRESSES)} address(es), {skipped} skipped -> {PATT_FILE}")
     return len(patt_links)
 
 def parse_vless_link(link):
