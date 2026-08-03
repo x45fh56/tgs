@@ -494,23 +494,88 @@ def read_links_from_file(file_path):
     except Exception:
         return []
 
-def build_patt_link(link):
+def build_patt_link_uri(link, scheme):
+    # برای پروتکل‌هایی که لینکشون به شکل URI با query string هست (vless, trojan)
     parsed = urlparse(link)
-    if parsed.scheme != 'vless' or not parsed.username:
+    if parsed.scheme != scheme or not parsed.username:
         return None
     query = parse_qs(parsed.query)
     new_query = {k: v[0] for k, v in query.items() if v}
     new_query['security'] = new_query.get('security') or 'tls'
-    new_query['encryption'] = new_query.get('encryption') or 'none'
+    if scheme == 'vless':
+        new_query['encryption'] = new_query.get('encryption') or 'none'
     new_query['cs'] = PATT_CIPHER_SUITES
     new_query['fm'] = PATT_FINAL_MASK
     new_query['fp'] = PATT_FP
     port = parsed.port or (443 if new_query['security'] in ('tls', 'reality') else 80)
+    # quote_via=quote مهمه: پیش‌فرض urlencode یعنی quote_plus، space رو '+' می‌کنه
+    # که JSON داخل fm رو موقع دیکد استاندارد (unquote، نه unquote_plus) خراب می‌کنه.
     query_string = urlencode(new_query, quote_via=quote)
-    new_link = f"vless://{parsed.username}@{PATT_ADDRESS}:{port}?{query_string}"
+    new_link = f"{scheme}://{parsed.username}@{PATT_ADDRESS}:{port}?{query_string}"
     if parsed.fragment:
         new_link += f"#{parsed.fragment}"
     return new_link
+
+def build_patt_link_vmess(link):
+    if not link.startswith('vmess://'):
+        return None
+    b64_part = link[len('vmess://'):]
+    try:
+        decoded = urlsafe_b64decode(b64_part + '=' * ((4 - len(b64_part) % 4) % 4)).decode('utf-8')
+        data = json.loads(decoded)
+    except Exception:
+        return None
+    data['add'] = PATT_ADDRESS
+    data['fp'] = PATT_FP
+    # این دو کلید استاندارد فرمت vmess نیستن؛ کلاینت‌هایی که پشتیبانی نکنن نادیده‌شون می‌گیرن
+    data['cs'] = PATT_CIPHER_SUITES
+    data['fm'] = PATT_FINAL_MASK
+    new_b64 = urlsafe_b64encode(json.dumps(data, separators=(',', ':')).encode('utf-8')).decode('utf-8').rstrip('=')
+    return f"vmess://{new_b64}"
+
+def build_patt_link_ss(link):
+    # ss فقط شکسپه/رمزنگاری AEAD داره، امنیت TLS نداره، پس cs/fm/fp روش معنی نداره؛
+    # فقط آدرس رو عوض می‌کنیم و بقیه رو دست‌نخورده نگه می‌داریم
+    parsed = urlparse(link)
+    if parsed.scheme != 'ss' or '@' not in parsed.netloc:
+        return None
+    userinfo, host_port = parsed.netloc.rsplit('@', 1)
+    port = host_port.split(':', 1)[1] if ':' in host_port else '8388'
+    new_link = f"ss://{userinfo}@{PATT_ADDRESS}:{port}"
+    if parsed.query:
+        new_link += f"?{parsed.query}"
+    if parsed.fragment:
+        new_link += f"#{parsed.fragment}"
+    return new_link
+
+def build_patt_link_generic(link, scheme):
+    # پروتکل‌های ناشناخته/بدون پارسر اختصاصی (hysteria, hysteria2, tuic, wireguard, warp و...)
+    # با فرض ساختار URI معمول user@host:port?query#name فقط آدرس رو عوض می‌کنیم
+    parsed = urlparse(link)
+    if '@' not in parsed.netloc or ':' not in parsed.netloc.rsplit('@', 1)[-1]:
+        return None
+    userinfo, host_port = parsed.netloc.rsplit('@', 1)
+    port = host_port.rsplit(':', 1)[1]
+    new_link = f"{scheme}://{userinfo}@{PATT_ADDRESS}:{port}"
+    if parsed.query:
+        new_link += f"?{parsed.query}"
+    if parsed.fragment:
+        new_link += f"#{parsed.fragment}"
+    return new_link
+
+def build_patt_link(link):
+    scheme = urlparse(link).scheme
+    if scheme == 'vless':
+        return build_patt_link_uri(link, 'vless')
+    if scheme == 'trojan':
+        return build_patt_link_uri(link, 'trojan')
+    if scheme == 'vmess':
+        return build_patt_link_vmess(link)
+    if scheme == 'ss':
+        return build_patt_link_ss(link)
+    if scheme:
+        return build_patt_link_generic(link, scheme)
+    return None
 
 def generate_patt_edition():
     if not os.path.exists(MERGED_SERVERS_FILE):
