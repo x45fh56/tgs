@@ -1,7 +1,7 @@
 vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@78.40.195.56:443?security=reality&encryption=none&pbk=APXp2igsjxFmGkpb3L98I__FTySIY6saN6skP2y0ank&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=19.07-7.yunus.guru&sid=c6d439fd92614ab0#NetShot1
-vless://5c192fd7-ef98-4112-a20c-129108fcd7e9@217.60.193.1:443?alpn=h2&encryption=none&fp=firefox&security=tls&sni=ddc-akn.astralweb.tech&type=tcp#oneclickvpnkeys
 vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@78.40.195.56:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=APXp2igsjxFmGkpb3L98I__FTySIY6saN6skP2y0ank&security=reality&sid=c6d439fd92614ab0&sni=19.07-7.yunus.guru&type=tcp#oneclickvpnkeys
 vless://b6f3b292-00c9-430e-bc4c-b1294bd895c0@31.207.7.97:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=nQE3INl_ycbBFpNZdzkrgASofD64HB215kzQuH_uZn4&security=reality&sid=b512d49930874a31&sni=cdn-se.ai-apiroute.cc&type=tcp#oneclickvpnkeys
+vless://5c192fd7-ef98-4112-a20c-129108fcd7e9@217.60.193.1:443?alpn=h2&encryption=none&fp=firefox&security=tls&sni=ddc-akn.astralweb.tech&type=tcp#oneclickvpnkeys
 vless://3a3de813-bfaa-4355-bc47-05c7245431d2@94.140.0.1:443?encryption=none&type=ws&security=tls&path=%2F%3Fed%3D2560&host=Australia.havray2025.ir&sni=Australia.havray2025.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&insecure=0&allowInsecure=0#v2cnf
 vless://b6f3b292-00c9-430e-bc4c-b1294bd895c0@31.207.7.97:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=nQE3INl_ycbBFpNZdzkrgASofD64HB215kzQuH_uZn4&security=reality&sid=b512d49930874a31&sni=cdn-se.ai-apiroute.cc&type=tcp#v2cnf
 vless://5c192fd7-ef98-4112-a20c-129108fcd7e9@217.60.193.1:443?alpn=h2&encryption=none&fp=firefox&security=tls&sni=ddc-akn.astralweb.tech&type=tcp#v2ray_extractor
