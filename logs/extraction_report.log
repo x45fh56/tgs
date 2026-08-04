@@ -1,9 +1,9 @@
 === Country Statistics ===
-Total Servers (Merged): 824
-Successful Geo-IP Resolutions: 817
+Total Servers (Merged): 817
+Successful Geo-IP Resolutions: 810
 Failed Geo-IP Resolutions: 7
-Domain               : 258
-Unknown              : 160
+Domain               : 253
+Unknown              : 158
 US                   : 71
 DE                   : 60
 NL                   : 39
@@ -53,8 +53,8 @@ BH                   : 1
 AZ                   : 1
 
 === Server Type Summary ===
-VLESS                : 648
-CDN                  : 453
+VLESS                : 641
+CDN                  : 452
 HYSTERIA2            : 53
 TROJAN               : 51
 SS                   : 43
@@ -68,7 +68,7 @@ WARP                 : 0
 v2ray_extractor               : 196
 v2cnf                         : 174
 oneclickvpnkeys               : 151
-FreakConfig                   : 92
+FreakConfig                   : 85
 tv2rayrr                      : 85
 new_mtproxi2                  : 43
 SNI_SPOOFINGconfig            : 33

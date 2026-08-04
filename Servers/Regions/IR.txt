@@ -1,7 +1,7 @@
 vless://529cd8b2-0432-4fe7-80a2-89076c818f25@185.118.15.160:2095?security=none&encryption=none&headerType=none&type=tcp#FreakConfig
-vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#new_mtproxi2
 vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#new_mtproxi2
-vless://fb3d8829-d22b-475c-b12d-b46eb24e95fb@5.57.33.253:443?encryption=none&type=xhttp&path=%2Ftr%2Fapi%2Fv5%2Fstream&mode=auto&security=tls&sni=clts.ir&fp=chrome&alpn=h2#persianvpnhub
+vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#new_mtproxi2
 vless://fb3d8829-d22b-475c-b12d-b46eb24e95fb@5.57.33.253:443?encryption=none&type=xhttp&path=%2Fnl%2Fapi%2Fv5%2Fstream&mode=auto&security=tls&sni=clts.ir&fp=chrome&alpn=h2#persianvpnhub
+vless://fb3d8829-d22b-475c-b12d-b46eb24e95fb@5.57.33.253:443?encryption=none&type=xhttp&path=%2Ftr%2Fapi%2Fv5%2Fstream&mode=auto&security=tls&sni=clts.ir&fp=chrome&alpn=h2#persianvpnhub
 vless://fb3d8829-d22b-475c-b12d-b46eb24e95fb@5.57.33.253:443?encryption=none&type=xhttp&path=%2Fde%2Fapi%2Fv5%2Fstream&mode=auto&security=tls&sni=clts.ir&fp=chrome&alpn=h2#persianvpnhub
 vless://529cd8b2-0432-4fe7-80a2-89076c818f25@185.118.15.160:2095?security=none&encryption=none&headerType=none&type=tcp#v2cnf
