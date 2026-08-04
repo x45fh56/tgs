@@ -42,7 +42,6 @@ CHANNELS_FILE = "data/telegram_sources.txt"
 LOG_FILE = os.path.join(REPORTS_DIR, "extraction_report.log")
 GEOIP_DATABASE_PATH = Path("data/db/GeoLite2-Country.mmdb")
 MERGED_SERVERS_FILE = os.path.join(MERGED_DIR, "merged_servers.txt")
-PATT_FILE = os.path.join(MERGED_DIR, "patt.txt")
 
 ENABLE_EXTRACTION = True
 ENABLE_GEO_LOOKUP = True
@@ -53,14 +52,13 @@ ENABLE_TESTED_GEO_SORT = False
 ENABLE_CATEGORIZATION = True
 ENABLE_PATT_EDITION = True
 
-PATT_ADDRESSES = [
+PATT_ADDRESSES_MAIN = [
     "188.114.97.6",
-    "162.159.140.220",
-    "172.66.206.55",
-    "172.66.204.236",
-    "172.66.130.229",
-    "172.66.170.101",
 ]
+PATT_IP_CHANNEL_URL = "https://t.me/s/cfipsf"
+PATT_MAIN_FILE = os.path.join(MERGED_DIR, "patt_main.txt")
+PATT_ALL_FILE = os.path.join(MERGED_DIR, "patt_all.txt")
+PATT_PER_IP_DIR = os.path.join(MERGED_DIR, "PerIpsMatt")
 PATT_FP = "unsafe"
 PATT_FINAL_MASK = '{"tcp": [{"type": "fragment", "settings": {"packets": "tlshello", "lengths": ["5","94", "1"], "delays": ["0"], "maxSplit": "0"}},{"type": "fragment", "settings": {"packets": "1-1", "lengths": ["109", "1"], "delays": ["1"], "maxSplit": "355"}}]}'
 PATT_CIPHER_SUITES = "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
@@ -572,53 +570,112 @@ def build_patt_link_generic(link, scheme, address):
     new_link += f"#{tag}"
     return new_link
 
-def build_patt_links(link):
-    # به‌جای یک آدرس، برای هر لینک ورودی، به‌ازای همه‌ی PATT_ADDRESSES یک نسخه می‌سازه
-    scheme = urlparse(link).scheme
-    if scheme == 'vless':
-        builder = lambda addr: build_patt_link_uri(link, 'vless', addr)
-    elif scheme == 'trojan':
-        builder = lambda addr: build_patt_link_uri(link, 'trojan', addr)
-    elif scheme == 'vmess':
-        builder = lambda addr: build_patt_link_vmess(link, addr)
-    elif scheme == 'ss':
-        builder = lambda addr: build_patt_link_ss(link, addr)
-    elif scheme:
-        builder = lambda addr: build_patt_link_generic(link, scheme, addr)
-    else:
+def fetch_latest_ips_from_channel(channel_url=PATT_IP_CHANNEL_URL, timeout=20):
+    # آخرین پست کانال تلگرام رو می‌خونه و همه‌ی آی‌پی‌های عمومی توش رو استخراج می‌کنه
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(channel_url, timeout=timeout, headers=headers)
+        response.raise_for_status()
+    except Exception as e:
+        logging.error(f"Telegram IP channel fetch failed ({channel_url}): {e}")
         return []
-    results = []
-    for address in PATT_ADDRESSES:
+    soup = BeautifulSoup(response.content, 'html.parser')
+    posts = soup.find_all('div', class_='tgme_widget_message')
+    if not posts:
+        logging.error(f"No posts found on {channel_url}")
+        return []
+    last_post = posts[-1]
+    post_text = last_post.get_text(separator='\n')
+    ip_matches = re.findall(r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b', post_text)
+    seen = set()
+    ordered_ips = []
+    for ip_str in ip_matches:
         try:
-            new_link = builder(address)
-            if new_link:
-                results.append(new_link)
-        except Exception:
+            ip_obj = ipaddress.ip_address(ip_str)
+        except ValueError:
             continue
-    return results
+        if (ip_obj.is_private or ip_obj.is_loopback or ip_obj.is_link_local
+                or ip_obj.is_multicast or ip_obj.is_unspecified):
+            continue
+        if ip_str not in seen:
+            seen.add(ip_str)
+            ordered_ips.append(ip_str)
+    logging.info(f"Extracted {len(ordered_ips)} clean IP(s) from latest post of {channel_url}")
+    return ordered_ips
+
+def get_patt_builder(link, scheme):
+    if scheme == 'vless':
+        return lambda addr: build_patt_link_uri(link, 'vless', addr)
+    if scheme == 'trojan':
+        return lambda addr: build_patt_link_uri(link, 'trojan', addr)
+    if scheme == 'vmess':
+        return lambda addr: build_patt_link_vmess(link, addr)
+    if scheme == 'ss':
+        return lambda addr: build_patt_link_ss(link, addr)
+    if scheme:
+        return lambda addr: build_patt_link_generic(link, scheme, addr)
+    return None
+
+def write_patt_file(path, lines):
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines) + ('\n' if lines else ''))
 
 def generate_patt_edition():
     if not os.path.exists(MERGED_SERVERS_FILE):
         logging.error(f"Merged servers file not found: {MERGED_SERVERS_FILE}")
         return 0
     links = read_links_from_file(MERGED_SERVERS_FILE)
-    patt_links = []
+
+    extracted_ips = fetch_latest_ips_from_channel(PATT_IP_CHANNEL_URL)
+    all_addresses = list(PATT_ADDRESSES_MAIN)
+    seen_addr = set(all_addresses)
+    for ip in extracted_ips:
+        if ip not in seen_addr:
+            seen_addr.add(ip)
+            all_addresses.append(ip)
+
+    per_address_links = {addr: [] for addr in all_addresses}
+    main_addr_set = set(PATT_ADDRESSES_MAIN)
+    main_links = []
     skipped = 0
+
     for link in links:
-        try:
-            new_links = build_patt_links(link)
-            if new_links:
-                patt_links.extend(new_links)
-            else:
-                skipped += 1
-        except Exception:
+        scheme = urlparse(link).scheme
+        builder = get_patt_builder(link, scheme)
+        if not builder:
             skipped += 1
+            continue
+        matched_any = False
+        for addr in all_addresses:
+            try:
+                new_link = builder(addr)
+            except Exception:
+                new_link = None
+            if new_link:
+                matched_any = True
+                per_address_links[addr].append(new_link)
+                if addr in main_addr_set:
+                    main_links.append(new_link)
+        if not matched_any:
+            skipped += 1
+
     os.makedirs(MERGED_DIR, exist_ok=True)
-    with open(PATT_FILE, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(patt_links) + ('\n' if patt_links else ''))
-    logging.info(f"Patt edition: {len(patt_links)} links generated from {len(links) - skipped} servers "
-                 f"x {len(PATT_ADDRESSES)} address(es), {skipped} skipped -> {PATT_FILE}")
-    return len(patt_links)
+    os.makedirs(PATT_PER_IP_DIR, exist_ok=True)
+
+    write_patt_file(PATT_MAIN_FILE, main_links)
+    logging.info(f"Patt main: {len(main_links)} links ({len(PATT_ADDRESSES_MAIN)} address) -> {PATT_MAIN_FILE}")
+
+    all_links = [l for addr in all_addresses for l in per_address_links[addr]]
+    write_patt_file(PATT_ALL_FILE, all_links)
+    logging.info(f"Patt all: {len(all_links)} links ({len(all_addresses)} addresses) -> {PATT_ALL_FILE}")
+
+    for idx, addr in enumerate(all_addresses, start=1):
+        ip_file = os.path.join(PATT_PER_IP_DIR, f"patt_ip_{idx}.txt")
+        write_patt_file(ip_file, per_address_links[addr])
+    logging.info(f"Patt per-IP: {len(all_addresses)} file(s) (patt_ip_1..patt_ip_{len(all_addresses)}) -> {PATT_PER_IP_DIR}")
+
+    logging.info(f"Patt edition done: servers={len(links)}, skipped={skipped}, addresses={len(all_addresses)}")
+    return len(all_links)
 
 def parse_vless_link(link):
     parsed = urlparse(link)
