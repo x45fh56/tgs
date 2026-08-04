@@ -36,7 +36,7 @@ REPORTS_DIR = os.path.join("logs")
 MERGED_DIR = os.path.join("Servers", "Merged")
 CHANNELS_DIR = os.path.join("Servers", "Channels")
 MERGED_SNI_FILE = os.path.join(MERGED_DIR, "merged_servers_sni.txt")
-SNI_CHANNELS = {"SNI_SPOOFINGconfig"}  # فقط این کانال‌ها به merged_servers_sni.txt نوشته می‌شن
+SNI_CHANNELS = {"SNI_SPOOFINGconfig"} 
 EXTRACTED_IPS_FILE = os.path.join(MERGED_DIR, "extracted_cdn_ips.txt")
 CHANNELS_FILE = "data/telegram_sources.txt"
 LOG_FILE = os.path.join(REPORTS_DIR, "extraction_report.log")
@@ -59,6 +59,11 @@ PATT_IP_CHANNEL_URL = "https://t.me/s/cfipsf"
 PATT_MAIN_FILE = os.path.join(MERGED_DIR, "patt_main.txt")
 PATT_ALL_FILE = os.path.join(MERGED_DIR, "patt_all.txt")
 PATT_PER_IP_DIR = os.path.join(MERGED_DIR, "PerIpsMatt")
+PATT_ALPN = "h2,http/1.1"
+PATT_CHANNEL_MIN_INTERVAL = 30  
+PATT_CHANNEL_RETRIES = 3
+PATT_CHANNEL_BACKOFF = 5
+PATT_CHANNEL_STATE_FILE = os.path.join(MERGED_DIR, ".patt_channel_last_fetch")
 PATT_FP = "unsafe"
 PATT_FINAL_MASK = '{"tcp": [{"type": "fragment", "settings": {"packets": "tlshello", "lengths": ["5","94", "1"], "delays": ["0"], "maxSplit": "0"}},{"type": "fragment", "settings": {"packets": "1-1", "lengths": ["109", "1"], "delays": ["1"], "maxSplit": "355"}}]}'
 PATT_CIPHER_SUITES = "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
@@ -500,7 +505,7 @@ def read_links_from_file(file_path):
         return []
 
 def build_patt_link_uri(link, scheme, address):
-    # برای پروتکل‌هایی که لینکشون به شکل URI با query string هست (vless, trojan)
+ 
     parsed = urlparse(link)
     if parsed.scheme != scheme or not parsed.username:
         return None
@@ -513,8 +518,7 @@ def build_patt_link_uri(link, scheme, address):
     new_query['fm'] = PATT_FINAL_MASK
     new_query['fp'] = PATT_FP
     port = parsed.port or (443 if new_query['security'] in ('tls', 'reality') else 80)
-    # quote_via=quote مهمه: پیش‌فرض urlencode یعنی quote_plus، space رو '+' می‌کنه
-    # که JSON داخل fm رو موقع دیکد استاندارد (unquote، نه unquote_plus) خراب می‌کنه.
+ 
     query_string = urlencode(new_query, quote_via=quote)
     new_link = f"{scheme}://{parsed.username}@{address}:{port}?{query_string}"
     tag = f"{parsed.fragment}-{address}" if parsed.fragment else address
@@ -532,17 +536,16 @@ def build_patt_link_vmess(link, address):
         return None
     data['add'] = address
     data['fp'] = PATT_FP
-    # این دو کلید استاندارد فرمت vmess نیستن؛ کلاینت‌هایی که پشتیبانی نکنن نادیده‌شون می‌گیرن
     data['cs'] = PATT_CIPHER_SUITES
     data['fm'] = PATT_FINAL_MASK
+    if PATT_ALPN:
+        data['alpn'] = PATT_ALPN
     original_ps = data.get('ps', 'vmess')
     data['ps'] = f"{original_ps}-{address}"
     new_b64 = urlsafe_b64encode(json.dumps(data, separators=(',', ':')).encode('utf-8')).decode('utf-8').rstrip('=')
     return f"vmess://{new_b64}"
 
 def build_patt_link_ss(link, address):
-    # ss فقط شکسپه/رمزنگاری AEAD داره، امنیت TLS نداره، پس cs/fm/fp روش معنی نداره؛
-    # فقط آدرس رو عوض می‌کنیم و بقیه رو دست‌نخورده نگه می‌داریم
     parsed = urlparse(link)
     if parsed.scheme != 'ss' or '@' not in parsed.netloc:
         return None
@@ -556,8 +559,6 @@ def build_patt_link_ss(link, address):
     return new_link
 
 def build_patt_link_generic(link, scheme, address):
-    # پروتکل‌های ناشناخته/بدون پارسر اختصاصی (hysteria, hysteria2, tuic, wireguard, warp و...)
-    # با فرض ساختار URI معمول user@host:port?query#name فقط آدرس رو عوض می‌کنیم
     parsed = urlparse(link)
     if '@' not in parsed.netloc or ':' not in parsed.netloc.rsplit('@', 1)[-1]:
         return None
@@ -570,8 +571,72 @@ def build_patt_link_generic(link, scheme, address):
     new_link += f"#{tag}"
     return new_link
 
+def build_patt_link_hysteria2(link, address):
+    parsed = urlparse(link)
+    if parsed.scheme not in ('hysteria2', 'hy2'):
+        return None
+    if not parsed.username or '@' not in parsed.netloc:
+        return None
+    port = parsed.port or 443
+    new_link = f"{parsed.scheme}://{parsed.username}@{address}:{port}"
+    if parsed.query:
+        new_link += f"?{parsed.query}"
+    tag = f"{parsed.fragment}-{address}" if parsed.fragment else address
+    new_link += f"#{tag}"
+    return new_link
+
+def build_patt_link_hysteria_v1(link, address):
+    parsed = urlparse(link)
+    if parsed.scheme != 'hysteria':
+        return None
+    port = parsed.port or 443
+    if parsed.username and '@' in parsed.netloc:
+        new_link = f"hysteria://{parsed.username}@{address}:{port}"
+    else:
+        new_link = f"hysteria://{address}:{port}"
+    if parsed.query:
+        new_link += f"?{parsed.query}"
+    tag = f"{parsed.fragment}-{address}" if parsed.fragment else address
+    new_link += f"#{tag}"
+    return new_link
+
+def build_patt_link_tuic(link, address):
+    parsed = urlparse(link)
+    if parsed.scheme != 'tuic' or '@' not in parsed.netloc:
+        return None
+    userinfo = parsed.netloc.split('@', 1)[0]  
+    port = parsed.port or 443
+    new_link = f"tuic://{userinfo}@{address}:{port}"
+    if parsed.query:
+        new_link += f"?{parsed.query}"
+    tag = f"{parsed.fragment}-{address}" if parsed.fragment else address
+    new_link += f"#{tag}"
+    return new_link
+
+def build_patt_link_wireguard_style(link, scheme, address, default_port):
+    parsed = urlparse(link)
+    if parsed.scheme != scheme or '@' not in parsed.netloc:
+        return None
+    private_key = parsed.netloc.split('@', 1)[0]
+    host_port = parsed.netloc.rsplit('@', 1)[-1]
+    port = host_port.rsplit(':', 1)[1] if ':' in host_port else str(default_port)
+    new_link = f"{scheme}://{private_key}@{address}:{port}"
+    if parsed.query:
+        new_link += f"?{parsed.query}"
+    tag = f"{parsed.fragment}-{address}" if parsed.fragment else address
+    new_link += f"#{tag}"
+    return new_link
+
+def build_patt_link_wireguard(link, address):
+    return build_patt_link_wireguard_style(link, 'wireguard', address, default_port=51820)
+
+def build_patt_link_warp(link, address):
+    result = build_patt_link_wireguard_style(link, 'warp', address, default_port=2408)
+    if result:
+        return result
+    return build_patt_link_generic(link, 'warp', address)
+
 def fetch_latest_ips_from_channel(channel_url=PATT_IP_CHANNEL_URL, timeout=20):
-    # آخرین پست کانال تلگرام رو می‌خونه و همه‌ی آی‌پی‌های عمومی توش رو استخراج می‌کنه
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
         response = requests.get(channel_url, timeout=timeout, headers=headers)
@@ -603,6 +668,39 @@ def fetch_latest_ips_from_channel(channel_url=PATT_IP_CHANNEL_URL, timeout=20):
     logging.info(f"Extracted {len(ordered_ips)} clean IP(s) from latest post of {channel_url}")
     return ordered_ips
 
+def rate_limited_channel_fetch(channel_url=PATT_IP_CHANNEL_URL, min_interval=PATT_CHANNEL_MIN_INTERVAL,
+                                retries=PATT_CHANNEL_RETRIES, backoff=PATT_CHANNEL_BACKOFF):
+ 
+    try:
+        if os.path.exists(PATT_CHANNEL_STATE_FILE):
+            with open(PATT_CHANNEL_STATE_FILE, 'r', encoding='utf-8') as f:
+                last_ts = float(f.read().strip() or 0)
+            elapsed = time.time() - last_ts
+            if elapsed < min_interval:
+                wait = min_interval - elapsed
+                logging.info(f"Rate limit: صبر {wait:.1f} ثانیه قبل از درخواست بعدی به {channel_url}")
+                time.sleep(wait)
+    except Exception:
+        pass
+
+    ips = []
+    for attempt in range(1, retries + 1):
+        ips = fetch_latest_ips_from_channel(channel_url)
+        try:
+            os.makedirs(os.path.dirname(PATT_CHANNEL_STATE_FILE), exist_ok=True)
+            with open(PATT_CHANNEL_STATE_FILE, 'w', encoding='utf-8') as f:
+                f.write(str(time.time()))
+        except Exception:
+            pass
+        if ips:
+            return ips
+        if attempt < retries:
+            sleep_time = backoff * attempt
+            logging.info(f"تلاش {attempt}/{retries} برای دریافت از کانال ناموفق بود، {sleep_time} ثانیه صبر...")
+            time.sleep(sleep_time)
+    logging.error(f"دریافت آی‌پی از کانال بعد از {retries} تلاش ناموفق بود: {channel_url}")
+    return ips
+
 def get_patt_builder(link, scheme):
     if scheme == 'vless':
         return lambda addr: build_patt_link_uri(link, 'vless', addr)
@@ -612,6 +710,16 @@ def get_patt_builder(link, scheme):
         return lambda addr: build_patt_link_vmess(link, addr)
     if scheme == 'ss':
         return lambda addr: build_patt_link_ss(link, addr)
+    if scheme in ('hysteria2', 'hy2'):
+        return lambda addr: build_patt_link_hysteria2(link, addr)
+    if scheme == 'hysteria':
+        return lambda addr: build_patt_link_hysteria_v1(link, addr)
+    if scheme == 'tuic':
+        return lambda addr: build_patt_link_tuic(link, addr)
+    if scheme == 'wireguard':
+        return lambda addr: build_patt_link_wireguard(link, addr)
+    if scheme == 'warp':
+        return lambda addr: build_patt_link_warp(link, addr)
     if scheme:
         return lambda addr: build_patt_link_generic(link, scheme, addr)
     return None
@@ -620,13 +728,42 @@ def write_patt_file(path, lines):
     with open(path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + ('\n' if lines else ''))
 
+def get_dedup_key(link):
+ 
+    scheme = urlparse(link).scheme
+    try:
+        if scheme == 'vmess':
+            b64_part = link[len('vmess://'):]
+            decoded = urlsafe_b64decode(b64_part + '=' * ((4 - len(b64_part) % 4) % 4)).decode('utf-8')
+            data = json.loads(decoded)
+            return ('vmess', data.get('add'), str(data.get('port')), data.get('id'))
+        parsed = urlparse(link)
+        return (scheme, parsed.hostname, parsed.port, parsed.username)
+    except Exception:
+        return (scheme, link)  
+
+def dedupe_links(links):
+    seen = set()
+    unique = []
+    duplicates = 0
+    for link in links:
+        key = get_dedup_key(link)
+        if key in seen:
+            duplicates += 1
+            continue
+        seen.add(key)
+        unique.append(link)
+    if duplicates:
+        logging.info(f"Dedup: {duplicates} سرور تکراری حذف شد ({len(links)} -> {len(unique)})")
+    return unique
+
 def generate_patt_edition():
     if not os.path.exists(MERGED_SERVERS_FILE):
         logging.error(f"Merged servers file not found: {MERGED_SERVERS_FILE}")
         return 0
-    links = read_links_from_file(MERGED_SERVERS_FILE)
+    links = dedupe_links(read_links_from_file(MERGED_SERVERS_FILE))
 
-    extracted_ips = fetch_latest_ips_from_channel(PATT_IP_CHANNEL_URL)
+    extracted_ips = rate_limited_channel_fetch(PATT_IP_CHANNEL_URL)
     all_addresses = list(PATT_ADDRESSES_MAIN)
     seen_addr = set(all_addresses)
     for ip in extracted_ips:
@@ -1290,14 +1427,12 @@ def process_channel(url):
         if not proto_links: continue
         new_global_proto = proto_links - existing_configs.get(proto, set())
         if new_global_proto:
-            # کانال SNI فقط به merged_servers_sni.txt می‌ره، نه پروتکل‌ها و merged اصلی
             if channel_name not in SNI_CHANNELS:
                 proto_path = os.path.join(PROTOCOLS_DIR, f"{proto}.txt")
                 with open(proto_path, 'a', encoding='utf-8') as f:
                     f.write('\n'.join(new_global_proto) + '\n')
                 with open(MERGED_SERVERS_FILE, 'a', encoding='utf-8') as f:
                     f.write('\n'.join(new_global_proto) + '\n')
-            # همه کانال‌ها (از جمله SNI) با IP تبدیل‌شده به merged_servers_sni.txt می‌رن
             sni_links = [convert_to_sni(l) for l in new_global_proto]
             with open(MERGED_SNI_FILE, 'a', encoding='utf-8') as f:
                 f.write('\n'.join(sni_links) + '\n')
