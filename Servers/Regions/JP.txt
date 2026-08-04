@@ -1,7 +1,7 @@
 vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?encryption=none&flow=xtls-rprx-vision&fp=&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#oneclickvpnkeys
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.240:443#oneclickvpnkeys
-vmess://eyJ2IjoiMiIsImFkZCI6IjE3Mi4xMTEuMTQ2LjY0IiwicG9ydCI6IjgwIiwiaWQiOiIwNWI4Yzc4My03ZjU5LTQ3ZjktOTkyMy0wNmE0NjU2NzlmNmEiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6IiIsInBhdGgiOiIvdm1lc3MvIiwicHMiOiJcdWQ4M2NcdWRkZWZcdWQ4M2NcdWRkZjUgSm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOIFx1ZDgzY1x1ZGRlZlx1ZDgzY1x1ZGRmNSIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9#persianvpnhub
 vless://86b414b6-966e-4f6d-ab16-32049ef732d3@47.245.38.111:443/?type=tcp&encryption=none&flow=&sni=www.autodesk.com&fp=chrome&security=reality&pbk=y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4&sid=860705e716cbe6ed#tv2rayrr
 vless://60e7e018-ee6a-48b1-9625-c4d4276935b3@178.239.125.31:39735/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.yahoo.co.jp&fp=chrome&security=reality&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&sid=#tv2rayrr
 trojan://2274c52572e721086f8bd8f88984643c@153.121.51.29:127/?type=tcp&security=tls&sni=www.nintendogames.net#tv2rayrr
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.204:443#v2cnf
 vmess://eyJhZGQiOiI0NS43Ni4yMDIuNDUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6IiIsImlkIjoiMDcxYThhNzEtYzY1Ni00ZmI2LWE5MDgtNGU0MmViNzIyNDNkIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpa3N1emNwIiwicGNzIjoiIiwicG9ydCI6IjQwMTAiLCJwcyI6Ij4+QHYycmF5TkdfTWF0c3VyaTo6SlAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIiwidmNuIjoiIn0#v2ray_extractor

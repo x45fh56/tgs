@@ -1,6 +1,7 @@
-vless://b4bc10bf-80f9-40c9-b4e5-29817c2f0992@193.108.52.99:8082?encryption=none&fp=&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc#oneclickvpnkeys
-vless://b4bc10bf-80f9-40c9-b4e5-29817c2f0992@83.228.197.104:8082?encryption=none&fp=&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc#oneclickvpnkeys
 vless://b4bc10bf-80f9-40c9-b4e5-29817c2f0992@193.108.52.52:8082?encryption=none&fp=&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc#oneclickvpnkeys
+vless://b4bc10bf-80f9-40c9-b4e5-29817c2f0992@83.228.197.104:8082?encryption=none&fp=&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc#oneclickvpnkeys
+vless://b4bc10bf-80f9-40c9-b4e5-29817c2f0992@193.108.52.99:8082?encryption=none&fp=&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc#oneclickvpnkeys
+vless://c04bf2df-2b7f-44da-a893-3792d3910fd8@185.232.117.117:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o&security=reality&sid=fdda9806fe5d8584&sni=vl07.skorostnet.space&type=tcp#oneclickvpnkeys
 vless://b4bc10bf-80f9-40c9-b4e5-29817c2f0992@195.15.213.64:8082?encryption=none&fp=&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc#oneclickvpnkeys
 hysteria2://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@138.124.68.188:443/?sni=usa1.spectrumproxy.shop#oneclickvpnkeys
 hysteria2://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@138.124.68.188:443/?sni=usa1.spectrumproxy.shop#v2ray_extractor

@@ -1,3 +1,2 @@
 vless://f3a21b24-5963-495a-a82f-1f62cb459335@82.40.62.103:1234?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#FreakConfig
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@92.118.205.211:5600#persianvpnhub
 vless://f3a21b24-5963-495a-a82f-1f62cb459335@82.40.62.103:1234?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#v2cnf
