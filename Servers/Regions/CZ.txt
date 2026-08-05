@@ -1,1 +1,2 @@
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@193.124.15.11:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=b8k86.z3xq.fzi.hh.vavava.kdns.fr&path=%2F&security=tls&sni=b8k86.z3xq.fzi.hh.vavava.kdns.fr&type=ws#oneclickvpnkeys
+vless://33aa2b47-484b-49f6-8f23-fb34602d221f@188.127.247.129:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yahoo.com&fp=chrome&security=reality&pbk=Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4&sid=0c#oneclickvpnkeys
+vless://9c028a2f-e171-4a6f-83af-8b2a27072033@95.182.92.54:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&fp=firefox&type=xhttp&allowInsecure=0#v2cnf
