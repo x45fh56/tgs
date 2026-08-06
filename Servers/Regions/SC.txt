@@ -1,5 +1,5 @@
 vless://82e209b2-97a6-4d67-a10b-72627b9f6702@45.195.111.15:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg&security=reality&sid=f4b4a6365558ea2e&sni=storage.yandex.net&type=tcp#oneclickvpnkeys
-vless://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@45.145.56.163:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=Vci2ab6lM0ezoLBj2LgE-ynvakjbWOqUUSZmk5vcNjE&security=reality&sid=44d44d1c625a13aa&sni=de2.spectrum.vu&type=tcp#oneclickvpnkeys
+trojan://humanity@45.130.125.75:443?allowInsecure=1&fp=ios&host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#oneclickvpnkeys
 trojan://p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B@154.90.62.70:56127/?type=tcp&security=tls&allowInsecure=1&fp=chrome#oneclickvpnkeys
 vless://f75814f6-8f81-4847-b792-168c41f2dc85@45.196.201.228:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=storage.yandex.net&fp=firefox&echfq=none&pbk=zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04&sid=c6ef72e4635d15a5&allowinsecure=0&type=tcp&headerType=none#v2cnf
 vless://e7961655-9674-4cbd-a36f-ec0d5d7d660c@45.130.125.158:2053?encryption=none&host=po.fastbrokencompony.com&path=%2F&security=tls&sni=po.fastbrokencompony.com&type=ws#v2ray_extractor

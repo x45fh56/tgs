@@ -1,6 +1,6 @@
 vless://f3a21b24-5963-495a-a82f-1f62cb459335@82.40.62.103:1234?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#FreakConfig
 vless://1fef5248-fdd2-40d6-b3b9-6c33d4e74724@144.31.0.34:7443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=8wD0IhR27ftD5LyJDq9CaFzi6DgA4vFtB-UP6QIdWVc&security=reality&sid=e8ca5079a5e91481&sni=_custom_&type=tcp#oneclickvpnkeys
 vless://5cd8fc43-878f-11f1-8c93-54db13ea7d40@155.212.243.123:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ&security=reality&sni=www.wp.pl&type=tcp#oneclickvpnkeys
-vless://5cd8fc43-878f-11f1-8c93-54db13ea7d40@155.212.243.123:443?type=tcp&headerType=none&security=reality&encryption=none&sni=www.wp.pl&fp=firefox&pbk=gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ&flow=xtls-rprx-vision#v2cnf
 vless://1fef5248-fdd2-40d6-b3b9-6c33d4e74724@144.31.0.34:7443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=8wD0IhR27ftD5LyJDq9CaFzi6DgA4vFtB-UP6QIdWVc&security=reality&sid=e8ca5079a5e91481&sni=_custom_&type=tcp#v2cnf
 vless://f3a21b24-5963-495a-a82f-1f62cb459335@82.40.62.103:1234?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#v2cnf
+vless://5cd8fc43-878f-11f1-8c93-54db13ea7d40@155.212.243.123:443?type=tcp&headerType=none&security=reality&encryption=none&sni=www.wp.pl&fp=firefox&pbk=gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ&flow=xtls-rprx-vision#v2cnf

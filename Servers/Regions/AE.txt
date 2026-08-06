@@ -1,10 +1,10 @@
 vless://fc03a9a8-ef0f-5794-e119-0c3b68b178e8@89.47.55.4:443?mode=auto&security=reality&encryption=none&pbk=sRTNjrosfFSiuQX7Yt7Ub5DJvFznfHSC3nlzFQ3H2WU&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#FreakConfig
 hysteria2://p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR@130.49.161.70:443?security=tls&obfs=salamander&obfs-password=rG07s3COMIEvdnQipRyWzx_H_2xygNC3&insecure=0&sni=hy2.aspidnet.xyz#FreakConfig
 vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@78.40.195.56:443?security=reality&encryption=none&pbk=APXp2igsjxFmGkpb3L98I__FTySIY6saN6skP2y0ank&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=19.07-7.yunus.guru&sid=c6d439fd92614ab0#NetShot1
-vless://5e243126-4a2a-84b6-782a-73b14797fb5f@45.88.13.3:993?encryption=none&flow=xtls-rprx-vision&fp=&pbk=FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk&security=reality&sni=download.nvidia.com&type=tcp#oneclickvpnkeys
-vless://5c192fd7-ef98-4112-a20c-129108fcd7e9@217.60.193.1:443?alpn=h2&encryption=none&security=tls&sni=ddc-akn.astralweb.tech&type=tcp#oneclickvpnkeys
 vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@78.40.195.56:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=APXp2igsjxFmGkpb3L98I__FTySIY6saN6skP2y0ank&security=reality&sid=c6d439fd92614ab0&sni=19.07-7.yunus.guru&type=tcp#oneclickvpnkeys
+vless://5e243126-4a2a-84b6-782a-73b14797fb5f@45.88.13.3:993?encryption=none&flow=xtls-rprx-vision&fp=&pbk=FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk&security=reality&sni=download.nvidia.com&type=tcp#oneclickvpnkeys
 vless://fc03a9a8-ef0f-5794-e119-0c3b68b178e8@89.47.55.4:443?mode=auto&security=reality&encryption=none&pbk=sRTNjrosfFSiuQX7Yt7Ub5DJvFznfHSC3nlzFQ3H2WU&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#v2cnf
+vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@78.40.195.56:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=19.07-7.yunus.guru&fp=firefox&pbk=APXp2igsjxFmGkpb3L98I__FTySIY6saN6skP2y0ank&sid=c6d439fd92614ab0&type=tcp&headerType=none#v2cnf
 vless://3a3de813-bfaa-4355-bc47-05c7245431d2@94.140.0.1:443?encryption=none&type=ws&security=tls&path=%2F%3Fed%3D2560&host=Australia.havray2025.ir&sni=Australia.havray2025.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&insecure=0&allowInsecure=0#v2cnf
 vless://5c192fd7-ef98-4112-a20c-129108fcd7e9@217.60.193.1:443?alpn=h2&encryption=none&fp=firefox&security=tls&sni=ddc-akn.astralweb.tech&type=tcp#v2ray_extractor
 vless://fc03a9a8-ef0f-5794-e119-0c3b68b178e8@89.47.55.4:443?mode=auto&security=reality&encryption=none&pbk=sRTNjrosfFSiuQX7Yt7Ub5DJvFznfHSC3nlzFQ3H2WU&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#vpnbaz
