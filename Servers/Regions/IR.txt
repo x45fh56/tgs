@@ -2,7 +2,6 @@ vmess://eyJhZGQiOiIxODUuMTczLjEwNC43OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJo
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#FreakConfig
 vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#new_mtproxi2
 vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#new_mtproxi2
-vless://297d481a-615b-4717-8430-09253bc9af57@185.143.233.122:80?path=%2F&security=&encryption=none&host=veryfast1.ir&type=ws#persianvpnhub
 vmess://eyJhZGQiOiIxODUuMTczLjEwNC43OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJlNGIzNjM5MS0wMTRmLTQ0NjItODA5Yy04ZTY0YWE4NDM1OWUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiL1Byb3h5X1N0YXRpb24vIiwicG9ydCI6IjIwMzAiLCJwcyI6IvCfh6nwn4eqQEZyZWFrQ29uZmlnIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==#v2cnf
 vless://81ea895f-0c0d-4018-b712-75dd08a29b26@185.231.114.218:80?security=none&type=ws&host=tr1.asc-sam.ir&path=%2Fvless#v2cnf
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=&encryption=none&host=parsi.parsi.sbs&type=ws#v2cnf

@@ -1,36 +1,36 @@
 === Country Statistics ===
-Total Servers (Merged): 797
-Successful Geo-IP Resolutions: 797
+Total Servers (Merged): 819
+Successful Geo-IP Resolutions: 819
 Failed Geo-IP Resolutions: 0
-Domain               : 238
+Domain               : 249
 Unknown              : 154
-US                   : 69
-DE                   : 55
-GB                   : 34
-FR                   : 31
-NL                   : 29
-RU                   : 25
-RO                   : 12
+US                   : 74
+DE                   : 54
+GB                   : 37
+FR                   : 32
+RU                   : 28
+NL                   : 27
+RO                   : 15
 FI                   : 11
 TR                   : 11
-SE                   : 10
-AE                   : 9
+AE                   : 10
+SE                   : 9
 SG                   : 8
-IR                   : 8
 CA                   : 7
-JP                   : 7
+IR                   : 7
 LT                   : 6
 SC                   : 6
+JP                   : 6
 PL                   : 6
 IE                   : 6
 HK                   : 5
 IT                   : 5
 EE                   : 4
+CY                   : 4
 CZ                   : 3
 MD                   : 3
 ZA                   : 3
 ES                   : 3
-CY                   : 3
 LV                   : 2
 CN                   : 2
 KZ                   : 2
@@ -51,12 +51,12 @@ QA                   : 1
 AZ                   : 1
 
 === Server Type Summary ===
-VLESS                : 577
-CDN                  : 454
-TROJAN               : 80
-HYSTERIA2            : 61
-SS                   : 46
-VMESS                : 33
+VLESS                : 595
+CDN                  : 459
+TROJAN               : 77
+HYSTERIA2            : 62
+SS                   : 50
+VMESS                : 35
 HYSTERIA             : 0
 TUIC                 : 0
 WIREGUARD            : 0
@@ -65,8 +65,8 @@ WARP                 : 0
 === Channel Statistics (Extraction) ===
 v2ray_extractor               : 196
 v2cnf                         : 177
-oneclickvpnkeys               : 132
-FreakConfig                   : 90
+oneclickvpnkeys               : 148
+FreakConfig                   : 96
 tv2rayrr                      : 85
 new_mtproxi2                  : 43
 SNI_SPOOFINGconfig            : 33
