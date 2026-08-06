@@ -1,3 +1,2 @@
-vless://c04bf2df-2b7f-44da-a893-3792d3910fd8@185.232.117.117:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o&security=reality&sid=fdda9806fe5d8584&sni=vl07.skorostnet.space&type=tcp#oneclickvpnkeys
 trojan://y3b03zx3tznhyo538p4c@86.106.84.195:53261/?type=tcp&security=tls&sni=speedtest.tinkoff.ru&allowInsecure=1&fp=android#oneclickvpnkeys
 hysteria2://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@138.124.68.188:443/?sni=usa1.spectrumproxy.shop#v2ray_extractor
