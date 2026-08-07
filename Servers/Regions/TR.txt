@@ -1,11 +1,13 @@
+vless://8ef87d64-2634-4918-bdf7-b244c7c3e766@91.228.227.231:54034?encryption=none&type=ws&path=%2F&host=play.google.com#ConfigX2ray
+vless://769087cc-c835-4c64-8831-bf3dc7c78a64@91.228.227.231:58909?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#FreakConfig
 vless://8097ce5a-17ed-4f21-b39c-d9975130fe94@91.228.227.231:54034?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#FreakConfig
 vless://447307ca-939d-4df4-9f43-bb93ef376595@91.228.227.231:29509?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#FreakConfig
-vless://769087cc-c835-4c64-8831-bf3dc7c78a64@91.228.227.231:58909?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#FreakConfig
 vless://b2424c2b-196c-4924-af15-747d27ef44a1@213.156.152.42:8089?security=reality&encryption=none&pbk=dx7cY0aeosAvz0hzRR9DrAtAiKAuMH44KRBSufYYMmk&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=992a171518f6f60e#Maznet
 vless://320f6cbe-d73e-477d-9ab5-aa6e3b28cfb7@64.49.15.87:443?security=reality&encryption=none&pbk=IiXOtrr72OAumtdjHDdvqxwyiInUq8_5b2wG477U40k&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=74a6bf9721cd1c19#Maznet
-vless://218fd696-e3a2-4c33-b397-a5f13a82969e@139.28.241.21:443?encryption=none&fp=&pbk=faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs&security=reality&serviceName=grpc&sid=312c0c39&sni=www.telekom.de&type=grpc#oneclickvpnkeys
+vless://de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c@141.98.118.70:443?encryption=none&fp=&mode=auto&path=%2F&pbk=LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ&security=reality&sid=44&sni=www.google.com&type=xhttp#oneclickvpnkeys
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0SmxFV2gyUHpETWV3OHFvOVlrUEVB@38.180.105.12:443#tv2rayrr
-vless://769087cc-c835-4c64-8831-bf3dc7c78a64@91.228.227.231:58909?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#v2cnf
+vmess://eyJhZGQiOiI1LjE4OC4xOTAuMjUyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjA0NjIxYmFlLWFiMzYtMTFlYy1iOTA5LTAyNDJhYzEyMDAwMiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjIzMjQiLCJwcyI6IuKcqCBATmFtaXJhQ29uZmlncyB8IOKdpO+4jyDZiNi12YQg2LTYr9uMINis2YjbjNmGINi02YggfCDimqEgfCDwn4e58J+HtyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9#v2cnf
 vless://447307ca-939d-4df4-9f43-bb93ef376595@91.228.227.231:29509?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#v2cnf
 vless://8097ce5a-17ed-4f21-b39c-d9975130fe94@91.228.227.231:54034?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#v2cnf
+vless://769087cc-c835-4c64-8831-bf3dc7c78a64@91.228.227.231:58909?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#v2cnf
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?encryption=none&security=none&serviceName=grpc&type=grpc#v2ray_extractor

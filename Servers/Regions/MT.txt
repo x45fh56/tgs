@@ -1,1 +1,0 @@
-vless://4f45e0ad-e854-4d2f-9ff2-fa1bee1afe37@193.227.99.54:8880/?type=httpupgrade&encryption=none&flow=&host=bgphajik.lorqino.ir&path=mmd#oneclickvpnkeys

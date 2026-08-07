@@ -1,2 +1,4 @@
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.221.166:62145?security=none&encryption=none&headerType=none&type=tcp#FreakConfig
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.221.166:62145?security=none&encryption=none&headerType=none&type=tcp#v2cnf
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.211.212:62145?#v2ray_extractor
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.187.58:62145?#v2ray_extractor
