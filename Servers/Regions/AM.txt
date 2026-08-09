@@ -1,2 +1,1 @@
-vless://1f964d0e-7e33-42b0-9c9f-c2c1a8b157c6@77.105.163.46:443?type=ws&headerType=none&security=tls&encryption=none&sni=ov186.ochmaybrooooo.online&alpn=http%2F1.1&path=%2F&host=ov186.ochmaybrooooo.online&insecure=0&fp=safari#NetAccount
 vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983/?type=tcp&encryption=none&flow=&sni=yahoo.com&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e#tv2rayrr
