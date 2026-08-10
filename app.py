@@ -36,7 +36,7 @@ REPORTS_DIR = os.path.join("logs")
 MERGED_DIR = os.path.join("Servers", "Merged")
 CHANNELS_DIR = os.path.join("Servers", "Channels")
 MERGED_SNI_FILE = os.path.join(MERGED_DIR, "merged_servers_sni.txt")
-SNI_CHANNELS = {"SNI_SPOOFINGconfig"}  # فقط این کانال‌ها به merged_servers_sni.txt نوشته می‌شن
+SNI_CHANNELS = {"SNI_SPOOFINGconfig"}  
 EXTRACTED_IPS_FILE = os.path.join(MERGED_DIR, "extracted_cdn_ips.txt")
 CHANNELS_FILE = "data/telegram_sources.txt"
 LOG_FILE = os.path.join(REPORTS_DIR, "extraction_report.log")
@@ -52,15 +52,23 @@ ENABLE_TESTED_GEO_SORT = False
 ENABLE_CATEGORIZATION = True
 ENABLE_PATT_EDITION = True
 
+ENABLE_REGION_TAG = True   
+GEOIP_DB_MAX_AGE_DAYS = 7   
+DEBUG_MODE = False   
+CHANNEL_VALIDATION_TIMEOUT = 10   
+REMOVED_CHANNELS_LOG_FILE = os.path.join(REPORTS_DIR, "removed_duplicate_channels.log")   
+INVALID_CHANNELS_LOG_FILE = os.path.join(REPORTS_DIR, "invalid_channels.log")
+LOG_ROTATE_MAX_RUNS = 30   
+
 PATT_ADDRESSES_MAIN = [
-    "188.114.97.6:443", 
+    "", 
 ]
 PATT_IP_CHANNEL_URL = "https://t.me/s/cfipsf"
 PATT_MAIN_FILE = os.path.join(MERGED_DIR, "patt_main.txt")
 PATT_ALL_FILE = os.path.join(MERGED_DIR, "patt_all.txt")
 PATT_PER_IP_DIR = os.path.join(MERGED_DIR, "PerIpsMatt")
 PATT_ALPN = "h2,http/1.1"
-PATT_CHANNEL_MIN_INTERVAL = 30  # حداقل فاصله بین دو درخواست پشت‌سرهم به کانال تلگرام (ثانیه)
+PATT_CHANNEL_MIN_INTERVAL = 30   
 PATT_CHANNEL_RETRIES = 3
 PATT_CHANNEL_BACKOFF = 5
 PATT_CHANNEL_STATE_FILE = os.path.join(MERGED_DIR, ".patt_channel_last_fetch")
@@ -185,6 +193,108 @@ def extract_channel_name(url):
     name_candidate = url.split('/')[-1] if '/' in url else url
     name_candidate = name_candidate.split('?')[0].split('#')[0]
     return name_candidate if name_candidate else "unknown_channel"
+
+def rotate_run_log_file(file_path, max_runs=LOG_ROTATE_MAX_RUNS):
+    if not os.path.exists(file_path):
+        return
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        blocks = re.split(r'(?=^--- )', content, flags=re.MULTILINE)
+        blocks = [b for b in blocks if b.strip()]
+        if len(blocks) > max_runs:
+            blocks = blocks[-max_runs:]
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write(''.join(blocks))
+    except Exception as e:
+        log_debug_exception(f"rotate کردن لاگ {file_path} fail شد: {e}")
+
+def dedupe_channels_file(file_path):
+ 
+    if not os.path.exists(file_path):
+        return 0, []
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            raw_lines = f.readlines()
+    except Exception as e:
+        log_debug_exception(f"خوندن {file_path} برای dedup fail شد: {e}")
+        return 0, []
+    seen_keys = set()
+    output_lines = []
+    removed = []
+    for raw in raw_lines:
+        line = raw.rstrip('\n')
+        stripped = line.strip()
+        if not stripped or stripped.startswith('#'):
+            output_lines.append(line)
+            continue
+        key = normalize_telegram_url(stripped).lower()
+        if key in seen_keys:
+            removed.append(stripped)
+            continue
+        seen_keys.add(key)
+        output_lines.append(line)
+    if removed:
+        try:
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(output_lines) + '\n')
+        except Exception as e:
+            log_debug_exception(f"نوشتن نسخه‌ی پاک‌شده‌ی {file_path} fail شد: {e}")
+            return 0, []
+    return len(removed), removed
+
+def log_removed_duplicate_channels(removed_list):
+  
+    if not removed_list:
+        return
+    os.makedirs(REPORTS_DIR, exist_ok=True)
+    counts = defaultdict(int)
+    for ch in removed_list:
+        counts[normalize_telegram_url(ch).lower()] += 1
+    try:
+        with open(REMOVED_CHANNELS_LOG_FILE, 'a', encoding='utf-8') as f:
+            f.write(f"--- {datetime.now().isoformat(timespec='seconds')} ---\n")
+            for ch, cnt in sorted(counts.items(), key=lambda x: -x[1]):
+                f.write(f"{ch} : {cnt}x تکرار\n")
+            f.write(f"مجموع حذف‌شده: {len(removed_list)}\n\n")
+        rotate_run_log_file(REMOVED_CHANNELS_LOG_FILE)
+    except Exception as e:
+        log_debug_exception(f"نوشتن {REMOVED_CHANNELS_LOG_FILE} fail شد: {e}")
+
+def channel_is_reachable(url, timeout=CHANNEL_VALIDATION_TIMEOUT):
+    # قبل از اضافه‌شدن به پردازش، چک می‌کنه منبع/کانال واقعاً وجود داره و در دسترسه (پیشنهاد #7)
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    try:
+        resp = requests.head(url, timeout=timeout, headers=headers, allow_redirects=True)
+        if resp.status_code in (405, 403, 501):
+            resp = requests.get(url, timeout=timeout, headers=headers, stream=True)
+        if resp.status_code != 200:
+            return False
+        if 't.me/s/' in url.lower():
+            # صفحه‌ی کانال تلگرام باید واقعاً موجود باشه، نه یک صفحه‌ی خالی/"کانال یافت نشد"
+            resp_full = requests.get(url, timeout=timeout, headers=headers)
+            if resp_full.status_code != 200:
+                return False
+            if 'tgme_channel_info' not in resp_full.text and 'tgme_widget_message' not in resp_full.text:
+                return False
+        return True
+    except Exception as e:
+        log_debug_exception(f"channel_is_reachable برای {url} fail شد: {e}")
+        return False
+
+def log_invalid_channels(invalid_list):
+    if not invalid_list:
+        return
+    os.makedirs(REPORTS_DIR, exist_ok=True)
+    try:
+        with open(INVALID_CHANNELS_LOG_FILE, 'a', encoding='utf-8') as f:
+            f.write(f"--- {datetime.now().isoformat(timespec='seconds')} ---\n")
+            for ch in invalid_list:
+                f.write(f"{ch}\n")
+            f.write(f"مجموع نامعتبر: {len(invalid_list)}\n\n")
+        rotate_run_log_file(INVALID_CHANNELS_LOG_FILE)
+    except Exception as e:
+        log_debug_exception(f"نوشتن {INVALID_CHANNELS_LOG_FILE} fail شد: {e}")
 
 def count_servers_in_file(file_path):
     if not os.path.exists(file_path):
@@ -338,6 +448,28 @@ def load_existing_configs():
             pass
     return existing
 
+_write_buffers = defaultdict(list)
+
+def buffer_write(path, lines):
+    # به‌جای open/write/close جدا برای هر کانال، خط‌ها رو توی حافظه جمع می‌کنه تا بعداً یک‌جا فلاش بشن (پیشنهاد #32)
+    if lines:
+        _write_buffers[path].extend(lines)
+
+def flush_write_buffers():
+    # تمام بافرهای جمع‌شده رو یک‌جا (append) روی دیسک می‌نویسه؛ باید قبل از هر مرحله‌ای که
+    # از روی دیسک این فایل‌ها رو می‌خونه (geo lookup، categorization و ...) صدا زده بشه
+    global _write_buffers
+    for path, lines in _write_buffers.items():
+        if not lines:
+            continue
+        try:
+            os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
+            with open(path, 'a', encoding='utf-8') as f:
+                f.write('\n'.join(lines) + '\n')
+        except Exception as e:
+            log_debug_exception(f"flush_write_buffers برای {path} fail شد: {e}")
+    _write_buffers = defaultdict(list)
+
 def trim_file(file_path, max_lines):
     if not os.path.exists(file_path) or max_lines <= 0:
         return
@@ -369,14 +501,104 @@ def download_geoip_database():
         GEOIP_DATABASE_PATH.unlink(missing_ok=True)
         return False
 
-def process_geo_data():
+_geoip_reader = None
+_geoip_reader_lock = threading.Lock()
+_region_tag_cache = {}
+
+def is_geoip_database_stale():
+    # پیشنهاد #2: تشخیص قدیمی‌بودن دیتابیس GeoIP بر اساس تاریخ آخرین دانلود
+    if not GEOIP_DATABASE_PATH.exists():
+        return True
+    age_days = (time.time() - GEOIP_DATABASE_PATH.stat().st_mtime) / 86400
+    return age_days > GEOIP_DB_MAX_AGE_DAYS
+
+def ensure_geoip_database_fresh():
+    # پیشنهاد #2: دیتابیس GeoIP رو دوره‌ای (پیش‌فرض هفتگی) خودکار آپدیت می‌کنه
     if not GEOIP_DATABASE_PATH.exists() or GEOIP_DATABASE_PATH.stat().st_size < 1024 * 1024:
-        if not download_geoip_database():
-            return {}
-    geo_reader = None 
+        return download_geoip_database()
+    if is_geoip_database_stale():
+        logging.info(f"دیتابیس GeoIP بیش از {GEOIP_DB_MAX_AGE_DAYS} روز قدیمیه، در حال آپدیت خودکار...")
+        if download_geoip_database():
+            return True
+        logging.warning("آپدیت خودکار GeoIP ناموفق بود؛ از نسخه‌ی قدیمی‌تر روی دیسک استفاده می‌شه.")
+        return GEOIP_DATABASE_PATH.exists()
+    return True
+
+def get_geoip_reader():
+    # reader مشترک برای کل اسکریپت (به‌جای باز/بسته‌شدن مکرر در هر تابع)، lazy و thread-safe
+    global _geoip_reader
+    if _geoip_reader is None:
+        with _geoip_reader_lock:
+            if _geoip_reader is None:
+                if not ensure_geoip_database_fresh():
+                    _geoip_reader = False
+                else:
+                    try:
+                        _geoip_reader = geoip2.database.Reader(str(GEOIP_DATABASE_PATH))
+                    except Exception as e:
+                        log_debug_exception(f"GeoIP reader نتونست باز بشه: {e}")
+                        _geoip_reader = False
+    return _geoip_reader or None
+
+def country_code_to_flag(country_code):
+    if not country_code or len(country_code) != 2 or not country_code.isalpha():
+        return None
+    return "".join(chr(0x1F1E6 + ord(c.upper()) - ord('A')) for c in country_code)
+
+def extract_host_from_link(link):
+    # هاست اصلی (IP یا دامنه) رو از هر نوع لینک کانفیگ استخراج می‌کنه
     try:
-        geo_reader = geoip2.database.Reader(str(GEOIP_DATABASE_PATH))
-    except Exception:
+        u = urlparse(link)
+        if u.scheme == 'vmess':
+            b64 = u.netloc + u.path
+            data = json.loads(urlsafe_b64decode(b64 + '=' * (-len(b64) % 4)).decode('utf-8'))
+            return data.get('add')
+        return u.hostname
+    except Exception as e:
+        log_debug_exception(f"extract_host_from_link روی لینک fail شد: {e}")
+        return None
+
+def get_region_remark_tag(host):
+    # پیشوند پرچم/کد کشور که کنار اسم کانال توی remark گذاشته می‌شه.
+    # دامنه (نه IP) -> "Domain" ، IP شناخته‌شده -> "{پرچم}{کد}" ، ناشناخته/خطا -> فقط پرچم خنثی 🏳️ (پیشنهاد #3)
+    if not host:
+        return "🏳️"
+    host = host.strip()
+    if host in _region_tag_cache:
+        return _region_tag_cache[host]
+    try:
+        ipaddress.ip_address(host)
+        is_ip = True
+    except ValueError:
+        is_ip = False
+    if not is_ip:
+        _region_tag_cache[host] = "Domain"
+        return "Domain"
+    reader = get_geoip_reader()
+    if not reader:
+        return "🏳️"
+    try:
+        response = reader.country(host)
+        code = response.country.iso_code
+        flag = country_code_to_flag(code)
+        tag = f"{flag}{code}" if flag and code else "🏳️"
+    except Exception as e:
+        log_debug_exception(f"GeoIP lookup برای {host} fail شد: {e}")
+        tag = "🏳️"
+    _region_tag_cache[host] = tag
+    return tag
+
+def build_region_remark(base_link, channel_name):
+    # remark نهایی: {پرچم}{کد}-{اسم کانال} ، دقیقاً همون‌جایی که اسم کانال قرار می‌گیره، برای همه‌ی سرورها
+    if not ENABLE_REGION_TAG:
+        return channel_name
+    host = extract_host_from_link(base_link)
+    tag = get_region_remark_tag(host)
+    return f"{tag}-{channel_name}" if tag else channel_name
+
+def process_geo_data():
+    geo_reader = get_geoip_reader()
+    if not geo_reader:
         return {}
 
     country_configs = defaultdict(list)
@@ -401,7 +623,6 @@ def process_geo_data():
             pass
 
     if not configs_for_geoip:
-        if geo_reader: geo_reader.close()
         return {}
 
     for config_link in configs_for_geoip:
@@ -423,7 +644,8 @@ def process_geo_data():
                     decoded_payload = urlsafe_b64decode(b64_payload + '=' * ((4 - len(b64_payload) % 4) % 4)).decode('utf-8')
                     vmess_data = json.loads(decoded_payload)
                     ip_address = vmess_data.get('add')
-                except Exception:
+                except Exception as e:
+                    log_debug_exception(f"vmess decode در process_geo_data fail شد: {e}")
                     failed_lookups +=1 
                     continue 
 
@@ -434,21 +656,20 @@ def process_geo_data():
                     try:
                         response = geo_reader.country(ip_address)
                         country_code = response.country.iso_code or response.country.name or "Unknown"
-                    except Exception:
+                    except Exception as e:
+                        log_debug_exception(f"GeoIP lookup برای {ip_address} در process_geo_data fail شد: {e}")
                         country_code = "Unknown" 
                         failed_lookups +=1
             else: 
                 failed_lookups += 1
                 country_code = "Unknown"
 
-        except Exception: 
+        except Exception as e: 
+            log_debug_exception(f"process_geo_data روی یک لینک fail شد: {e}")
             failed_lookups += 1
             country_code = "Unknown"
 
         country_configs[country_code].append(config_link)
-
-    if geo_reader:
-        geo_reader.close()
 
     final_country_counts = {}
     for country_code, config_list in country_configs.items():
@@ -485,7 +706,14 @@ if not logging.getLogger().hasHandlers():
     ff = logging.Formatter('%(asctime)s-%(levelname)s-%(threadName)s- %(message)s')
     fh.setFormatter(ff)
     logger.addHandler(fh)
+if DEBUG_MODE:
+    logging.getLogger().setLevel(logging.DEBUG)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+def log_debug_exception(context_msg):
+    # به‌جای except های کاملاً silent صدا زده می‌شه؛ فقط توی DEBUG_MODE traceback کامل چاپ می‌شه (پیشنهاد #20)
+    if DEBUG_MODE:
+        logging.debug(context_msg, exc_info=True)
 
 port_pool = queue.Queue()
 for p in range(START_PORT, START_PORT + (MAX_THREADS * 2)):
@@ -792,6 +1020,24 @@ def dedupe_links(links):
         logging.info(f"Dedup: {duplicates} سرور تکراری حذف شد ({len(links)} -> {len(unique)})")
     return unique
 
+def categorize_patt_links(links=None):
+    # دسته‌بندی خروجی patt؛ اگه لینک‌ها از قبل توی حافظه پاس داده بشن (موقع generate_patt_edition)،
+    # دوباره از دیسک خونده و پارس نمی‌شن - یک پاس اضافه کمتر (پیشنهاد #12). از منطق مشترک استفاده می‌کنه (پیشنهاد #17)
+    if links is None:
+        if not os.path.exists(PATT_ALL_FILE):
+            return
+        try:
+            with open(PATT_ALL_FILE, 'r', encoding='utf-8') as f:
+                links = [l.strip() for l in f if l.strip()]
+        except Exception as e:
+            log_debug_exception(f"خوندن {PATT_ALL_FILE} برای دسته‌بندی fail شد: {e}")
+            return
+    output_dir = os.path.join(MERGED_DIR, "Categorized_Patt")
+    categories = categorize_link_lines(links)
+    write_categories(categories, output_dir)
+    logging.info(f"Patt categorization done -> {output_dir}")
+    logging.info(f"Patt categorization done -> {output_dir}")
+
 def generate_patt_edition():
     if not os.path.exists(MERGED_SERVERS_FILE):
         logging.error(f"Merged servers file not found: {MERGED_SERVERS_FILE}")
@@ -847,6 +1093,10 @@ def generate_patt_edition():
     logging.info(f"Patt per-IP: {len(all_addresses)} file(s) (patt_ip_1..patt_ip_{len(all_addresses)}) -> {PATT_PER_IP_DIR}")
 
     logging.info(f"Patt edition done: servers={len(links)}, skipped={skipped}, addresses={len(all_addresses)}")
+
+    if ENABLE_CATEGORIZATION:
+        categorize_patt_links(all_links)  # لیست همین حالا توی حافظه‌ست، دوباره از دیسک خونده نمی‌شه (پیشنهاد #12)
+
     return len(all_links)
 
 def parse_vless_link(link):
@@ -1331,53 +1581,76 @@ def clean_single_file(filepath):
     except Exception:
         pass
 
+def categorize_link_lines(lines):
+    # منطق مشترک دسته‌بندی که هم run_link_categorization و هم categorize_patt_links ازش استفاده می‌کنن (پیشنهاد #17)
+    categories = {
+        "1_VLESS_REALITY_TCP": [],
+        "2_Trojan_TCP": [],
+        "3_VLESS_TLS_WS": [],
+        "4_WireGuard": [],
+        "5_VMess": [],
+        "6_Hysteria2": [],
+        "7_TUIC": [],
+        "VLESS_ENCRYPTION_NONE": [],
+    }
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        tech_part = line.split('#')[0]
+        try:
+            parsed = urlparse(tech_part)
+            scheme = parsed.scheme.lower()
+            query = parse_qs(parsed.query)
+            sec = query.get('security', [''])[0].lower()
+            net = query.get('type', ['tcp'])[0].lower()
+            encryption = query.get('encryption', [''])[0].lower()
+            if scheme == 'vless' and sec == 'reality' and net == 'tcp':
+                categories["1_VLESS_REALITY_TCP"].append(line)
+            elif scheme == 'vless' and encryption == 'none':
+                categories["VLESS_ENCRYPTION_NONE"].append(line)
+            elif scheme == 'trojan' and net == 'tcp':
+                categories["2_Trojan_TCP"].append(line)
+            elif scheme == 'vless' and (sec == 'tls' or net == 'ws'):
+                categories["3_VLESS_TLS_WS"].append(line)
+            elif scheme in ('wireguard', 'wg', 'warp'):
+                categories["4_WireGuard"].append(line)
+            elif scheme == 'vmess':
+                categories["5_VMess"].append(line)
+            elif scheme in ('hysteria2', 'hy2'):
+                categories["6_Hysteria2"].append(line)
+            elif scheme == 'tuic':
+                categories["7_TUIC"].append(line)
+        except Exception as e:
+            log_debug_exception(f"categorize_link_lines پارس یک لینک fail شد: {e}")
+            continue
+    return categories
+
+def write_categories(categories, output_dir):
+    os.makedirs(output_dir, exist_ok=True)
+    for cat_name, links in categories.items():
+        if links:
+            unique_links = list(dict.fromkeys(links))
+            out_file = os.path.join(output_dir, f"{cat_name}.txt")
+            with open(out_file, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(unique_links) + '\n')
+
 def run_link_categorization(base_path):
     source_dir = os.path.join(base_path, "Protocols")
     output_dir = os.path.join(source_dir, "Categorized_Servers")
     if not os.path.exists(source_dir): return
-    os.makedirs(output_dir, exist_ok=True)
-    categories = {
-        "1_VLESS_REALITY_TCP": [], 
-        "2_Trojan_TCP": [],        
-        "3_VLESS_TLS_WS": [],      
-        "4_WireGuard": [],         
-        "5_VMess": [],
-        "VLESS_ENCRYPTION_NONE": []   
-    }
+    all_lines = []
     for filename in os.listdir(source_dir):
         file_path = os.path.join(source_dir, filename)
         if not os.path.isfile(file_path) or not filename.endswith(".txt"): continue
-        with open(file_path, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if not line: continue
-                tech_part = line.split('#')[0]
-                try:
-                    parsed = urlparse(tech_part)
-                    scheme = parsed.scheme.lower()
-                    query = parse_qs(parsed.query)
-                    sec = query.get('security', [''])[0].lower()
-                    net = query.get('type', ['tcp'])[0].lower()
-                    encryption = query.get('encryption', [''])[0].lower()  
-                    if scheme == 'vless' and sec == 'reality' and net == 'tcp':
-                        categories["1_VLESS_REALITY_TCP"].append(line)
-                    elif scheme == 'vless' and encryption == 'none':      
-                        categories["VLESS_ENCRYPTION_NONE"].append(line)
-                    elif scheme == 'trojan' and net == 'tcp':
-                        categories["2_Trojan_TCP"].append(line)
-                    elif scheme == 'vless' and (sec == 'tls' or net == 'ws'):
-                        categories["3_VLESS_TLS_WS"].append(line)
-                    elif scheme in ['wireguard', 'wg']:
-                        categories["4_WireGuard"].append(line)
-                    elif scheme == 'vmess':
-                        categories["5_VMess"].append(line)
-                except: continue
-    for cat_name, links in categories.items():
-        if links:
-            unique_links = list(dict.fromkeys(links)) 
-            out_file = os.path.join(output_dir, f"{cat_name}.txt")
-            with open(out_file, 'w', encoding='utf-8') as f:
-                f.write('\n'.join(unique_links) + '\n')
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                all_lines.extend(f.readlines())
+        except Exception as e:
+            log_debug_exception(f"خوندن {file_path} برای categorization fail شد: {e}")
+            continue
+    categories = categorize_link_lines(all_lines)
+    write_categories(categories, output_dir)
 
 def format_server_link(link, country, latency, channel_name, s_info=None):
     base_link = link.split('#')[0].strip()
@@ -1417,12 +1690,15 @@ def convert_to_sni(link):
     except Exception:
         return link
 
-def process_channel(url):
+def process_channel(url, existing_configs=None):
     channel_name = extract_channel_name(url)
     if not channel_name or channel_name == "unknown_channel":
         return 0, 0
     channel_file = os.path.join(CHANNELS_DIR, f"{channel_name}.txt")
-    existing_configs = load_existing_configs()
+    # existing_configs الان از بیرون (یک‌بار برای کل اجرا) پاس داده می‌شه، نه هر بار از دیسک خونده بشه؛
+    # چون نوشتن‌ها بافر می‌شن، حالت دیداپ باید توی حافظه به‌روز بمونه نه روی دیسک (پیشنهاد #32)
+    if existing_configs is None:
+        existing_configs = load_existing_configs()
     configs = fetch_config_links(url)
     
     if configs is not None:
@@ -1446,7 +1722,8 @@ def process_channel(url):
     formatted_links_for_channel = set()
     for link in raw_fetched_links:
         base_link = link.split('#')[0]
-        formatted_links_for_channel.add(f"{base_link}#{channel_name}")
+        remark = build_region_remark(base_link, channel_name)
+        formatted_links_for_channel.add(f"{base_link}#{remark}")
     existing_channel_cfgs = set()
     if os.path.exists(channel_file):
         with open(channel_file, 'r', encoding='utf-8') as f:
@@ -1458,21 +1735,21 @@ def process_channel(url):
             f.write('\n'.join(updated_ch_cfgs[:MAX_CHANNEL_SERVERS]) + '\n')
     new_global_total = 0
     for proto in PATTERNS:
-        proto_links = {f"{l.split('#')[0]}#{channel_name}" for l in configs.get(proto, [])}
+        proto_links = {f"{l.split('#')[0]}#{build_region_remark(l.split('#')[0], channel_name)}" for l in configs.get(proto, [])}
         if not proto_links: continue
         new_global_proto = proto_links - existing_configs.get(proto, set())
         if new_global_proto:
             # کانال SNI فقط به merged_servers_sni.txt می‌ره، نه پروتکل‌ها و merged اصلی
             if channel_name not in SNI_CHANNELS:
                 proto_path = os.path.join(PROTOCOLS_DIR, f"{proto}.txt")
-                with open(proto_path, 'a', encoding='utf-8') as f:
-                    f.write('\n'.join(new_global_proto) + '\n')
-                with open(MERGED_SERVERS_FILE, 'a', encoding='utf-8') as f:
-                    f.write('\n'.join(new_global_proto) + '\n')
+                buffer_write(proto_path, list(new_global_proto))
+                buffer_write(MERGED_SERVERS_FILE, list(new_global_proto))
+                # existing_configs توی حافظه بلافاصله آپدیت می‌شه تا کانال بعدی همین اجرا هم این‌ها رو دیداپ حساب کنه
+                existing_configs.setdefault(proto, set()).update(new_global_proto)
+                existing_configs.setdefault('merged', set()).update(new_global_proto)
             # همه کانال‌ها (از جمله SNI) با IP تبدیل‌شده به merged_servers_sni.txt می‌رن
             sni_links = [convert_to_sni(l) for l in new_global_proto]
-            with open(MERGED_SNI_FILE, 'a', encoding='utf-8') as f:
-                f.write('\n'.join(sni_links) + '\n')
+            buffer_write(MERGED_SNI_FILE, sni_links)
             new_global_total += len(new_global_proto)
     return 1, new_global_total
 
@@ -1509,8 +1786,6 @@ def logger_thread(log_q):
 def process_tested_servers_geo():
     protocols_dir = os.path.join(TESTED_SERVERS_DIR, 'Protocols')
     if not os.path.exists(protocols_dir): return
-    try: reader = geoip2.database.Reader(str(GEOIP_DATABASE_PATH))
-    except: return
     for filename in os.listdir(protocols_dir):
         if not filename.endswith(".txt"): continue
         file_path = os.path.join(protocols_dir, filename)
@@ -1528,23 +1803,14 @@ def process_tested_servers_geo():
                 for p in remark_parts:
                     if 's' in p and any(c.isdigit() for c in p) and 'Port' not in p: latency = p.strip()
                     if 'Port:' in p: port_info = p.strip()
-                c_code = "Unknown"
-                try:
-                    u = urlparse(base_link)
-                    host = u.hostname
-                    if u.scheme == 'vmess':
-                        b64 = u.netloc + u.path
-                        data = json.loads(urlsafe_b64decode(b64 + '='*(-len(b64)%4)).decode('utf-8'))
-                        host = data.get('add')
-                    if host:
-                        res = reader.country(host.split(':')[0])
-                        c_code = res.country.iso_code or "Unknown"
-                except: pass
-                clean_line = f"{base_link}#{channel_name} | {c_code} | {latency} | {port_info}"
+                # پرچم/کد کشور دقیقاً کنار اسم کانال (remark) گذاشته می‌شه - برای همه‌ی سرورهای تست‌شده هم اعمال می‌شه
+                host = extract_host_from_link(base_link)
+                region_tag = get_region_remark_tag(host)
+                display_name = f"{region_tag}-{channel_name}" if (ENABLE_REGION_TAG and region_tag) else channel_name
+                clean_line = f"{base_link}#{display_name} | {latency} | {port_info}"
                 final_lines.append(clean_line)
         with open(file_path, 'w', encoding='utf-8') as f:
             f.write('\n'.join(final_lines) + '\n')
-    reader.close()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -1571,25 +1837,50 @@ if __name__ == "__main__":
             if not os.path.exists(channels_file_path):
                 logging.error(f"Channels file not found: {channels_file_path}")
                 sys.exit(1)
+
+            removed_count, removed_channels = dedupe_channels_file(channels_file_path)
+            if removed_count:
+                logging.info(f"Dedup کانال‌ها: {removed_count} کانال تکراری (case-insensitive) از {channels_file_path} حذف شد")
+                log_removed_duplicate_channels(removed_channels)
+
             with open(channels_file_path, 'r', encoding='utf-8') as f:
                 raw_urls = [line.strip() for line in f if line.strip() and not line.strip().startswith('#')]
             normalized_urls = []
+            seen_norm_lower = set()
             for url in raw_urls:
                 norm_url = normalize_telegram_url(url)
-                if norm_url and norm_url not in normalized_urls: normalized_urls.append(norm_url)
+                norm_key = norm_url.lower() if norm_url else ""
+                if norm_url and norm_key not in seen_norm_lower:
+                    seen_norm_lower.add(norm_key)
+                    normalized_urls.append(norm_url)
             normalized_urls.sort()
+
+            valid_urls = []
+            invalid_channels = []
+            for u in normalized_urls:
+                if channel_is_reachable(u):
+                    valid_urls.append(u)
+                else:
+                    invalid_channels.append(u)
+            if invalid_channels:
+                logging.info(f"{len(invalid_channels)} کانال نامعتبر/غیرقابل‌دسترس پیدا شد و از پردازش کنار گذاشته شد")
+                log_invalid_channels(invalid_channels)
+            normalized_urls = valid_urls
         except Exception as e:
             logging.error(f"Error reading channels: {e}")
             sys.exit(1)
 
         total_channels_count = len(normalized_urls)
         processed_ch_count = 0; total_new_added = 0; failed_fetches = 0
+        shared_existing_configs = load_existing_configs()  # یک‌بار برای کل اجرا (پیشنهاد #32)
         for idx, ch_url in enumerate(normalized_urls, 1):
-            success_flag, new_srvs = process_channel(ch_url)
+            success_flag, new_srvs = process_channel(ch_url, shared_existing_configs)
             if success_flag == 1: processed_ch_count += 1; total_new_added += new_srvs
             else: failed_fetches += 1
             if idx % BATCH_SIZE == 0 and idx < total_channels_count:
+                flush_write_buffers()
                 time.sleep(SLEEP_TIME)
+        flush_write_buffers()  # فلاش نهایی؛ باید قبل از geo lookup/categorization انجام بشه چون اون‌ها از دیسک می‌خونن
 
     if ENABLE_GEO_LOOKUP:
         country_data_map = process_geo_data()
