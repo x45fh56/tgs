@@ -26,4 +26,13 @@ ParsiNetFree
 pythash
 NetAccount
 v2cnf
+wbnet
+vpntrt
+v2roay
+v2raynplus
+v2cnf
+oneclickvpnkeys
+NetAccount
+freevpnchina
+artemisvpn1
 
