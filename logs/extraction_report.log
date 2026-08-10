@@ -1,16 +1,16 @@
 === Country Statistics ===
-Total Servers (Merged): 23607
-Successful Geo-IP Resolutions: 23508
+Total Servers (Merged): 23614
+Successful Geo-IP Resolutions: 23515
 Failed Geo-IP Resolutions: 99
-Domain               : 6396
-Unknown              : 3768
+Domain               : 6398
+Unknown              : 3771
 US                   : 3278
 RU                   : 1364
-DE                   : 1158
+DE                   : 1159
 NL                   : 954
 GB                   : 708
 SC                   : 684
-HK                   : 501
+HK                   : 502
 FR                   : 483
 JP                   : 415
 CA                   : 305
@@ -97,9 +97,9 @@ PE                   : 1
 QA                   : 1
 
 === Server Type Summary ===
-VLESS                : 11494
-VMESS                : 5969
-CDN                  : 5708
+VLESS                : 11499
+VMESS                : 5971
+CDN                  : 5702
 SS                   : 2851
 TROJAN               : 2684
 HYSTERIA2            : 599
@@ -109,15 +109,15 @@ WIREGUARD            : 0
 WARP                 : 0
 
 === Channel Statistics (Extraction) ===
-freevpnchina                  : 1000
-artemisvpn1                   : 1000
-v2raynplus                    : 1000
-v2roay                        : 1000
-vpntrt                        : 240
-v2ray_extractor               : 224
-v2cnf                         : 156
-NetAccount                    : 154
-oneclickvpnkeys               : 115
+v2cnf                         : 100
+freevpnchina                  : 100
+artemisvpn1                   : 100
+NetAccount                    : 100
+vpntrt                        : 100
+oneclickvpnkeys               : 100
+v2ray_extractor               : 100
+v2raynplus                    : 100
+v2roay                        : 100
 tv2rayrr                      : 85
 FreakConfig                   : 79
 new_mtproxi2                  : 43
@@ -126,8 +126,8 @@ NetShot1                      : 21
 ParsiNetFree                  : 14
 vpnbaz                        : 14
 Maznet                        : 13
+persianvpnhub                 : 11
 dingyue_center                : 7
-persianvpnhub                 : 4
 ConfigX2ray                   : 1
 ConfiingPro                   : 0
 v2to_nadi                     : 0
