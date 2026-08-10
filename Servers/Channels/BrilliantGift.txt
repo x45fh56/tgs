@@ -1,9 +1,0 @@
-trojan://humanity@172.67.149.60:443?insecure=0&type=ws&path=%2Fassignment&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8&sni=www.ignitelimit.com&security=tls&allowInsecure=0&host=www.ignitelimit.com#BrilliantGift
-vless://2dc0a3d1-09a3-42e9-b608-da257b03ad63@xn--zn-gpa36i.paydar.site:443?headerType=http&security=none&encryption=none&type=tcp&host=play.google.com#BrilliantGift
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.179:443?fp=ios&encryption=none&type=tcp&sid=c39cc7310a&sni=yahoo.com&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&flow=xtls-rprx-vision&security=reality&headerType=none#BrilliantGift
-vless://d361072e-9e0e-4e2d-8ec7-2a4189b5b23a@chatgpt.com:2053?insecure=0&fp=chrome&encryption=none&type=ws&path=%2FJ5aLQOY1R9ONWYCM&sni=ov.iran-servers.shop&security=tls&allowInsecure=0&host=ov.iran-servers.shop#BrilliantGift
-vless://83afd88f-200f-4d89-bfc7-66eff160c1d8@172.66.44.97:443?insecure=0&encryption=none&type=ws&path=%2Fsg-melbi&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8&sni=josni.hoyes.cloudns.ch&security=tls&allowInsecure=0&host=josni.hoyes.cloudns.ch#BrilliantGift
-trojan://humanity@104.18.152.159:443?insecure=0&type=ws&path=%2Fassignment&sni=www.ignitelimit.com&security=tls&allowInsecure=0&host=www.ignitelimit.com#BrilliantGift
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.173:443?fp=chrome&encryption=none&type=tcp&sid=c39cc7310a&sni=yahoo.com&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&flow=xtls-rprx-vision&security=reality&headerType=none#BrilliantGift
-vless://4d10c997-4781-4cd9-82c3-15453523e12c@104.21.62.21:443?insecure=0&fp=chrome&encryption=none&type=ws&path=%2Fsg-melbi&sni=support.zoom.us.yxls.eu.cc&security=tls&allowInsecure=0&host=support.zoom.us.yxls.eu.cc#BrilliantGift
-vless://d7c4acc4-a577-44f5-a47b-5850996db408@188.166.146.23:24568?headerType=http&security=none&encryption=none&type=tcp&host=play.google.com#BrilliantGift
