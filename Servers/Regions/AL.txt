@@ -1,3 +1,4 @@
-vless://ae852d97-85f5-45cf-82a4-254eba345480@144.31.131.33:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdn.cdnjst.org&fp=chrome&pbk=djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc&sid=a120&type=tcp&headerType=none#🇦🇱AL-artemisvpn1
 vless://ae852d97-85f5-45cf-82a4-254eba345480@144.31.131.33:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdn.cdnjst.org&pbk=djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc&sid=a120&type=tcp&headerType=none#🇦🇱AL-artemisvpn1
+vless://ae852d97-85f5-45cf-82a4-254eba345480@144.31.131.33:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdn.cdnjst.org&fp=chrome&pbk=djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc&sid=a120&type=tcp&headerType=none#🇦🇱AL-artemisvpn1
+vless://489b61b6-e7fa-4254-ad2b-6ac989b75d86@91.92.250.23:25049?flow=xtls-rprx-vision&fp=firefox&pbk=jTZuBbLwiOkK7F0kk8Q8ReFVyeLhLcVhoEjuTmZd0gM&security=reality&sid=60cc81db9bc43025&sni=proxy11.h1guro.ovh&type=tcp#🇦🇱AL-artemisvpn1
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@31.171.153.181:989#🇦🇱AL-artemisvpn1
