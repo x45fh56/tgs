@@ -1,3 +1,5 @@
-vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@45.140.204.182:13868?flow=xtls-rprx-vision&fp=firefox&pbk=YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w&security=reality&sid=e852dc&sni=wp.pl&type=tcp#🇮🇱IL-artemisvpn1
+hysteria2://2_hysteria2_fastlane_2ryj5iceo%3A4hB1GRZV7SWk5Vz61kPY8Caug4WqiVHQ@45.140.205.5:1935?sni=ch2.h.fastlanehosting.ru&fp=chrome#🇮🇱IL-NetAccount
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@193.202.11.44:443?security=reality&type=tcp&packetEncoding=xudp&sni=4usa.skorostnet.space&fp=firefox&flow=xtls-rprx-vision&sid=fdda9806fe5d8584&pbk=aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o&encryption=none#🇮🇱IL-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVazhsZm12aFlueDVySnZYeEtyUnFHUnluZDlnSXBKLmlZ@103.240.147.113:14605#🇮🇱IL-freevpnchina
+vless://c04bf2df-2b7f-44da-a893-3792d3910fd8@45.140.204.181:13868?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w&sid=e852dc&sni=wp.pl#🇮🇱IL-vpntrt
+hysteria2://2_hysteria2_fastlane_2ryj5iceo%3A4hB1GRZV7SWk5Vz61kPY8Caug4WqiVHQ@45.140.205.5:1935?sni=ch2.h.fastlanehosting.ru&fp=chrome#🇮🇱IL-vpntrt

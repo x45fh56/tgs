@@ -1,1 +1,0 @@
-vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@45.82.13.48:13868?flow=xtls-rprx-vision&fp=firefox&pbk=sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk&security=reality&sid=e852dc&sni=booking.com&type=tcp#🇦🇱AL-artemisvpn1

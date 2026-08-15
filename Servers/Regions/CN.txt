@@ -1,4 +1,4 @@
-vmess://eyJhZGQiOiIxMTcuMjcuMjI4LjI5IiwiYWlkIjoiMCIsImhvc3QiOiIiLCJpZCI6IjJjOTBhZjE1LWJhYzctZjg1MC00YzdjLTEyMGM1YTQyMDYzNiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTAwMDAiLCJwcyI6IuacquefpSBWTUVTUy0xMzg0IHwgZnJlZS1ub2RlcyIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==#🇨🇳CN-freevpnchina
+hysteria2://083417772bc618cd61f0cca23dd91680@167.179.34.31:55443/?sni=gorbachev-new-th.kvnfreetest.uk#🇨🇳CN-oneclickvpnkeys
 ss://YWVzLTI1Ni1nY206NWQxZmNiZWUtYmE2Mi00ZjFlLThiN2QtNDYzYjc4OGE1MmE5@120.241.239.87:16008#🇨🇳CN-tv2rayrr
 ss://YWVzLTI1Ni1nY206OGRkYzBhNDctOWE3Zi00MWUxLWFkZjctZjYzMjIyNzZjMWNh@120.241.239.79:23001#🇨🇳CN-tv2rayrr
 hysteria2://6f7a8009ecf6a12e10d03f9d88493c89@167.179.34.13:55443/?sni=gorbachev-th.kvnfreetest.uk#🇨🇳CN-v2ray_extractor
