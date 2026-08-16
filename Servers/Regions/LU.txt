@@ -1,9 +1,9 @@
 trojan://ND91608427@202.78.163.148:443?sni=discrete-basilisk.rooster465.autos&type=tcp&fp=chrome#🇱🇺LU-freevpnchina
-trojan://ND91608427@202.78.163.248:443?sni=relaxed-gull.rooster465.autos&type=tcp&fp=chrome#🇱🇺LU-freevpnchina
 trojan://ND91608427@202.78.163.148:443?sni=discrete-basilisk.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🇱🇺LU-freevpnchina
-trojan://ND91608427@202.78.163.248:443?sni=relaxed-gull.rooster465.autos&path=/#🇱🇺LU-v2roay
-trojan://ND91608427@202.78.163.248:443?fp=chrome&sni=relaxed-gull.rooster465.autos#🇱🇺LU-v2roay
+trojan://ND91608427@202.78.163.248:443?sni=relaxed-gull.rooster465.autos&type=tcp&fp=chrome#🇱🇺LU-freevpnchina
 trojan://ND91608427@202.78.163.248:443?security=tls&sni=relaxed-gull.rooster465.autos&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=0#🇱🇺LU-v2roay
-trojan://ND91608427@202.78.163.148:443?sni=discrete-basilisk.rooster465.autos&type=tcp&path=/#🇱🇺LU-v2roay
 trojan://ND91608427@202.78.163.148:443?allowInsecure=1&fp=chrome&sni=discrete-basilisk.rooster465.autos#🇱🇺LU-v2roay
+trojan://ND91608427@202.78.163.248:443?fp=chrome&sni=relaxed-gull.rooster465.autos#🇱🇺LU-v2roay
+trojan://ND91608427@202.78.163.148:443?sni=discrete-basilisk.rooster465.autos&type=tcp&path=/#🇱🇺LU-v2roay
 trojan://ND91608427@202.78.163.148:443?security=tls&sni=discrete-basilisk.rooster465.autos&path=/#🇱🇺LU-v2roay
+trojan://ND91608427@202.78.163.248:443?sni=relaxed-gull.rooster465.autos&path=/#🇱🇺LU-v2roay
