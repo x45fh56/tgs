@@ -1,4 +1,2 @@
 hysteria2://ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f@94.20.88.13:8443?insecure=1&sni=azer-tea-grape.bumbleshrimp.com#🇦🇿AZ-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0anEwd1pBcjJXdzIxNW5qTUlqYXRS@94.20.56.155:8443#🇦🇿AZ-freevpnchina
-hysteria2://ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f@94.20.88.13:8443/?sni=azer-tea-grape.bumbleshrimp.com#🇦🇿AZ-v2ray_extractor
-hysteria2://ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f@94.20.88.13:8443?sni=azer-tea-grape.bumbleshrimp.com#🇦🇿AZ-v2roay
