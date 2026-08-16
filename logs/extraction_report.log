@@ -1,30 +1,30 @@
 === Country Statistics ===
-Total Servers (Merged): 9719
-Successful Geo-IP Resolutions: 9634
-Failed Geo-IP Resolutions: 85
-Domain               : 4001
-Unknown              : 1227
-US                   : 946
-DE                   : 389
-NL                   : 387
-RU                   : 340
+Total Servers (Merged): 9732
+Successful Geo-IP Resolutions: 9646
+Failed Geo-IP Resolutions: 86
+Domain               : 4002
+Unknown              : 1228
+US                   : 949
+DE                   : 393
+NL                   : 388
+RU                   : 341
 JP                   : 323
-GB                   : 247
+GB                   : 249
 KR                   : 189
-HK                   : 178
+HK                   : 179
 FR                   : 156
-SC                   : 123
+SC                   : 124
 SG                   : 101
-FI                   : 88
+FI                   : 86
 CA                   : 63
 BR                   : 52
-SE                   : 52
 IE                   : 51
+SE                   : 50
 RO                   : 49
 VN                   : 47
 TR                   : 46
 IR                   : 41
-AE                   : 37
+AE                   : 38
 PL                   : 37
 TW                   : 34
 IT                   : 32
@@ -77,12 +77,12 @@ SK                   : 1
 AF                   : 1
 
 === Server Type Summary ===
-VLESS                : 4815
-CDN                  : 3223
-TROJAN               : 2201
-VMESS                : 1671
-SS                   : 678
-HYSTERIA2            : 348
+VLESS                : 4816
+CDN                  : 3221
+TROJAN               : 2208
+VMESS                : 1676
+SS                   : 680
+HYSTERIA2            : 346
 HYSTERIA             : 4
 TUIC                 : 2
 WIREGUARD            : 0
