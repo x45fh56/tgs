@@ -37,6 +37,10 @@ MERGED_DIR = os.path.join("Servers", "Merged")
 CHANNELS_DIR = os.path.join("Servers", "Channels")
 MERGED_SNI_FILE = os.path.join(MERGED_DIR, "merged_servers_sni.txt")
 SNI_CHANNELS = {"SNI_SPOOFINGconfig"}
+MERGED_FRAGMENT_FINGERPRINT_FILE = os.path.join(MERGED_DIR, "fragment_fingerprint_v1.txt")
+FRAGMENT_FINGERPRINT_ADDRESS = "127.0.0.1"
+FRAGMENT_FINGERPRINT_PORT = "40443"
+FRAGMENT_FINGERPRINT_SHA256 = "3de5b7bd48c18c9ff057d8961f24c16555a7e387ebb509e1efb1315303695c82"
 EXTRACTED_IPS_FILE = os.path.join(MERGED_DIR, "extracted_cdn_ips.txt")
 CHANNELS_FILE = "data/telegram_sources.txt"
 LOG_FILE = os.path.join(REPORTS_DIR, "extraction_report.log")
@@ -58,8 +62,8 @@ DEBUG_MODE = False
 CHANNEL_VALIDATION_TIMEOUT = 10
 REMOVED_CHANNELS_LOG_FILE = os.path.join(REPORTS_DIR, "removed_duplicate_channels.log")
 INVALID_CHANNELS_LOG_FILE = os.path.join(REPORTS_DIR, "invalid_channels.log")
-CHANNEL_SUCCESS_COUNTS_FILE = os.path.join(REPORTS_DIR, "channel_success_counts.json")
-CHANNEL_SUCCESS_COUNTS_LOG_FILE = os.path.join(REPORTS_DIR, "channel_success_counts.log")
+CHANNEL_EXTRACT_COUNTS_FILE = os.path.join(REPORTS_DIR, "channel_extract_counts.json")
+CHANNEL_EXTRACT_COUNTS_LOG_FILE = os.path.join(REPORTS_DIR, "channel_extract_counts.log")
 LOG_ROTATE_MAX_RUNS = 30
 
 PATT_ADDRESSES_MAIN = [
@@ -306,43 +310,58 @@ def log_invalid_channels(invalid_list):
     except Exception as e:
         log_debug_exception(f"نوشتن {INVALID_CHANNELS_LOG_FILE} fail شد: {e}")
 
-def load_channel_success_counts():
-    """تعداد استخراج موفق تجمعی (بین اجراهای مختلف) هر کانال را از فایل JSON می‌خواند."""
-    if os.path.exists(CHANNEL_SUCCESS_COUNTS_FILE):
+def load_channel_extract_counts():
+    """آمار تجمعی (بین اجراهای مختلف) هر کانال شامل تعداد موفق و کل درخواست‌ها را می‌خواند."""
+    if os.path.exists(CHANNEL_EXTRACT_COUNTS_FILE):
         try:
-            with open(CHANNEL_SUCCESS_COUNTS_FILE, 'r', encoding='utf-8') as f:
+            with open(CHANNEL_EXTRACT_COUNTS_FILE, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             if isinstance(data, dict):
-                return {str(k): int(v) for k, v in data.items()}
+                result = {}
+                for k, v in data.items():
+                    if isinstance(v, dict):
+                        result[str(k)] = {
+                            "success": int(v.get("success", 0)),
+                            "total": int(v.get("total", 0)),
+                        }
+                return result
         except Exception as e:
-            log_debug_exception(f"خواندن {CHANNEL_SUCCESS_COUNTS_FILE} fail شد: {e}")
+            log_debug_exception(f"خواندن {CHANNEL_EXTRACT_COUNTS_FILE} fail شد: {e}")
     return {}
 
-def save_channel_success_counts(counts):
-    """شمارنده‌های تجمعی را برای استفاده در اجرای بعدی روی دیسک ذخیره می‌کند."""
+def save_channel_extract_counts(counts):
+    """آمار تجمعی را برای استفاده در اجرای بعدی روی دیسک ذخیره می‌کند."""
     os.makedirs(REPORTS_DIR, exist_ok=True)
     try:
-        tmp_path = CHANNEL_SUCCESS_COUNTS_FILE + ".tmp"
+        tmp_path = CHANNEL_EXTRACT_COUNTS_FILE + ".tmp"
         with open(tmp_path, 'w', encoding='utf-8') as f:
             json.dump(counts, f, ensure_ascii=False, indent=2, sort_keys=True)
-        os.replace(tmp_path, CHANNEL_SUCCESS_COUNTS_FILE)
+        os.replace(tmp_path, CHANNEL_EXTRACT_COUNTS_FILE)
     except Exception as e:
-        log_debug_exception(f"نوشتن {CHANNEL_SUCCESS_COUNTS_FILE} fail شد: {e}")
+        log_debug_exception(f"نوشتن {CHANNEL_EXTRACT_COUNTS_FILE} fail شد: {e}")
 
-def write_channel_success_counts_report(counts):
-    """یک نسخه‌ی خوانا (متنی) از تعداد استخراج موفق تجمعی هر کانال می‌نویسد."""
+def write_channel_extract_counts_report(counts):
+    """
+    نسخه‌ی خوانای آمار تجمعی هر کانال را می‌نویسد.
+    بالای فایل: مجموع کل درخواست‌های ارسال‌شده تا الان (همه‌ی کانال‌ها، همه‌ی اجراها).
+    برای هر کانال: تعداد موفق / تعداد کل درخواست‌ها.
+    """
     os.makedirs(REPORTS_DIR, exist_ok=True)
     try:
-        with open(CHANNEL_SUCCESS_COUNTS_LOG_FILE, 'w', encoding='utf-8') as f:
-            f.write(f"=== تعداد استخراج موفق تجمعی هر کانال (تا {datetime.now().isoformat(timespec='seconds')}) ===\n\n")
+        total_requests_all_channels = sum(v.get("total", 0) for v in counts.values())
+        with open(CHANNEL_EXTRACT_COUNTS_LOG_FILE, 'w', encoding='utf-8') as f:
+            f.write(f"=== آمار تجمعی درخواست‌های استخراج (تا {datetime.now().isoformat(timespec='seconds')}) ===\n")
+            f.write(f"مجموع کل درخواست‌ها تا الان: {total_requests_all_channels}\n\n")
             if not counts:
                 f.write("داده‌ای موجود نیست.\n")
             else:
-                for ch, cnt in sorted(counts.items(), key=lambda x: (-x[1], x[0])):
-                    f.write(f"{ch:<40}: {cnt}\n")
+                for ch, v in sorted(counts.items(), key=lambda x: (-x[1].get("success", 0), x[0])):
+                    success = v.get("success", 0)
+                    total = v.get("total", 0)
+                    f.write(f"{ch:<40}: {success}/{total}\n")
                 f.write(f"\nمجموع کانال‌های ثبت‌شده: {len(counts)}\n")
     except Exception as e:
-        log_debug_exception(f"نوشتن {CHANNEL_SUCCESS_COUNTS_LOG_FILE} fail شد: {e}")
+        log_debug_exception(f"نوشتن {CHANNEL_EXTRACT_COUNTS_LOG_FILE} fail شد: {e}")
 
 def count_servers_in_file(file_path):
     if not os.path.exists(file_path):
@@ -1768,6 +1787,37 @@ def convert_to_sni(link):
     except Exception:
         return link
 
+def convert_to_fragment_fingerprint(link):
+    """
+    دقیقا مانند convert_to_sni عمل می‌کند (address -> 127.0.0.1, port -> 40443)
+    با این تفاوت که پارامتر pinnedPeerCertSha256 (certificate-fingerprint-SHA-256)
+    نیز به کانفیگ اضافه می‌شود.
+    """
+    try:
+        if link.startswith('vmess://'):
+            b64_part = link.replace('vmess://', '')
+            decoded = urlsafe_b64decode(b64_part + '=' * (-len(b64_part) % 4)).decode('utf-8')
+            data = json.loads(decoded)
+            data['add'] = FRAGMENT_FINGERPRINT_ADDRESS
+            data['port'] = FRAGMENT_FINGERPRINT_PORT
+            data['pinnedPeerCertSha256'] = FRAGMENT_FINGERPRINT_SHA256
+            new_b64 = urlsafe_b64encode(json.dumps(data).encode('utf-8')).decode('utf-8').rstrip('=')
+            return f"vmess://{new_b64}"
+        else:
+            parsed = urlparse(link)
+            if '@' in parsed.netloc:
+                user_info = parsed.netloc.split('@')[0]
+                new_netloc = f"{user_info}@{FRAGMENT_FINGERPRINT_ADDRESS}:{FRAGMENT_FINGERPRINT_PORT}"
+            else:
+                new_netloc = f"{FRAGMENT_FINGERPRINT_ADDRESS}:{FRAGMENT_FINGERPRINT_PORT}"
+            query_params = parse_qs(parsed.query, keep_blank_values=True)
+            query_params['pinnedPeerCertSha256'] = [FRAGMENT_FINGERPRINT_SHA256]
+            new_query = urlencode(query_params, doseq=True)
+            new_parsed = parsed._replace(netloc=new_netloc, query=new_query)
+            return new_parsed.geturl()
+    except Exception:
+        return link
+
 def process_channel(url, existing_configs=None):
     channel_name = extract_channel_name(url)
     if not channel_name or channel_name == "unknown_channel":
@@ -1827,6 +1877,8 @@ def process_channel(url, existing_configs=None):
 
             sni_links = [convert_to_sni(l) for l in new_global_proto]
             buffer_write(MERGED_SNI_FILE, sni_links)
+            fragment_fingerprint_links = [convert_to_fragment_fingerprint(l) for l in new_global_proto]
+            buffer_write(MERGED_FRAGMENT_FINGERPRINT_FILE, fragment_fingerprint_links)
             new_global_total += len(new_global_proto)
     return 1, new_global_total
 
@@ -1909,6 +1961,8 @@ if __name__ == "__main__":
              os.remove(MERGED_SERVERS_FILE)
         if os.path.exists(MERGED_SNI_FILE):
              os.remove(MERGED_SNI_FILE)
+        if os.path.exists(MERGED_FRAGMENT_FINGERPRINT_FILE):
+             os.remove(MERGED_FRAGMENT_FINGERPRINT_FILE)
         channels_file_path = CHANNELS_FILE
         try:
             if not os.path.exists(channels_file_path):
@@ -1950,21 +2004,23 @@ if __name__ == "__main__":
         total_channels_count = len(normalized_urls)
         processed_ch_count = 0; total_new_added = 0; failed_fetches = 0
         shared_existing_configs = load_existing_configs()
-        channel_success_counts = load_channel_success_counts()
+        channel_extract_counts = load_channel_extract_counts()
         for idx, ch_url in enumerate(normalized_urls, 1):
             ch_name_for_stats = extract_channel_name(ch_url) or ch_url
             success_flag, new_srvs = process_channel(ch_url, shared_existing_configs)
+            entry = channel_extract_counts.setdefault(ch_name_for_stats, {"success": 0, "total": 0})
+            entry["total"] += 1
             if success_flag == 1:
                 processed_ch_count += 1; total_new_added += new_srvs
-                channel_success_counts[ch_name_for_stats] = channel_success_counts.get(ch_name_for_stats, 0) + 1
+                entry["success"] += 1
             else: failed_fetches += 1
             if idx % BATCH_SIZE == 0 and idx < total_channels_count:
                 flush_write_buffers()
-                save_channel_success_counts(channel_success_counts)
+                save_channel_extract_counts(channel_extract_counts)
                 time.sleep(SLEEP_TIME)
         flush_write_buffers()
-        save_channel_success_counts(channel_success_counts)
-        write_channel_success_counts_report(channel_success_counts)
+        save_channel_extract_counts(channel_extract_counts)
+        write_channel_extract_counts_report(channel_extract_counts)
 
     if ENABLE_GEO_LOOKUP:
         country_data_map = process_geo_data()
