@@ -1,44 +1,44 @@
 === Country Statistics ===
-Total Servers (Merged): 9779
-Successful Geo-IP Resolutions: 9693
-Failed Geo-IP Resolutions: 86
-Domain               : 4004
-Unknown              : 1244
-US                   : 944
-DE                   : 393
+Total Servers (Merged): 9719
+Successful Geo-IP Resolutions: 9634
+Failed Geo-IP Resolutions: 85
+Domain               : 4001
+Unknown              : 1227
+US                   : 946
+DE                   : 389
 NL                   : 387
-RU                   : 362
-JP                   : 322
-GB                   : 248
-KR                   : 190
-HK                   : 180
-FR                   : 155
-SC                   : 124
+RU                   : 340
+JP                   : 323
+GB                   : 247
+KR                   : 189
+HK                   : 178
+FR                   : 156
+SC                   : 123
 SG                   : 101
-FI                   : 86
-CA                   : 62
+FI                   : 88
+CA                   : 63
+BR                   : 52
+SE                   : 52
 IE                   : 51
-BR                   : 51
 RO                   : 49
-SE                   : 49
 VN                   : 47
-TR                   : 47
-AE                   : 44
+TR                   : 46
 IR                   : 41
+AE                   : 37
 PL                   : 37
-TW                   : 33
+TW                   : 34
 IT                   : 32
 EE                   : 31
 CO                   : 29
 CY                   : 28
 KZ                   : 26
-CZ                   : 24
 ES                   : 24
-LT                   : 21
 AT                   : 19
 IN                   : 19
+LT                   : 19
 CH                   : 18
-LV                   : 17
+LV                   : 16
+CZ                   : 15
 ZA                   : 15
 BG                   : 15
 AU                   : 11
@@ -77,12 +77,12 @@ SK                   : 1
 AF                   : 1
 
 === Server Type Summary ===
-VLESS                : 4866
-CDN                  : 3227
-TROJAN               : 2214
+VLESS                : 4815
+CDN                  : 3223
+TROJAN               : 2201
 VMESS                : 1671
-SS                   : 675
-HYSTERIA2            : 347
+SS                   : 678
+HYSTERIA2            : 348
 HYSTERIA             : 4
 TUIC                 : 2
 WIREGUARD            : 0
@@ -102,13 +102,13 @@ FreakConfig                   : 62
 new_mtproxi2                  : 43
 SNI_SPOOFINGconfig            : 33
 NetShot1                      : 25
-ParsiNetFree                  : 20
-persianvpnhub                 : 19
+ParsiNetFree                  : 19
 vpnbaz                        : 14
 artemisvpn1                   : 14
 Maznet                        : 13
-SparrK_VPN                    : 11
 ConfigX2ray                   : 10
+persianvpnhub                 : 8
+SparrK_VPN                    : 7
 dingyue_center                : 7
 BrilliantGift                 : 1
 TheVPNMethod                  : 0
