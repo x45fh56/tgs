@@ -1,2 +1,3 @@
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@92.53.188.30:8880?security=none&type=ws&path=/&host=vms.lifetime18.workers.dev&packetEncoding=xudp#🇸🇮SI-freevpnchina
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@92.53.189.40:8880?security=none&type=ws&path=/&host=vms.lifetime19.workers.dev&packetEncoding=none#🇸🇮SI-freevpnchina
+vless://1d16c6e0-1bbe-435b-b661-90043fee999c@92.60.74.123:443?security=tls&type=ws&path=/Telegram-WangCai2&host=notls.lukongtou.eu.org&ed=2560&sni=notls.lukongtou.eu.org&fp=chrome&encryption=none#🇸🇮SI-v2roay
