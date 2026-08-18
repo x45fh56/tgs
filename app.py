@@ -59,9 +59,7 @@ ENABLE_PATT_EDITION = True
 ENABLE_REGION_TAG = True
 GEOIP_DB_MAX_AGE_DAYS = 7
 DEBUG_MODE = False
-CHANNEL_VALIDATION_TIMEOUT = 10
 REMOVED_CHANNELS_LOG_FILE = os.path.join(REPORTS_DIR, "removed_duplicate_channels.log")
-INVALID_CHANNELS_LOG_FILE = os.path.join(REPORTS_DIR, "invalid_channels.log")
 CHANNEL_EXTRACT_COUNTS_FILE = os.path.join(REPORTS_DIR, "channel_extract_counts.json")
 CHANNEL_EXTRACT_COUNTS_LOG_FILE = os.path.join(REPORTS_DIR, "channel_extract_counts.log")
 LOG_ROTATE_MAX_RUNS = 30
@@ -274,41 +272,6 @@ def log_removed_duplicate_channels(removed_list):
         rotate_run_log_file(REMOVED_CHANNELS_LOG_FILE)
     except Exception as e:
         log_debug_exception(f"نوشتن {REMOVED_CHANNELS_LOG_FILE} fail شد: {e}")
-
-def channel_is_reachable(url, timeout=CHANNEL_VALIDATION_TIMEOUT):
-
-    headers = {'User-Agent': 'Mozilla/5.0'}
-    try:
-        resp = requests.head(url, timeout=timeout, headers=headers, allow_redirects=True)
-        if resp.status_code in (405, 403, 501):
-            resp = requests.get(url, timeout=timeout, headers=headers, stream=True)
-        if resp.status_code != 200:
-            return False
-        if 't.me/s/' in url.lower():
-
-            resp_full = requests.get(url, timeout=timeout, headers=headers)
-            if resp_full.status_code != 200:
-                return False
-            if 'tgme_channel_info' not in resp_full.text and 'tgme_widget_message' not in resp_full.text:
-                return False
-        return True
-    except Exception as e:
-        log_debug_exception(f"channel_is_reachable برای {url} fail شد: {e}")
-        return False
-
-def log_invalid_channels(invalid_list):
-    if not invalid_list:
-        return
-    os.makedirs(REPORTS_DIR, exist_ok=True)
-    try:
-        with open(INVALID_CHANNELS_LOG_FILE, 'a', encoding='utf-8') as f:
-            f.write(f"--- {datetime.now().isoformat(timespec='seconds')} ---\n")
-            for ch in invalid_list:
-                f.write(f"{ch}\n")
-            f.write(f"مجموع نامعتبر: {len(invalid_list)}\n\n")
-        rotate_run_log_file(INVALID_CHANNELS_LOG_FILE)
-    except Exception as e:
-        log_debug_exception(f"نوشتن {INVALID_CHANNELS_LOG_FILE} fail شد: {e}")
 
 def load_channel_extract_counts():
     """آمار تجمعی (بین اجراهای مختلف) هر کانال شامل تعداد موفق و کل درخواست‌ها را می‌خواند."""
@@ -807,19 +770,20 @@ def split_address_port(address, fallback_port=None):
     return address, fallback_port
 
 def build_patt_link_uri(link, scheme, address):
-
     parsed = urlparse(link)
     if parsed.scheme != scheme or not parsed.username:
         return None
     query = parse_qs(parsed.query)
     new_query = {k: v[0] for k, v in query.items() if v}
-    new_query['security'] = new_query.get('security') or 'tls'
+    security = (new_query.get('security') or '').lower()
+    if security != 'tls':
+        return None
     if scheme == 'vless':
         new_query['encryption'] = new_query.get('encryption') or 'none'
     new_query['cs'] = PATT_CIPHER_SUITES
     new_query['fm'] = PATT_FINAL_MASK
     new_query['fp'] = PATT_FP
-    fallback_port = parsed.port or (443 if new_query['security'] in ('tls', 'reality') else 80)
+    fallback_port = parsed.port or 443
     host, port = split_address_port(address, fallback_port)
 
     query_string = urlencode(new_query, quote_via=quote)
@@ -836,6 +800,8 @@ def build_patt_link_vmess(link, address):
         decoded = urlsafe_b64decode(b64_part + '=' * ((4 - len(b64_part) % 4) % 4)).decode('utf-8')
         data = json.loads(decoded)
     except Exception:
+        return None
+    if str(data.get('tls', '')).lower() != 'tls':
         return None
     host, port = split_address_port(address, data.get('port'))
     data['add'] = host
@@ -1787,14 +1753,14 @@ def convert_to_sni(link):
     except Exception:
         return link
 
+FRAGMENT_FINGERPRINT_CAPABLE_SCHEMES = {'vless', 'trojan', 'vmess'}
+
 def convert_to_fragment_fingerprint(link):
-    """
-    دقیقا مانند convert_to_sni عمل می‌کند (address -> 127.0.0.1, port -> 40443)
-    با این تفاوت که پارامتر pinnedPeerCertSha256 (certificate-fingerprint-SHA-256)
-    نیز به کانفیگ اضافه می‌شود.
-    """
+    scheme = urlparse(link).scheme
+    if scheme not in FRAGMENT_FINGERPRINT_CAPABLE_SCHEMES:
+        return None
     try:
-        if link.startswith('vmess://'):
+        if scheme == 'vmess':
             b64_part = link.replace('vmess://', '')
             decoded = urlsafe_b64decode(b64_part + '=' * (-len(b64_part) % 4)).decode('utf-8')
             data = json.loads(decoded)
@@ -1805,18 +1771,17 @@ def convert_to_fragment_fingerprint(link):
             return f"vmess://{new_b64}"
         else:
             parsed = urlparse(link)
-            if '@' in parsed.netloc:
-                user_info = parsed.netloc.split('@')[0]
-                new_netloc = f"{user_info}@{FRAGMENT_FINGERPRINT_ADDRESS}:{FRAGMENT_FINGERPRINT_PORT}"
-            else:
-                new_netloc = f"{FRAGMENT_FINGERPRINT_ADDRESS}:{FRAGMENT_FINGERPRINT_PORT}"
+            if '@' not in parsed.netloc:
+                return None
+            user_info = parsed.netloc.split('@')[0]
+            new_netloc = f"{user_info}@{FRAGMENT_FINGERPRINT_ADDRESS}:{FRAGMENT_FINGERPRINT_PORT}"
             query_params = parse_qs(parsed.query, keep_blank_values=True)
             query_params['pinnedPeerCertSha256'] = [FRAGMENT_FINGERPRINT_SHA256]
             new_query = urlencode(query_params, doseq=True)
             new_parsed = parsed._replace(netloc=new_netloc, query=new_query)
             return new_parsed.geturl()
     except Exception:
-        return link
+        return None
 
 def process_channel(url, existing_configs=None):
     channel_name = extract_channel_name(url)
@@ -1877,8 +1842,9 @@ def process_channel(url, existing_configs=None):
 
             sni_links = [convert_to_sni(l) for l in new_global_proto]
             buffer_write(MERGED_SNI_FILE, sni_links)
-            fragment_fingerprint_links = [convert_to_fragment_fingerprint(l) for l in new_global_proto]
-            buffer_write(MERGED_FRAGMENT_FINGERPRINT_FILE, fragment_fingerprint_links)
+            fragment_fingerprint_links = [r for r in (convert_to_fragment_fingerprint(l) for l in new_global_proto) if r]
+            if fragment_fingerprint_links:
+                buffer_write(MERGED_FRAGMENT_FINGERPRINT_FILE, fragment_fingerprint_links)
             new_global_total += len(new_global_proto)
     return 1, new_global_total
 
@@ -1985,18 +1951,6 @@ if __name__ == "__main__":
                     seen_norm_lower.add(norm_key)
                     normalized_urls.append(norm_url)
             normalized_urls.sort()
-
-            valid_urls = []
-            invalid_channels = []
-            for u in normalized_urls:
-                if channel_is_reachable(u):
-                    valid_urls.append(u)
-                else:
-                    invalid_channels.append(u)
-            if invalid_channels:
-                logging.info(f"{len(invalid_channels)} کانال نامعتبر/غیرقابل‌دسترس پیدا شد و از پردازش کنار گذاشته شد")
-                log_invalid_channels(invalid_channels)
-            normalized_urls = valid_urls
         except Exception as e:
             logging.error(f"Error reading channels: {e}")
             sys.exit(1)
