@@ -1,6 +1,7 @@
 whitedns
 v2ray_extractor               
-oneclickvpnkeys              
+oneclickvpnkeys    
+vpn_m2s
 tv2rayrr                      
 FreakConfig              
 new_mtproxi2            
