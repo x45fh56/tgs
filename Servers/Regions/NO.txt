@@ -1,1 +1,2 @@
-vless://8384341b-cd89-4a21-a022-cc4bd4e648ca@46.29.238.139:40443?encryption=none&fp=&pbk=7i4Y7v80NVAIi_4_9roDkqcXmexIHli87dfZuFaQMUI&security=reality&sid=68da&sni=deepl.com&type=tcp#🇳🇴NO-oneclickvpnkeys
+vless://63a0b5e2-b684-4b05-b964-686aa416a868@194.110.207.195:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY&security=reality&sid=fd55b698ee8c3629&sni=lerring.no&type=tcp#🇳🇴NO-NetAccount
+vless://63a0b5e2-b684-4b05-b964-686aa416a868@194.110.207.195:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY&security=reality&sid=fd55b698ee8c3629&sni=lerring.no&type=tcp#🇳🇴NO-vpntrt

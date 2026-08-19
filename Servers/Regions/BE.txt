@@ -1,4 +1,2 @@
-hysteria2://belgium_hysteria2_fastlane_a118d9y0r%3AmbZQuQoMqSphFg1FAhfonbRpduFn69k8@113.30.152.25:1935?sni=be1.h.fastlanehosting.ru#🇧🇪BE-NetAccount
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@194.187.251.2:1080#🇧🇪BE-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@185.210.217.94:1080#🇧🇪BE-freevpnchina
-hysteria2://belgium_hysteria2_fastlane_a118d9y0r%3AmbZQuQoMqSphFg1FAhfonbRpduFn69k8@113.30.152.25:1935?sni=be1.h.fastlanehosting.ru#🇧🇪BE-vpntrt
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@194.187.251.2:1080#🇧🇪BE-freevpnchina
