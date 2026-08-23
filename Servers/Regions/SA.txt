@@ -1,1 +1,2 @@
 ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@156.244.8.155:5004#🇸🇦SA-freevpnchina
+vless://c7e9c591-2764-423a-afca-efbd010fd396@213.165.55.207:443?path=%2F&security=tls&encryption=none&insecure=0&host=forfreeuse.rtqa.ru&fp=chrome&type=ws&allowInsecure=0&sni=forfreeuse.rtqa.ru#🇸🇦SA-v2raynplus
