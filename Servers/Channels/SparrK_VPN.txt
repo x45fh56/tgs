@@ -1,2 +1,2 @@
-vless://f798a2c4-c51b-409d-b349-ca8455b36796@104.26.14.85:8443?path=%2Fdownload.php&security=tls&encryption=none&insecure=0&host=chopin.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=chopin.adaspoloandco.com#🏳️-SparrK_VPN
 vless://...@example.ir:8180?security=none&encryption=none&type=tcp#Domain-SparrK_VPN
+vless://f798a2c4-c51b-409d-b349-ca8455b36796@104.26.14.85:8443?path=%2Fdownload.php&security=tls&encryption=none&insecure=0&host=chopin.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=chopin.adaspoloandco.com#🏳️-SparrK_VPN
