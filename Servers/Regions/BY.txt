@@ -1,3 +1,2 @@
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@45.134.26.97:443?type=tcp&security=reality&sni=nordic.cendora.ru&pbk=YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU&sid=2186a755ed67b034&fp=chrome&encryption=none&flow=xtls-rprx-vision#🇧🇾BY-freevpnchina
-vless://a817d012-0eeb-4b13-9f8e-0269e939d6f6@178.172.227.178:443?type=xhttp&security=tls&fp=firefox&sni=by01.botovod.space#🇧🇾BY-vpntrt
-vless://a817d012-0eeb-4b13-9f8e-0269e939d6f6@178.172.227.178:443?alpn=h2%2Chttp%2F1.1&encryption=none&path=%2F&security=tls&sni=by01.botovod.space&type=xhttp&fp=firefox#🇧🇾BY-vpntrt
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@45.134.26.97:443?type=tcp&security=reality&sni=nordic.cendora.ru&pbk=YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU&sid=2186a755ed67b034&fp=chrome&encryption=none&flow=xtls-rprx-vision#🇧🇾BY-v2roay

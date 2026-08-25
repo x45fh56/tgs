@@ -1,11 +1,3 @@
-trojan://ND91608427@202.78.163.148:443?sni=discrete-basilisk.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🇱🇺LU-freevpnchina
-trojan://ND91608427@202.78.163.148:443?sni=discrete-basilisk.rooster465.autos&type=tcp&fp=chrome#🇱🇺LU-freevpnchina
 trojan://ND91608427@202.78.163.248:443?sni=relaxed-gull.rooster465.autos&type=tcp&fp=chrome#🇱🇺LU-freevpnchina
-trojan://FH72359861@202.78.163.156:443?security=tls&sni=primary-leech.rooster465.autos&type=tcp&headerType=none&path=/&allow_insecure=0#🇱🇺LU-v2roay
-trojan://FH72359861@202.78.163.175:443?sni=optimal-urchin.rooster465.autos&fp=chrome&type=tcp&path=/#🇱🇺LU-v2roay
-trojan://ND91608427@202.78.163.248:443?security=tls&sni=relaxed-gull.rooster465.autos&path=/#🇱🇺LU-v2roay
-trojan://FH72359861@202.78.163.233:443?sni=magnetic-caiman.rooster465.autos&fp=chrome&path=/#🇱🇺LU-v2roay
-trojan://FH72359861@202.78.163.233:443?security=tls&sni=magnetic-caiman.rooster465.autos&fp=chrome&type=tcp&headerType=none&path=/#🇱🇺LU-v2roay
-trojan://PQ05174892@202.78.163.172:443?security=tls&sni=more-trout.rooster465.autos&fp=chrome&type=tcp&headerType=none&path=/#🇱🇺LU-v2roay
-trojan://MiTiVPN@188.42.145.180:443?security=tls&sni=82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle&type=ws&host=383838-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle&path=/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN#🇱🇺LU-v2roay
-trojan://ND91608427@202.78.163.248:443?security=tls&sni=relaxed-gull.rooster465.autos&fp=chrome&type=tcp&headerType=none&path=/#🇱🇺LU-v2roay
+trojan://ND91608427@202.78.163.148:443?sni=discrete-basilisk.rooster465.autos&type=tcp&fp=chrome#🇱🇺LU-freevpnchina
+trojan://ND91608427@202.78.163.148:443?sni=discrete-basilisk.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🇱🇺LU-freevpnchina
