@@ -1,7 +1,0 @@
-vless://309c4bd0-7430-b8aa-2238-1075e9e29370@3.144.136.246:27775?type=tcp&encryption=none&security=none#🇺🇸US-vpn_m2s
-vless://309c4bd0-7430-b8aa-2238-1075e9e29370@18.226.97.47:27775?type=tcp&encryption=none&security=none#🇺🇸US-vpn_m2s
-vless://309c4bd0-7430-b8aa-2238-1075e9e29370@18.223.15.23:27775?type=tcp&encryption=none&security=none#🇺🇸US-vpn_m2s
-vless://309c4bd0-7430-b8aa-2238-1075e9e29370@18.217.238.49:27775?type=tcp&encryption=none&security=none#🇺🇸US-vpn_m2s
-vless://309c4bd0-7430-b8aa-2238-1075e9e29370@13.59.152.140:27775?type=tcp&encryption=none&security=none#🇺🇸US-vpn_m2s
-vless://716426fa-bcb7-4eb9-b460-36399ebf740d@lizca2.footballfantasyforum.com:443?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=&fp=chrome&type=tcp&allowInsecure=0&sni=lizca2.footballfantasyforum.com#Domain-vpn_m2s
-vless://309c4bd0-7430-b8aa-2238-1075e9e29370@3.21.75.34:27775?type=tcp&encryption=none&security=none#🇺🇸US-vpn_m2s
