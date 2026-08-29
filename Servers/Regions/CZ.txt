@@ -1,8 +1,9 @@
 vless://33aa2b47-484b-49f6-8f23-fb34602d221f@188.127.247.129:443?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yahoo.com&fp=chrome&security=reality&pbk=Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4&sid=0c#🇨🇿CZ-freevpnchina
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@146.70.222.126:1080#🇨🇿CZ-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@185.156.174.106:1080#🇨🇿CZ-freevpnchina
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@146.70.222.126:1080#🇨🇿CZ-freevpnchina
 vless://33aa2b47-484b-49f6-8f23-fb34602d221f@188.127.247.129:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4&security=reality&sid=0c&sni=yahoo.com&type=tcp#🇨🇿CZ-oneclickvpnkeys
-vless://ea0119bb-5e87-416a-85a8-4cabf4160509@95.182.83.239:42072?security=none&encryption=none&headerType=none&type=tcp#🇨🇿CZ-v2cnf
+hysteria2://OD6gGbGU9a@195.133.24.124:443/?sni=hys26.wba-pn.ru#🇨🇿CZ-oneclickvpnkeys
+hysteria2://OD6gGbGU9a@195.133.24.124:443/?sni=hys26.wba-pn.ru#🇨🇿CZ-v2ray_extractor
 vless://98b0ccb7-325d-4dd4-b1c0-92671e94f5be@150.241.121.61:443?mode=gun&security=tls&alpn=h2&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus--&insecure=0&fp=firefox&type=grpc&serviceName=grpc&allowInsecure=0&sni=1pgt5wjq9slq.bosfiles.net#🇨🇿CZ-v2raynplus
-vless://b34a52cb-cd52-49a8-9362-b8e97c151d49@212.102.38.25:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=udemy.com&fp=ios&pbk=23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE&sid=e90360ec7cc61b20&type=tcp&path=/#🇨🇿CZ-v2roay
+vless://33aa2b47-484b-49f6-8f23-fb34602d221f@188.127.247.129:443?flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4&sid=0c&type=tcp&path=/#🇨🇿CZ-v2roay
 hysteria2://OD6gGbGU9a@195.133.24.124:443?sni=hys26.wba-pn.ru#🇨🇿CZ-v2roay

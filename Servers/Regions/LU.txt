@@ -1,0 +1,2 @@
+vless://cb10c0a7-b570-4ae8-a40c-2a8e31bc5a26@193.239.179.138:443?&security=tls&fp=firefox&alpn=http%2F1.1&sni=sb6anj3uz4gy.bosfiles.net&type=ws&headerType=none&host=sb6anj3uz4gy.bosfiles.net&path=%2Fv1%2Fdata%2Fsync#🇱🇺LU-freevpnchina
+vless://cb10c0a7-b570-4ae8-a40c-2a8e31bc5a26@193.239.179.138:443?&security=tls&fp=firefox&alpn=http%2F1.1&sni=sb6anj3uz4gy.bosfiles.net&type=ws&headerType=none&host=sb6anj3uz4gy.bosfiles.net&path=%2Fv1%2Fdata%2Fsync#🇱🇺LU-v2roay
