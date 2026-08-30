@@ -1,142 +1,178 @@
 {
   "BrilliantGift": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "ConfigX2ray": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "ConfiingPro": {
-    "success": 15,
-    "total": 15
+    "success": 16,
+    "total": 16
   },
   "Do1rcci": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "FreakConfig": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "Maznet": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "NetAccount": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "NetShot1": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "ParsiNetFree": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "SNI_SPOOFINGconfig": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "SparrK_VPN": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "TheVPNMethod": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
+  },
+  "V2RAY_RAW": {
+    "success": 1,
+    "total": 1
+  },
+  "all_configs": {
+    "success": 1,
+    "total": 1
   },
   "artemisvpn1": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
+  },
+  "base64": {
+    "success": 1,
+    "total": 1
   },
   "byiroh": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
+  },
+  "cloudflare-base64": {
+    "success": 1,
+    "total": 1
+  },
+  "configs": {
+    "success": 1,
+    "total": 1
   },
   "dingyue_center": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "freevpnchina": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
+  },
+  "mix": {
+    "success": 1,
+    "total": 1
   },
   "new_mtproxi2": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "oliver_soul": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "oneclickvpnkeys": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
+  },
+  "openproxylist_text": {
+    "success": 0,
+    "total": 1
   },
   "persianvpnhub": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "pro_exi": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
+  },
+  "proxy_configs_tested": {
+    "success": 1,
+    "total": 1
   },
   "pythash": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "saministamm": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
+  },
+  "sub_1": {
+    "success": 1,
+    "total": 1
   },
   "tv2rayrr": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "v2cnf": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "v2ray_extractor": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "v2raynplus": {
-    "success": 16,
-    "total": 17
+    "success": 17,
+    "total": 18
   },
   "v2roay": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "v2to_nadi": {
-    "success": 15,
-    "total": 15
+    "success": 16,
+    "total": 16
   },
   "vpn_m2s": {
-    "success": 12,
-    "total": 12
+    "success": 13,
+    "total": 13
   },
   "vpnbaz": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "vpntrt": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "wbnet": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "whitedns": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   },
   "xixv2ray": {
-    "success": 17,
-    "total": 17
+    "success": 18,
+    "total": 18
   }
 }
