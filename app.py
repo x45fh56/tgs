@@ -1,31 +1,32 @@
-import re
-import geoip2.database
-import os
-import sys
-import platform
-import subprocess
-import tempfile
-import time
-import json
 import argparse
-import logging
-import threading
-import queue
-import requests
-import shutil
 import base64
 import binascii
-import urllib3
-import zipfile
-import geoip2.errors
 import ipaddress
-from urllib.parse import urlparse, parse_qs, unquote, urlencode, quote
+import json
+import logging
+import os
+import platform
+import queue
+import re
+import shutil
+import subprocess
+import sys
+import tempfile
+import threading
+import time
+import zipfile
 from base64 import urlsafe_b64decode, urlsafe_b64encode
+from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import parse_qs, quote, unquote, urlencode, urlparse
+
+import geoip2.database
+import geoip2.errors
+import requests
+import urllib3
 from bs4 import BeautifulSoup
-from collections import defaultdict
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -43,6 +44,9 @@ FRAGMENT_FINGERPRINT_PORT = "40443"
 FRAGMENT_FINGERPRINT_SHA256 = "3de5b7bd48c18c9ff057d8961f24c16555a7e387ebb509e1efb1315303695c82"
 EXTRACTED_IPS_FILE = os.path.join(MERGED_DIR, "extracted_cdn_ips.txt")
 CHANNELS_FILE = "data/telegram_sources.txt"
+# This file may contain both Telegram channels and direct HTTP(S) subscription
+# files.  The old name is kept for backward compatibility.
+SOURCES_FILE = CHANNELS_FILE
 LOG_FILE = os.path.join(REPORTS_DIR, "extraction_report.log")
 GEOIP_DATABASE_PATH = Path("data/db/GeoLite2-Country.mmdb")
 MERGED_SERVERS_FILE = os.path.join(MERGED_DIR, "merged_servers.txt")
@@ -92,6 +96,7 @@ SLEEP_TIME = 1
 BATCH_SIZE = 10
 FETCH_CONFIG_LINKS_TIMEOUT = 15
 MAX_CHANNEL_SERVERS = 100
+MAX_GITHUB_SERVERS = 10000
 MAX_PROTOCOL_SERVERS = 100000
 MAX_REGION_SERVERS = 100000
 MAX_MERGED_SERVERS = 1000000
@@ -190,12 +195,19 @@ def normalize_telegram_url(url):
     return url
 
 def extract_channel_name(url):
-    if '.txt' in url.lower() or 'raw.githubusercontent.com' in url.lower():
-        name = url.split('/')[-1]
-        return name.replace('.txt', '') if name else "Subscription"
     try:
         parsed_url = urlparse(url)
         path_parts = [part for part in parsed_url.path.split('/') if part]
+        if parsed_url.scheme in ('http', 'https') and parsed_url.netloc.lower() not in ('t.me', 'www.t.me'):
+            name = unquote(path_parts[-1]) if path_parts else parsed_url.netloc
+            # A few subscription endpoints end in a generic path such as
+            # /text. Prefixing those with the host avoids filename collisions.
+            if name.lower() in {'text', 'raw', 'download', 'subscription', 'sub'}:
+                host = parsed_url.netloc.lower().removeprefix('www.').split(':', 1)[0]
+                name = f"{host.split('.')[0]}_{name}"
+            name = re.sub(r'(?i)\.txt$', '', name)
+            safe_name = re.sub(r'[^A-Za-z0-9._-]+', '_', name).strip('._-')
+            return safe_name or "Subscription"
         if path_parts:
             if path_parts[0] == 's' and len(path_parts) > 1:
                 return path_parts[1]
@@ -205,6 +217,19 @@ def extract_channel_name(url):
     name_candidate = url.split('/')[-1] if '/' in url else url
     name_candidate = name_candidate.split('?')[0].split('#')[0]
     return name_candidate if name_candidate else "unknown_channel"
+
+def is_github_source(url):
+    """Return True for github.com and raw.githubusercontent.com sources."""
+    try:
+        hostname = (urlparse(url).hostname or '').lower()
+        return (
+            hostname == 'github.com'
+            or hostname.endswith('.github.com')
+            or hostname == 'githubusercontent.com'
+            or hostname.endswith('.githubusercontent.com')
+        )
+    except Exception:
+        return False
 
 def rotate_run_log_file(file_path, max_runs=LOG_ROTATE_MAX_RUNS):
     if not os.path.exists(file_path):
@@ -369,28 +394,34 @@ def save_extraction_data(channel_stats_data, country_data_map):
             log.write(f"Total Servers (Merged): {current_counts['total']}\n")
             log.write(f"Successful Geo-IP Resolutions: {current_counts['successful']}\n")
             log.write(f"Failed Geo-IP Resolutions: {current_counts['failed']}\n")
-            for country, count in sorted(country_stats_map_local.items(), key=lambda x: x[1], reverse=True):
-                log.write(f"{country:<20} : {count}\n")
+            log.writelines(f"{country:<20} : {count}\n" for country, count in sorted(country_stats_map_local.items(), key=lambda x: x[1], reverse=True))
             log.write("\n=== Server Type Summary ===\n")
             valid_protocols = {p: current_counts.get(p, 0) for p in PATTERNS}
             valid_protocols['cdn'] = current_counts.get('cdn_ips', 0)
-            for proto, count in sorted(valid_protocols.items(), key=lambda x: x[1], reverse=True):
-                log.write(f"{proto.upper():<20} : {count}\n")
+            log.writelines(f"{proto.upper():<20} : {count}\n" for proto, count in sorted(valid_protocols.items(), key=lambda x: x[1], reverse=True))
             log.write("\n=== Channel Statistics (Extraction) ===\n")
             if not channel_stats_data:
                 log.write("No channel data available.\n")
             else:
-                for channel, total in sorted(channel_stats_data.items(), key=lambda x: x[1], reverse=True):
-                    log.write(f"{channel:<30}: {total}\n")
+                log.writelines(f"{channel:<30}: {total}\n" for channel, total in sorted(channel_stats_data.items(), key=lambda x: x[1], reverse=True))
     except Exception:
         pass
 
 def try_decode_base64(text):
-    try:
-        padded = text.strip() + "=" * ((4 - len(text.strip()) % 4) % 4)
-        return base64.b64decode(padded).decode('utf-8', errors='ignore')
-    except Exception:
+    compact = re.sub(r'\s+', '', text or '')
+    if not compact:
         return text
+    try:
+        padded = compact + "=" * (-len(compact) % 4)
+        decoded = base64.b64decode(padded, altchars=b'-_', validate=True)
+        decoded_text = decoded.decode('utf-8', errors='strict')
+        # Avoid treating arbitrary plain text as Base64 merely because its
+        # characters happen to fit the alphabet.
+        if any(f'{proto}://' in decoded_text for proto in PATTERNS):
+            return decoded_text
+    except (ValueError, UnicodeDecodeError, binascii.Error):
+        pass
+    return text
 
 def extract_configs_from_text(text, configs_dict):
     for proto, pattern in PATTERNS.items():
@@ -1168,7 +1199,7 @@ def parse_vless_link(link):
     query = parse_qs(parsed.query)
     hostname = parsed.hostname
     if not (parsed.scheme == 'vless' and hostname and uuid and
-            re.match(r'^[0-9a-f]{8}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{12}$', uuid, re.I)):
+            re.match(r'^[0-9a-f]{8}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{12}$', uuid, re.IGNORECASE)):
         raise ValueError(f"Invalid VLESS link structure: {link}")
     port = parsed.port or (443 if query.get('security', [''])[0] in ['tls', 'reality'] else 80)
     sec = query.get('security', ['none'])[0] or 'none'
@@ -1538,7 +1569,7 @@ def install_v2ray():
         with requests.get(download_url, stream=True, timeout=300) as r:
             r.raise_for_status()
             with open(zip_path, 'wb') as f:
-                for chunk in r.iter_content(chunk_size=8192): f.write(chunk)
+                f.writelines(r.iter_content(chunk_size=8192))
         with zipfile.ZipFile(zip_path, 'r') as zip_ref:
             zip_ref.extractall(V2RAY_DIR)
         os.remove(zip_path)
@@ -1822,9 +1853,14 @@ def process_channel(url, existing_configs=None):
             existing_channel_cfgs = {l.strip() for l in f if l.strip()}
     new_for_channel = formatted_links_for_channel - existing_channel_cfgs
     if new_for_channel:
-        updated_ch_cfgs = list(new_for_channel) + list(existing_channel_cfgs)
+        updated_ch_cfgs = sorted(new_for_channel) + sorted(existing_channel_cfgs)
+        source_limit = (
+            MAX_GITHUB_SERVERS
+            if is_github_source(url)
+            else MAX_CHANNEL_SERVERS
+        )
         with open(channel_file, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(updated_ch_cfgs[:MAX_CHANNEL_SERVERS]) + '\n')
+            f.write('\n'.join(updated_ch_cfgs[:source_limit]) + '\n')
     new_global_total = 0
     for proto in PATTERNS:
         proto_links = {f"{l.split('#')[0]}#{build_region_remark(l.split('#')[0], channel_name)}" for l in configs.get(proto, [])}
@@ -1929,7 +1965,7 @@ if __name__ == "__main__":
              os.remove(MERGED_SNI_FILE)
         if os.path.exists(MERGED_FRAGMENT_FINGERPRINT_FILE):
              os.remove(MERGED_FRAGMENT_FINGERPRINT_FILE)
-        channels_file_path = CHANNELS_FILE
+        channels_file_path = SOURCES_FILE
         try:
             if not os.path.exists(channels_file_path):
                 logging.error(f"Channels file not found: {channels_file_path}")
@@ -2021,9 +2057,9 @@ if __name__ == "__main__":
                     }.get(parsed_url_scheme)
                     if parser_func:
                         try: server_info_dict = parser_func(link_str)
-                        except ValueError as ve:
+                        except ValueError:
                             parsing_errors[f"parse_invalid_{parsed_url_scheme}"] += 1
-                        except Exception as pe_inner:
+                        except Exception:
                             parsing_errors[f"parse_general_error_{parsed_url_scheme}"] += 1
                     else:
                         parsing_errors[f"no_parser_for_enabled_{parsed_url_scheme}"] += 1
@@ -2032,7 +2068,7 @@ if __name__ == "__main__":
                         all_servers_to_test.append(server_info_dict)
                         proto_load_counts[parsed_url_scheme] += 1
                         channel_test_stats[ch_filename]['total_prepared'] += 1
-                except Exception as outer_ex:
+                except Exception:
                     parsing_errors["outer_processing_loop"] += 1
 
         if not all_servers_to_test:
