@@ -1,1 +1,2 @@
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.180.43.233:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nordic.cendora.ru&fp=safari&pbk=YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU&sid=2186a755ed67b034&type=tcp&headerType=none#🇮🇸IS-all_configs
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.180.43.233:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nordic.cendora.ru&fp=safari&pbk=YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU&sid=2186a755ed67b034&type=tcp&headerType=none#🇮🇸IS-configs

@@ -1,8 +1,9 @@
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.34.182.23:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=eu-central.cendora.ru&fp=chrome&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&allowInsecure=1#🇺🇦UA-all_configs
-vless://41f4cb15-5a3f-3934-89fe-b4177146adf4@88.151.195.241:18153?security=tls&type=tcp&packetEncoding=xudp&alpn=h2%2Chttp%2F1.1&sni=u643766ub6f3132bs274.kukuss.top&fp=firefox&flow=xtls-rprx-vision&encryption=none#🇺🇦UA-all_configs
 trojan://d2adff89-5143-4d67-921f-3478464de5bb@130.0.236.88:443?security=tls&sni=ua.freeguard.org&type=tcp#🇺🇦UA-all_configs
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.34.182.23:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=eu-central.cendora.ru&fp=chrome&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&allowInsecure=1#🇺🇦UA-configs
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.34.182.23:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=eu-central.cendora.ru&fp=chrome&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&allowInsecure=1#🇺🇦UA-proxy_configs_tested
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.34.182.23:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=eu-central.cendora.ru&fp=chrome&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&allowInsecure=1#🇺🇦UA-freevpnchina
 vless://41f4cb15-5a3f-3934-89fe-b4177146adf4@88.151.195.241:18153?encryption=none&type=tcp&headerType=&fp=firefox&host=b6f3132bs274.kukuss.top&path=&flow=xtls-rprx-vision&security=tls&sni=u643766ub6f3132bs274.kukuss.top&serviceName=&mode=&alpn=h2%2Chttp%2F1.1#🇺🇦UA-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@194.54.80.37:1080#🇺🇦UA-freevpnchina
 hysteria2://GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_@193.41.5.243:8443/?insecure=1&sni=hy2-germany.unlimited-access.ru#🇺🇦UA-v2ray_extractor
-hysteria2://GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_@193.41.5.243:8443?insecure=1&sni=hy2-germany.unlimited-access.ru#🇺🇦UA-v2roay
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.34.182.23:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=eu-central.cendora.ru&fp=chrome&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&allowInsecure=1#🇺🇦UA-v2roay
