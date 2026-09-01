@@ -1,1 +1,3 @@
+trojan://9c2cd61e-fa64-3e6f-a817-132e17e11949@152.175.1.73:443?sni=steampipe.akamaized.net&type=tcp#🇨🇱CL-all_configs
 trojan://9c2cd61e-fa64-3e6f-a817-132e17e11949@152.175.65.90:443?sni=www.microsoft365.com&type=tcp#🇨🇱CL-all_configs
+trojan://04e30e9f-661a-4a40-9973-4f2961298e99@152.175.28.15:28443?alpn=http%2F1.1&fp=chrome&host=vpn-node.internal&path=%2FxVpnTrojanWsSvc7f3a&sni=vpn-node.internal&type=ws#🇨🇱CL-all_configs
