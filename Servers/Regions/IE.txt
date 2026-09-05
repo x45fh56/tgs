@@ -1,7 +1,6 @@
-trojan://IQ68037294@108.131.117.154:443?sni=funky-opossum.rooster465.autos&fp=chrome&type=tcp&path=%2f#🇮🇪IE-all_configs
+trojan://humanity@54.216.143.197:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇮🇪IE-all_configs
 trojan://NQ26071394@108.131.117.154:443?security=tls&sni=funky-opossum.rooster465.autos&fp=chrome&type=tcp&headerType=none&path=%2f&allow_insecure=0#🇮🇪IE-all_configs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppbXEwdkxpa2JPeDRUSFpQ@20.107.193.38:443#🇮🇪IE-all_configs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppbXEwdkxpa2JPeDRUSFpQ@20.107.193.38:443#🇮🇪IE-configs
+trojan://humanity@54.216.143.197:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇮🇪IE-configs
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptOVFkYnQ5SXUzNUl4eXFO@23.100.56.187:443#🇮🇪IE-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@84.247.48.78:1080#🇮🇪IE-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ek42V0R3NVdiYWQ3WlZi@20.223.152.73:443#🇮🇪IE-freevpnchina

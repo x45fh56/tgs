@@ -1,8 +1,10 @@
 vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=/5021201ef53f&security=&encryption=none&type=ws#🇺🇿UZ-all_configs
-vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=/5021201ef53f&encryption=none&type=ws#🇺🇿UZ-proxy_configs_tested
-vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=%2F5021201ef53f&amp;security=none&amp;encryption=none&amp;type=ws#🇺🇿UZ-V2RAY_RAW
+vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=/5021201ef53f&security=none&encryption=none&type=ws#🇺🇿UZ-proxy_configs_tested
+vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=/5021201ef53f&security=none&encryption=none&type=ws#🇺🇿UZ-mix
+vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?encryption=none&security=none&type=ws&path=/5021201ef53f#🇺🇿UZ-V2RAY_RAW
+vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=%2F5021201ef53f&security=none&encryption=none&type=ws#🇺🇿UZ-NetShot1
 vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?encryption=none&security=none&type=ws&path=%2F5021201ef53f#🇺🇿UZ-SparrK_VPN
 vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=%2F5021201ef53f&amp;security=none&amp;encryption=none&amp;type=ws#🇺🇿UZ-freevpnchina
 vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=%2F5021201ef53f&security=&encryption=none&type=ws#🇺🇿UZ-v2raynplus
-vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=%2F5021201ef53f&amp;security=none&amp;encryption=none&amp;type=ws#🇺🇿UZ-v2roay
-vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=/5021201ef53f&encryption=none&type=ws#🇺🇿UZ-v2roay
+vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?encryption=none&security=none&type=ws&path=/5021201ef53f#🇺🇿UZ-v2roay
+vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=/5021201ef53f&security=none&encryption=none&type=ws#🇺🇿UZ-v2roay

@@ -1,10 +1,9 @@
-hysteria2://0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8@139.28.168.58:8080?security=tls&sni=grape-honk.yyuyy.com#🇺🇸US-freevpnchina
-hysteria2://41f4cb15-5a3f-3934-89fe-b4177146adf4@[2400:e920:0:a::52]:18153?sni=u643766u1fcc598es783.csgfw.top&alpn=h3&mport=30000-32000&hopinterval=30s#🇻🇳VN-freevpnchina
-hysteria2://41f4cb15-5a3f-3934-89fe-b4177146adf4@s785.uugfw.top:18153?sni=u643766u1fcc598es783.csgfw.top&alpn=h3&mport=30000-32000&hopinterval=30s#Domain-freevpnchina
+hysteria2://41f4cb15-5a3f-3934-89fe-b4177146adf4@[2400:e920:0:a::52]:443?sni=u643766ubd130da1s783.csgfw.top&alpn=h3&mport=30000-32000&hopinterval=30s#🇻🇳VN-freevpnchina
+hysteria2://41f4cb15-5a3f-3934-89fe-b4177146adf4@s785.uugfw.top:443?sni=u643766ubd130da1s783.csgfw.top&alpn=h3&mport=30000-32000&hopinterval=30s#Domain-freevpnchina
 hysteria2://f87376e17da040ed04c9665ce8972930@138.2.73.238:50160?insecure=1&security=tls&sni=www.bing.com#🇸🇬SG-freevpnchina
 hysteria2://h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT@138.124.0.168:8080?sni=hopp-legend-se.roxa.org#🇫🇮FI-freevpnchina
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@47.129.98.169:443?insecure=1&security=tls&sni=vpn-sg-001.fastervpn.world#🇸🇬SG-freevpnchina
 hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@46.229.243.149:8443?sni=grape-turbo-fr.roxa.org&insecure=1#🇳🇱NL-freevpnchina
-hysteria2://sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX@news.gazette.help:443?security=tls&sni=news.gazette.help#Domain-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6K0tHZzFJUENtd291L1Rib3gzNUNENEREZE5Zb0FGTit5d2pTY2gyRjZMRT0@#🏳️-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6K0tHZzFJUENtd291L1Rib3gzNUNENEREZE5Zb0FGTit5d2pTY2gyRjZMRT0@144.24.225.94:61312#🇬🇧GB-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6K1I3NG9vUEo0UEhGWkt0dEI5WmgzNUZnOU43U3hSYlJZREZOTjF2R2Fiaz0@#🏳️-freevpnchina
@@ -19,6 +18,7 @@ ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6K2lnZEpJa0pnRjM5UTV3WGRkQVA5UmxqNjY
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6K2lnZEpJa0pnRjM5UTV3WGRkQVA5UmxqNjY3akc2cHVjWjNwSWhxM0N5WT0@140.245.99.244:56927#🇸🇬SG-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6K3pnSFFSYnprdEZVc0RJQVowNmNRdmQwQ2R3QkhxdDlKQThneHYxUG1Baz0@#🏳️-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6K3pnSFFSYnprdEZVc0RJQVowNmNRdmQwQ2R3QkhxdDlKQThneHYxUG1Baz0@134.98.152.108:45819#🇳🇱NL-freevpnchina
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6L1V0V0RmeGNGY1g5Q0ZkRm1aUmh4UHlrMjRpLzFHOFVPSDFrdXU0dmFvUT0@130.61.231.223:59924#🇩🇪DE-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6M0NMekVTazB5NVRUNHJxOW5OMEo5LzJ1aFdBVlV5TTFHdmd0ZmVhNCtLdz0@#🏳️-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6M0NMekVTazB5NVRUNHJxOW5OMEo5LzJ1aFdBVlV5TTFHdmd0ZmVhNCtLdz0@134.98.138.80:45819#🇳🇱NL-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MFpRbUs0aDZGWWZKMWc4SlUzSm1oMHZLSDZXbENGdEVrY21iU1JDeUFvTT0@#🏳️-freevpnchina
@@ -34,6 +34,7 @@ ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MTR6ZHVWT3BxWk9LNmlheWsreGQzNGg5OHl
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MU1YLzExZWFSbTJPYmZhT0RSS2k0Wk5BV1d4cnNhUEZDS3RpeXNzQ0pNcz0@#🏳️-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MU1YLzExZWFSbTJPYmZhT0RSS2k0Wk5BV1d4cnNhUEZDS3RpeXNzQ0pNcz0@129.151.84.137:61312#🇬🇧GB-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MVhUZHpidkx0czlRc1NHc3U2VmdJMVZ1NjVFRllhUXVyY3V1M3ZsdC9haz0@#🏳️-freevpnchina
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MW4yalhsYWNrMDZSVWpHZzBFQjJaeXlvck03NnB1T20vSjZESXZOU3hjOD0@130.61.46.211:59924#🇩🇪DE-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MmVjSDZLalo0N1BGdnM5MGVOdDFBQXN0bFQzbjVlWmVyZ0QyTzVJWEVhcz0@#🏳️-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MmVjSDZLalo0N1BGdnM5MGVOdDFBQXN0bFQzbjVlWmVyZ0QyTzVJWEVhcz0@161.153.115.187:50356#🇺🇸US-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MmYvaFNuQUY1R0RoeXZlOGJybXdlcC9MelMxZEtNOHVhV1JZc3ZJb2JGdz0@#🏳️-freevpnchina
@@ -59,6 +60,7 @@ ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6NjdXbkEyc2xNYVArU0V0ajdSOGVlYTl1Rmx
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6NkVJVzZUcEVHVUFIejh0aWhCc2lEcERpK0hNd0VHMFp2SG14ODBaOWh3RT0@129.146.73.229:50356#🇺🇸US-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6NnBPWVh5bmRzME5IYVg1em1WVUVwV3h0OWhkbGhobDdXNG9JT0w0RUhLcz0@129.151.75.132:61312#🇬🇧GB-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6Ny9FQTZnOHpmUzV2VllYcmsrMTZ3QSs0MWVlanBRanI3bGw1QzJCWHN4ND0@147.15.73.104:59319#🇧🇷BR-freevpnchina
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6ODFHbU42bmgxOEJTM3cwYzBsQ0lFVyswT0RMRyswSWgxUHJLcFZFMVptdz0@130.61.118.135:59924#🇩🇪DE-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6ODhBWkVucXdlNlkrWHZjbHlEdGcxWHIxTHJoMHRCVzBMZ1NIUitBd3BEST0@213.35.110.13:56927#🇸🇬SG-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6OEMrQzQxSEx6dFJqdnErc2Y2Szk0VjJpKzZTWUdITi9sZGcyVXR0Tk5ZND0@129.150.48.175:56927#🇸🇬SG-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6OElwekdqKzREejEzR3lCN0c1aDFEdUcwa2x5S0o0S3U3M0NBWWk2Y3M1WT0@134.65.61.49:61312#🇬🇧GB-freevpnchina
@@ -96,5 +98,3 @@ ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6RmpkbnAxSmVkUzQwQ1dvbjB4YllIOUwyWFZ
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6Rnc5YmdJN0NuaE1NcTIxT3BBdmQwQUc2a0k4am1odndQUHhKL1pWK1phTT0@64.181.178.255:59319#🇧🇷BR-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6RzUvNG5idFNSbXJQZ1ZPZUIybVlWVFZZaHpqcjRUcDRlVmdldmZBbFo4ST0@129.151.86.58:61312#🇬🇧GB-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6S0ExL09BSGhhd1UydldwekNXemJvaDVTeTdQZjVvSlJhV3BVVWRWR25Wdz0@161.118.225.224:56927#🇸🇬SG-freevpnchina
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6S1hIMXd2eVJTRXZNOW5NK2sxVHdsYXI1T3lndUdrcjVWZFc3bWkvcTkzND0@141.148.227.92:45819#🇳🇱NL-freevpnchina
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SEVaTXczZTNPYnpRNGhPSDNFd0VoM1JzRDN1N3p6bVNPSHBWR0RBVFpSaz0@129.151.85.177:61312#🇬🇧GB-freevpnchina
