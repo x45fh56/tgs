@@ -1,2 +1,5 @@
 vless://cd842ef8-9577-47f3-83ca-627147ed291b@38.54.59.209:2087/?type=ws&encryption=none&flow=&path=%2Fd1000b16fe76&packetEncoding=xudp#🇪🇬EG-all_configs
-vless://cd842ef8-9577-47f3-83ca-627147ed291b@38.54.59.209:2087/?type=ws&encryption=none&flow=&path=%2Fd1000b16fe76&packetEncoding=xudp#🇪🇬EG-configs
+vless://cd842ef8-9577-47f3-83ca-627147ed291b@38.54.59.209:2087?encryption=none&path=/d1000b16fe76&security=none&type=ws#🇪🇬EG-configs
+vless://cd842ef8-9577-47f3-83ca-627147ed291b@38.54.59.209:2087?encryption=none&path=/d1000b16fe76&security=none&type=ws#🇪🇬EG-V2RAY_RAW
+vless://cd842ef8-9577-47f3-83ca-627147ed291b@38.54.59.209:2087?encryption=none&path=%2Fd1000b16fe76&security=none&type=ws#🇪🇬EG-oneclickvpnkeys
+vless://cd842ef8-9577-47f3-83ca-627147ed291b@38.54.59.209:2087?encryption=none&path=/d1000b16fe76&security=none&type=ws#🇪🇬EG-v2roay
