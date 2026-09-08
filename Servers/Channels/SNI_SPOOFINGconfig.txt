@@ -2,6 +2,7 @@ trojan://0jvOqSPtoC@127.0.0.1:40443?security=tls&sni=da.aananas.ir&fp=chrome&ins
 trojan://25ae6230-7834-41dc-94a4-586e1a79ea89@127.0.0.1:40443?security=tls&sni=shy-brook-df1e.amirkhan69.workers.dev&fp=ios&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=shy-brook-df1e.amirkhan69.workers.dev&path=%2F%3Fed%3D2048#🏳️-SNI_SPOOFINGconfig
 trojan://humanity@127.0.0.1:40443?security=tls&sni=www.calmloud.com&fp=chrome&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&path=%2Fassignment#🏳️-SNI_SPOOFINGconfig
 trojan://humanity@127.0.0.1:40443?security=tls&sni=www.calmloud.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&path=%2Fassignment#🏳️-SNI_SPOOFINGconfig
+trojan://humanity@127.0.0.1:40443?security=tls&sni=www.calmlunch.com&allowInsecure=true&type=ws&host=www.calmlunch.com&path=/assignment#🏳️-SNI_SPOOFINGconfig
 trojan://humanity@127.0.0.1:40443?security=tls&sni=www.calmlunch.com&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&host=www.calmlunch.com&path=%2Fassignment#🏳️-SNI_SPOOFINGconfig
 trojan://humanity@127.0.0.1:40443?security=tls&sni=www.calmlunch.com&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&path=%2Fassignment#🏳️-SNI_SPOOFINGconfig
 trojan://humanity@127.0.0.1:40443?security=tls&sni=www.calmlunch.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&path=%2Fassignment#🏳️-SNI_SPOOFINGconfig
@@ -13,6 +14,7 @@ trojan://humanity@127.0.0.1:40443?security=tls&sni=www.ignitelimit.com&type=ws&h
 trojan://humanity@127.0.0.1:40443?security=tls&sni=www.multiplydose.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&path=%2Fassignment#🏳️-SNI_SPOOFINGconfig
 trojan://humanity@127.0.0.1:40443?security=tls&sni=www.multiplydose.com&insecure=0&allowInsecure=0&type=ws&host=www.multiplydose.com&path=%2Fassignment#🏳️-SNI_SPOOFINGconfig
 vless://2244d9e4-dc80-4c61-9362-dde0afd034dd@127.0.0.1:40443?encryption=none&security=tls&sni=hs.qoogl.workers.dev&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=hs.qoogl.workers.dev&path=%2F#🏳️-SNI_SPOOFINGconfig
+vless://30980fc4-8789-42df-80d1-0c8e5cd26881@127.0.0.1:40443?encryption=none&security=tls&sni=cdn.veilvpn.fans&allowInsecure=true&fp=chrome&type=httpupgrade&host=cdn.veilvpn.fans&path=/vpnhu&packetEncoding=xudp#🏳️-SNI_SPOOFINGconfig
 vless://30980fc4-8789-42df-80d1-0c8e5cd26881@127.0.0.1:40443?encryption=none&security=tls&sni=cdn.veilv…#🏳️-SNI_SPOOFINGconfig
 vless://429f43ca-087a-4fbc-9d88-9d9007bf30bc@127.0.0.1:40443?encryption=none&security=tls&sni=unnes.ac.id.cyylr.eu.cc&insecure=0&allowInsecure=0&type=ws&host=unnes.ac.id.cyylr.eu.cc&path=%2Fmy-wbv#🏳️-SNI_SPOOFINGconfig
 vless://429f43ca-087a-4fbc-9d88-9d9007bf30bc@127.0.0.1:40443?encryption=none&security=tls&sni=unnes.ac.id.cyylr.eu.cc&insecure=0&allowInsecure=0&type=ws&host=unnes.ac.id.cyylr.eu.cc&path=%2Fmy-wbv%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512#🏳️-SNI_SPOOFINGconfig
