@@ -1,4 +1,5 @@
 vless://69b8f2e5-b6f8-48cb-ab49-a4394cfa95dd@cdn.devmixa.ir:2086?mode=auto&path=%2F&security=none&encryption=none&host=rubika.ir.play.google.com.www.speedtest.net.chatgpt.com.openai.com.icloud.com.as.sw.irankrmanshah.ir.cdn.en.k8k8110.com&type=xhttp#Domain-vpn_m2s
+vless://bbb9b9db-d7f8-4242-b053-8526899f87b5@ae.209qu4892fh8934.live:443?security=reality&alpn=h2&encryption=none&pbk=PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA&fp=firefox&type=grpc&serviceName=livestreamcontent&sni=irangov.ir&sid=5c93a30dbabbc444#Domain-vpn_m2s
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.37.73.8:22222?security=none&encryption=none&headerType=none&type=tcp#🇫🇷FR-vpn_m2s
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.37.73.8:22223?security=none&encryption=none&headerType=none&type=tcp#🇫🇷FR-vpn_m2s
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.37.73.8:22224?security=none&encryption=none&headerType=none&type=tcp#🇫🇷FR-vpn_m2s

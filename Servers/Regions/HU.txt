@@ -2,3 +2,4 @@ trojan://humanity@185.225.68.232:443?sni=www.calmlunch.com&type=ws&path=/assignm
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0OFVRV0pWZXREcjdFVGlPWEYrYUVRPT0@217.70.14.216:8443#🇭🇺HU-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.203.254:1080#🇭🇺HU-freevpnchina
 trojan://C0ldyfh-vpnjantit.com@46.29.142.57:4443?security=tls&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=hu2.vpnjantit.com#🇭🇺HU-v2raynplus
+trojan://humanity@185.225.68.232:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇭🇺HU-v2raynplus

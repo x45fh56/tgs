@@ -1,3 +1,6 @@
-trojan://9c2cd61e-fa64-3e6f-a817-132e17e11949@152.175.65.90:443?sni=www.microsoft365.com&type=tcp#🇨🇱CL-all_configs
-trojan://9c2cd61e-fa64-3e6f-a817-132e17e11949@152.175.1.73:443?sni=steampipe.akamaized.net&type=tcp#🇨🇱CL-all_configs
-ss://YWVzLTI1Ni1nY206eEJTdEJFVnF2R3dIUG9jYw@64.176.2.21:8388#🇨🇱CL-freevpnchina
+trojan://9c2cd61e-fa64-3e6f-a817-132e17e11949@152.175.1.247:443?sni=steampipe.akamaized.net&type=tcp#🇨🇱CL-all_configs
+trojan://9c2cd61e-fa64-3e6f-a817-132e17e11949@152.175.65.24:443?sni=www.microsoft365.com&type=tcp#🇨🇱CL-all_configs
+ss://YWVzLTI1Ni1nY206eEJTdEJFVnF2R3dIUG9jYw@64.176.2.21:8388#🇨🇱CL-all_configs
+ss://YWVzLTI1Ni1nY206eEJTdEJFVnF2R3dIUG9jYw==@64.176.2.21:8388#🇨🇱CL-all_configs
+ss://YWVzLTI1Ni1nY206eEJTdEJFVnF2R3dIUG9jYw==@64.176.2.21:8388#🇨🇱CL-configs
+ss://YWVzLTI1Ni1nY206eEJTdEJFVnF2R3dIUG9jYw==@64.176.2.21:8388#🇨🇱CL-base64
