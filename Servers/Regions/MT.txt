@@ -1,1 +1,1 @@
-vless://68172289-a964-4431-a944-0acd47152878@193.227.99.253:2083?path=%2F&security=tls&encryption=none&insecure=0&fp=firefox&type=httpupgrade&allowInsecure=0&sni=cdn.cjdpars-m.ir#🇲🇹MT-v2cnf
+vless://fb5058f5-a9ed-424e-9ed7-33d455438286@193.227.99.2:8880?encryption=none&security=none&type=ws&host=old-violet-a5ce.29-440.workers.dev&path=%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2#🇲🇹MT-all_configs

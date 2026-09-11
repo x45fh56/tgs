@@ -1,2 +1,0 @@
-vless://ca19c24a-e5ec-45f8-8cd1-c97d84da5e35@45.129.186.205:443?flow=xtls-rprx-vision&fp=firefox&pbk=ntzKs0FMUCLOwBKYNbvzf9FZKEL6tZP6BXccNKJCcF8&security=reality&sni=ru.oblaco.bet#🇧🇾BY-proxy_configs_tested
-vless://ca19c24a-e5ec-45f8-8cd1-c97d84da5e35@45.129.186.205:443?flow=xtls-rprx-vision&fp=firefox&pbk=ntzKs0FMUCLOwBKYNbvzf9FZKEL6tZP6BXccNKJCcF8&security=reality&sni=ru.oblaco.bet#🇧🇾BY-v2roay
