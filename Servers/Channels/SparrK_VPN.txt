@@ -4,9 +4,7 @@ hysteria2://fr9p9ji70krwnup6@giftcard.gateway-stream.com:52058?sni=giftcard.gate
 hysteria2://fr9p9ji70krwnup6@giftcard.gateway-stream.com:52067?sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#Domain-SparrK_VPN
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg@103.160.63.199:31348?#🇮🇩ID-SparrK_VPN
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4dG1udlg1ell1V0dWSURQMmpnbFp3@5.78.51.123:1080?#🇺🇸US-SparrK_VPN
-ss://YWVzLTI1Ni1nY206QXlxWDhLeW55eVFMUmVPWm9yUVJRYnN2bWl3eEJRT2Y@64.83.33.45:443?#🇯🇵JP-SparrK_VPN
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@15.204.246.107:8888?#🇺🇸US-SparrK_VPN
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@15.204.246.189:8119?#🇺🇸US-SparrK_VPN
 trojan://humanity@188.42.145.180:443?security=tls&sni=www.volumeroot.com&fp=chrome&alpn=http%2F1.1&type=ws&host=www.volumeroot.com&path=%2Fassignment#🇱🇺LU-SparrK_VPN
 vless://0b39a009-2a2a-4035-ba87-cc82894f8e21@connect6.nyxserver.ir:8446?encryption=none&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&type=tcp&headerType=none#Domain-SparrK_VPN
 vless://10f7eb2d-d96d-4778-9d36-aff11e9d6629@189.74.97.43:2087?encryption=none&security=none&type=ws&path=%2F73b6faea2d00#🇺🇸US-SparrK_VPN
@@ -22,7 +20,4 @@ vless://a90c264d-3853-4eef-9a3d-628b2d02d15e@172.67.176.60:443?encryption=none&s
 vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.115:2087?encryption=none&security=none&type=ws&path=%2F4bc027a44532#🇺🇦UA-SparrK_VPN
 vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.98:2087?encryption=none&security=none&type=ws&path=%2F4bc027a44532#🇺🇦UA-SparrK_VPN
 vless://c21631d5-36c9-4664-b575-97eca17456be@2.27.205.59:443?encryption=none&security=none&type=ws&host=neth8.lunariai.ru&path=%2F#🇺🇸US-SparrK_VPN
-vless://c21631d5-36c9-4664-b575-97eca17456be@neth8.lunariai.ru:443?encryption=none&security=none&type=ws&host=neth8.lunariai.ru&path=%2F#Domain-SparrK_VPN
-vless://d9d0f208-d582-41d5-bb7b-742671402810@eu-north-sw-1.hanvpn.biz:443?encryption=none&flow=xtls-rprx-vision&security=reality&fp=chrome&pbk=ELFdNdI6NYwuEq5OqCkYwnUInHvIpsUhd4z2ud7pOCM&sid=0172b7681806bc97&type=tcp&headerType=none#Domain-SparrK_VPN
-vless://f081b5e2-f3a0-4ef5-833b-1ea59e0797b6@fcs013.getdcz.me:443?encryption=none&security=tls&sni=fcs013.getdcz.me&fp=chrome&type=ws&host=fcs013.getdcz.me&path=%2F6d2fed050b30#Domain-SparrK_VPN
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkBTcGFycmtfVlBOIiwNCiAgImFkZCI6ICIxNTYuMjQ1LjIzMi4yMzkiLA0KICAicG9ydCI6ICIzNTA0MyIsDQogICJpZCI6ICJiMTVlNDgxZC0xN2U0LTQxYTgtODRjMi0yM2Q0ZjA1MTRkOWEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJwYXRoIjogIi8iLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiIsDQogICJpbnNlY3VyZSI6ICIwIiwNCiAgInZjbiI6ICIiLA0KICAicGNzIjogIiINCn0=#🇭🇰HK-SparrK_VPN
