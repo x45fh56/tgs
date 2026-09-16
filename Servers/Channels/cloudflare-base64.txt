@@ -1,8 +1,6 @@
-vless://21bc3d45-9071-44f5-b14b-8f30348a3010@ct.877774.xyz:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=nl-ams.xhs152.shop&sni=nl-ams.xhs152.shop&fp=random&encryption=none#Domain-cloudflare-base64
-vless://21bc3d45-9071-44f5-b14b-8f30348a3010@freev2.cloudflare.182682.xyz:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=us-lax.xhs152.shop&sni=us-lax.xhs152.shop&fp=random&encryption=none#Domain-cloudflare-base64
-vless://21bc3d45-9071-44f5-b14b-8f30348a3010@www.visa.com.hk:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=se-sto.xhs152.shop&sni=se-sto.xhs152.shop&fp=random&encryption=none#Domain-cloudflare-base64
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.10.185:443?security=tls&type=ws&path=%2Ftyxyws&host=jp3.yohototo.top&sni=jp3.yohototo.top&fp=unsafe&encryption=none#🏳️-cloudflare-base64
-vless://6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2@104.17.70.206:2096?security=tls&type=ws&path=%2Ffree-server.techsonic.dev&host=free-server.techsonic.dev&alpn=h2%2Chttp%2F1.1&sni=free-server.techsonic.dev&fp=chrome&encryption=none#🏳️-cloudflare-base64
-vless://87637bc2-cdb0-6309-3bc5-86b0ecf3f275@time.is:443?security=tls&type=ws&path=%2Fv2&host=a.v2boxerfree9.workers.dev&sni=a.v2boxerfree9.workers.dev&fp=chrome&encryption=none#Domain-cloudflare-base64
-vless://9bf5713f-3d65-b629-d5a5-11019ea57433@time.is:443?security=tls&type=ws&path=%2Fv2&host=a.v2boxerfree3.workers.dev&sni=a.v2boxerfree3.workers.dev&fp=chrome&encryption=none#Domain-cloudflare-base64
-vless://a388daca-d6e0-c599-a95d-14f4c720743b@time.is:443?security=tls&type=ws&path=%2Fv2&host=a.v2boxerfree.workers.dev&sni=a.v2boxerfree.workers.dev&fp=chrome&encryption=none#Domain-cloudflare-base64
+vless://395d040e-a04a-43d7-a1e9-8635f545879a@104.17.70.206:2096?security=tls&type=ws&path=%2Fshalana&host=shalana.xyz&sni=shalana.xyz&fp=chrome&encryption=none#🏳️-cloudflare-base64
+vless://395d040e-a04a-43d7-a1e9-8635f545879a@188.114.97.6:2096?security=tls&type=ws&path=%2Fshalana&host=shalana.xyz&sni=shalana.xyz&fp=unsafe#🏳️-cloudflare-base64
+vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.16.10.48:443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=unsafe&encryption=none#🏳️-cloudflare-base64
+vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.18.242.3:443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=unsafe&encryption=none#🏳️-cloudflare-base64
+vless://f94a04aa-a98c-4b6c-8fe2-7290d81c500a@ct.877774.xyz:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=eu-central.xhs152.shop&sni=eu-central.xhs152.shop&fp=random&encryption=none#Domain-cloudflare-base64
+vless://f94a04aa-a98c-4b6c-8fe2-7290d81c500a@www.visa.com.hk:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=br-gru.xhs152.shop&sni=br-gru.xhs152.shop&fp=random&encryption=none#Domain-cloudflare-base64
