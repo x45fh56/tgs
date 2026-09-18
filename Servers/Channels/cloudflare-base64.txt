@@ -1,2 +1,13 @@
-vless://395d040e-a04a-43d7-a1e9-8635f545879a@104.17.70.206:2096?security=tls&type=ws&path=%2Fshalana&host=shalana.xyz&sni=shalana.xyz&fp=chrome&encryption=none#🏳️-cloudflare-base64
-vless://395d040e-a04a-43d7-a1e9-8635f545879a@188.114.97.6:2096?security=tls&type=ws&path=%2Fshalana&host=shalana.xyz&sni=shalana.xyz&fp=unsafe#🏳️-cloudflare-base64
+vless://1367d3f3-a7f4-4a31-ba9a-ac2793fa0b9b@freev2.cloudflare.182682.xyz:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=ap-south.xhs152.shop&sni=ap-south.xhs152.shop&fp=random&encryption=none#Domain-cloudflare-base64
+vless://1367d3f3-a7f4-4a31-ba9a-ac2793fa0b9b@www.visa.com.hk:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=br-gru.xhs152.shop&sni=br-gru.xhs152.shop&fp=random&encryption=none#Domain-cloudflare-base64
+vless://395d040e-a04a-43d7-a1e9-8635f545879a@188.114.97.6:2096?security=tls&type=ws&path=%2Fshalana&host=shalana.xyz&sni=shalana.xyz&fp=unsafe&encryption=none#🏳️-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@support.cloudflare.com:2095?security=none&type=ws&path=%2F&host=openai.asshole.us.ci&sni=openai.asshole.us.ci#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.epicgames.com:2095?security=none&type=ws&path=%2F&host=free-claude-api.asshole.us.ci#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.whatismyip.net:2095?security=none&type=ws&path=%2F&host=free-claude-api.asshole.us.ci#Domain-cloudflare-base64
+vless://8be461cb-a0df-47cf-bc0d-4d9e6a22fa74@ccs2g.pai50288.uk:443?security=tls&type=ws&path=%2Fpai50288&sni=ccs2g.pai50288.uk&fp=chrome&encryption=none#Domain-cloudflare-base64
+vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.16.10.104:443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=unsafe&encryption=none#🏳️-cloudflare-base64
+vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.16.10.199:443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=unsafe&encryption=none#🏳️-cloudflare-base64
+vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.16.111.193:443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=chrome&encryption=none#🏳️-cloudflare-base64
+vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.19.178.244:443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=chrome#🏳️-cloudflare-base64
+vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.21.60.109:443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=chrome#🏳️-cloudflare-base64
+vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.21.89.41:443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=chrome#🏳️-cloudflare-base64
