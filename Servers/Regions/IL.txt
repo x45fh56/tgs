@@ -1,3 +1,2 @@
-vless://0c40bce9-8710-4820-8f22-0742b61df999@34.165.251.165:443?fp=chrome&pbk=AeQDUAVCESyA1hFkw6lENmgWAY3sBH9CFPpPAddPwVc&security=reality&sid=fffff8acddadcac3&sni=www.cloudflare.com#🇮🇱IL-configs
-vless://74a011a6-433f-49fa-822e-f768205e4b90@34.165.244.172:443?fp=chrome&pbk=Tzhjg1MwcjzzVWFZiRrVwlT-TCl6HNJSTxBOUn0sdDE&security=reality&sid=52019048e849a702&sni=www.cloudflare.com#🇮🇱IL-configs
+hysteria2://f25f19f29ce3fb53a35bf1b35b452a43@129.159.156.109:50160?insecure=1&security=tls&sni=www.bing.com#🇮🇱IL-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVazhsZm12aFlueDVySnZYeEtyUnFHUnluZDlnSXBKLmlZ@103.240.147.113:14605#🇮🇱IL-freevpnchina
