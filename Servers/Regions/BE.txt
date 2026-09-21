@@ -1,2 +1,4 @@
+vless://c18b978e-1c4e-415c-8bea-07942b563a64@194.71.227.213:443?fp=chrome&host=shuma.ccwu.cc&path=%2F&security=tls&sni=shuma.ccwu.cc&type=ws#🇧🇪BE-configs
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@185.210.217.94:1080#🇧🇪BE-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@194.187.251.2:1080#🇧🇪BE-freevpnchina
+vless://c18b978e-1c4e-415c-8bea-07942b563a64@194.71.227.213:443?allowInsecure=1&encryption=none&host=shuma.ccwu.cc&path=%2F&security=tls&sni=shuma.ccwu.cc&type=ws#🇧🇪BE-oneclickvpnkeys
