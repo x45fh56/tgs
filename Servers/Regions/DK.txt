@@ -1,14 +1,10 @@
 vless://awlix_ir@87.58.159.20:443?security=none&type=tcp&encryption=mlkem768x25519plus.native.0rtt.CCIZgZeeCX8na60UXi9II-iduj3OFxtj-fuh_4AWiUU#🇩🇰DK-configs
 vless://2471e7da-5dcd-5da4-983a-3ef758abb17c@87.58.159.20:443?security=none&type=tcp&encryption=mlkem768x25519plus.native.0rtt.CCIZgZeeCX8na60UXi9II-iduj3OFxtj-fuh_4AWiUU#🇩🇰DK-configs
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.180.214.110:5600#🇩🇰DK-configs
-ss://YWVzLTI1Ni1nY206cmcwZzN4cDlyazluazlvMA@87.58.148.70:443#🇩🇰DK-configs
 vless://awlix_ir@87.58.159.20:443?security=none&type=tcp&encryption=mlkem768x25519plus.native.0rtt.CCIZgZeeCX8na60UXi9II-iduj3OFxtj-fuh_4AWiUU#🇩🇰DK-base64
 vless://2471e7da-5dcd-5da4-983a-3ef758abb17c@87.58.159.20:443?security=none&type=tcp&encryption=mlkem768x25519plus.native.0rtt.CCIZgZeeCX8na60UXi9II-iduj3OFxtj-fuh_4AWiUU#🇩🇰DK-base64
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.180.214.110:5600#🇩🇰DK-V2RAY_RAW
-ss://YWVzLTI1Ni1nY206cmcwZzN4cDlyazluazlvMA@87.58.148.70:443#🇩🇰DK-V2RAY_RAW
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.180.214.110:5600#🇩🇰DK-freevpnchina
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@37.120.131.62:1080#🇩🇰DK-freevpnchina
-ss://YWVzLTI1Ni1nY206cmcwZzN4cDlyazluazlvMA@87.58.148.70:443#🇩🇰DK-freevpnchina
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.180.214.110:5600#🇩🇰DK-v2cnf
 ss://YWVzLTI1Ni1nY206cmcwZzN4cDlyazluazlvMA@87.58.148.70:443#🇩🇰DK-v2raynplus
-ss://YWVzLTI1Ni1nY206cmcwZzN4cDlyazluazlvMA@87.58.148.70:443#🇩🇰DK-v2roay
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.180.214.110:5600#🇩🇰DK-v2roay

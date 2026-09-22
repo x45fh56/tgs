@@ -1,4 +1,1 @@
-vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.229:443?path=/proxyip=us.xiabibi.cf&security=tls&encryption=none&insecure=0&host=nb.lovecf.ggff.net&fp=chrome&type=ws&allowInsecure=0&sni=nb.lovecf.ggff.net#🇸🇦SA-configs
-vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.119:443?encryption=none&fp=chrome&host=nb.lovecf.ggff.net&path=%2Fproxyip%3Dus.xiabibi.cf&security=tls&sni=nb.lovecf.ggff.net&type=ws#🇸🇦SA-configs
-vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.109:443?encryption=none&fp=chrome&host=nb.lovecf.ggff.net&path=/proxyip=us.xiabibi.cf&security=tls&sni=nb.lovecf.ggff.net&type=ws#🇸🇦SA-configs
-vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.250:443?encryption=none&host=nb.lovecf.ggff.net&path=/proxyip=us.xiabibi.cf&security=tls&sni=nb.lovecf.ggff.net&type=ws#🇸🇦SA-configs
+vless://974f2c7e-a292-4207-8315-ef4151bdca41@213.165.56.169:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=fl-api.bachidze.com&fp=chrome&pbk=LMcNHcOzPISa2fmZWt2JraL6_a_IObpS2znQW70gyDo&allowInsecure=1#🇸🇦SA-configs
