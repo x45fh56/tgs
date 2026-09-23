@@ -1,2 +1,1 @@
-vless://c18b978e-1c4e-415c-8bea-07942b563a64@38.180.109.174:443?allowInsecure=1&encryption=none&host=shuma.ccwu.cc&path=%2F&security=tls&sni=shuma.ccwu.cc&type=ws#🇭🇺HU-oneclickvpnkeys
-trojan://humanity@185.225.68.232:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇭🇺HU-v2raynplus
+trojan://humanity@185.225.68.232:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇭🇺HU-configs

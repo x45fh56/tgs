@@ -1,8 +1,4 @@
 vless://c5694dc5-39fd-4a92-8430-3837baa522a3@84.32.215.94:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk&sid=4fa44664f6a566d3&sni=lt.aether-runet.top#🇱🇹LT-configs
 vless://c5694dc5-39fd-4a92-8430-3837baa522a3@84.32.215.5:443?security=reality&flow=xtls-rprx-vision&sni=lt.aether-runet.top&type=tcp&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk&sid=4fa44664f6a566d3#🇱🇹LT-configs
-ss://YWVzLTI1Ni1jZmI6eTlWVVJ5TnpKV05SWUVHUQ==@195.238.126.20:9008#🇱🇹LT-mix
 vless://01a21e01-6098-4c3b-a6fd-1a04d64d0c7f@84.32.177.74:443?security=reality&encryption=none&pbk=xNzdfy4hPv-IgM_MSn64FNQdb-UPu78pmM-GBE1HhSo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=app.betust.net&sid=ef5d4ad5#🇱🇹LT-NetShot1
-trojan://humanity@86.38.214.205:443?security=tls&sni=www.ignitelimit.com&type=ws&host=www.ignitelimit.com&path=%2Fassignment#🇱🇹LT-freevpnchina
-trojan://humanity@86.38.214.205:443?security=tls&sni=www.ignitelimit.com&type=ws&path=%2Fassignment#🇱🇹LT-freevpnchina
-trojan://humanity@86.38.214.205:443?security=tls&sni=www.ignitelimit.com&fp=chrome&type=ws&path=%2Fassignment#🇱🇹LT-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@45.87.175.197:8080#🇱🇹LT-tv2rayrr
