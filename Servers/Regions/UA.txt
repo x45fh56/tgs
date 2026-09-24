@@ -1,3 +1,4 @@
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.164.175.81:19999#🇺🇦UA-configs
-vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.115:2087?encryption=none&path=%2F4bc027a44532&security=none&type=ws#🇺🇦UA-v2ray_extractor
+vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.83:2087?encryption=none&security=none&type=ws&path=%2F4bc027a44532#🇺🇦UA-freevpnchina
+vless://c18b978e-1c4e-415c-8bea-07942b563a64@213.111.148.137:443?security=tls&type=ws&path=/&host=shuma.ccwu.cc&packetEncoding=xudp&sni=shuma.ccwu.cc&fp=chrome#🇺🇦UA-freevpnchina
 vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.83:2087?encryption=none&path=%2F4bc027a44532&security=none&type=ws#🇺🇦UA-v2ray_extractor
+vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.115:2087?encryption=none&path=%2F4bc027a44532&security=none&type=ws#🇺🇦UA-v2ray_extractor

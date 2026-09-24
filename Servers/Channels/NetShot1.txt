@@ -1,7 +1,7 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYU45WFV3aHZxMXVqbHNP@4.221.224.246:443#🇿🇦ZA-NetShot1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6bkV0amdITFhINEZCTGlj@74.234.59.81:443#🇮🇪IE-NetShot1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMjBZNkFGRU4xcFM3TEpY@94.245.88.26:443#🇮🇪IE-NetShot1
 vless://01a21e01-6098-4c3b-a6fd-1a04d64d0c7f@84.32.177.74:443?security=reality&encryption=none&pbk=xNzdfy4hPv-IgM_MSn64FNQdb-UPu78pmM-GBE1HhSo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=app.betust.net&sid=ef5d4ad5#🇱🇹LT-NetShot1
-vless://01a21e01-6098-4c3b-a6fd-1a04d64d0c7f@84.32.186.112:443?security=reality&encryption=none&pbk=naFxXMoZGp3dHSEMiupvt7FsYtnxONkSN90c2JLWl38&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=api37.betust.net&sid=974acf45#🇳🇱NL-NetShot1
 vless://08eb7e9c-61fa-4204-b9fe-84057fea5570@104.143.223.78:2085?mode=gun&security=none&encryption=none&type=grpc&serviceName=vless#🇦🇪AE-NetShot1
 vless://496a2c7a-c963-4275-b317-4d4a68901456@31.56.180.87:443?mode=packet-up&path=%2Falterra-t2&security=reality&encryption=none&pbk=Y5mW7bbhFRNJAbjiRwt0MVF2JIaTCPTj70ZfUEbHmig&fp=safari&type=xhttp&sni=autodiscover.kilotest.ru&sid=23121267e1452ebe#🇦🇪AE-NetShot1
 vless://60a361f9-3c45-4954-9e4c-92a85bda243d@new3.smart-cats.ru:2053?mode=gun&security=reality&encryption=none&pbk=mzrVbIsEggpJfXR8M7yxki2vgv3sXWQdy1bGhXqatUY&fp=chrome&spx=%2F&type=grpc&serviceName=grpc&sni=www.google.com&sid=4881f8244d1b9021#Domain-NetShot1
