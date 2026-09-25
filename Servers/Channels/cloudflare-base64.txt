@@ -1,2 +1,9 @@
-vless://a148f4c1-f95f-4c03-9768-e5d80b6b4996@188.114.97.6:80?security=none&type=ws&path=%2FCooonfigCooonfigCooonfigCooonfigCooonfig&host=msjsi.azazilvpn.sbs.&encryption=none#🏳️-cloudflare-base64
-vmess://eyJ2IjoiMiIsInBzIjoi8J+Hq/Cfh7cgfCBAV2hpdGVETlMgfCBGUjIyM3wxLjJNQi9zfEROU09LfEdQVOKBui1QTCIsImFkZCI6IjE4OC4xMTQuOTYuMTkiLCJwb3J0IjoiODAiLCJpZCI6ImFlZDg4ZTc5LTU3NjItNGQyZi04NmZhLWY0MzhmMzJhNzY1NCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoiIiwiYWxwbiI6IiIsInBhdGgiOiIvIiwiaG9zdCI6Imdvb2dsZS53aGF0c2FwcC5zbmFwcC50b3JvYi5iYXNhbGFtLmhlc2FuaWQ4LmlyLiJ9#🏳️-cloudflare-base64
+vless://213d9ee6-a066-4477-b1f7-110055529d6c@188.114.97.6:80?security=none&type=ws&path=%2FCooonfigCooonfigCooonfigCooonfigCooonfig&host=msjsi.azazilvpn.sbs.&encryption=none#🏳️-cloudflare-base64
+vless://6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2@104.17.70.206:2096?security=tls&type=ws&path=%2Ffree-server.techsonic.dev&host=free-server.techsonic.dev&alpn=h2%2Chttp%2F1.1&sni=free-server.techsonic.dev&fp=chrome&encryption=none#🏳️-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@blog.cloudflare.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org&encryption=none#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@cloudflare-dns.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@itarmy.com.ua:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org&encryption=none#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@llm-api.sofurry.dpdns.org:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@openai.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@support.cloudflare.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org&encryption=none#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.whatismyip.net:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#Domain-cloudflare-base64
