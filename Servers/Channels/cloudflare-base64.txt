@@ -1,9 +1,7 @@
-vless://213d9ee6-a066-4477-b1f7-110055529d6c@188.114.97.6:80?security=none&type=ws&path=%2FCooonfigCooonfigCooonfigCooonfigCooonfig&host=msjsi.azazilvpn.sbs.&encryption=none#🏳️-cloudflare-base64
-vless://6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2@104.17.70.206:2096?security=tls&type=ws&path=%2Ffree-server.techsonic.dev&host=free-server.techsonic.dev&alpn=h2%2Chttp%2F1.1&sni=free-server.techsonic.dev&fp=chrome&encryption=none#🏳️-cloudflare-base64
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@blog.cloudflare.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org&encryption=none#Domain-cloudflare-base64
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@cloudflare-dns.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#Domain-cloudflare-base64
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@itarmy.com.ua:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org&encryption=none#Domain-cloudflare-base64
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@llm-api.sofurry.dpdns.org:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#Domain-cloudflare-base64
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@openai.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#Domain-cloudflare-base64
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@support.cloudflare.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org&encryption=none#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@104.18.3.186:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#🏳️-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@blog.cloudflare.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@openai.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org&encryption=none#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.fbi.gov:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.shopify.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#Domain-cloudflare-base64
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.udemy.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#Domain-cloudflare-base64
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.whatismyip.net:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org#Domain-cloudflare-base64

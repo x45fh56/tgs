@@ -3,3 +3,4 @@ vless://8be20011-59b1-4118-91ed-83e8e6b662cd@202.166.187.132:443?path=%2F&securi
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.65.217.30:8880?security=none&type=ws&path=/&host=vms.lifetime37.workers.dev&packetEncoding=xudp&encryption=none#🇦🇺AU-freevpnchina
 vless://8be20011-59b1-4118-91ed-83e8e6b662cd@202.166.187.132:443?encryption=none&security=tls&type=ws&host=f.yoptybla.ru&path=%2F&sni=f.yoptybla.ru&fp=chrome#🇦🇺AU-freevpnchina
 vless://8be20011-59b1-4118-91ed-83e8e6b662cd@202.166.187.132:443?path=/&security=tls&encryption=none&insecure=0&host=f.yoptybla.ru&fp=chrome&type=ws&allowInsecure=0&sni=f.yoptybla.ru#🇦🇺AU-freevpnchina
+vless://8be20011-59b1-4118-91ed-83e8e6b662cd@202.166.187.132:443?path=%2F&security=tls&encryption=none&insecure=0&host=f.yoptybla.ru&fp=firefox&type=ws&allowInsecure=0&sni=f.yoptybla.ru#🇦🇺AU-v2cnf
