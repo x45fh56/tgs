@@ -1,6 +1,6 @@
 hysteria2://OD6gGbGU9a@195.133.24.124:443?sni=hys26.wba-pn.ru#🇨🇿CZ-proxy_configs_tested
-vless://db9a9b0f-fd4c-404b-9437-16e567544665@195.133.35.75:1337?encryption=none&flow=xtls-rprx-vision&security=reality&sni=czh.xanka.best&fp=safari&pbk=8ik0rnxTlrrGfJaQnmLnUXpY0DSm_xohbJGvmfrbMSA&sid=459193ba&type=tcp&headerType=none#🇨🇿CZ-freevpnchina
+vless://3afa6b6d-e8d1-4931-878d-8a28b328256b@153.76.185.153:3090?mode=gun&security=none&encryption=none&authority=PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&type=grpc&serviceName=vless#🇨🇿CZ-FreakConfig
+vless://3afa6b6d-e8d1-4931-878d-8a28b328256b@153.76.185.153:3090?mode=gun&security=none&encryption=none&authority=PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&type=grpc&serviceName=vless#🇨🇿CZ-v2cnf
 vless://bbfd1f68-ec64-452f-8404-9e2bcf1df951@95.85.230.35:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0&security=reality&sni=de.oblaco.bet&type=tcp#🇨🇿CZ-v2ray_extractor
 hysteria2://OD6gGbGU9a@195.133.24.124:443/?sni=hys26.wba-pn.ru#🇨🇿CZ-v2ray_extractor
-vless://8f67e374-53d9-43bb-85c9-a459a959cd1b@46.8.103.64:443?security=reality&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&pbk=zcB60qKELnjt8HqO_3lAE2qV1d-C8aZ7NXNSHv_iDV8&host=--v2rayNplus--v2rayNplus--v2rayNplus--&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=reserve-1.lunoa.ru&sid=1f763fda79312e53#🇨🇿CZ-v2raynplus
 hysteria2://OD6gGbGU9a@195.133.24.124:443?sni=hys26.wba-pn.ru#🇨🇿CZ-v2roay
