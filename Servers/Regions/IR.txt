@@ -1,8 +1,8 @@
-vless://ce230b9c-0531-40da-bc3f-f27a8e059db1@62.60.152.1:56328?security=reality&encryption=none&pbk=iI1pc8k9-mIPHL2Dga-4n4h3KoBT68lN434nglpgm2M&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=table.vkroom-it-service.xyz&sid=f3a9c21e8b6d4571#🇮🇷IR-mix
 vless://0aa8a7cd-eb08-4fa6-a277-c9d95282d4e6@185.143.234.238:80?path=/pgcfws-r4&security=none&encryption=none&host=uu.caroptions.ir&type=ws#🇮🇷IR-mix
 vless://b8799fac-622a-4142-aab2-2aa862ad35f2@185.143.234.235:80?encryption=none&security=none&type=ws&host=vixon.portab.org&path=/#🇮🇷IR-mix
-vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?encryption=none&security=none&type=tcp&headerType=none&host=vixon.portab.org#🇮🇷IR-mix
 vless://bc4d97ba-d54f-4555-ba71-f7421796d92c@185.143.234.111:443?path=/&security=tls&encryption=none&host=frontend.parhamm2.ir&fp=random#🇮🇷IR-mix
+vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?encryption=none&security=none&type=tcp&headerType=none&host=vixon.portab.org#🇮🇷IR-mix
 vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#🇮🇷IR-new_mtproxi2
 vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-new_mtproxi2
 vless://38dd06a1-e1cb-492b-bb87-218ce05d0d67@185.143.233.5:80?path=%2F&security=&encryption=none&host=fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir&type=ws#🇮🇷IR-v2ray_extractor
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2VXRMaEN5OFQ2em9adjlZNkVQMkc5b3lXWEZGVXYtZA@176.120.17.22:1080#🇮🇷IR-v2raynplus

@@ -1,1 +1,0 @@
-vless://87838381-724e-4637-935a-3c74ad655991@171.22.129.93:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=ae93.layer.tel&fp=chrome&pbk=1mbH_m6yUCtJzgC_f25LOE7nexg7uTQMaUAgIbo_-2s&sid=eaf543e7ff60ea78&allowInsecure=1#🇵🇹PT-configs

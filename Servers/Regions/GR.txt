@@ -1,1 +1,3 @@
+vless://8f704ed6-9a1a-4d04-94dd-1bff501716de@85.90.197.220:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&flow=xtls-rprx-vision&sid=94acb54627612d43&pbk=biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4&encryption=none#🇬🇷GR-configs
+vless://0250424c-ae75-4b6b-890f-3fe26fae36c3@85.90.197.53:443?&security=tls&fp=chrome&sni=hk.152568.xyz&type=ws&headerType=none&host=hk.152568.xyz&path=/cdn/packages/runtime-core.tar.gz#🇬🇷GR-configs
 vless://85223e1a-f55d-4d0d-b27d-39e8be49d220@83.147.246.153:4100?path=%2Fv1&security=none&encryption=none&host=live.ok.ru&type=ws#🇬🇷GR-v2ray_extractor
