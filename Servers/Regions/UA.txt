@@ -1,3 +1,4 @@
-vless://fdc48be3-a615-41ac-8bd1-ed844c931048@173.242.63.235:8443?&security=tls&fp=chrome&sni=edgetunnel-4uw.pages.dev&type=ws&headerType=none&host=edgetunnel-4uw.pages.dev&path=/#🇺🇦UA-configs
-vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.83:2087?encryption=none&path=%2F4bc027a44532&security=none&type=ws#🇺🇦UA-v2ray_extractor
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.164.175.81:19999#🇺🇦UA-configs
 vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.115:2087?encryption=none&path=%2F4bc027a44532&security=none&type=ws#🇺🇦UA-v2ray_extractor
+vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.83:2087?encryption=none&path=%2F4bc027a44532&security=none&type=ws#🇺🇦UA-v2ray_extractor
+vless://cc76512c-91b2-4414-8b8f-f19f04ab2e74@195.123.6.88:443?security=reality&encryption=none&pbk=THRT-5PaiOlMuSgCB_KPZRhAQpIiHXFM6yoPJtZISVE&headerType=none&fp=firefox&spx=%2F6552b0c815b8784&type=tcp&flow=xtls-rprx-vision&sni=api-prod.nova.nvidia.com&sid=61e7775c4c#🇺🇦UA-v2raynplus
