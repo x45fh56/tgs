@@ -1,1 +1,2 @@
+vless://51c14658-8873-4454-9383-c41fc80bde4b@81.90.20.200:443?type=tcp&security=tls&flow=xtls-rprx-vision&fp=firefox&sni=pl.pupoe.sbs#🇮🇶IQ-configs
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5cHJnWmJCN3hETDRQU3ZFNHdKVTRt@81.90.29.126:53672#🇮🇶IQ-tv2rayrr
