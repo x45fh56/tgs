@@ -1,2 +1,1 @@
-vless://88a4915f-d68d-44aa-b4a4-36b99a2ab1ed@111.88.74.239:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo&security=reality&sid=c56d4f1c&sni=google.com&type=tcp#🇵🇰PK-configs
-vless://88a4915f-d68d-44aa-b4a4-36b99a2ab1ed@111.88.74.239:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo&security=reality&sid=c56d4f1c&sni=google.com&type=tcp#🇵🇰PK-oneclickvpnkeys
+vless://88a4915f-d68d-44aa-b4a4-36b99a2ab1ed@111.88.74.239:443?security=reality&encryption=none&pbk=s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo&headerType=none&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=c56d4f1c#🇵🇰PK-configs
