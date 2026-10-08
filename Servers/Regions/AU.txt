@@ -1,0 +1,1 @@
+hysteria2://b42d90fa667942aebc734d60@159.13.42.167:20000?insecure=1&obfs=salamander&obfs-password=b42d90fa667942aebc734d60&sni=rmgyvpn.rest#🇦🇺AU-base64

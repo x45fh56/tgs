@@ -1,7 +1,9 @@
-trojan://humanity@195.181.244.216:443?sni=www.calmlunch.com&type=ws&path=/assignment&fp=chrome#🇱🇹LT-configs
+vless://2eceaf2b-a775-5a9c-9990-dad2b3660fb6@62.77.158.1:443?security=reality&type=tcp&sni=online.1c.ru&fp=chrome&flow=xtls-rprx-vision&sid=6a&pbk=sVhkyiMXvpofflCdSszxQmsqOXV1kg1Ldxq1a9mOPjs&encryption=none#🇱🇹LT-base64
+vless://2eceaf2b-a775-5a9c-9990-dad2b3660fb6@62.77.158.1:443?security=reality&type=raw&sni=online.1c.ru&fp=safari&flow=xtls-rprx-vision&sid=6a&pbk=sVhkyiMXvpofflCdSszxQmsqOXV1kg1Ldxq1a9mOPjs#🇱🇹LT-base64
 vless://790910c3-9a97-4375-998a-fcc36b0a2902@88.119.165.131:443?security=reality&encryption=none&pbk=_AIb5QbjYK6iJBx6UpDqVBoFyUA_nkiHrj7gZrASDwc&headerType=none&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=repo1.maven.org&sid=bbfe4bd7d5dd0627#🇱🇹LT-mix
 ss://YWVzLTI1Ni1jZmI6eGF1cE1VdmhwdHd4ZERVZw==@195.238.126.20:9012#🇱🇹LT-mix
-vless://2eceaf2b-a775-5a9c-9990-dad2b3660fb6@62.77.158.1:443?security=reality&type=tcp&sni=online.1c.ru&fp=safari&flow=xtls-rprx-vision&sid=6a&pbk=sVhkyiMXvpofflCdSszxQmsqOXV1kg1Ldxq1a9mOPjs&encryption=none#🇱🇹LT-freevpnchina
+vless://2eceaf2b-a775-5a9c-9990-dad2b3660fb6@62.77.158.1:443?security=reality&type=tcp&sni=online.1c.ru&fp=safari&flow=xtls-rprx-vision&sid=6a&pbk=sVhkyiMXvpofflCdSszxQmsqOXV1kg1Ldxq1a9mOPjs&encryption=none#🇱🇹LT-V2RAY_RAW
+vless://2eceaf2b-a775-5a9c-9990-dad2b3660fb6@62.77.158.1:443?security=reality&type=tcp&sni=online.1c.ru&fp=chrome&flow=xtls-rprx-vision&sid=6a&pbk=sVhkyiMXvpofflCdSszxQmsqOXV1kg1Ldxq1a9mOPjs&encryption=none#🇱🇹LT-freevpnchina
 vless://2eceaf2b-a775-5a9c-9990-dad2b3660fb6@62.77.158.1:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=sVhkyiMXvpofflCdSszxQmsqOXV1kg1Ldxq1a9mOPjs&security=reality&sid=6a&sni=online.1c.ru&type=tcp#🇱🇹LT-oneclickvpnkeys
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@45.87.175.197:8080#🇱🇹LT-tv2rayrr
-vless://7610be85-9855-4010-8929-ce16d4993969@84.32.215.96:443?security=reality&encryption=none&pbk=5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=app26.betust.net&sid=d44d6d46#🇱🇹LT-v2raynplus
+vless://2eceaf2b-a775-5a9c-9990-dad2b3660fb6@62.77.158.1:443?security=reality&type=tcp&sni=online.1c.ru&fp=safari&flow=xtls-rprx-vision&sid=6a&pbk=sVhkyiMXvpofflCdSszxQmsqOXV1kg1Ldxq1a9mOPjs&encryption=none#🇱🇹LT-v2roay

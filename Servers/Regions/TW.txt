@@ -1,4 +1,4 @@
-vmess://eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6MzUwMzQsInBzIjoiVFcg8J+HufCfh7wgfCBAUmF5ZGlrYWx4IHwgODI2NTI3Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIiwibmFtZSI6IlRXIPCfh7nwn4e8IHwgQFJheWRpa2FseCB8IDgyNjUyNyJ9#🇹🇼TW-configs
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#🇹🇼TW-proxy_configs_tested
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?sni=https%3a%2f%2ft.me%2foneclickvpnkeys&path=%2f&allow_insecure=1#🇹🇼TW-proxy_configs_tested
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@36.224.141.124:50099#🇹🇼TW-freevpnchina
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#🇹🇼TW-v2roay
+vless://06e177f7-240d-4687-bd85-235505801a5e@60.248.219.54:443?&security=tls&sni=ty986gfazs.cainiaohub.xyz&type=ws&headerType=none&host=ty986gfazs.cainiaohub.xyz&path=%2F81574b6b-c9d7-44a0-b83d-dad56e8cb530#🇹🇼TW-v2cnf
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?sni=https%3a%2f%2ft.me%2foneclickvpnkeys&path=%2f&allow_insecure=1#🇹🇼TW-v2roay

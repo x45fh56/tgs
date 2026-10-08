@@ -1,1 +1,1 @@
-vless://86c0996e-817e-409f-a732-ff9ef94917bd@s3.bamans.uk:443?security=tls&type=xhttp&path=%2F3a6b3b038ea34622bd1e13ec5798ab03&alpn=h2&sni=s3.bamans.uk&fp=chrome&mode=stream-up&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&encryption=none#Domain-cloudflare-base64
+vless://7c99dc89-bf49-45c9-acc5-e43f36657518@www.large-files.info:8443?security=tls&type=ws&path=%2Fvar%2Fwww%2Fhtml%2Fvideo%2Fpreview%2Fdownload%2Fi8o0la&sni=www.large-files.info&fp=chrome&encryption=none#Domain-cloudflare-base64
