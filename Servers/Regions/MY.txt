@@ -1,5 +1,1 @@
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@45.194.27.124:80?type=ws&host=platform101.halalkhor.info&path=/platform101#🇲🇾MY-configs
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@166.88.35.199:80?sni=platform102.golnamakcert.top&type=ws&host=platform102.halalkhor.info&path=%2Fplatform102#🇲🇾MY-configs
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@45.195.69.230:80?path=%2Fplatform103&security=none&encryption=none&host=platform103.halalkhor.info&type=ws#🇲🇾MY-V2RAY_RAW
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@45.195.69.230:80?path=%2Fplatform103&security=none&encryption=none&host=platform103.halalkhor.info&type=ws#🇲🇾MY-freevpnchina
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@45.195.69.230:80?path=%2Fplatform103&security=none&encryption=none&host=platform103.halalkhor.info&type=ws#🇲🇾MY-v2roay
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@166.88.35.245:80?encryption=none&host=platform117.halalkhor.info&path=%2Fplatform117&security=none&type=ws#🇲🇾MY-oneclickvpnkeys

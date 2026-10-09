@@ -1,1 +1,2 @@
-hysteria2://b42d90fa667942aebc734d60@159.13.42.167:20000?insecure=1&obfs=salamander&obfs-password=b42d90fa667942aebc734d60&sni=rmgyvpn.rest#🇦🇺AU-base64
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.65.217.30:8880?security=none&type=ws&path=/&host=vms.lifetime37.workers.dev&packetEncoding=xudp&encryption=none#🇦🇺AU-freevpnchina
+hysteria2://633bc3be486b646190661ac2387c150a@152.67.115.203:443?insecure=1&obfs=salamander&obfs-password=850a3fb1cd33a28f12d837578ae1a2e7&sni=www.bing.com#🇦🇺AU-freevpnchina

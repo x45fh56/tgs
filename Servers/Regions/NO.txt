@@ -1,4 +1,5 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#🇳🇴NO-configs
+vless://e75ad2eb-6c1f-45ce-8023-f5f10875df66@185.90.61.55:443?security=reality&encryption=none&pbk=B1g2P-3yW3cQW0WZweSPKUP3lZSQ5pgr8doCYvA0cRg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ca9.eu-cdn294.com&sid=df3dc12b0b9b0c93#🇳🇴NO-configs
 vless://e75ad2eb-6c1f-45ce-8023-f5f10875df66@185.90.61.55:443?security=reality&encryption=none&pbk=B1g2P-3yW3cQW0WZweSPKUP3lZSQ5pgr8doCYvA0cRg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ca9.eu-cdn294.com&sid=df3dc12b0b9b0c93#🇳🇴NO-ConfigX2ray
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#🇳🇴NO-v2cnf
+vless://db320947-adfb-400d-b60b-383b8324bffe@46.29.238.88:40443?security=reality&type=raw&packetEncoding=xudp&sni=deepl.com&fp=qq&sid=f7b2&pbk=aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc#🇳🇴NO-freevpnchina
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#🇳🇴NO-freevpnchina
 vless://e75ad2eb-6c1f-45ce-8023-f5f10875df66@185.90.61.55:443?security=reality&encryption=none&pbk=B1g2P-3yW3cQW0WZweSPKUP3lZSQ5pgr8doCYvA0cRg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ca9.eu-cdn294.com&sid=df3dc12b0b9b0c93#🇳🇴NO-v2raynplus
