@@ -1,1 +1,7 @@
+trojan://humanity@131.196.254.151:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&fm=tlshello-0-len&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🇲🇽MX-configs
+trojan://humanity@131.196.254.151:443?path=%2Fassignment&amp;security=tls&amp;alpn=http%2F1.1&amp;fm=tlshello-0-len&amp;insecure=0&amp;host=www.pleadcourt.org&amp;fp=unsafe&amp;type=ws&amp;allowInsecure=0&amp;sni=www.pleadcourt.org#🇲🇽MX-V2RAY_RAW
+trojan://humanity@131.196.254.151:443?path=%2Fassignment&amp;security=tls&amp;fm=tlshello-0-len&amp;insecure=0&amp;host=www.volumeroot.com&amp;fp=unsafe&amp;type=ws&amp;allowInsecure=0&amp;sni=www.volumeroot.com#🇲🇽MX-V2RAY_RAW
+trojan://humanity@131.196.254.151:443?path=%2Fassignment&amp;security=tls&amp;alpn=http%2F1.1&amp;fm=tlshello-0-len&amp;insecure=0&amp;host=www.pleadcourt.org&amp;fp=unsafe&amp;type=ws&amp;allowInsecure=0&amp;sni=www.pleadcourt.org#🇲🇽MX-freevpnchina
 ss://YWVzLTEyOC1nY206NjdjNTdhZTU4NGVlY2Q3MDM5NmZjZDdjYTc1MjExMzA@147.78.1.234:16673#🇲🇽MX-freevpnchina
+trojan://humanity@131.196.254.151:443?path=%2Fassignment&amp;security=tls&amp;fm=tlshello-0-len&amp;insecure=0&amp;host=www.volumeroot.com&amp;fp=unsafe&amp;type=ws&amp;allowInsecure=0&amp;sni=www.volumeroot.com#🇲🇽MX-v2roay
+trojan://humanity@131.196.254.151:443?path=%2Fassignment&amp;security=tls&amp;alpn=http%2F1.1&amp;fm=tlshello-0-len&amp;insecure=0&amp;host=www.pleadcourt.org&amp;fp=unsafe&amp;type=ws&amp;allowInsecure=0&amp;sni=www.pleadcourt.org#🇲🇽MX-v2roay
