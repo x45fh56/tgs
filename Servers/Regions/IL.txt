@@ -1,2 +1,1 @@
 hysteria2://f25f19f29ce3fb53a35bf1b35b452a43@129.159.156.109:50160?insecure=1&security=tls&sni=www.bing.com#🇮🇱IL-freevpnchina
-vless://d342d11e-d224-4463-b982-532309285094@185.253.75.119:443?encryption=none&host=ccc.010304.xyz&path=%2Ffp%3Dchrome&security=tls&sni=ccc.010304.xyz&type=ws#🇮🇱IL-oneclickvpnkeys
