@@ -1,96 +1,96 @@
-2026-10-13 17:42:57,513-INFO-MainThread- Fetching configs from: https://github.com/Delta-Kronecker/V2ray-Config/raw/refs/heads/main/config/all_configs.txt
-2026-10-13 17:42:58,107-ERROR-MainThread- Scraping error for https://github.com/Delta-Kronecker/V2ray-Config/raw/refs/heads/main/config/all_configs.txt: Invalid IPv6 URL
-2026-10-13 17:42:58,109-INFO-MainThread- Fetching configs from: https://openproxylist.com/v2ray/rawlist/text
-2026-10-13 17:42:58,679-ERROR-MainThread- Scraping error for https://openproxylist.com/v2ray/rawlist/text: 403 Client Error: Forbidden for url: https://openproxylist.com/v2ray/rawlist/text
-2026-10-13 17:42:58,680-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs.txt
-2026-10-13 17:42:58,973-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs_tested.txt
-2026-10-13 17:42:59,173-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/base64.txt
-2026-10-13 17:42:59,331-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/cloudflare-base64.txt
-2026-10-13 17:42:59,464-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/mix
-2026-10-13 17:42:59,667-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_1.txt
-2026-10-13 17:42:59,762-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
-2026-10-13 17:42:59,881-INFO-MainThread- Fetching configs from: https://t.me/s/BrilliantGift
-2026-10-13 17:43:00,519-INFO-MainThread- Found 0 potential configs in https://t.me/s/BrilliantGift
-2026-10-13 17:43:01,528-INFO-MainThread- Fetching configs from: https://t.me/s/ConfigX2ray
-2026-10-13 17:43:02,215-INFO-MainThread- Found 13 potential configs in https://t.me/s/ConfigX2ray
-2026-10-13 17:43:02,218-INFO-MainThread- Fetching configs from: https://t.me/s/ConfiingPro
-2026-10-13 17:43:02,893-INFO-MainThread- Found 0 potential configs in https://t.me/s/ConfiingPro
-2026-10-13 17:43:02,895-INFO-MainThread- Fetching configs from: https://t.me/s/Do1rcci
-2026-10-13 17:43:03,401-INFO-MainThread- Found 0 potential configs in https://t.me/s/Do1rcci
-2026-10-13 17:43:03,402-INFO-MainThread- Fetching configs from: https://t.me/s/FreakConfig
-2026-10-13 17:43:04,074-INFO-MainThread- Found 45 potential configs in https://t.me/s/FreakConfig
-2026-10-13 17:43:04,080-INFO-MainThread- Fetching configs from: https://t.me/s/Maznet
-2026-10-13 17:43:04,755-INFO-MainThread- Found 11 potential configs in https://t.me/s/Maznet
-2026-10-13 17:43:04,758-INFO-MainThread- Fetching configs from: https://t.me/s/NetAccount
-2026-10-13 17:43:05,555-INFO-MainThread- Found 0 potential configs in https://t.me/s/NetAccount
-2026-10-13 17:43:05,556-INFO-MainThread- Fetching configs from: https://t.me/s/NetShot1
-2026-10-13 17:43:06,146-INFO-MainThread- Found 22 potential configs in https://t.me/s/NetShot1
-2026-10-13 17:43:06,150-INFO-MainThread- Fetching configs from: https://t.me/s/ParsiNetFree
-2026-10-13 17:43:06,728-INFO-MainThread- Found 0 potential configs in https://t.me/s/ParsiNetFree
-2026-10-13 17:43:06,729-INFO-MainThread- Fetching configs from: https://t.me/s/SNI_SPOOFINGconfig
-2026-10-13 17:43:07,258-INFO-MainThread- Found 0 potential configs in https://t.me/s/SNI_SPOOFINGconfig
-2026-10-13 17:43:07,259-INFO-MainThread- Fetching configs from: https://t.me/s/SparrK_VPN
-2026-10-13 17:43:07,873-INFO-MainThread- Found 27 potential configs in https://t.me/s/SparrK_VPN
-2026-10-13 17:43:08,878-INFO-MainThread- Fetching configs from: https://t.me/s/TheVPNMethod
-2026-10-13 17:43:09,579-INFO-MainThread- Found 0 potential configs in https://t.me/s/TheVPNMethod
-2026-10-13 17:43:09,581-INFO-MainThread- Fetching configs from: https://t.me/s/artemisvpn1
-2026-10-13 17:43:10,296-INFO-MainThread- Found 0 potential configs in https://t.me/s/artemisvpn1
-2026-10-13 17:43:10,298-INFO-MainThread- Fetching configs from: https://t.me/s/byiroh
-2026-10-13 17:43:10,895-INFO-MainThread- Found 0 potential configs in https://t.me/s/byiroh
-2026-10-13 17:43:10,896-INFO-MainThread- Fetching configs from: https://t.me/s/dingyue_center
-2026-10-13 17:43:11,653-INFO-MainThread- Found 7 potential configs in https://t.me/s/dingyue_center
-2026-10-13 17:43:11,656-INFO-MainThread- Fetching configs from: https://t.me/s/freevpnchina
-2026-10-13 17:43:15,084-INFO-MainThread- Found 2145 potential configs in https://t.me/s/freevpnchina
-2026-10-13 17:43:15,216-INFO-MainThread- Fetching configs from: https://t.me/s/new_mtproxi2
-2026-10-13 17:43:15,899-INFO-MainThread- Found 45 potential configs in https://t.me/s/new_mtproxi2
-2026-10-13 17:43:15,905-INFO-MainThread- Fetching configs from: https://t.me/s/oliver_soul
-2026-10-13 17:43:16,518-INFO-MainThread- Found 0 potential configs in https://t.me/s/oliver_soul
-2026-10-13 17:43:16,519-INFO-MainThread- Fetching configs from: https://t.me/s/oneclickvpnkeys
-2026-10-13 17:43:17,180-INFO-MainThread- Found 74 potential configs in https://t.me/s/oneclickvpnkeys
-2026-10-13 17:43:17,188-INFO-MainThread- Fetching configs from: https://t.me/s/persianvpnhub
-2026-10-13 17:43:17,794-INFO-MainThread- Found 13 potential configs in https://t.me/s/persianvpnhub
-2026-10-13 17:43:17,797-INFO-MainThread- Fetching configs from: https://t.me/s/pro_exi
-2026-10-13 17:43:18,461-INFO-MainThread- Found 0 potential configs in https://t.me/s/pro_exi
-2026-10-13 17:43:19,469-INFO-MainThread- Fetching configs from: https://t.me/s/pythash
-2026-10-13 17:43:20,156-INFO-MainThread- Found 0 potential configs in https://t.me/s/pythash
-2026-10-13 17:43:20,158-INFO-MainThread- Fetching configs from: https://t.me/s/saministamm
-2026-10-13 17:43:20,851-INFO-MainThread- Found 0 potential configs in https://t.me/s/saministamm
-2026-10-13 17:43:20,853-INFO-MainThread- Fetching configs from: https://t.me/s/tv2rayrr
-2026-10-13 17:43:21,511-INFO-MainThread- Found 85 potential configs in https://t.me/s/tv2rayrr
-2026-10-13 17:43:21,519-INFO-MainThread- Fetching configs from: https://t.me/s/v2cnf
-2026-10-13 17:43:22,376-INFO-MainThread- Found 159 potential configs in https://t.me/s/v2cnf
-2026-10-13 17:43:22,388-INFO-MainThread- Fetching configs from: https://t.me/s/v2ray_extractor
-2026-10-13 17:43:23,159-INFO-MainThread- Found 202 potential configs in https://t.me/s/v2ray_extractor
-2026-10-13 17:43:23,172-INFO-MainThread- Fetching configs from: https://t.me/s/v2raynplus
-2026-10-13 17:43:24,114-INFO-MainThread- Found 148 potential configs in https://t.me/s/v2raynplus
-2026-10-13 17:43:24,127-INFO-MainThread- Fetching configs from: https://t.me/s/v2roay
-2026-10-13 17:43:25,022-INFO-MainThread- Found 330 potential configs in https://t.me/s/v2roay
-2026-10-13 17:43:25,044-INFO-MainThread- Fetching configs from: https://t.me/s/v2to_nadi
-2026-10-13 17:43:25,724-INFO-MainThread- Found 0 potential configs in https://t.me/s/v2to_nadi
-2026-10-13 17:43:25,725-INFO-MainThread- Fetching configs from: https://t.me/s/vpn_m2s
-2026-10-13 17:43:26,470-INFO-MainThread- Found 0 potential configs in https://t.me/s/vpn_m2s
-2026-10-13 17:43:26,471-INFO-MainThread- Fetching configs from: https://t.me/s/vpnbaz
-2026-10-13 17:43:27,156-INFO-MainThread- Found 18 potential configs in https://t.me/s/vpnbaz
-2026-10-13 17:43:28,164-INFO-MainThread- Fetching configs from: https://t.me/s/vpntrt
-2026-10-13 17:43:28,825-INFO-MainThread- Found 0 potential configs in https://t.me/s/vpntrt
-2026-10-13 17:43:28,827-INFO-MainThread- Fetching configs from: https://t.me/s/wbnet
-2026-10-13 17:43:29,657-INFO-MainThread- Found 0 potential configs in https://t.me/s/wbnet
-2026-10-13 17:43:29,658-INFO-MainThread- Fetching configs from: https://t.me/s/whitedns
-2026-10-13 17:43:30,729-INFO-MainThread- Found 225 potential configs in https://t.me/s/whitedns
-2026-10-13 17:43:30,761-INFO-MainThread- Fetching configs from: https://t.me/s/xixv2ray
-2026-10-13 17:43:31,414-INFO-MainThread- Found 0 potential configs in https://t.me/s/xixv2ray
-2026-10-13 17:43:31,708-INFO-MainThread- Dedup: 2239 سرور تکراری حذف شد (5185 -> 2946)
-2026-10-13 17:43:32,298-INFO-MainThread- Extracted 4 clean IP(s) from latest post of https://t.me/s/cfipsf
-2026-10-13 17:43:32,562-INFO-MainThread- Patt main: 0 links (0 address) -> Servers/Merged/patt_main.txt
-2026-10-13 17:43:32,576-INFO-MainThread- Patt all: 4792 links (4 addresses) -> Servers/Merged/patt_all.txt
-2026-10-13 17:43:32,586-INFO-MainThread- Patt per-IP: 4 file(s) -> Servers/Merged/PerIpsMatt
-2026-10-13 17:43:32,586-INFO-MainThread- Patt edition done: servers=2946, skipped=1748, addresses=4
-2026-10-13 17:43:32,784-INFO-MainThread- Patt categorization done -> Servers/Merged/Categorized_Patt
-2026-10-13 17:43:33,701-INFO-MainThread- Edge subscription: 72 سرور از https://edge-af850d66.pages.dev/ffb1c6be-384e-4cee-b6cf-6643be0eb9f1/sub استخراج شد
-2026-10-13 17:43:33,703-INFO-MainThread- Rate limit: صبر 28.6 ثانیه قبل از درخواست بعدی به https://t.me/s/cfipsf
-2026-10-13 17:44:02,848-INFO-MainThread- Extracted 4 clean IP(s) from latest post of https://t.me/s/cfipsf
-2026-10-13 17:44:02,860-INFO-MainThread- Edge main: 0 links (0 address) -> Servers/Merged/edge_main.txt
-2026-10-13 17:44:02,860-INFO-MainThread- Edge all: 144 links (4 addresses) -> Servers/Merged/edge_all.txt
-2026-10-13 17:44:02,860-INFO-MainThread- Edge per-IP: 4 file(s) -> Servers/Merged/PerIpsEdge
-2026-10-13 17:44:02,860-INFO-MainThread- Edge edition done: servers=72, skipped=36, addresses=4
-2026-10-13 17:44:02,869-INFO-MainThread- Edge categorization done -> Servers/Merged/Categorized_Edge
+2026-10-14 15:20:32,804-INFO-MainThread- Fetching configs from: https://github.com/Delta-Kronecker/V2ray-Config/raw/refs/heads/main/config/all_configs.txt
+2026-10-14 15:20:33,425-ERROR-MainThread- Scraping error for https://github.com/Delta-Kronecker/V2ray-Config/raw/refs/heads/main/config/all_configs.txt: Invalid IPv6 URL
+2026-10-14 15:20:33,428-INFO-MainThread- Fetching configs from: https://openproxylist.com/v2ray/rawlist/text
+2026-10-14 15:20:33,680-ERROR-MainThread- Scraping error for https://openproxylist.com/v2ray/rawlist/text: 403 Client Error: Forbidden for url: https://openproxylist.com/v2ray/rawlist/text
+2026-10-14 15:20:33,681-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs.txt
+2026-10-14 15:20:33,891-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs_tested.txt
+2026-10-14 15:20:34,326-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/base64.txt
+2026-10-14 15:20:34,652-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/cloudflare-base64.txt
+2026-10-14 15:20:34,822-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/mix
+2026-10-14 15:20:35,016-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_1.txt
+2026-10-14 15:20:35,314-INFO-MainThread- Fetching configs from: https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
+2026-10-14 15:20:35,647-INFO-MainThread- Fetching configs from: https://t.me/s/BrilliantGift
+2026-10-14 15:20:36,187-INFO-MainThread- Found 0 potential configs in https://t.me/s/BrilliantGift
+2026-10-14 15:20:37,193-INFO-MainThread- Fetching configs from: https://t.me/s/ConfigX2ray
+2026-10-14 15:20:37,782-INFO-MainThread- Found 13 potential configs in https://t.me/s/ConfigX2ray
+2026-10-14 15:20:37,785-INFO-MainThread- Fetching configs from: https://t.me/s/ConfiingPro
+2026-10-14 15:20:38,345-INFO-MainThread- Found 0 potential configs in https://t.me/s/ConfiingPro
+2026-10-14 15:20:38,347-INFO-MainThread- Fetching configs from: https://t.me/s/Do1rcci
+2026-10-14 15:20:38,800-INFO-MainThread- Found 0 potential configs in https://t.me/s/Do1rcci
+2026-10-14 15:20:38,801-INFO-MainThread- Fetching configs from: https://t.me/s/FreakConfig
+2026-10-14 15:20:39,472-INFO-MainThread- Found 27 potential configs in https://t.me/s/FreakConfig
+2026-10-14 15:20:39,475-INFO-MainThread- Fetching configs from: https://t.me/s/Maznet
+2026-10-14 15:20:40,028-INFO-MainThread- Found 11 potential configs in https://t.me/s/Maznet
+2026-10-14 15:20:40,030-INFO-MainThread- Fetching configs from: https://t.me/s/NetAccount
+2026-10-14 15:20:40,864-INFO-MainThread- Found 0 potential configs in https://t.me/s/NetAccount
+2026-10-14 15:20:40,866-INFO-MainThread- Fetching configs from: https://t.me/s/NetShot1
+2026-10-14 15:20:41,399-INFO-MainThread- Found 22 potential configs in https://t.me/s/NetShot1
+2026-10-14 15:20:41,402-INFO-MainThread- Fetching configs from: https://t.me/s/ParsiNetFree
+2026-10-14 15:20:41,860-INFO-MainThread- Found 0 potential configs in https://t.me/s/ParsiNetFree
+2026-10-14 15:20:41,861-INFO-MainThread- Fetching configs from: https://t.me/s/SNI_SPOOFINGconfig
+2026-10-14 15:20:42,316-INFO-MainThread- Found 0 potential configs in https://t.me/s/SNI_SPOOFINGconfig
+2026-10-14 15:20:42,317-INFO-MainThread- Fetching configs from: https://t.me/s/SparrK_VPN
+2026-10-14 15:20:42,888-INFO-MainThread- Found 27 potential configs in https://t.me/s/SparrK_VPN
+2026-10-14 15:20:43,892-INFO-MainThread- Fetching configs from: https://t.me/s/TheVPNMethod
+2026-10-14 15:20:44,453-INFO-MainThread- Found 0 potential configs in https://t.me/s/TheVPNMethod
+2026-10-14 15:20:44,454-INFO-MainThread- Fetching configs from: https://t.me/s/artemisvpn1
+2026-10-14 15:20:45,196-INFO-MainThread- Found 9 potential configs in https://t.me/s/artemisvpn1
+2026-10-14 15:20:45,199-INFO-MainThread- Fetching configs from: https://t.me/s/byiroh
+2026-10-14 15:20:45,656-INFO-MainThread- Found 0 potential configs in https://t.me/s/byiroh
+2026-10-14 15:20:45,657-INFO-MainThread- Fetching configs from: https://t.me/s/dingyue_center
+2026-10-14 15:20:46,299-INFO-MainThread- Found 7 potential configs in https://t.me/s/dingyue_center
+2026-10-14 15:20:46,301-INFO-MainThread- Fetching configs from: https://t.me/s/freevpnchina
+2026-10-14 15:20:48,387-INFO-MainThread- Found 2157 potential configs in https://t.me/s/freevpnchina
+2026-10-14 15:20:48,464-INFO-MainThread- Fetching configs from: https://t.me/s/new_mtproxi2
+2026-10-14 15:20:49,091-INFO-MainThread- Found 45 potential configs in https://t.me/s/new_mtproxi2
+2026-10-14 15:20:49,095-INFO-MainThread- Fetching configs from: https://t.me/s/oliver_soul
+2026-10-14 15:20:49,604-INFO-MainThread- Found 0 potential configs in https://t.me/s/oliver_soul
+2026-10-14 15:20:49,605-INFO-MainThread- Fetching configs from: https://t.me/s/oneclickvpnkeys
+2026-10-14 15:20:50,249-INFO-MainThread- Found 69 potential configs in https://t.me/s/oneclickvpnkeys
+2026-10-14 15:20:50,254-INFO-MainThread- Fetching configs from: https://t.me/s/persianvpnhub
+2026-10-14 15:20:50,775-INFO-MainThread- Found 15 potential configs in https://t.me/s/persianvpnhub
+2026-10-14 15:20:50,778-INFO-MainThread- Fetching configs from: https://t.me/s/pro_exi
+2026-10-14 15:20:51,362-INFO-MainThread- Found 0 potential configs in https://t.me/s/pro_exi
+2026-10-14 15:20:52,482-INFO-MainThread- Fetching configs from: https://t.me/s/pythash
+2026-10-14 15:20:53,191-INFO-MainThread- Found 0 potential configs in https://t.me/s/pythash
+2026-10-14 15:20:53,192-INFO-MainThread- Fetching configs from: https://t.me/s/saministamm
+2026-10-14 15:20:53,751-INFO-MainThread- Found 0 potential configs in https://t.me/s/saministamm
+2026-10-14 15:20:53,752-INFO-MainThread- Fetching configs from: https://t.me/s/tv2rayrr
+2026-10-14 15:20:54,303-INFO-MainThread- Found 85 potential configs in https://t.me/s/tv2rayrr
+2026-10-14 15:20:54,308-INFO-MainThread- Fetching configs from: https://t.me/s/v2cnf
+2026-10-14 15:20:55,065-INFO-MainThread- Found 153 potential configs in https://t.me/s/v2cnf
+2026-10-14 15:20:55,073-INFO-MainThread- Fetching configs from: https://t.me/s/v2ray_extractor
+2026-10-14 15:20:55,688-INFO-MainThread- Found 202 potential configs in https://t.me/s/v2ray_extractor
+2026-10-14 15:20:55,696-INFO-MainThread- Fetching configs from: https://t.me/s/v2raynplus
+2026-10-14 15:20:56,784-INFO-MainThread- Found 156 potential configs in https://t.me/s/v2raynplus
+2026-10-14 15:20:56,792-INFO-MainThread- Fetching configs from: https://t.me/s/v2roay
+2026-10-14 15:20:57,649-INFO-MainThread- Found 410 potential configs in https://t.me/s/v2roay
+2026-10-14 15:20:57,664-INFO-MainThread- Fetching configs from: https://t.me/s/v2to_nadi
+2026-10-14 15:20:58,227-INFO-MainThread- Found 0 potential configs in https://t.me/s/v2to_nadi
+2026-10-14 15:20:58,228-INFO-MainThread- Fetching configs from: https://t.me/s/vpn_m2s
+2026-10-14 15:20:58,876-INFO-MainThread- Found 0 potential configs in https://t.me/s/vpn_m2s
+2026-10-14 15:20:58,878-INFO-MainThread- Fetching configs from: https://t.me/s/vpnbaz
+2026-10-14 15:20:59,442-INFO-MainThread- Found 16 potential configs in https://t.me/s/vpnbaz
+2026-10-14 15:21:00,446-INFO-MainThread- Fetching configs from: https://t.me/s/vpntrt
+2026-10-14 15:21:01,088-INFO-MainThread- Found 0 potential configs in https://t.me/s/vpntrt
+2026-10-14 15:21:01,090-INFO-MainThread- Fetching configs from: https://t.me/s/wbnet
+2026-10-14 15:21:01,795-INFO-MainThread- Found 0 potential configs in https://t.me/s/wbnet
+2026-10-14 15:21:01,796-INFO-MainThread- Fetching configs from: https://t.me/s/whitedns
+2026-10-14 15:21:03,164-INFO-MainThread- Found 243 potential configs in https://t.me/s/whitedns
+2026-10-14 15:21:03,184-INFO-MainThread- Fetching configs from: https://t.me/s/xixv2ray
+2026-10-14 15:21:03,749-INFO-MainThread- Found 0 potential configs in https://t.me/s/xixv2ray
+2026-10-14 15:21:03,934-INFO-MainThread- Dedup: 2238 سرور تکراری حذف شد (5174 -> 2936)
+2026-10-14 15:21:04,430-INFO-MainThread- Extracted 4 clean IP(s) from latest post of https://t.me/s/cfipsf
+2026-10-14 15:21:04,588-INFO-MainThread- Patt main: 0 links (0 address) -> Servers/Merged/patt_main.txt
+2026-10-14 15:21:04,595-INFO-MainThread- Patt all: 4812 links (4 addresses) -> Servers/Merged/patt_all.txt
+2026-10-14 15:21:04,601-INFO-MainThread- Patt per-IP: 4 file(s) -> Servers/Merged/PerIpsMatt
+2026-10-14 15:21:04,601-INFO-MainThread- Patt edition done: servers=2936, skipped=1733, addresses=4
+2026-10-14 15:21:04,709-INFO-MainThread- Patt categorization done -> Servers/Merged/Categorized_Patt
+2026-10-14 15:21:05,415-INFO-MainThread- Edge subscription: 72 سرور از https://edge-af850d66.pages.dev/ffb1c6be-384e-4cee-b6cf-6643be0eb9f1/sub استخراج شد
+2026-10-14 15:21:05,417-INFO-MainThread- Rate limit: صبر 29.0 ثانیه قبل از درخواست بعدی به https://t.me/s/cfipsf
+2026-10-14 15:21:34,924-INFO-MainThread- Extracted 4 clean IP(s) from latest post of https://t.me/s/cfipsf
+2026-10-14 15:21:34,932-INFO-MainThread- Edge main: 0 links (0 address) -> Servers/Merged/edge_main.txt
+2026-10-14 15:21:34,932-INFO-MainThread- Edge all: 144 links (4 addresses) -> Servers/Merged/edge_all.txt
+2026-10-14 15:21:34,932-INFO-MainThread- Edge per-IP: 4 file(s) -> Servers/Merged/PerIpsEdge
+2026-10-14 15:21:34,932-INFO-MainThread- Edge edition done: servers=72, skipped=36, addresses=4
+2026-10-14 15:21:34,937-INFO-MainThread- Edge categorization done -> Servers/Merged/Categorized_Edge
