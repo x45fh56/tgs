@@ -1,2 +1,2 @@
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@213.165.56.102:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&security=reality&sid=57e7977c9011061c&sni=freede.aiage.work&type=tcp#🇸🇦SA-oneclickvpnkeys
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@213.165.56.102:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=freede.aiage.work&fp=random&pbk=A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g&sid=57e7977c9011061c&type=tcp#🇸🇦SA-configs
 vless://e332f028-d343-5b44-8016-b3130f39e133@81.208.170.142:1500?encryption=none&security=reality&sni=www.ebay.com&fp=chrome&pbk=VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE&sid=775eb6408888248e&type=grpc&mode=gun#🇸🇦SA-v2cnf
