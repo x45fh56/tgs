@@ -1,4 +1,5 @@
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@185.164.175.81:19999#🇺🇦UA-configs
+vless://e86a3662-9b31-4d59-bc80-9e8644749b95@91.196.163.140:14430?path=/vless&security=&encryption=none&host=91.196.163.140&type=ws&sni=91.196.163.140#🇺🇦UA-configs
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.164.175.81:19999#🇺🇦UA-configs
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@185.164.175.81:19999#🇺🇦UA-V2RAY_RAW
 vless://fd1d80da-3b27-457a-810b-2b28a309edc1@195.123.6.19:8443?security=reality&encryption=none&pbk=EDXtIJRcxgBXd32fNHSWcd8GUarM3aZeYf_xDD5gSXY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=travel.yandex.ru&sid=6a42dc3d#🇺🇦UA-artemisvpn1
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@185.164.175.81:19999#🇺🇦UA-freevpnchina
