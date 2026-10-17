@@ -1,1 +1,4 @@
+vless://1f8cf47a-b66a-4916-979f-26edfcf44eea@185.95.231.156:443?flow=xtls-rprx-vision&fp=chrome&pbk=8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To&security=reality&sid=a3a578ab&sni=www.apple.com&type=tcp#🇮🇱IL-configs
+vless://d342d11e-d224-4463-b982-532309285094@185.253.75.119:443?security=tls&type=ws&path=/&host=ccc.010304.xyz&packetEncoding=none&sni=ccc.010304.xyz&fp=chrome#🇮🇱IL-freevpnchina
 hysteria2://f25f19f29ce3fb53a35bf1b35b452a43@129.159.156.109:50160?insecure=1&security=tls&sni=www.bing.com#🇮🇱IL-freevpnchina
+vless://d342d11e-d224-4463-b982-532309285094@185.253.75.119:443?encryption=none&fp=chrome&host=ccc.010304.xyz&path=%2F&security=tls&sni=ccc.010304.xyz&type=ws#🇮🇱IL-oneclickvpnkeys
