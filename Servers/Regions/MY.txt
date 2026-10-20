@@ -1,0 +1,12 @@
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@136.0.254.132:443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2Ffp%3Dchrome&sni=snip.edgeoneai.cc.cd#🇲🇾MY-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@72.60.235.49:8443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560fp%3Dchromefp%3Dchrome#🇲🇾MY-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@216.173.67.144:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2F#🇲🇾MY-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@136.0.254.132:443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2F&sni=snip.edgeoneai.cc.cd#🇲🇾MY-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@136.0.254.132:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&type=ws&host=snip.edgeoneai.cc.cd&path=%2Ffp%3Dchrome#🇲🇾MY-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@166.88.35.242:443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2F&sni=snip.edgeoneai.cc.cd&alpn=h3%2Ch2&fp=chrome#🇲🇾MY-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@216.173.67.144:443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2F&sni=snip.edgeoneai.cc.cd&fp=chrome#🇲🇾MY-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@136.0.254.132:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&type=ws&host=snip.edgeoneai.cc.cd&path=%2F#🇲🇾MY-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@72.60.236.128:8443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2F&sni=snip.edgeoneai.cc.cd&fp=chrome#🇲🇾MY-freevpnchina
+vless://d342d11e-d224-4463-b982-532309285094@216.173.67.59:443?encryption=none&security=tls&type=ws&host=ccc.010304.xyz&path=%2F&sni=ccc.010304.xyz&fp=chrome#🇲🇾MY-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@166.88.194.74:2087?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2F&sni=snip.edgeoneai.cc.cd&fp=chrome#🇲🇾MY-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@72.60.235.49:8443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560fp%3Dchromefp%3Dchrome&sni=snip.edgeoneai.cc.cd&fp=chrome#🇲🇾MY-freevpnchina

@@ -1,3 +1,7 @@
-vless://f5f0babe-aea2-4f07-a1fc-3c9820253f49@212.81.47.99:51106?fp=firefox&pbk=2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38&security=reality&sid=abcd1234&sni=apple.com&type=tcp#🇦🇺AU-configs
+vless://f5f0babe-aea2-4f07-a1fc-3c9820253f49@212.81.47.99:51106?fp=chrome&host=apple.com&path=%2F&pbk=2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38&security=reality&sid=abcd1234&sni=apple.com&type=tcp#🇦🇺AU-configs
+vless://f5f0babe-aea2-4f07-a1fc-3c9820253f49@212.81.47.99:51106?fp=chrome&host=apple.com&pbk=2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38&security=reality&sid=abcd1234&sni=apple.com&type=tcp#🇦🇺AU-configs
+vless://f5f0babe-aea2-4f07-a1fc-3c9820253f49@212.81.47.99:51106?fp=chrome&pbk=2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38&security=reality&sid=abcd1234&sni=apple.com&type=tcp#🇦🇺AU-configs
+vless://f5f0babe-aea2-4f07-a1fc-3c9820253f49@212.81.47.99:51106?fp=chrome&path=%2F&pbk=2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38&security=reality&sid=abcd1234&sni=apple.com&type=tcp#🇦🇺AU-configs
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.65.217.30:8880?security=none&type=ws&path=/&host=vms.lifetime37.workers.dev&packetEncoding=xudp&encryption=none#🇦🇺AU-freevpnchina
+vless://40af9131-d540-448a-bc56-5bba147a1dc3@103.43.75.82:443?encryption=none&security=tls&type=ws&host=proxy-1cu.pages.dev&path=%2F&sni=proxy-1cu.pages.dev&fp=android#🇦🇺AU-freevpnchina
 hysteria2://633bc3be486b646190661ac2387c150a@152.67.115.203:443?insecure=1&obfs=salamander&obfs-password=850a3fb1cd33a28f12d837578ae1a2e7&sni=www.bing.com#🇦🇺AU-freevpnchina

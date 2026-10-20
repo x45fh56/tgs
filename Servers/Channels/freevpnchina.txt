@@ -10,13 +10,12 @@ hysteria2://4291c983-c520-46ac-82cc-48f14bef573f@129.213.91.185:35013?insecure=1
 hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@rb.mangshe.xyz:2060?insecure=1&security=tls&sni=127.0.0.1#Domain-freevpnchina
 hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@rb.mangshe.xyz:2060?insecure=1&sni=rb.mangshe.xyz#Domain-freevpnchina
 hysteria2://633bc3be486b646190661ac2387c150a@152.67.115.203:443?insecure=1&obfs=salamander&obfs-password=850a3fb1cd33a28f12d837578ae1a2e7&sni=www.bing.com#🇦🇺AU-freevpnchina
-hysteria2://6a3fe9d0-0d68-4f29-ae99-5771d4217a45@de1.xiaoliyu.cyou:4433?insecure=1&security=tls&sni=127.0.0.1#Domain-freevpnchina
 hysteria2://6a3fe9d0-0d68-4f29-ae99-5771d4217a45@de1.xiaoliyu.cyou:4433?insecure=1&sni=127.0.0.1#Domain-freevpnchina
 hysteria2://7302ad33229de166d393cd56143a1e4c@131.186.19.174:50160?insecure=1&sni=131.186.19.174#🇰🇷KR-freevpnchina
 hysteria2://7302ad33229de166d393cd56143a1e4c@131.186.19.174:50160?insecure=1&sni=google.com#🇰🇷KR-freevpnchina
 hysteria2://7302ad33229de166d393cd56143a1e4c@131.186.19.174:50160?insecure=1&sni=www.bing.com#🇰🇷KR-freevpnchina
-hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@43.201.61.242:443/?sni=www.bing.com&insecure=1&pinSHA256=89%3A61%3A86%3AFE%3AB2%3A0C%3AB7%3A40%3A31%3A87%3AA4%3A5F%3AF3%3ABD%3A5D%3ADC%3A8B%3AFB%3ADD%3A41%3A9D%3A77%3A9D%3A55%3AD7%3A86%3A18%3A9D%3A36%3A73%3A1A%3A69&pcs=896186feb20cb7403187a45ff3bd5ddc8bfbdd419d779d55d786189d36731a69#🇰🇷KR-freevpnchina
-hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@54.255.168.92:443/?sni=www.bing.com&insecure=1&pinSHA256=C1%3AFD%3A40%3A94%3A1F%3A91%3A9B%3A5C%3A78%3A96%3A24%3A40%3A97%3AF2%3A2D%3A9D%3A95%3A8E%3A62%3A5C%3AD9%3A58%3AB7%3A5F%3A34%3ACC%3AFA%3A42%3A18%3A1F%3A50%3AB2&pcs=c1fd40941f919b5c7896244097f22d9d958e625cd958b75f34ccfa42181f50b2#🇸🇬SG-freevpnchina
+hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@13.250.24.170:443/?sni=www.bing.com&insecure=1&pinSHA256=C1%3AFD%3A40%3A94%3A1F%3A91%3A9B%3A5C%3A78%3A96%3A24%3A40%3A97%3AF2%3A2D%3A9D%3A95%3A8E%3A62%3A5C%3AD9%3A58%3AB7%3A5F%3A34%3ACC%3AFA%3A42%3A18%3A1F%3A50%3AB2&pcs=c1fd40941f919b5c7896244097f22d9d958e625cd958b75f34ccfa42181f50b2#🇸🇬SG-freevpnchina
+hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@43.203.215.61:443/?sni=www.bing.com&insecure=1&pinSHA256=89%3A61%3A86%3AFE%3AB2%3A0C%3AB7%3A40%3A31%3A87%3AA4%3A5F%3AF3%3ABD%3A5D%3ADC%3A8B%3AFB%3ADD%3A41%3A9D%3A77%3A9D%3A55%3AD7%3A86%3A18%3A9D%3A36%3A73%3A1A%3A69&pcs=896186feb20cb7403187a45ff3bd5ddc8bfbdd419d779d55d786189d36731a69#🇰🇷KR-freevpnchina
 hysteria2://84a506ca5aca505696a454d828420b3f@140.238.213.114:50160?insecure=1&sni=140.238.213.114#🇨🇭CH-freevpnchina
 hysteria2://865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01@streambox.wwwinternetvideo.click:443?insecure=1&sni=127.0.0.1#Domain-freevpnchina
 hysteria2://865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01@streambox.wwwinternetvideo.click:443?insecure=1&sni=streambox.wwwinternetvideo.click#Domain-freevpnchina
@@ -33,7 +32,6 @@ hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443?insecure=1&s
 hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@103.126.51.49:8443?insecure=1&sni=ocober-romania-new.yyuyy.com#🇷🇴RO-freevpnchina
 hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@103.126.51.51:8443?sni=ocober-romania-new.yyuyy.com#🇷🇴RO-freevpnchina
 hysteria2://WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0@43.156.36.253:8443?insecure=1&sni=43.156.36.253#🇸🇬SG-freevpnchina
-hysteria2://ae5338ae-9a70-58c9-3d47-7d54a5675715@ea47f944-tmm5c0-tv7dx2-py5w.nw4.hyhuawei.com:443?insecure=1&security=tls&sni=ea47f944-tmm5c0-tv7dx2-py5w.nw4.hyhuawei.com#Domain-freevpnchina
 hysteria2://b8949dae-cb53-4b5a-ad9c-50f58c4656fb@us1.xiaoliyu.us:19512?insecure=1&sni=us1.xiaoliyu.us#Domain-freevpnchina
 hysteria2://bce6c821-200d-421f-bf3d-7159e5246ea0@155.248.209.237:33333?insecure=1&sni=155.248.209.237#🇺🇸US-freevpnchina
 hysteria2://cf83b611-6cba-4535-adcb-8da06c6a9146@144.31.212.253:443?sni=vps155-edge.kermemehori.ru#🇫🇮FI-freevpnchina
@@ -42,9 +40,6 @@ hysteria2://dongtaiwang.com@hy2.561891.xyz:44356?insecure=1&sni=hy2.561891.xyz#D
 hysteria2://e3c3b722-1264-4cdc-a97c-b0a1bb73cd67@104.165.205.46:9443?sni=onecloudstream.com#🇱🇻LV-freevpnchina
 hysteria2://e3c3b722-1264-4cdc-a97c-b0a1bb73cd67@104.165.205.81:9443?sni=onecloudstream.com#🇱🇻LV-freevpnchina
 hysteria2://f25f19f29ce3fb53a35bf1b35b452a43@129.159.156.109:50160?insecure=1&security=tls&sni=www.bing.com#🇮🇱IL-freevpnchina
-hysteria2://f87376e17da040ed04c9665ce8972930@138.2.73.238:50160?insecure=1&security=tls&sni=138.2.73.238#🇸🇬SG-freevpnchina
-hysteria2://fcd39788-ca23-11ed-86e2-f23c913c8d2b@eadd8612-tmm5c0-u2e9xs-2b2n.hk3.hyhuawei.com:443?insecure=1&security=tls&sni=eadd8612-tmm5c0-u2e9xs-2b2n.hk3.hyhuawei.com#Domain-freevpnchina
-hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@62.210.7.139:60111?insecure=1&security=tls#🇫🇷FR-freevpnchina
 hysteria2://github.com/Alvin9999-newpac/fanqiang@62.210.7.139:60111?insecure=1&sni=google.com#Domain-freevpnchina
 hysteria2://https://xship.2fa.cat@starlink-ft.251313.xyz:443?insecure=1&sni=xship.top#Domain-freevpnchina
 hysteria2://maintell@152.70.237.123:2053?insecure=1&sni=152.70.237.123#🇰🇷KR-freevpnchina
@@ -98,3 +93,8 @@ ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6b25uNFR3MjkvUi95TzRubGRJMnd2a1lHUGx
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6b2NNRzh0RTUwemY4ck12OVNacktVWTJPYitmQXNaT1RRV2xnb0pkZnV2Zz0@130.61.183.138:59924#🇩🇪DE-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6b2V6L2VBT2pibnVvNzVNUEZKQlFEbkNuTGVJZmNyNGVRMnR4akdNTFdYcz0@130.61.130.205:59924#🇩🇪DE-freevpnchina
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6bXdMVGpwM2RPMENINFRDa3g2ZitmRUovelZiWWF5dEdMZm1uRFJKQlhtZz0@130.61.230.35:59924#🇩🇪DE-freevpnchina
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6bjEyZlNudjdHNXUrL0hjalFIcTYxRnNRZ3JHdVRma1h0L3ZiVU16UmkzRT0=@129.151.70.113:61312#🇬🇧GB-freevpnchina
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6dEdYc2JVRGlzUjI4Yy9LUzBSRE9sZ1FTMWdWVDdVSjVTZjAvNVF2TXdSND0=@130.61.42.148:59924#🇩🇪DE-freevpnchina
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6dnhBUUR1anU0c2FXWDB3ZGF3Y0UxMG5RMDBQWE1nSnJRd2dJMHhkZjBTbz0=@130.61.85.241:59924#🇩🇪DE-freevpnchina
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6dzJVZ1hhWjNpT3JMbUFOQlFzaXBJeUZIYklsaHlubko2czZUSXF1WC9Zcz0@130.61.231.252:59924#🇩🇪DE-freevpnchina
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6empiY2dNUEQzV0U1ZjBZSVNaMHQ3aHh3RHJKVnNsVjJoRUlRdTF6ZmNhTT0@134.98.147.49:45819#🇳🇱NL-freevpnchina

@@ -1,1 +1,5 @@
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@195.133.92.20:443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2F&sni=snip.edgeoneai.cc.cd&fp=chrome#🇵🇹PT-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@195.133.92.228:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443#🇵🇹PT-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@195.133.92.20:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2F#🇵🇹PT-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@195.133.92.228:443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443&sni=snip.edgeoneai.cc.cd&fp=chrome#🇵🇹PT-freevpnchina
 vless://5d7e07ba-f460-4638-af79-bbcde67fcb6b@188.93.233.247:2053?mode=gun&security=reality&encryption=none&pbk=xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY&fp=chrome&type=grpc&serviceName=grpc&sni=www.intel.com#🇵🇹PT-v2raynplus
