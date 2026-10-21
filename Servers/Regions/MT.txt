@@ -1,0 +1,2 @@
+vmess://eyJhZGQiOiIxOTMuMjI3Ljk5LjE2MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiamsueWxrYS51cy5rZyIsImlkIjoiODI0MWRkYzgtYjVjNS00Nzc4LTk2MzUtMzMxNzAwYzZmZjQ4IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4NDQzIiwicHMiOiJASG9wZV9OZXQtam9pbi11cy1vbi1UZWxlZ3JhbSIsInNjeSI6ImF1dG8iLCJzbmkiOiJqay55bGthLnVzLmtnIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=#🇲🇹MT-wbnet
+vless://f775978b-6e22-41a8-ae5e-5f9779e6745f@193.227.99.249:443?encryption=none&security=tls&sni=juzibaipiao.5112233.xyz&type=ws&host=juzibaipiao.5112233.xyz&path=%2F%3Fed%3D2048#🇲🇹MT-wbnet
