@@ -1,5 +1,0 @@
-vless://174622e3-2d1d-47ab-bf74-aef54996ec46@185.207.198.186:2087?encryption=mlkem768x25519plus.native.0rtt.xj-lv6l2bLps6EWhf85986XQ1mmBqnr8Ikh_hNB_vGA&security=tls&sni=film.dearhossein-taktaz.ir&fp=chrome&type=ws&host=film.dearhossein-taktaz.ir&path=%2F#🇲🇭MH-wbnet
-vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@185.207.196.48:443?path=%2FGOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#🇲🇭MH-wbnet
-vless://174622e3-2d1d-47ab-bf74-aef54996ec46@185.207.198.186:2087?path=/&security=tls&encryption=mlkem768x25519plus.native.0rtt.xj-lv6l2bLps6EWhf85986XQ1mmBqnr8Ikh_hNB_vGA&insecure=0&host=film.dearhossein-taktaz.ir&fp=chrome&type=ws&allowInsecure=0&sni=film.dearhossein-taktaz.ir#🇲🇭MH-wbnet
-vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@185.207.196.48:443?encryption=none&security=tls&sni=rubifen.adaspoloandco.com&type=ws&host=rubifen.adaspoloandco.com&path=%2FGOrbEh#🇲🇭MH-wbnet
-ss://cf39fab0-bb85-42cb-9945-2ad69d78e575@185.207.196.48:443?path=%2FGOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#🇲🇭MH-wbnet
