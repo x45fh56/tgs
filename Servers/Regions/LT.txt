@@ -1,11 +1,13 @@
+vless://c4edb87e-8544-4fa4-bd1c-b0cda9a34b46@88.216.69.253:443?cs=semi-python&path=/ws&security=tls&encryption=none&fm=tlshello-0-len&insecure=0&host=a.cwvps.eu.org&fp=unsafe&type=ws&allowInsecure=0&sni=a.cwvps.eu.org#🇱🇹LT-configs
+trojan://humanity@88.216.69.253:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🇱🇹LT-configs
 trojan://humanity@195.181.244.216:443?sni=www.calmlunch.com&type=ws&path=/assignment&fp=chrome#🇱🇹LT-configs
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.161.50:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime08.workers.dev&packetEncoding=xudp#🇱🇹LT-freevpnchina
-vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@45.8.173.20:443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2F&sni=snip.edgeoneai.cc.cd&fp=chrome#🇱🇹LT-freevpnchina
-vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@187.52.127.204:8443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2F#🇱🇹LT-freevpnchina
-vless://2eceaf2b-a775-5a9c-9990-dad2b3660fb6@62.77.158.1:443?security=reality&type=tcp&packetEncoding=xudp&sni=online.1c.ru&fp=chrome&flow=xtls-rprx-vision&sid=6a&pbk=sVhkyiMXvpofflCdSszxQmsqOXV1kg1Ldxq1a9mOPjs&encryption=none#🇱🇹LT-freevpnchina
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.67.50:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime05.workers.dev&packetEncoding=xudp&encryption=none#🇱🇹LT-freevpnchina
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.161.50:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime08.workers.dev&packetEncoding=xudp#🇱🇹LT-freevpnchina
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.180.40:8880?security=none&type=ws&path=/?ed=2560&https://t.me/youtube@ZYFXS🇨🇳&host=vms.lifetime09.workers.dev&packetEncoding=xudp&encryption=none#🇱🇹LT-freevpnchina
+vless://2eceaf2b-a775-5a9c-9990-dad2b3660fb6@62.77.158.1:443?security=reality&type=tcp&packetEncoding=xudp&sni=online.1c.ru&fp=chrome&flow=xtls-rprx-vision&sid=6a&pbk=sVhkyiMXvpofflCdSszxQmsqOXV1kg1Ldxq1a9mOPjs&encryption=none#🇱🇹LT-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@187.52.127.204:8443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2F#🇱🇹LT-freevpnchina
 vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@45.8.173.115:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&type=ws&host=snip.edgeoneai.cc.cd&path=%2Ffp%3Dchrome#🇱🇹LT-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@45.8.173.20:443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2F&sni=snip.edgeoneai.cc.cd&fp=chrome#🇱🇹LT-freevpnchina
 ss://YWVzLTI1Ni1jZmI6cVlFTjVIWDRKS2VWQ2RFQw==@195.238.126.84:9039#🇱🇹LT-freevpnchina
 ss://YWVzLTI1Ni1jZmI6THAyN3JxeUpxNzJiWnNxWA==@195.238.126.20:9045#🇱🇹LT-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@45.87.175.197:8080#🇱🇹LT-tv2rayrr

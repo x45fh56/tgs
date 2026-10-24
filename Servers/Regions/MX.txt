@@ -1,2 +1,4 @@
+trojan://humanity@131.196.254.151:443?path=%2Fassignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🇲🇽MX-configs
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@38.213.228.91:443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2Ffp%3Dchrome&sni=snip.edgeoneai.cc.cd&fp=chrome#🇲🇽MX-freevpnchina
 vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@216.238.79.164:443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome&sni=snip.edgeoneai.cc.cd&fp=chrome#🇲🇽MX-freevpnchina
 ss://YWVzLTEyOC1nY206NjdjNTdhZTU4NGVlY2Q3MDM5NmZjZDdjYTc1MjExMzA@147.78.1.234:16673#🇲🇽MX-freevpnchina

@@ -1,9 +1,7 @@
-vless://19d5a678-8396-4e3b-93da-ece618d0e83a@61.230.160.34:24215?encryption=none&fp=firefox&pbk=mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE&security=reality&sni=addons.mozilla.org&type=tcp#🇹🇼TW-configs
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#🇹🇼TW-proxy_configs_tested
-vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@140.115.53.51:443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2F&sni=snip.edgeoneai.cc.cd&fp=chrome#🇹🇼TW-freevpnchina
 vless://91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a@152.32.167.33:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amazon.com&fp=chrome&pbk=Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4&sid=cff998a4&type=tcp&headerType=none#🇹🇼TW-freevpnchina
-vless://c1c04450-bf71-4049-ad0c-9cf6d94d9f1f@59.125.69.23:443?type=ws&security=tls&sni=ty986gfazs.cainiaohub.xyz&path=%2F81574b6b-c9d7-44a0-b83d-dad56e8cb530&host=ty986gfazs.cainiaohub.xyz&fp=chrome&allowInsecure=1#🇹🇼TW-freevpnchina
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@140.115.53.51:443?encryption=none&security=tls&type=ws&host=snip.edgeoneai.cc.cd&path=%2F&sni=snip.edgeoneai.cc.cd&fp=chrome#🇹🇼TW-freevpnchina
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?insecure=1&sni=https://t.me/WangCai2🇨🇳#🇹🇼TW-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@36.224.141.124:50099#🇹🇼TW-freevpnchina
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@160.187.100.109:443/?insecure=1&sni=vpn-tw-002.fastervpn.world#🇹🇼TW-oneclickvpnkeys
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443/?insecure=1&sni=https%3A#🇹🇼TW-oneclickvpnkeys
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#🇹🇼TW-v2roay
