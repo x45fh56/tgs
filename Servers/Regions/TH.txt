@@ -1,1 +1,2 @@
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@38.60.254.50:22222?fp=firefox&security=tls&sni=th001.zestapp778.com&type=tcp#🇹🇭TH-configs
 ss://YWVzLTI1Ni1nY206c3hhakNUd3JsSzB6bCt6bUhwWDBwMGpYSWZhdG56bEx6V2xTUTk1MEwxYz0@103.107.52.106:52351#🇹🇭TH-v2raynplus
