@@ -1,7 +1,5 @@
-vless://4f35274e-006f-43e7-87be-c8cba4882b0c@132.243.65.82:443?mode=auto&path=%2F%3F%40MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI%3Fed%3D2048&security=reality&encryption=none&pbk=UZKrOusu0M0i3gnqDanh2yXXkTibNEjj41Hsvah2XlI&type=xhttp&sni=player.vimeo.com#🇪🇪EE-configs
 vless://ca14493b-b984-4ffb-bc0e-9cb5da969e15@146.19.143.218:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg&security=reality&sid=4a7b1c8d&sni=tau1.freerunet.online&type=tcp#🇪🇪EE-configs
-vless://c4edb87e-8544-4fa4-bd1c-b0cda9a34b46@38.180.163.250:443?encryption=none&security=tls&sni=a.cwvps.eu.org&fp=unsafe&alpn=http%2F1.1&type=ws&path=%2Fws%23%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI%3Fed%3D512&host=a.cwvps.eu.org#🇪🇪EE-configs
-trojan://humanity@38.180.163.250:443?sni=www.pleadcourt.org&fp=unsafe&alpn=http%2F1.1&type=ws&path=%2Fassignment&host=www.pleadcourt.org#🇪🇪EE-configs
+vless://4f35274e-006f-43e7-87be-c8cba4882b0c@132.243.65.82:443?encryption=none&fp=&mode=auto&path=%2F&pbk=UZKrOusu0M0i3gnqDanh2yXXkTibNEjj41Hsvah2XlI&security=reality&sni=player.vimeo.com&type=xhttp#🇪🇪EE-configs
 trojan://humanity@185.36.141.81:443?sni=www.calmlunch.com&type=ws&path=/assignment&fp=chrome#🇪🇪EE-configs
 vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@114.129.9.132:8443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443#🇪🇪EE-freevpnchina
 vless://4f35274e-006f-43e7-87be-c8cba4882b0c@132.243.65.82:443?encryption=none&fp=&mode=auto&path=%2F&pbk=UZKrOusu0M0i3gnqDanh2yXXkTibNEjj41Hsvah2XlI&security=reality&sni=player.vimeo.com&type=xhttp#🇪🇪EE-oneclickvpnkeys

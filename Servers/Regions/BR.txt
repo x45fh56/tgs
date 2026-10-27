@@ -1,6 +1,9 @@
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?type=tcp&headerType=none&security=tls&encryption=none&sni=findtemporaryworkandfreelancerprojectsonlineplatform.com#🇧🇷BR-configs
 hysteria2://CyG0RFxMjzs41uQD4OLuHQ%3D%3D@147.15.108.14:20000?insecure=1&obfs=salamander&obfs-password=CyG0RFxMjzs41uQD4OLuHQ%3D%3D&sni=rmgyvpn.rest#🇧🇷BR-base64
+vless://50a87e21-f0e2-4b53-a787-91adfe748f63@177.3.214.156:443?security=reality&type=tcp&packetEncoding=xudp&sni=finlandlanzarotte.live&fp=firefox&flow=xtls-rprx-vision&pbk=6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo&encryption=none#🇧🇷BR-V2RAY_RAW
 vless://4d852af3-a121-41aa-9aed-4ca40a6f7b4d@177.1.192.74:443?security=reality&encryption=none&pbk=qC0g7Y0pwyLFTGAPG2zfZNuo64Cda695wdKgLU4KkF8&headerType=none&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=addons.mozilla.org&sid=770618b6#🇧🇷BR-NetShot1
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@179.253.250.237:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2F#🇧🇷BR-freevpnchina
 vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@179.255.106.248:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2F#🇧🇷BR-freevpnchina
 vless://30572b57-f5ab-4eb8-82d4-a24d399b99f6@201.51.8.163:443?security=reality&type=tcp&packetEncoding=xudp&sni=atk.vkusnews.com&fp=chrome&flow=xtls-rprx-vision&pbk=Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU&encryption=none#🇧🇷BR-freevpnchina
-vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@179.253.250.237:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2F#🇧🇷BR-freevpnchina
 vless://714e1212-6707-471e-9f40-2fbd3d8d3b4b@201.24.49.233:4100?encryption=none&type=ws&security=none&path=%2Fv1&host=live.ok.ru#🇧🇷BR-v2ray_extractor
+vless://50a87e21-f0e2-4b53-a787-91adfe748f63@177.3.214.156:443?security=reality&type=tcp&packetEncoding=xudp&sni=finlandlanzarotte.live&fp=firefox&flow=xtls-rprx-vision&pbk=6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo&encryption=none#🇧🇷BR-v2roay
