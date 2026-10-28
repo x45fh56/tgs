@@ -1,13 +1,9 @@
-vless://d0c8aa8d-a535-432a-b521-21f0e561f643@157.173.7.17:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&security=reality&sid=88d9dc52ef39c8bd&sni=node-fra03.rkitman.ru&type=tcp#🇦🇹AT-configs
 vless://711c018e-2692-4aa8-93f3-544d83fcd16c@152.53.236.22:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs&sid=7a76f3c4b9dd&sni=www.cloudflare.com#🇦🇹AT-configs
-vless://711c018e-2692-4aa8-93f3-544d83fcd16c@152.53.239.182:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs&security=reality&sid=7a76f3c4b9dd&sni=www.cloudflare.com&type=tcp#🇦🇹AT-configs
 vless://711c018e-2692-4aa8-93f3-544d83fcd16c@152.53.127.214:443?security=reality&encryption=none&pbk=HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7a76f3c4b9dd#🇦🇹AT-configs
 vless://711c018e-2692-4aa8-93f3-544d83fcd16c@152.53.236.182:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs&security=reality&sid=7a76f3c4b9dd&sni=www.cloudflare.com&type=tcp#🇦🇹AT-configs
-trojan://humanity@212.183.88.136:443?path=/assignment&security=tls&insecure=0&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇦🇹AT-configs
-trojan://humanity@212.183.88.136:443?path=//assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇦🇹AT-configs
+vless://711c018e-2692-4aa8-93f3-544d83fcd16c@152.53.239.182:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs&security=reality&sid=7a76f3c4b9dd&sni=www.cloudflare.com&type=tcp#🇦🇹AT-configs
 vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@152.53.127.16:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2F#🇦🇹AT-freevpnchina
-vless://ef328563-cda1-4530-9b0a-988cc5a74d78@188.137.158.159:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=softice.net&type=tcp#🇦🇹AT-oneclickvpnkeys
-vless://ef328563-cda1-4530-9b0a-988cc5a74d78@188.137.158.169:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=softice.net&type=tcp#🇦🇹AT-oneclickvpnkeys
-vless://2b0e5676-fb62-4bf0-9607-6e7818421e8e@152.53.1.40:8443?encryption=none&fp=firefox&host=au4.pad-service.com&path=%2FA14U&security=tls&sni=au4.pad-sservice.lat&type=ws#🇦🇹AT-oneclickvpnkeys
-vless://ef328563-cda1-4530-9b0a-988cc5a74d78@188.137.158.199:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=softice.net&type=tcp#🇦🇹AT-oneclickvpnkeys
 vless://d0c8aa8d-a535-432a-b521-21f0e561f643@157.173.7.17:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&security=reality&sid=88d9dc52ef39c8bd&sni=node-fra03.rkitman.ru&type=tcp#🇦🇹AT-oneclickvpnkeys
+vless://ef328563-cda1-4530-9b0a-988cc5a74d78@188.137.158.169:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=softice.net&type=tcp#🇦🇹AT-oneclickvpnkeys
+vless://ef328563-cda1-4530-9b0a-988cc5a74d78@188.137.158.159:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=softice.net&type=tcp#🇦🇹AT-oneclickvpnkeys
+vless://ef328563-cda1-4530-9b0a-988cc5a74d78@188.137.158.199:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=softice.net&type=tcp#🇦🇹AT-oneclickvpnkeys
