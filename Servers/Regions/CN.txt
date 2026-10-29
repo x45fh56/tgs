@@ -1,9 +1,8 @@
 hysteria2://083417772bc618cd61f0cca23dd91680@167.179.34.31:55443?insecure=1&sni=gorbachev-new-th.kvnfreetest.uk#🇨🇳CN-proxy_configs_tested
 hysteria2://6f7a8009ecf6a12e10d03f9d88493c89@167.179.34.13:55443?insecure=1&sni=gorbachev-th.kvnfreetest.uk#🇨🇳CN-proxy_configs_tested
-ss://YWVzLTI1Ni1nY206NWQxZmNiZWUtYmE2Mi00ZjFlLThiN2QtNDYzYjc4OGE1MmE5@120.241.239.87:16008#🇨🇳CN-tv2rayrr
 ss://YWVzLTI1Ni1nY206OGRkYzBhNDctOWE3Zi00MWUxLWFkZjctZjYzMjIyNzZjMWNh@120.241.239.79:23001#🇨🇳CN-tv2rayrr
-hysteria2://083417772bc618cd61f0cca23dd91680@167.179.34.31:55443/?insecure=1&sni=gorbachev-new-th.kvnfreetest.uk#🇨🇳CN-v2ray_extractor
+ss://YWVzLTI1Ni1nY206NWQxZmNiZWUtYmE2Mi00ZjFlLThiN2QtNDYzYjc4OGE1MmE5@120.241.239.87:16008#🇨🇳CN-tv2rayrr
 hysteria2://6f7a8009ecf6a12e10d03f9d88493c89@167.179.34.13:55443/?insecure=1&sni=gorbachev-th.kvnfreetest.uk#🇨🇳CN-v2ray_extractor
-vmess://eyJhZGQiOiIxMTIuMTMyLjIxNS4xMDgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiI1MDAwMiIsInBzIjoiQHYycmF5TnBsdXMg8J+HqPCfh7MiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9#🇨🇳CN-v2raynplus
+hysteria2://083417772bc618cd61f0cca23dd91680@167.179.34.31:55443/?insecure=1&sni=gorbachev-new-th.kvnfreetest.uk#🇨🇳CN-v2ray_extractor
 hysteria2://083417772bc618cd61f0cca23dd91680@167.179.34.31:55443?insecure=1&sni=gorbachev-new-th.kvnfreetest.uk#🇨🇳CN-v2roay
 hysteria2://6f7a8009ecf6a12e10d03f9d88493c89@167.179.34.13:55443?insecure=1&sni=gorbachev-th.kvnfreetest.uk#🇨🇳CN-v2roay

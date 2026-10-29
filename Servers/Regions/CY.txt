@@ -1,6 +1,7 @@
-vless://af5eac96-e478-488a-bc8c-45269d7e8847@5.253.28.224:40443?type=tcp&security=reality&sni=deepl.com&flow=xtls-rprx-vision&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&sid=68a8&fp=qq#🇨🇾CY-freevpnchina
+vless://76ef5ab3-7075-4e23-b445-f3b1bd05d431@5.253.29.253:443?security=tls&serviceName=assets&sni=indi.qikbro.com&type=grpc#🇨🇾CY-configs
 vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@194.55.166.65:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2F#🇨🇾CY-freevpnchina
-vless://405b964e-a2d2-454f-aaaa-711cc218897c@5.253.28.240:40443?type=tcp&security=reality&sni=deepl.com&flow=xtls-rprx-vision&pbk=cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0&sid=88b6&fp=random#🇨🇾CY-freevpnchina
-hysteria2://4b1be712-774c-4b65-8491-a3339e124a70@194.76.147.34:443/?sni=hys-eu.letsconnectpoint.com#🇨🇾CY-oneclickvpnkeys
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpueGdzbUhrUDNKVTdoYlFrSmZ4Z3BYaDV0bHZYZTFlbg@45.83.142.237:443#🇨🇾CY-tv2rayrr
+vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?security=reality&encryption=none&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=68a8#🇨🇾CY-v2raynplus
+vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?security=reality&encryption=none&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=68a8#🇨🇾CY-v2raynplus
+vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?security=reality&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=68a8#🇨🇾CY-v2raynplus
 vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?security=reality&encryption=none&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=68a8#🇨🇾CY-vpnbaz

@@ -1,5 +1,5 @@
+trojan://humanity@195.181.244.216:443?path=/assignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇱🇹LT-configs
 trojan://humanity@212.24.104.79:2053?security=tls&sni=www.calmlunch.com&type=ws&host=www.calmlunch.com&path=%2Fassignment&allowInsecure=0#🇱🇹LT-configs
-vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@45.8.173.115:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&type=ws&host=snip.edgeoneai.cc.cd&path=%2Ffp%3Dchrome#🇱🇹LT-freevpnchina
 vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@187.52.127.204:8443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2F#🇱🇹LT-freevpnchina
-trojan://humanity@88.216.69.253:443?host=www.pleadcourt.org&path=%2Fassignment&sni=www.pleadcourt.org&type=ws#🇱🇹LT-oneclickvpnkeys
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@45.8.173.115:443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&type=ws&host=snip.edgeoneai.cc.cd&path=%2Ffp%3Dchrome#🇱🇹LT-freevpnchina
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@45.87.175.197:8080#🇱🇹LT-tv2rayrr
