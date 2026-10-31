@@ -1,5 +1,5 @@
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.80.100:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=connectwithtopemployersandfindidealjobs.com#🇲🇽MX-configs
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.80.100:443?sni=connectwithtopemployersandfindidealjobs.com&type=tcp#🇲🇽MX-configs
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.80.100:443?allowInsecure=1&type=tcp&security=tls&fp=chrome&sni=connectwithtopemployersandfindidealjobs.com#🇲🇽MX-V2RAY_RAW
-vmess://eyJhZGQiOiIzOC42MC4yMjQuMTczIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjVjZjFmNDcwLTNmNzAtNDU4OS1hMmE0LTQ2NTdlYTNhMWVkZiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzIxNTMiLCJwcyI6Ilx1ZDgzY1x1ZGRmMlx1ZDgzY1x1ZGRmZCBKb2luK1RlbGVncmFtOkBGYXJhaF9WUE4gXHVkODNjXHVkZGYyXHVkODNjXHVkZGZkIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==#🇲🇽MX-v2cnf
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.80.100:443?allowInsecure=1&type=tcp&security=tls&fp=chrome&sni=connectwithtopemployersandfindidealjobs.com#🇲🇽MX-v2roay
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.80.100:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=connectwithtopemployersandfindidealjobs.com#🇲🇽MX-configs
+trojan://humanity@131.196.253.141:443?security=tls&sni=www.cordweave.com&insecure=1&allowInsecure=1&type=ws&path=%2Fassignment#🇲🇽MX-configs
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.80.100:443?security=tls&sni=connectwithtopemployersandfindidealjobs.com&type=tcp#🇲🇽MX-V2RAY_RAW
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.80.100:443?security=tls&sni=connectwithtopemployersandfindidealjobs.com&type=tcp#🇲🇽MX-v2roay
