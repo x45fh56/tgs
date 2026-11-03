@@ -1,7 +1,9 @@
 vless://0f11b72f-1af1-4f0a-b992-87a8241d9213@94.183.152.153:443?security=reality&pbk=uAoKx_ePWGe_jowwFZt7x3oZSNU3VJl9dIQmeYG22FM&sid=9a4d61e8c2f735b0&sni=www.bing.com&fp=chrome&type=tcp&flow=xtls-rprx-vision#🇮🇷IR-configs
+vless://ae5c34f0-98d1-41bf-99f4-012cf865154e@194.32.214.94:2096?security=reality&encryption=none&pbk=O0i8MT5R__tGAOnvqJjRk4ygGV4EF2Yq4VMKG4Cj4V0&host=sm.novexora.ir&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=2d5781f528d99a29#🇮🇷IR-configs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4ZGMyNzUxMmIzMTg0MjEzOTNjNTM4OTYzMzAzMjIzMw==@5.202.8.202:555#🇮🇷IR-base64
+vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?encryption=none&security=none&type=tcp&headerType=none&host=vixon.portab.org#🇮🇷IR-mix
 vless://0aa8a7cd-eb08-4fa6-a277-c9d95282d4e6@185.143.234.238:80?path=/pgcfws-r4&security=none&encryption=none&host=uu.caroptions.ir&type=ws#🇮🇷IR-mix
 vless://bc4d97ba-d54f-4555-ba71-f7421796d92c@185.143.234.111:443?path=/&security=tls&encryption=none&host=frontend.parhamm2.ir&fp=random#🇮🇷IR-mix
-vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?encryption=none&security=none&type=tcp&headerType=none&host=vixon.portab.org#🇮🇷IR-mix
 vless://b8799fac-622a-4142-aab2-2aa862ad35f2@185.143.234.235:80?encryption=none&security=none&type=ws&host=vixon.portab.org&path=/#🇮🇷IR-mix
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwTEdDUG5qMldnenhYMUllZFc4eWQ3dHJ3UmxYcWpMYQ==@109.122.251.86:20700#🇮🇷IR-mix
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBV1Z5VWdXV0xjNEc0N0dOb19ieDJ3@94.184.42.18:8880#🇮🇷IR-NetShot1
