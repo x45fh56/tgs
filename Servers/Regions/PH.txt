@@ -1,2 +1,0 @@
-trojan://5t6i121em5lkmsmk@130.94.52.157:46298?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ph001.zestapp778.com#🇵🇭PH-artemisvpn1
-trojan://5t6i121em5lkmsmk@130.94.52.157:46298?security=tls&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&sni=ph001.zestapp778.com#🇵🇭PH-artemisvpn1

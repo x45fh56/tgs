@@ -1,9 +1,7 @@
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.221:443?encryption=none&fp=chrome&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&security=reality&serviceName=grpc-90&sid=cbc638acc8ac87&sni=max.ru&type=grpc#🇺🇦UA-configs
 vless://d8b58872-cc25-4bb2-badb-b86399c075fa@31.222.235.81:443?security=reality&encryption=none&pbk=L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk&headerType=none&fp=chrome&type=tcp&sni=www.cloudflare.com&sid=d8b58872#🇺🇦UA-configs
-vless://63959ed7-d26f-48dd-8c7b-ebdb6ea68535@195.123.189.214:443?encryption=none&fp=firefox&pbk=9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0&security=reality&serviceName=grpc-90&sid=cbc638acc8ac87&sni=max.ru&type=grpc#🇺🇦UA-configs
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.164.175.81:19999#🇺🇦UA-configs
-vless://d8b58872-cc25-4bb2-badb-b86399c075fa@31.222.235.81:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&sid=d8b58872&pbk=L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk#🇺🇦UA-V2RAY_RAW
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.164.175.81:19999#🇺🇦UA-V2RAY_RAW
 vless://30e52776-55ac-3cb4-8d36-e2910f07e2c3@88.151.195.96:443?encryption=none&type=tcp&headerType=&fp=firefox&host=1192f8f8s274.kukuss.top&path=&flow=xtls-rprx-vision&security=tls&sni=u695098u1192f8f8s274.kukuss.top&serviceName=&mode=&alpn=h2%2Chttp%2F1.1#🇺🇦UA-freevpnchina
-vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.83:2087?encryption=none&path=%2F4bc027a44532&security=none&type=ws#🇺🇦UA-v2ray_extractor
 vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.115:2087?encryption=none&path=%2F4bc027a44532&security=none&type=ws#🇺🇦UA-v2ray_extractor
-vless://d8b58872-cc25-4bb2-badb-b86399c075fa@31.222.235.81:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&sid=d8b58872&pbk=L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk#🇺🇦UA-v2roay
+vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.83:2087?encryption=none&path=%2F4bc027a44532&security=none&type=ws#🇺🇦UA-v2ray_extractor
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.164.175.81:19999#🇺🇦UA-v2roay
