@@ -1,4 +1,7 @@
-vless://5f704d93-7e7f-45b5-81f5-08db4a946220@104.17.70.206:8443?security=tls&type=ws&path=%2F&host=free.sahanwickramasinghe.com&alpn=http%2F1.1&sni=free.sahanwickramasinghe.com&fp=chrome&encryption=none#🏳️-cloudflare-base64
-vless://7a015962-482c-44ce-abd3-3810e324c64c@cdn.privatevip.ir:2087?security=tls&type=xhttp&path=%2Frypni2i6&host=cdn.privatevip.ir&alpn=h2%2Chttp%2F1.1&sni=cdn.privatevip.ir&fp=chrome&mode=packet-up&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&encryption=none#Domain-cloudflare-base64
-vless://7eb360e0-3bf4-4e9b-9192-ca25a2f54b73@chatgpt.com:8443?security=tls&type=ws&path=%2Fsg-melbi&host=de9.ahsvip.eu.org&alpn=http%2F1.1&sni=de9.ahsvip.eu.org&fp=unsafe&encryption=none#Domain-cloudflare-base64
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@104.21.58.37:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&sni=fast.145779.xyz&fp=chrome#🏳️-cloudflare-base64
+trojan://Telegram--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X-@chatgpt.com:443?sni=cdn.config7x.site&type=ws&path=%2F7x-tj-cdn&fp=chrome#Domain-cloudflare-base64
+trojan://Telegram--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X-@www.speedtest.net:443?sni=cdn.config7x.site&type=ws&path=%2F7x-tj-cdn&fp=chrome#Domain-cloudflare-base64
+vless://ea81763f-e534-4700-aa28-9ac98156771b@ap-south.862400.xyz:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=ap-south.862400.xyz&sni=ap-south.862400.xyz&fp=random#Domain-cloudflare-base64
+vless://ea81763f-e534-4700-aa28-9ac98156771b@nl-ams.862400.xyz:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=nl-ams.862400.xyz&sni=nl-ams.862400.xyz&fp=random&encryption=none#Domain-cloudflare-base64
+vless://ea81763f-e534-4700-aa28-9ac98156771b@us-lax.862400.xyz:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=us-lax.862400.xyz&sni=us-lax.862400.xyz&fp=random&encryption=none#Domain-cloudflare-base64
+vless://fc2d811f-3b7d-4706-9f46-d470255ef061@grok.com:2083?security=tls&type=ws&path=%2F7x&host=cdn.config7x.site&sni=cdn.config7x.site&fp=chrome&encryption=none#Domain-cloudflare-base64
+vless://fc2d811f-3b7d-4706-9f46-d470255ef061@www.canva.com:8443?security=tls&type=ws&path=%2Fconfig7x&host=cdn.config7x.site&alpn=http%2F1.1%2Ch2&sni=cdn.config7x.site&fp=chrome&encryption=none#Domain-cloudflare-base64
