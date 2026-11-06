@@ -1,1 +1,1 @@
-vless://b18d5990-96eb-4587-a386-7f8ef7591e6a@85.155.246.13:2063?security=reality&type=tcp&sni=rusbid.de&fp=firefox&flow=xtls-rprx-vision&pbk=MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM#🇭🇺HU-configs
+vless://5d4a87fa-16f1-4b65-b217-225a31e36239@45.9.168.17:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=hu.convert-flow.net&fp=chrome&pbk=8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w&sid=00a61d55a07de885&type=tcp&headerType=none#🇭🇺HU-freevpnchina

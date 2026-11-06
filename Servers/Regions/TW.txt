@@ -1,8 +1,4 @@
+vless://91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a@152.32.167.33:443?security=reality&encryption=none&pbk=Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=cff998a4#🇹🇼TW-configs
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#🇹🇼TW-proxy_configs_tested
-trojan://i99Cef@211.20.156.191:28133?sni=ctldl.windowsupdate.com&allowInsecure=1&type=tcp#🇹🇼TW-base64
-trojan://i99Cef@211.20.156.191:28160?sni=download.windowsupdate.com&allowInsecure=1&type=tcp#🇹🇼TW-base64
-trojan://i99Cef@211.20.156.191:28138?sni=ctldl.windowsupdate.com&allowInsecure=1&type=tcp#🇹🇼TW-base64
-trojan://i99Cef@211.20.156.191:28152?sni=download.windowsupdate.com&allowInsecure=1&type=tcp#🇹🇼TW-base64
-vless://eb8c97f7-a154-4442-91b0-54c0d055ad0b@83.147.13.74:8443?encryption=none&security=reality&sni=github.githubassets.com&fp=chrome&pbk=4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA&sid=4ad2e4e660550e43&type=tcp&headerType=none#🇹🇼TW-freevpnchina
 vless://91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a@152.32.167.33:443?security=reality&encryption=none&pbk=Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=cff998a4#🇹🇼TW-v2raynplus
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#🇹🇼TW-v2roay
