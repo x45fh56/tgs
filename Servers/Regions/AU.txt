@@ -1,3 +1,3 @@
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@45.63.30.142:443?allowInsecure=1&sni=connectwithemployerstohireyouridealteam.com&type=tcp#🇦🇺AU-configs
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@45.63.30.142:443?security=tls&sni=connectwithemployerstohireyouridealteam.com#🇦🇺AU-configs
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@45.63.30.142:443?security=tls&sni=connectwithemployerstohireyouridealteam.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#🇦🇺AU-freevpnchina
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@45.63.30.142:443?allowInsecure=1&sni=connectwithemployerstohireyouridealteam.com&type=tcp#🇦🇺AU-configs
+vless://8c7ec5d5-0ac8-45de-90f9-4545180546f2@3.25.55.69:53001?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=rmJcDNQBXYUFlUmsst3XFdD2FL-A9c0ej52svFM5iWs&sid=2e01f6768911edf7&type=tcp&headerType=none#🇦🇺AU-freevpnchina
