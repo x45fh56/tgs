@@ -1,12 +1,8 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWN1dMYVlkdWprd25qNnh4WHEtMkJTeEdXRWNTSnRUQQ@88.216.254.18:1080#🇱🇹LT-configs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWN1dMYVlkdWprd25qNnh4WHEtMkJTeEdXRWNTSnRUQQ@88.216.254.18:1080#🇱🇹LT-proxy_configs_tested
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWN1dMYVlkdWprd25qNnh4WHEtMkJTeEdXRWNTSnRUQQ==@88.216.254.18:1080#🇱🇹LT-base64
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWN1dMYVlkdWprd25qNnh4WHEtMkJTeEdXRWNTSnRUQQ==@88.216.254.18:1080#🇱🇹LT-mix
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWN1dMYVlkdWprd25qNnh4WHEtMkJTeEdXRWNTSnRUQQ@88.216.254.18:1080#🇱🇹LT-V2RAY_RAW
+vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🇱🇹LT-artemisvpn1
 vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?path=%2Ffp&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🇱🇹LT-artemisvpn1
 vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&fp=unsafe&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🇱🇹LT-artemisvpn1
 vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?path=%2Ffp%3Dchrome&security=tls&encryption=none&fm=tlshello-0-len&insecure=0&host=ccc.010304.xyz&fp=unsafe&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🇱🇹LT-artemisvpn1
-vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🇱🇹LT-artemisvpn1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWN1dMYVlkdWprd25qNnh4WHEtMkJTeEdXRWNTSnRUQQ==@88.216.254.18:1080#🇱🇹LT-persianvpnhub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@45.87.175.197:8080#🇱🇹LT-tv2rayrr
 trojan://humanity@88.216.69.253:443?sni=www.pleadcourt.org&type=ws#🇱🇹LT-v2cnf
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWN1dMYVlkdWprd25qNnh4WHEtMkJTeEdXRWNTSnRUQQ@88.216.254.18:1080#🇱🇹LT-v2roay

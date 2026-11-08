@@ -1,3 +1,2 @@
 vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.95.198:57353?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=in001.zestapp778.com#🇮🇩ID-artemisvpn1
 vless://d342d11e-d224-4463-b982-532309285094@43.173.1.153:8443?path=%2F&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&fp=chrome&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🇮🇩ID-artemisvpn1
-vless://3977434d-6a9b-4858-8ced-80326ba5e367@103.172.197.2:29172?security=reality&encryption=none&pbk=pff94OJwuKXnF7_3SJ8KKJuAN4GJtInBlR-kg-4mwzQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aws.amazon.com#🇮🇩ID-v2raynplus

@@ -1,10 +1,6 @@
 vmess://eyJ2IjpudWxsLCJwcyI6IkJSIPCfh6fwn4e3IHwgQFJheWRpa2FseCB8IDAyNDhERiIsImFkZCI6IjEwMy44OC4yMzIuNTUiLCJwb3J0IjoxMjcwLCJpZCI6IjVjMDQwZjFkLTQ1ZGItNDNiZC04ZDQ2LWU0OTUwZTQzMzczNSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6bnVsbCwiaG9zdCI6bnVsbCwiYWxwbiI6bnVsbCwicGF0aCI6Ii8iLCJ0bHMiOiJ0bHMiLCJzbmkiOiJ4bWZobHB5LmNvbSIsImZwIjpudWxsLCJuYW1lIjoiQlIg8J+Hp/Cfh7cgfCBAUmF5ZGlrYWx4IHwgMDI0OERGIn0=#🇧🇷BR-configs
-vless://0806e6e2-e01d-482c-b530-be3b57d486d4@191.217.211.161:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=5H_MmyfvF4SkwS84wTbLmtcZDecXJIJtZ3uisiKQpSM&security=reality&sid=0c774b50&sni=pl1.song69.fun&type=tcp#🇧🇷BR-configs
-vless://254f28cb-d0c1-41e9-a06b-f2155213ff04@177.177.215.45:444?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=ams2.shtil.io#🇧🇷BR-configs
+vless://254f28cb-d0c1-41e9-a06b-f2155213ff04@177.177.215.45:444?encryption=none&flow=xtls-rprx-vision&security=tls&sni=ams2.shtil.io&fp=chrome&insecure=0&allowInsecure=0&type=tcp&headerType=none#🇧🇷BR-configs
 vless://254f28cb-d0c1-41e9-a06b-f2155213ff04@177.177.215.45:444?&security=tls&flow=xtls-rprx-vision&sni=ams2.shtil.io&type=tcp&headerType=none&host=ams2.shtil.io&path=%2F#🇧🇷BR-configs
-vless://71b566cb-78c4-48e4-af5b-720e4f7884f2@191.217.217.228:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=xEDYfxVdiRkY-z7qiUvoly7fYDz4U6wI5p69oNbjWA4&sid=f9d991431c87703c&sni=vdsin.xvanta.online#🇧🇷BR-configs
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=findtemporaryworkandfreelancerprojectsonlineplatform.com#🇧🇷BR-configs
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?security=tls&sni=findtemporaryworkandfreelancerprojectsonlineplatform.com#🇧🇷BR-configs
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?security=tls&sni=findtemporaryworkandfreelancerprojectsonlineplatform.com#🇧🇷BR-artemisvpn1
-vless://b4986456-f212-4b51-9583-b44d5494f038@18.231.96.51:13001?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=fZo1asQN8Q13GHt4ZVnuD0dioqqBlgNW2wt1UKfXy30&sid=915521106ccada71&type=tcp&headerType=none#🇧🇷BR-freevpnchina
 vless://714e1212-6707-471e-9f40-2fbd3d8d3b4b@201.24.49.233:4100?encryption=none&type=ws&security=none&path=%2Fv1&host=live.ok.ru#🇧🇷BR-v2ray_extractor
-ss://YWVzLTI1Ni1nY206RkpvX1YtS012cmlEZWtOMENZa2ROSDBD@201.8.87.11:1080#🇧🇷BR-v2raynplus
