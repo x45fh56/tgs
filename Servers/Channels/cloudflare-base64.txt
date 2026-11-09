@@ -1,3 +1,4 @@
-vless://a8d9c86f-cddb-4fa5-96f7-f68eb48b3cb3@jp01.cf.sh-cloudflare.sbs:2096?security=tls&type=ws&path=%2Fshanhai%2Fjp01&host=jp01.cdn00.top&sni=jp01.cdn00.top&fp=chrome#Domain-cloudflare-base64
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@172.67.199.126:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&sni=fast.145779.xyz&fp=edge#🏳️-cloudflare-base64
-vless://f1f7b063-621c-48fb-9091-81ad5f3a2213@www.visa.com.hk:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=ap-south.862400.xyz&sni=ap-south.862400.xyz&fp=random&encryption=none#Domain-cloudflare-base64
+vless://1beed393-7c4d-4432-beee-f1026b72d0cf@104.17.70.206:8443?security=tls&type=ws&path=%2F&host=free.sahanwickramasinghe.com&alpn=http%2F1.1&sni=free.sahanwickramasinghe.com&fp=chrome&encryption=none#🏳️-cloudflare-base64
+vless://9443badf-414f-4b12-b19a-7cc2c7431163@104.24.21.163:8443?security=tls&type=ws&path=%2Fman&host=moz.ar-marz.fun&sni=moz.ar-marz.fun&fp=firefox&encryption=none#🏳️-cloudflare-base64
+vless://9443badf-414f-4b12-b19a-7cc2c7431163@162.159.236.61:8443?security=tls&type=ws&path=%2Fman&host=moz.ar-marz.fun&sni=moz.ar-marz.fun&fp=firefox&encryption=none#🏳️-cloudflare-base64
+vless://c83f15bf-1817-4ec8-a19f-6393d226434c@172.67.199.126:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&sni=fast.145779.xyz&fp=ios#🏳️-cloudflare-base64

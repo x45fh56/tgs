@@ -1,10 +1,7 @@
-vless://e60f89d9-ea22-4db0-aaa5-508d39fd87ea@185.203.4.97:24009?security=reality&encryption=none&pbk=FRrmnh-6aZBPg6zdxiS3VPuS2uW2w2kfq_oHBf4iiU8&fp=chrome&spx=/4763731c28d5fe2&type=grpc&sni=it.nvidia.com&sid=5b7222#🇨🇾CY-configs
-vless://16f5041e-7a72-44a0-afbf-744ec2bf1cc9@2.56.127.149:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=j0nNe2IsutcOHKVT-wYNowgggntYn0ZDmzjZGz_DilQ&security=reality&sid=fb98af2912de58f0&sni=fr1.xshoponline.ru&type=tcp#🇨🇾CY-configs
-vless://e60f89d9-ea22-4db0-aaa5-508d39fd87ea@185.203.4.97:24009?mode=gun&security=reality&encryption=none&pbk=FRrmnh-6aZBPg6zdxiS3VPuS2uW2w2kfq_oHBf4iiU8&fp=chrome&spx=/4763731c28d5fe2&type=grpc&sni=it.nvidia.com&sid=5b7222#🇨🇾CY-configs
 vless://13e541f3-d09d-4633-89df-8513db0ced20@45.86.60.174:16443?encryption=none&type=tcp&security=none#🇨🇾CY-configs
-vless://13e541f3-d09d-4633-89df-8513db0ced20@45.86.60.174:16443?security=none&type=tcp&packetEncoding=xudp&encryption=none#🇨🇾CY-V2RAY_RAW
-vless://a52fd54b-ba4d-4d11-8e00-301e2646cd66@45.86.60.102:8443?security=reality&encryption=none&pbk=1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ee1.vpngold.ru&sid=385cb18df0892069#🇨🇾CY-artemisvpn1
 vless://13e541f3-d09d-4633-89df-8513db0ced20@45.86.60.174:16443?encryption=none&packetEncoding=xudp#🇨🇾CY-artemisvpn1
-vless://16f5041e-7a72-44a0-afbf-744ec2bf1cc9@2.56.127.149:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=j0nNe2IsutcOHKVT-wYNowgggntYn0ZDmzjZGz_DilQ&security=reality&sid=fb98af2912de58f0&sni=fr1.xshoponline.ru&type=tcp#🇨🇾CY-oneclickvpnkeys
+vless://a52fd54b-ba4d-4d11-8e00-301e2646cd66@45.86.60.102:8443?security=reality&encryption=none&pbk=1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ee1.vpngold.ru&sid=385cb18df0892069#🇨🇾CY-artemisvpn1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpueGdzbUhrUDNKVTdoYlFrSmZ4Z3BYaDV0bHZYZTFlbg@45.83.142.237:443#🇨🇾CY-tv2rayrr
-vless://13e541f3-d09d-4633-89df-8513db0ced20@45.86.60.174:16443?security=none&type=tcp&packetEncoding=xudp&encryption=none#🇨🇾CY-v2roay
+vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?security=reality&encryption=none&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=68a8#🇨🇾CY-v2raynplus
+vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?security=reality&encryption=none&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=68a8#🇨🇾CY-v2raynplus
+vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?security=reality&encryption=none&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=68a8#🇨🇾CY-v2raynplus

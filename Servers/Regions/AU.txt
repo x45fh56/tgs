@@ -1,2 +1,5 @@
+vless://dbf3f074-3b18-43f3-b82a-debd8c879c69@50.6.54.163:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=2vd1kmOeZpjjDpgN75FMhwFRzPjNfzvLoUM5LlLrm2U&sid=26b26357bfcd59a1&type=tcp&headerType=none#🇦🇺AU-configs
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@45.63.30.142:443?security=tls&sni=connectwithemployerstohireyouridealteam.com#🇦🇺AU-configs
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@45.63.30.142:443?allowInsecure=1&sni=connectwithemployerstohireyouridealteam.com&type=tcp#🇦🇺AU-configs
+trojan://Trojan@82164024@45.32.241.180:443?sni=au.tronsg.com&type=tcp&fp=chrome#🇦🇺AU-base64
+vless://dbf3f074-3b18-43f3-b82a-debd8c879c69@50.6.54.163:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=2vd1kmOeZpjjDpgN75FMhwFRzPjNfzvLoUM5LlLrm2U&sid=26b26357bfcd59a1&type=tcp&headerType=none#🇦🇺AU-freevpnchina

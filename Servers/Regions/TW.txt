@@ -1,4 +1,5 @@
-vless://91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a@152.32.167.33:443?security=reality&encryption=none&pbk=Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=cff998a4#🇹🇼TW-configs
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#🇹🇼TW-proxy_configs_tested
+vless://eb8c97f7-a154-4442-91b0-54c0d055ad0b@83.147.13.74:8443?security=reality&type=tcp&packetEncoding=xudp&sni=github.githubassets.com&fp=chrome&sid=4ad2e4e660550e43&pbk=4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA#🇹🇼TW-V2RAY_RAW
 trojan://0a9f1f5a397bd427@125.227.86.46:443?security=tls&sni=TG.freecodes&allowInsecure=true&type=grpc&serviceName=db#🇹🇼TW-artemisvpn1
+vless://eb8c97f7-a154-4442-91b0-54c0d055ad0b@83.147.13.74:8443?security=reality&type=tcp&packetEncoding=xudp&sni=github.githubassets.com&fp=chrome&sid=4ad2e4e660550e43&pbk=4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA#🇹🇼TW-v2roay
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#🇹🇼TW-v2roay
