@@ -1,2 +1,1 @@
-vless://5f8a578b-f5c0-46aa-b580-36c6ee616978@fearfully-tilt.cdn-content.com:443?encryption=none&type=ws&path=%2Fws&host=fearfully-tilt.cdn-content.com&security=tls&sni=fearfully-tilt.cdn-content.com&fp=chrome#Domain-artemisvpn1
-vless://5f8a578b-f5c0-46aa-b580-36c6ee616978@wryly-messiest.video-streams.org:443?encryption=none&type=ws&path=%2Fws&host=wryly-messiest.video-streams.org&security=tls&sni=wryly-messiest.video-streams.org&fp=chrome#Domain-artemisvpn1
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?encryption=none&type=tcp&security=none#🏳️-artemisvpn1
