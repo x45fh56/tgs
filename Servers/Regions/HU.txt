@@ -1,2 +1,2 @@
 vless://5d4a87fa-16f1-4b65-b217-225a31e36239@45.9.168.17:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=hu.convert-flow.net&fp=chrome&pbk=8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w&sid=00a61d55a07de885&type=tcp&headerType=none#🇭🇺HU-freevpnchina
-vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@38.180.225.247:2053?encryption=none&security=tls&sni=fs.qicai99.com&insecure=1&allowInsecure=1&type=ws&path=%2F%3Ftelegram---planb_net---planb_net---planb_net---planb_net#🇭🇺HU-freevpnchina
+vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@38.180.225.247:2053?encryption=none&security=tls&sni=fs.qicai99.com&insecure=1&allowInsecure=1&type=ws&path=%2F#🇭🇺HU-freevpnchina
