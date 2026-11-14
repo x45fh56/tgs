@@ -1,1 +1,2 @@
+trojan://X00HagvwL8gQXNDAnsxsN8dv1_VdneEo@38.180.101.235:5443?security=tls&sni=rs.nebulaguard.org&alpn=h2%2Chttp%2F1.1&fp=firefox#🇷🇸RS-configs
 vless://96eb0aac-b747-4f3c-8c30-d2ff7ec7415c@38.180.17.232:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=google.com&fp=chrome&security=reality&pbk=h_qOyi3Y79o7yw9WaMZY1CxtDlu4f6F1bIxqYTH11R4&sid=3e#🇷🇸RS-tv2rayrr

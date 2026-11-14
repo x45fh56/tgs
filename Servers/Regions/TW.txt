@@ -1,3 +1,5 @@
+vmess://eyJhZGQiOiIxMDMuMTYwLjE4MC4yNiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJhNTIwNmE1NS1kNWJkLTQxYjktOTJhNS1iZDI3YTkwMzU1ZmYiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjIyMjIyIiwicHMiOiJUVyDwn4e58J+HvCB8IEBSYXlkaWthbHggfCAzNTM5NjAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9#🇹🇼TW-configs
 ss://2022-blake3-aes-128-gcm:b7I6g7l7fJhBaMInJ%2Bzkzw%3D%3D@35.236.180.222:14514#🇹🇼TW-configs
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#🇹🇼TW-proxy_configs_tested
+vless://c1c04450-bf71-4049-ad0c-9cf6d94d9f1f@60.248.219.53:443?encryption=none&security=tls&sni=ty986gfazs.cainiaohub.xyz&fp=chrome&insecure=1&allowInsecure=1&type=ws&host=ty986gfazs.cainiaohub.xyz&path=%2F81574b6b-c9d7-44a0-b83d-dad56e8cb530#🇹🇼TW-freevpnchina
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?insecure=1&sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys#🇹🇼TW-v2roay
