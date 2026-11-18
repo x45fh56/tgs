@@ -1,2 +1,0 @@
-hysteria://62.210.70.191:24667?alpn=h3&auth_str=dongtaiwang.com&downmbps=50&obfsParam=&insecure=1&peer=&upmbps=10&disable_sni=true#🇫🇷FR-base64
-hysteria://62.210.28.175:24667?alpn=h3&auth_str=dongtaiwang.com&downmbps=55&obfsParam=&insecure=1&peer=&upmbps=11&disable_sni=true#🇫🇷FR-base64
