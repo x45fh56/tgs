@@ -1,2 +1,1 @@
-vless://364D2D52-E61E-4E52-80EC-2BC6BDF15349@188.114.98.0:443?security=tls&type=ws&path=%2F700gvl&host=fr-free.fastestrelay.com&alpn=http%2F1.1&sni=fr-free.fastestrelay.com&fp=unsafe#🏳️-cloudflare-base64
-vless://e347aeea-6bfc-4d39-8536-ead65b93ddde@freev2.cloudflare.182682.xyz:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=it-mil.862400.xyz&sni=it-mil.862400.xyz&fp=random&encryption=none#Domain-cloudflare-base64
+vless://d38b03c3-ff14-4ee0-80de-cd089f84ee38@ct.877774.xyz:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=us-lax.862400.xyz&sni=us-lax.862400.xyz&fp=random&encryption=none#Domain-cloudflare-base64
