@@ -1,1 +1,1 @@
-vless://d38b03c3-ff14-4ee0-80de-cd089f84ee38@ct.877774.xyz:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=us-lax.862400.xyz&sni=us-lax.862400.xyz&fp=random&encryption=none#Domain-cloudflare-base64
+vless://a6ad7987-f17e-41fa-a752-72db9a725eb2@162.159.237.118:2083?security=tls&type=ws&path=%2F&host=vipfree.dr-ping.ir&sni=vipfree.dr-ping.ir&fp=chrome&encryption=none#🏳️-cloudflare-base64

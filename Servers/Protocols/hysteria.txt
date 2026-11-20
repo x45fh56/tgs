@@ -1,0 +1,1 @@
+hysteria://62.210.124.132:24667?alpn=h3&auth_str=dongtaiwang.com&downmbps=55&obfsParam=&insecure=1&peer=bing.com&upmbps=11#🇫🇷FR-base64
