@@ -1,0 +1,2 @@
+vless://1d16c6e0-1bbe-435b-b661-90043fee999c@185.207.199.123:443?encryption=none&security=tls&sni=notls.lukongtou.eu.org&fp=chrome&insecure=0&allowInsecure=0&type=ws&path=%2F#🇲🇭MH-freevpnchina
+vless://1d16c6e0-1bbe-435b-b661-90043fee999c@185.207.197.123:443?encryption=none&security=tls&sni=notls.lukongtou.eu.org&fp=firefox&insecure=0&allowInsecure=0&type=ws&path=%2F#🇲🇭MH-freevpnchina

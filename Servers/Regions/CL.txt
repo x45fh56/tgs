@@ -1,10 +1,5 @@
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.7.205:443?security=tls&sni=advanceyouremploymentskillsandcareerdevelopmenthub.com&type=tcp&headerType=none&path=/#🇨🇱CL-configs
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.7.205:443?security=tls&sni=advanceyouremploymentskillsandcareerdevelopmenthub.com#🇨🇱CL-configs
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.7.205:443?sni=advanceyouremploymentskillsandcareerdevelopmenthub.com&type=tcp#🇨🇱CL-configs
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.7.205:443?security=tls&sni=advanceyouremploymentskillsandcareerdevelopmenthub.com&type=tcp&headerType=none#🇨🇱CL-configs
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.7.205:443?security=tls&sni=advanceyouremploymentskillsandcareerdevelopmenthub.com&type=tcp&headerType=none&path=/#🇨🇱CL-proxy_configs_tested
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.7.205:443?security=tls&sni=advanceyouremploymentskillsandcareerdevelopmenthub.com&type=tcp&headerType=none#🇨🇱CL-proxy_configs_tested
 vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@152.175.6.229:31884?encryption=none&security=tls&sni=hk010.zestapp778.com&fp=chrome&type=tcp&headerType=none#🇨🇱CL-freevpnchina
-vless://556bc1b7-a083-4188-bacf-2e5753a23609@147.224.235.131:60246?security=reality&encryption=none&pbk=U7t4RFE9MSMtC-o1DoJ8pYzKMfgVpTg6ZhTTknBrVkU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=1f2519bb96e5589c#🇨🇱CL-v2raynplus
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.7.205:443?security=tls&sni=advanceyouremploymentskillsandcareerdevelopmenthub.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#🇨🇱CL-freevpnchina
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.7.205:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=advanceyouremploymentskillsandcareerdevelopmenthub.com#🇨🇱CL-v2raynplus
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.7.205:443?security=tls&sni=advanceyouremploymentskillsandcareerdevelopmenthub.com&type=tcp&headerType=none&path=/#🇨🇱CL-v2roay
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.7.205:443?security=tls&sni=advanceyouremploymentskillsandcareerdevelopmenthub.com&type=tcp&headerType=none#🇨🇱CL-v2roay
