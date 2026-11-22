@@ -1,12 +1,10 @@
 vless://0aa8a7cd-eb08-4fa6-a277-c9d95282d4e6@185.143.234.238:80?path=/pgcfws-r4&security=none&encryption=none&host=uu.caroptions.ir&type=ws#🇮🇷IR-mix
-vless://b8799fac-622a-4142-aab2-2aa862ad35f2@185.143.234.235:80?encryption=none&security=none&type=ws&host=vixon.portab.org&path=/#🇮🇷IR-mix
 vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?encryption=none&security=none&type=tcp&headerType=none&host=vixon.portab.org#🇮🇷IR-mix
+vless://b8799fac-622a-4142-aab2-2aa862ad35f2@185.143.234.235:80?encryption=none&security=none&type=ws&host=vixon.portab.org&path=/#🇮🇷IR-mix
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBV1Z5VWdXV0xjNEc0N0dOb19ieDJ3@94.184.42.18:8880#🇮🇷IR-NetShot1
 vless://3b6c404c-c544-4a9f-bd1f-48542839e5c1@94.183.154.216:1002?encryption=mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.Mwkrd83bm5m80iu6CgKLEwH-UEIQnr8SvunV6wOd4Tk&flow=xtls-rprx-vision&security=reality&sni=www.filimo.com&fp=chrome&pbk=OInX6PLOlHUx9CkvaGJNxuXhrA0bym6PnGcW5qpI8hk&sid=d2830ef9f5bdeb2b&type=tcp&headerType=none#🇮🇷IR-SparrK_VPN
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4MzVpWm5oM2xaVXQ1ejVPemFBZzNNME9nYk1IbmM5aw@88.218.18.202:53211?#🇮🇷IR-SparrK_VPN
 vless://31265a83-5ce3-4288-aa90-0f2647baf900@85.198.9.236:36858?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-new_mtproxi2
 vless://03169156-319b-448a-b96a-206ce351ad96@37.32.27.85:80?path=%2F&security=none&encryption=none&host=a1.supreme-xfast.ir&type=ws#🇮🇷IR-new_mtproxi2
-ss://YWVzLTI1Ni1nY206OXI2cjNoY2RkcnRxYjJvMQ==@62.60.193.9:2090#🇮🇷IR-persianvpnhub
-vless://c73d6c3b-afeb-4100-add7-d7b9f7308370@31.14.116.124:8443?security=&encryption=none&headerType=&type=tcp#🇮🇷IR-v2cnf
-vless://7fd87f36-d0f6-40bb-9c5c-6c7b1148be03@94.182.134.170:8443?security=reality&encryption=mlkem768x25519plus.native.0rtt.mZzm-VXIzNl_7ArZjLzd4-XtQ0ryPyZW2NqLSTV3YC4&pbk=x2gVFOvPV4ucfzXqD7f_WkV_hw8rTHTPLCMgcgJgq0I&fp=chrome&spx=%2Fc493f84bca0847b&flow=xtls-rprx-vision-udp443&sni=google.com&sid=0fb9f155#🇮🇷IR-v2cnf
+vless://a5b1d16b-719b-4bd6-9d7b-fe6d84607da9@94.184.22.9:4343?alpn=h2&encryption=none&extra=%7B%22%2B%5C%22noGRPCHeader%5C%22%22%3A%22%2Bfalse%22%2C%22%2B%5C%22scMaxConcurrentPosts%5C%22%22%3A%22%2B100%22%2C%22%2B%5C%22scMinPostsIntervalMs%5C%22%22%3A%22%2B30%22%2C%22%2B%5C%22xPaddingBytes%5C%22%22%3A%22%2B%5C%22100-1000%5C%22%22%2C%22scMaxEachPostBytes%22%3A%22%2B1000000%22%7D&fp=chrome&host=fortuna.masynbazar.ru&mode=packet-up&path=%2F&security=tls&sni=fortuna.masynbazar.ru&type=xhttp#🇮🇷IR-v2cnf
 vless://38dd06a1-e1cb-492b-bb87-218ce05d0d67@185.143.233.5:80?path=%2F&security=&encryption=none&host=fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir&type=ws#🇮🇷IR-v2ray_extractor

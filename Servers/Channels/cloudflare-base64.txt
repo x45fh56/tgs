@@ -1,3 +1,4 @@
-vless://5744e593-1cc8-48fa-b8ca-57cd494fe35b@104.16.0.1:2052?security=none&type=ws&path=%2Frain1226&host=eu02.123450908.xyz&sni=eu02.123450908.xyz#🏳️-cloudflare-base64
-vless://5744e593-1cc8-48fa-b8ca-57cd494fe35b@104.18.0.181:2052?security=none&type=ws&path=%2Frain1226&host=eu02.123450908.xyz&sni=eu02.123450908.xyz&encryption=none#🏳️-cloudflare-base64
-vless://5744e593-1cc8-48fa-b8ca-57cd494fe35b@172.64.229.129:2052?security=none&type=ws&path=%2Frain1226&host=eu02.123450908.xyz#🏳️-cloudflare-base64
+vless://490b1ad7-11e0-4b11-9552-dfce7566a61f@perplexity.ai:443?security=tls&type=ws&path=%2Ft.me-SubGift&host=test.subgift.cyou&alpn=http%2F1.1&sni=test.subgift.cyou&fp=unsafe&flow=xtls-rprx-vision&encryption=mlkem768x25519plus.native.0rtt.X9-4gwVzZ7FvRTt7StLvPErFueO4ES_hSlXtloPrkmA#Domain-cloudflare-base64
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.21.34.106:443?security=tls&type=ws&path=%2Ftyxyws&host=jp3.yohototo.top&sni=jp3.yohototo.top&fp=firefox#🏳️-cloudflare-base64
+vless://7eb360e0-3bf4-4e9b-9192-ca25a2f54b73@chatgpt.com:8443?security=tls&type=ws&path=%2Fsg-melbi&host=de9.ahsvip.eu.org&alpn=http%2F1.1&sni=de9.ahsvip.eu.org&fp=unsafe&encryption=none#Domain-cloudflare-base64
+vless://a20ea704-ec9d-4c5d-9b12-fa760cdf2290@chatgpt.com:8443?security=tls&type=xhttp&path=%2F&sni=sinavm2.soft10.ir&fp=chrome&mode=auto&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&encryption=none#Domain-cloudflare-base64
