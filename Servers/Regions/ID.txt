@@ -1,5 +1,4 @@
 vless://658d273d-0ee1-4124-ad27-2d4d044d91a0@103.115.164.151:14985?flow=xtls-rprx-vision&security=reality&sni=www.singtel.com&fp=edge&pbk=LBC_PDIjHFT6XEodHyLcNj9Px8PnsZDxVguWA5yvZQs&sid=f2caf431b7#🇮🇩ID-artemisvpn1
-vless://a197af05-7048-478e-8d99-c3151adb4064@147.139.197.200:443?allowInsecure=1&sni=www.ebay.com&flow=xtls-rprx-vision&fp=chrome&security=tls#🇮🇩ID-artemisvpn1
 trojan://idc117okt@103.176.78.153:443/?type=tcp&security=tls#🇮🇩ID-artemisvpn1
 trojan://tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR@130.94.94.15:443/?type=tcp&security=tls#🇮🇩ID-artemisvpn1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFTnhyTVZoYWFnbjQzbEtrMGxjT3d6bzItejhTaFhpQS1B@130.94.92.62:17216#🇮🇩ID-artemisvpn1

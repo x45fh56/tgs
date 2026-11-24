@@ -1,10 +1,12 @@
 vmess://eyJhZGQiOiIxNTQuMjA1LjEzNC4yNCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwOTY3OTYxZS05NTlhLTExZWYtODc1Zi01MjU0MDFhZWI0OTIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdnBuamFudGl0IiwicG9ydCI6IjEwMDAwIiwicHMiOiJASG9wZV9OZXQtam9pbi11cy1vbi1UZWxlZ3JhbSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==#🇸🇦SA-artemisvpn1
 vless://sGLzG6kUwBpZd73sW0nq@81.208.170.142:1500/?type=grpc&encryption=none&flow=&sni=www.ebay.com&fp=chrome&security=reality&pbk=VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE&sid=775eb6408888248e#🇸🇦SA-artemisvpn1
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@199.232.123.12:80/?type=ws&encryption=none&flow=&host=CHANNEL--ELiV2RAY-ELiV2RAY.IR&path=%2F%3Fed%3D2048#🇸🇦SA-artemisvpn1
-vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.250:443?path=%2F&security=tls&encryption=none&insecure=0&host=nb.lovecf.ggff.net&type=ws&allowInsecure=0&sni=nb.lovecf.ggff.net#🇸🇦SA-artemisvpn1
-vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.243:443?path=%2F&security=tls&encryption=none&insecure=0&host=nb.lovecf.ggff.net&type=ws&allowInsecure=0&sni=nb.lovecf.ggff.net#🇸🇦SA-artemisvpn1
+vless://e332f028-d343-5b44-8016-b3130f39e133@81.208.170.142:1500?type=grpc&security=reality&fp=random&pbk=VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE&sid=775eb6408888248e&sni=www.ebay.com#🇸🇦SA-artemisvpn1
 vless://0132166f-e702-48ed-a9e7-b07af768faf8@91.209.253.251:8880/?type=ws&encryption=none&flow=&host=cf.d3z.net&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3#🇸🇦SA-artemisvpn1
 vless://sGLzG6kUwBpZd73sW0nq@81.208.170.142:1500/?type=grpc&encryption=none&sni=www.ebay.com&fp=chrome&security=reality&pbk=VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE&sid=775eb6408888248e#🇸🇦SA-artemisvpn1
+vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.250:443?path=%2F&security=tls&encryption=none&insecure=0&host=nb.lovecf.ggff.net&type=ws&allowInsecure=0&sni=nb.lovecf.ggff.net#🇸🇦SA-artemisvpn1
+vless://b09dfed1-90fa-4353-8bdf-de1edb2e2d79@91.209.253.243:443?path=%2F&security=tls&encryption=none&insecure=0&host=nb.lovecf.ggff.net&type=ws&allowInsecure=0&sni=nb.lovecf.ggff.net#🇸🇦SA-artemisvpn1
 trojan://ttfang@91.209.253.216:2096/?type=ws&path=Telegram%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=ttfang.fange.me#🇸🇦SA-artemisvpn1
+trojan://1vkFHbQX_gN1U8V8jVc@91.209.253.54:443?security=tls&sni=mhpanel.kigaping.com&type=ws&host=mhpanel.kigaping.com&path=/trojan-ws#🇸🇦SA-artemisvpn1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTE2MTUwZWZlZGQyZDE3@154.205.134.155:24851#🇸🇦SA-artemisvpn1
 ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@156.244.8.155:5004#🇸🇦SA-artemisvpn1

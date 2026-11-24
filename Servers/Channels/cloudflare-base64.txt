@@ -1,0 +1,1 @@
+vless://55b3fd10-3658-40a2-8951-ec90932d1d30@chatgpt.com:443?security=tls&type=ws&path=%2FSiNAVM-SiNAVM-SiNAVM-SiNAVM&host=sinavm2.soft10.ir&sni=sinavm2.soft10.ir&fp=chrome&encryption=none#Domain-cloudflare-base64
