@@ -1,2 +1,1 @@
-vless://4859c235-2530-4062-9a0b-ea859cbbf861@181.36.229.212:443?encryption=none&security=tls&sni=1.proxy2.us.ci.&fp=ios&alpn=h3%2Ch2%2Chttp%2F1.1&insecure=1&allowInsecure=1&type=ws&host=1.proxy2.us.ci.&path=%2F#🇩🇴DO-freevpnchina
-vless://4859c235-2530-4062-9a0b-ea859cbbf861@181.36.229.212:443?encryption=none&security=tls&sni=1.proxy2.us.ci.&fp=ios&alpn=h3%2Ch2%2Chttp%2F1.1&insecure=1&allowInsecure=1&type=ws&host=1.proxy2.us.ci.&path=%2F%3Fed%3D2560#🇩🇴DO-freevpnchina
+vless://4859c235-2530-4062-9a0b-ea859cbbf861@181.36.229.212:443?encryption=none&security=tls&sni=1.proxy2.us.ci.&fp=ios&alpn=h3%2Ch2%2Chttp%2F1.1&type=ws&host=1.proxy2.us.ci.&path=%2F%3Fed%3D2560#🇩🇴DO-freevpnchina
