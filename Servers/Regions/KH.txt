@@ -1,3 +1,2 @@
-vless://e36585ea-95c6-47fa-8bea-c08eea04c6f3@79.109.41.81:6920?security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=Fb3dls72GA5xBdV7iVibHH-0jJ7YiA84sfeGfGaRWUA&sni=sg-hyp-api.hoyoverse.com#🇰🇭KH-artemisvpn1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.4.87:990#🇰🇭KH-artemisvpn1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.4.65:990#🇰🇭KH-artemisvpn1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.4.87:990#🇰🇭KH-artemisvpn1
