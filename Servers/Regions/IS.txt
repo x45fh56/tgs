@@ -1,6 +1,7 @@
-vless://fbaa413d-2ffb-4e36-8444-e1b1ab829fe1@188.241.54.208:443?security=reality&encryption=none&pbk=qlVZ2ehdXHCxIADkf5swgXT2ZHrpSP7HM6SKTBMQXRU&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=www.samsung.com&sid=456bf62e2b728b97#🇮🇸IS-artemisvpn1
 vless://677615f7-87d5-5019-a44d-4fc3ff8d59d7@212.192.214.167:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=vk.cc&fp=chrome&security=reality&pbk=bDDaSDMsFiIxf5on0yovlJB3h7fPpS40DJRPiE2tJRw&sid=846349c8#🇮🇸IS-artemisvpn1
+vless://fbaa413d-2ffb-4e36-8444-e1b1ab829fe1@188.241.54.208:443?security=reality&encryption=none&pbk=qlVZ2ehdXHCxIADkf5swgXT2ZHrpSP7HM6SKTBMQXRU&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=www.samsung.com&sid=456bf62e2b728b97#🇮🇸IS-artemisvpn1
+vless://419e8d73-db47-4614-b54b-e707cf7df35c@5.180.43.242:443?encryption=none&security=reality&sni=ya.ru&fp=firefox&pbk=k7dworBISiOlCzqSKN29SWJoYDLN71QT6uS14v86pEo&sid=a1b2c3d4&type=tcp&flow=xtls-rprx-vision#🇮🇸IS-artemisvpn1
 trojan://qmBSKnAl6LYi9%3Dz23Rs.Z@37.235.49.209:28099/?type=tcp&security=tls&sni=celestialcorset.crystalhamster.click#🇮🇸IS-artemisvpn1
+trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.169:10889/?type=tcp&security=tls&sni=ya.ru#🇮🇸IS-artemisvpn1
 trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.172:10889/?type=tcp&security=tls&sni=web.max.ru#🇮🇸IS-artemisvpn1
 trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.228:10889/?type=tcp&security=tls&sni=web.max#🇮🇸IS-artemisvpn1
-trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.169:10889/?type=tcp&security=tls&sni=ya.ru#🇮🇸IS-artemisvpn1
