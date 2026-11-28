@@ -1,3 +1,6 @@
-trojan://idc117okt@103.176.78.153:443/?type=tcp&security=tls#🇮🇩ID-artemisvpn1
+vless://ed94398f-893f-40c6-b14c-bf02b5f6be16@130.94.95.126:443?sni=navi.bankrate.com&fp=chrome&security=tls#🇮🇩ID-artemisvpn1
+vless://ed94398f-893f-40c6-b14c-bf02b5f6be16@130.94.95.126:443?&security=reality&pbk=UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc&sid=2da72ce6&fp=chrome&packet-encoding=xudp&sni=navi.bankrate.com&type=tcp&headerType=none&host=navi.bankrate.com&path=%2F#🇮🇩ID-artemisvpn1
+vless://ed94398f-893f-40c6-b14c-bf02b5f6be16@130.94.95.126:443?encryption=none&security=reality&type=tcp&sni=navi.bankrate.com&fp=chrome&pbk=UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc&sid=2da72ce6#🇮🇩ID-artemisvpn1
 trojan://tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR@130.94.94.15:443/?type=tcp&security=tls#🇮🇩ID-artemisvpn1
+trojan://idc117okt@103.176.78.153:443/?type=tcp&security=tls#🇮🇩ID-artemisvpn1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFTnhyTVZoYWFnbjQzbEtrMGxjT3d6bzItejhTaFhpQS1B@130.94.92.62:17216#🇮🇩ID-artemisvpn1

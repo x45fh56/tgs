@@ -1,2 +1,1 @@
 vless://2668fdee-331d-4770-8244-d2a4efbf6ef8@180.149.44.70:4655/?type=tcp&encryption=none&flow=#🇦🇿AZ-artemisvpn1
-vless://6dbabd4d-3964-4131-a4a7-e3e8fdf5dacc@180.149.44.178:80?security=none&encryption=mlkem768x25519plus.native.0rtt.kyF_jpcwNZIvq-50j9sgPQvaoLp2sJD1511aMFnUnTY&headerType=none&type=tcp&flow=xtls-rprx-vision#🇦🇿AZ-artemisvpn1
